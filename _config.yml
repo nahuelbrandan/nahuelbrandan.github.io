@@ -1,41 +1,53 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Nahuel Brandan
+title: "Nahuel Brandan"
+description: > # this means to ignore newlines until "email:"
+    Analista en computación
+
 email: nahuelbrandan123@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Analista en computación, egresado de FaMAF - UNC. Amante de la informática, el cine, la literatura y el universo.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nahuelbrandan.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username:  nahuelbrandan
+# blog logo
+logo: "/assets/images/logo.png"
+float_logo: true 
 
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-midnight
-plugins:
-  - jekyll-feed
+# blog cover
+cover: "/assets/images/cover.jpg"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+name: 'Nahuel Brandan'
+author: 'Nahuel Brandan'
+author_image: "/assets/images/me.png"
+
+paginate: 5
+
+url: "https://nahuelbrandan.github.io" # the base hostname & protocol for your site
+baseurl: ""
+
+
+social:
+
+  - icon: github
+    url: https://github.com/nahuelbrandan
+    desc: sigueme en github
+    share_url:
+    share_title:
+    share_link:
+
+excerpt_separator: <!-- more -->
+
+jekyll-archives:
+  enabled: 
+    - year
+    - month
+    - tags
+  layouts: 
+    year: year-archive
+    month: month-archive
+    tag: tag-archive
+  permalinks:
+    year: 'archive/:year/'
+    month: 'archive/:year/:month/'
+    tag: 'archive/tag/:name/'
