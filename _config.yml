@@ -4,7 +4,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Nahuel Brandan"
+title: "Nahuel Brandán"
 description: > # this means to ignore newlines until "email:"
     Analista en computación
 
@@ -29,12 +29,20 @@ baseurl: ""
 
 social:
 
+  - icon: linkedin-square
+    url: https://www.linkedin.com/in/nahuelbrandan/
+    desc: sigueme en linkedin
+    share_url:
+    share_title:
+    share_link:
+    
   - icon: github
     url: https://github.com/nahuelbrandan
     desc: sigueme en github
     share_url:
     share_title:
     share_link:
+    
 
 excerpt_separator: <!-- more -->
 
