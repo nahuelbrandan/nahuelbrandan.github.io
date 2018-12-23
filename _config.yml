@@ -31,18 +31,17 @@ social:
 
   - icon: linkedin-square
     url: https://www.linkedin.com/in/nahuelbrandan/
-    desc: sigueme en linkedin
+    desc: linkedin
     share_url:
     share_title:
     share_link:
     
   - icon: github
     url: https://github.com/nahuelbrandan
-    desc: sigueme en github
+    desc: en github
     share_url:
     share_title:
     share_link:
-    
 
 excerpt_separator: <!-- more -->
 

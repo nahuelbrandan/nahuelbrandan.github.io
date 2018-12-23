@@ -14,3 +14,5 @@ Amante de la informática, el cine, la literatura, la política y el ajedrez.
 Siempre dispuesto a escuchar una buena historia.
 
 Podés contactarme por email: jnbf@gmail.com
+
+Mi [Curriculum Vitae](https://drive.google.com/open?id=11_opjtuUWLhCCoa2L3WT6uUnKlYBAYdt)
