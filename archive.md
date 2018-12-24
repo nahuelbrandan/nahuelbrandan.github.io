@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog Archive
+title: Archivo
 permalink: /archive/
 image: "/assets/images/storm.jpg"
 ---
