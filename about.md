@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Sobre mi
 permalink: /about/
 image: "/assets/images/fond.jpg"
 ---

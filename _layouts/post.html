@@ -66,29 +66,7 @@
           </section>
         </footer>
         <div class="bottom-teaser cf">
-          <div class="isLeft">
-            <h5 class="index-headline featured"><span>Written by</span></h5>
-            <section class="author">
-              <div class="author-image" style="background-image: url({{site.author_image | prepend: site.baseurl}})">Blog Logo</div>
-              <h4>{{ site.author }}</h4>
-              <p class="bio">{{author.bio}}</p>
-              <hr>
-              <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
-            </section>
-          </div>
           {{/post}}
-          <div class="isRight">
-            <h5 class="index-headline featured"><span>Supported by</span></h5>
-            <footer class="site-footer">
-              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
-              <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
-              <div class="inner">
-                <section class="copyright">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This content by <a xmlns:cc="http://creativecommons.org/ns#" href="https://nahuelbrandan.com" property="cc:attributionName" rel="cc:attributionURL">Nahuel Brandan</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-                </section>
-              </div>
-            </footer>
-          </div>
         </div>
         {%if site.disqus %}
         <div id="disqus_thread"></div>
@@ -113,7 +91,7 @@
       </div>
       <div class="inner">
         <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
+        <!--<h2 class="blog-description">{{ site.description }}</h2>-->
         <a href={{ "/" | prepend: site.baseurl }} class="btn">Back to Home</a>
       </div>
     </div>
