@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "Hola Mundo!"
 date:   2018-12-22 00:00:01 -0300
 ---
