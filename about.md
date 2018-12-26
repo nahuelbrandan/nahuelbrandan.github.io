@@ -11,8 +11,10 @@ Me recibí de Analista en computación en la Facultad de Matemática, Astronomí
 
 Amante de la informática, el cine, la literatura, la política y el ajedrez.
 
-Siempre dispuesto a escuchar una buena historia.
+Siempre dispuesto a escuchar una buena historia y si hay una cerveza de por medio mejor.
+
+Miembro de la organización internacional [Mensa](https://es.wikipedia.org/wiki/Mensa_(organizaci%C3%B3n)).
 
 Podés contactarme por email: jnbf@gmail.com
 
-Mi [Curriculum Vitae](https://drive.google.com/open?id=11_opjtuUWLhCCoa2L3WT6uUnKlYBAYdt)
+Mi [Curriculum Vitae](https://drive.google.com/open?id=11_opjtuUWLhCCoa2L3WT6uUnKlYBAYdt) por si estas interesado en ofrecerme una oferta laboral, estoy en búsqueda activa.
