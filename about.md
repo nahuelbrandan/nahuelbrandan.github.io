@@ -11,9 +11,11 @@ Me recibí de Analista en computación en la Facultad de Matemática, Astronomí
 
 Amante de la informática, el cine, la literatura, la política y el ajedrez.
 
-Siempre dispuesto a escuchar una buena historia y si hay una cerveza de por medio mejor.
+Siempre dispuesto a escuchar o contar una buena historia y si hay una cerveza de por medio mejor.
 
 Miembro de la organización internacional [Mensa](https://es.wikipedia.org/wiki/Mensa_(organizaci%C3%B3n)).
+
+Últimamente estoy pasando un tiempo en la página [Leetcode](https://leetcode.com/), practicando y resolviendo ejercicios de programación. Podés ver mi perfil en [https://leetcode.com/nahuelbrandan/](https://leetcode.com/nahuelbrandan/)
 
 Podés contactarme por email a: <A HREF="mailto:
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
