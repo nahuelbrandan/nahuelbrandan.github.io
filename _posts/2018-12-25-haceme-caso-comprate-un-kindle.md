@@ -19,9 +19,7 @@ Un *kindle* es un lector de libros electrónicos portátil, del tamaño de una t
 *   **no provoca cansancio en la vista**: dado que no emite luz directamente hacia nuestros ojos, dando una experiencia casi como leer un libro en papel.
 *   **Evitar distracciones**: al ser específicamente un aparato para lectura de libros, no permitiendo descargar aplicaciones como Whatsapp por ejemplo.
 *   **Alto rendimiento de batería**: Por su bajo consumo, llegando a durar hasta un mes!
-*   **Bajo precio comparado con comprar muchos libros**: Si bien tiene un precio considerable:
-
-        $130 dolares que son aprox. $5000 pesos argentinos.
+*   **Bajo precio comparado con comprar muchos libros**: Si bien tiene un precio considerable: unos 130 dolares que son aprox. $5000 pesos argentinos.
 
     Básicamente se paga sólo, teniendo en cuenta que un libro cuesta supongamos en promedio unos $400 arg, por lo tanto con unos 12 libros estas cubriendo el gasto del aparato, pero en cambio éste te va a durar para cientos de documentos!!
 
