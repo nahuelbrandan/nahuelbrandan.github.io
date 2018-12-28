@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Quizás la última prueba de nuestra existencia"
+title:  "Quizás la última prueba de nuestra existencia.. una historia sobre Pioneer's & Voyager's"
 date:   2018-12-28 00:00:01 -0300
 ---
 
