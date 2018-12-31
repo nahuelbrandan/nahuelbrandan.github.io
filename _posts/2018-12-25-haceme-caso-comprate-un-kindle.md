@@ -36,8 +36,9 @@ Ahora te voy a explicar como descargar  por torrent un paquete genial con 30.000
 
 **Nota:** Si leyeramos un libro por día tardariamos 82 años en terminarlos a todos!
 
-1.  Descargamos e instalamos el programa  [Transmission](https://transmissionbt.com/download/). Es un cliente BitTorrent
+0.  Descargamos e instalamos el programa  [Transmission](https://transmissionbt.com/download/). Es un cliente BitTorrent
  libre, rapido y multiplataforma.
+1.  **Recomendación:** Instalar una extensión AdBlock al navegador: [https://www.ublock.org/](https://www.ublock.org/). Éste programita te elimina todas las publicidades de todas las páginas webs que visites!
 2.  En la pagina [https://thepiratebay3.org/](https://thepiratebay3.org/) buscamos
 **Biblioteca con 30.026 libros**, lo seleccionamos y luego seleccionamos: *get this torrent*.
 
