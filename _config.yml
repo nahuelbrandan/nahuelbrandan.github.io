@@ -6,13 +6,13 @@ gems:
 # Site settings
 title: "Nahuel Brandán"
 description: > # this means to ignore newlines until "email:"
-    Analista en computación
+    Blog profesional,con tutoriales e historias genial de informática y ciencias en general.
 
 email: nahuelbrandan123@gmail.com
 
 # blog logo
 logo: "/assets/images/logo.png"
-float_logo: true 
+float_logo: true
 
 # blog cover
 cover: "/assets/images/cover.jpg"
@@ -35,7 +35,7 @@ social:
     share_url:
     share_title:
     share_link:
-    
+
   - icon: github
     url: https://github.com/nahuelbrandan
     desc: Github
@@ -49,15 +49,15 @@ social:
     share_url:
     share_title:
     share_link:
-    
+
 excerpt_separator: <!-- more -->
 
 jekyll-archives:
-  enabled: 
+  enabled:
     - year
     - month
     - tags
-  layouts: 
+  layouts:
     year: year-archive
     month: month-archive
     tag: tag-archive
