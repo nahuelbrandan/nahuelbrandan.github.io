@@ -2,7 +2,8 @@
 layout: post
 title: "Zcash y su tremenda ceremonia para definir 'simplemente' una contraseña."
 date:   2019-01-03 00:00:01 -0300
-image: https://www.bournemouth.ac.uk/sites/default/files/styles/b_4_3_desktop/public/assets/images/iStock_000063167077_Double.jpg?itok=rbxi0AHk&c=06c62c91f614622a6b2fd6a44aad401f
+image: "https://www.bournemouth.ac.uk/sites/default/files/styles/b_4_3_desktop/public/assets/images/iStock_000063167077_Double.jpg?itok=rbxi0AHk&c=06c62c91f614622a6b2fd6a44aad401f"
+
 ---
 
 ![](https://www.bournemouth.ac.uk/sites/default/files/styles/b_4_3_desktop/public/assets/images/iStock_000063167077_Double.jpg?itok=rbxi0AHk&c=06c62c91f614622a6b2fd6a44aad401f)

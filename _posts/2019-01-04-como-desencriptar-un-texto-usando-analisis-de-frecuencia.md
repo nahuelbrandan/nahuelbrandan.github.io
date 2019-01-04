@@ -2,7 +2,8 @@
 layout: post
 title: "Como desencriptar un texto usando análisis de frecuencia"
 date:   2019-01-04 00:00:01 -0300
-image: https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2018/01/encriptar-telefono.jpg
+image: "https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2018/01/encriptar-telefono.jpg"
+
 ---
 
 ![](https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2018/01/encriptar-telefono.jpg)
