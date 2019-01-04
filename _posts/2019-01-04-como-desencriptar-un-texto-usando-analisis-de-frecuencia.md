@@ -57,17 +57,17 @@ Obteniendo el resultado:
 
 ![](http://i68.tinypic.com/15f5a1j.png)
 
-*   Dandonos cierta confirmación de que vamos bien ya que se utilizan 23 signos distintos, un valor cercano a la cantidad de letras en el alfabeto.
+*   Dándonos cierta confirmación de que vamos bien ya que se utilizan 23 signos distintos, un valor cercano a la cantidad de letras en el alfabeto.
 
 *   Además vemos que de mayor a menor en cantidad de usos de un signo es: 74 - 53 - 34 - 31 - 31...
 
 ---
 
-Segun [éste artículo](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras) en el idioma español la letra 'a' es la más frecuente, seguida de cerca por la letra 'e', pero superior a éstas es el 'espacio', éste último casi duplicando a la letra más frecuente.
+Según [éste artículo](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras) en el idioma español la letra 'a' es la más frecuente, seguida de cerca por la letra 'e', pero superior a éstas es el 'espacio', éste último casi duplicando a la letra más frecuente.
 
 Luego reemplazamos el signo Ψ por un espacio, Δ por una 'a' y Σ por una 'e'.
 
-**Nota:** Tener en cuenta por supuesto que esto no es una cuencia exácta, estamos haciendo uso de la probabilidad, "puede fallar" dijo Tusam, si éste fuera el caso se puede volver atrás e intercambiar la 'a' por la 'e' y continuar el proceso.
+**Nota:** Tener en cuenta por supuesto que esto no es una ciencia exacta, estamos haciendo uso de la probabilidad, "puede fallar" dijo Tusam, si éste fuera el caso se puede volver atrás e intercambiar la 'a' por la 'e' y continuar el proceso.
 
 Agregamos éstas líneas a nuestro programa:
 
@@ -80,7 +80,7 @@ Obteniendo:
 
 ![](http://i65.tinypic.com/2eyezyp.png)
 
-Analizando éste resultado es muy posible que el signo 'Ξ' sea una 'l', por que en una palabra se repite 2 veces seguidas, y por que se usaria para las palabras 'las' 'los', 'el, 'la'.
+Analizando éste resultado es muy posible que el signo 'Ξ' sea una 'l', por que en una palabra se repite 2 veces seguidas, y por que se usaría para las palabras 'las' 'los', 'el, 'la'.
 
 ![](http://i63.tinypic.com/2iivlf8.png)
 
@@ -106,6 +106,6 @@ Obteniendo:
 
 ![](http://i63.tinypic.com/2j1kcb6.png)
 
-Ésto es un proceso itereativo, donde en cada iteración nos vamos acercando cada vez más al objetivo...
+Ésto es un proceso iterativo, donde en cada iteración nos vamos acercando cada vez más al objetivo...
 
 A partir de acá ya es mucho más fácil deducir el resto, ¿Te animás a completarlo?. Buena suerte y nos vemos!.
