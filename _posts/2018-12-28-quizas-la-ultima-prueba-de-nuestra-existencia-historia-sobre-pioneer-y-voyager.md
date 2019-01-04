@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: post
 title:  "Quizás la última prueba de nuestra existencia.. una historia sobre Pioneer's & Voyager's"
 date:   2018-12-28 00:00:01 -0300
-
 ---
+
+![](https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/08/20/720379-universe-2250310960720.jpg)
 
 Sabemos de la existencia de los dinosaurios en el pasado por sus restos fósiles encontrados.
 

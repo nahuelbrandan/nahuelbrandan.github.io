@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: post
 title:  "Haceme caso, comprate un kindle."
 date:   2018-12-25 00:00:01 -0300
 ---
+
+![](http://i67.tinypic.com/s5uwdx.png)
 
 Si eres asiduo a la lectura te lo recomiendo fuertemente, y sino siempre es un buen momento para comenzar. En ésta publicación te voy a contar como tener toda tu biblioteca en el bolsillo, siempre lista y al alcance de tu mano.
 
