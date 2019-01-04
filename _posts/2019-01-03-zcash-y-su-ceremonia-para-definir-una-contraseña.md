@@ -20,8 +20,6 @@ Dicho control descentralizado funciona a través de una base de datos descentral
 
 ![Ilustración de algunas criptomonedas.](https://tecnobits.xyz/wp-content/uploads/2018/04/Las-mejores-criptomonedas-para-invertir-en-2018-tecnobits.jpg)
 
----
-
 ¿Cómo funciona?, en la cadena de bloques se registran **todas** las transacciones realizadas por los usuarios y todos tienen acceso a ésta información.
 
 Si bien, no dice: *"pepito le envió X cantidad de BTC a menganito"* dice: *"el usuario con el numero de cuenta Y le envió X cantidad de BTC al usuario con el numero de cuenta Z"*
@@ -32,13 +30,9 @@ Con el objetivo de solucionar éste problema surge otra criptomoneda, llamada **
 
 ![Zcash](https://mundotokens.com/wp-content/uploads/2018/01/zcash-criptomoneda.png)
 
----
-
 los fundadores de Zcash, mediante mucha Matemática, Criptografia, Informática y Ciencia lograron idear una solución, pero se necesita definir una **contraseña maestra** y además **generar confianza** en los futuros usuarios de la moneda, **convencerlos** de que dicha contraseña es muy segura, si alguien diera con ella podría "crearse" nuevo dinero para él.. desvalorizando el resto y rompiendo todo el sistema.
 
 ![](https://cadenaser00.epimg.net/ser/imagenes/2015/02/10/ciencia/1423559364_488220_1423564899_noticia_normal.jpg)
-
----
 
 ## Reflexión.
 
@@ -55,8 +49,6 @@ Dado que dicha clave, luego de utilizarla se destruye, podríamos presionar much
 Nos ponemos cada vez más **paranoicos**, desconfiamos de todo y de todos.
 
 ![Bart paranoico](http://2.bp.blogspot.com/-4fzc0owniWI/ThpESClVFzI/AAAAAAAAAZE/k0gblDzu6MA/s1600/Bart%2BParanoid.JPG)
-
----
 
 ## La ceremonia.
 

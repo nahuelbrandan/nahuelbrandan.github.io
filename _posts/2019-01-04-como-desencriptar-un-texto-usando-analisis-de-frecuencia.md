@@ -28,8 +28,8 @@ Así que pensé que sería algo interesante para hacer, me arremangue la camisa 
 
 En éste punto sabemos muy poco así que vamos a suponer lo siguiente y ver hacia donde nos lleva.
 
-*   Que el lenguaje original esta en español, dado que la solicitud estaba en éste idioma.
-*   Suponemos que se utilizo una de las encriptaciones más simple e históricas, llamado [*cifrado clásico*](https://es.wikipedia.org/wiki/Cifrado_cl%C3%A1sico) más específicamente un subconjunto de éste llamado [cifrado por sustitucion](https://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n).
+*   Que el lenguaje original esta en español, dado que la oferta laboral estaba en éste idioma.
+*   Suponemos que se utilizo una de las encriptaciones más simple e históricas, llamada [*cifrado clásico*](https://es.wikipedia.org/wiki/Cifrado_cl%C3%A1sico) más específicamente un subconjunto de éste llamado [cifrado por sustitucion](https://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n).
 
     En un cifrado por sustitución, las letras (o grupos de letras) son sistemáticamente reemplazadas en el mensaje por otras letras (o grupos de letras).
 
@@ -37,7 +37,11 @@ En éste punto sabemos muy poco así que vamos a suponer lo siguiente y ver haci
 
 ## Analisis de frecuencia.
 
-Para poder romper la encriptación vamos a utilizar el meétodo de [Análisis de frecuencia](https://es.wikipedia.org/wiki/An%C3%A1lisis_de_frecuencias).
+Para poder romper la encriptación vamos a utilizar el método de [Análisis de frecuencia](https://es.wikipedia.org/wiki/An%C3%A1lisis_de_frecuencias).
+
+El análisis de frecuencias está basado en el hecho de que, dado un texto, ciertas letras o combinaciones de letras aparecen más a menudo que otras, existiendo distintas frecuencias para ellas. Por ejemplo, en español la letra A y E son muy comunes, mientras que la K y W son muy raras.
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/98/Frecuencia_de_uso_de_letras_en_espa%C3%B1ol.PNG)
 
 Mediante un pequeño programa escrito en **python** vemos los diferentes signos utilizados, y la cantidad de uso de cada uno de ellos:
 
@@ -65,7 +69,7 @@ Obteniendo el resultado:
 
 ---
 
-Según [éste artículo](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras) en el idioma español la letra 'a' es la más frecuente, seguida de cerca por la letra 'e', pero superior a éstas es el 'espacio', éste último casi duplicando a la letra más frecuente.
+Según éste artículo ([frecuencia de aparición de letras](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras)) en el idioma español la letra 'a' es la más frecuente, seguida de cerca por la letra 'e', pero superior a éstas es el 'espacio', éste último casi duplicando a la letra más frecuente.
 
 Luego reemplazamos el signo Ψ por un espacio, Δ por una 'a' y Σ por una 'e'.
 
