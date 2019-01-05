@@ -31,7 +31,7 @@ Así que pensé que sería algo interesante para hacer, me arremangue la camisa 
 En éste punto sabemos muy poco así que vamos a suponer lo siguiente y ver hacia donde nos lleva.
 
 *   Que el lenguaje original esta en español, dado que la oferta laboral estaba en éste idioma.
-*   Suponemos que se utilizo una de las encriptaciones más simple e históricas, llamada [*cifrado clásico*](https://es.wikipedia.org/wiki/Cifrado_cl%C3%A1sico) más específicamente un subconjunto de éste llamado [cifrado por sustitucion](https://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n).
+*   Suponemos que se utilizo una de las encriptaciones más simple e históricas, llamada [*cifrado clásico*](https://es.wikipedia.org/wiki/Cifrado_cl%C3%A1sico) más específicamente un subconjunto de éste llamado [*cifrado por sustitucion*](https://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n).
 
     En un cifrado por sustitución, las letras (o grupos de letras) son sistemáticamente reemplazadas en el mensaje por otras letras (o grupos de letras).
 
@@ -47,19 +47,21 @@ El análisis de frecuencias está basado en el hecho de que, dado un texto, cier
 
 Mediante un pequeño programa escrito en **python** vemos los diferentes signos utilizados, y la cantidad de uso de cada uno de ellos:
 
-    def letras_y_cantidad(texto):
-        dict_letra_cantidad = {}
-        for letra in texto:
-            if letra not in dict_letra_cantidad.keys():
-                dict_letra_cantidad[letra] = 1
-            else:
-                dict_letra_cantidad[letra] += 1
-        return dict_letra_cantidad
+```python
+def letras_y_cantidad(texto):
+    dict_letra_cantidad = {}
+    for letra in texto:
+        if letra not in dict_letra_cantidad.keys():
+            dict_letra_cantidad[letra] = 1
+        else:
+            dict_letra_cantidad[letra] += 1
+    return dict_letra_cantidad
 
-    texto = "ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλΨΛΣΘϑΞϗΦϑλΨΣΞΨλϑΞΨζβΣφΔΨΣΦΨΣΞΨξΛϗΞΞϑΨϖΣΞΨΠΣϖΛΣφΔΞΨΩΨΠΛΣΦϖϗϖϑΨΔΨΞΔΨΘΔφϗΔΨϖΣΨΞϑλΨΓΔΘϗΦϑλΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣλΨξΔΦϖΣΛΔΨϖΣΨΦϗΣξΞΔΨλβΨΠϑΦΓΡϑΨΔΞΨαϗΣΦμϑΨΞϑΨλΔΞβϖΔΦΨΞΔλΨεΞΔβμΔλΨϖΣΞΨΠΔζϑΦΔΞΨΩΨΔΦϗΘΔΦϖϑΨΞΔΨμΛϑΠΔΨΠΔΛΨΣλϑλΨΓΣΛΛϑλΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΞΔλΨΠΣΦΔλΨΩΨΞΔλΨαΔηβϗμΔλΨλΣΨαΔΦΨΠΔΛΨΞΔΨΘϗλΘΔΨλΣΦϖΔΨΞΔλΨΠΣΦΔλΨλϑΦΨϖΣΨΦϑλϑμΛϑλΨΞΔλΨαΔηβϗμΔλΨλϑΦΨΔζΣΦΔλ"
-    letras = letras_y_cantidad(texto)
-    print("cantidad de letras = ", len(letras))
-    print(letras)
+texto = "ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλΨΛΣΘϑΞϗΦϑλΨΣΞΨλϑΞΨζβΣφΔΨΣΦΨΣΞΨξΛϗΞΞϑΨϖΣΞΨΠΣϖΛΣφΔΞΨΩΨΠΛΣΦϖϗϖϑΨΔΨΞΔΨΘΔφϗΔΨϖΣΨΞϑλΨΓΔΘϗΦϑλΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣλΨξΔΦϖΣΛΔΨϖΣΨΦϗΣξΞΔΨλβΨΠϑΦΓΡϑΨΔΞΨαϗΣΦμϑΨΞϑΨλΔΞβϖΔΦΨΞΔλΨεΞΔβμΔλΨϖΣΞΨΠΔζϑΦΔΞΨΩΨΔΦϗΘΔΦϖϑΨΞΔΨμΛϑΠΔΨΠΔΛΨΣλϑλΨΓΣΛΛϑλΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΞΔλΨΠΣΦΔλΨΩΨΞΔλΨαΔηβϗμΔλΨλΣΨαΔΦΨΠΔΛΨΞΔΨΘϗλΘΔΨλΣΦϖΔΨΞΔλΨΠΣΦΔλΨλϑΦΨϖΣΨΦϑλϑμΛϑλΨΞΔλΨαΔηβϗμΔλΨλϑΦΨΔζΣΦΔλ"
+letras = letras_y_cantidad(texto)
+print("cantidad de letras = ", len(letras))
+print(letras)
+```
 
 Obteniendo el resultado:
 
@@ -79,10 +81,12 @@ Luego reemplazamos el signo Ψ por un espacio, Δ por una 'a' y Σ por una 'e'.
 
 Agregamos éstas líneas a nuestro programa:
 
-    texto = texto.replace('Ψ', ' ')
-    texto = texto.replace('Δ', 'a')
-    texto = texto.replace('Σ', 'e')
-    print(texto)
+```python
+texto = texto.replace('Ψ', ' ')
+texto = texto.replace('Δ', 'a')
+texto = texto.replace('Σ', 'e')
+print(texto)
+```
 
 Obteniendo:
 
@@ -94,7 +98,9 @@ Analizando éste resultado es muy posible que el signo 'Ξ' sea una 'l', por que
 
 Hacemos el reemplazo..
 
-    texto = texto.replace('Ξ', 'l')
+```python
+texto = texto.replace('Ξ', 'l')
+```
 
 Obteniendo:
 
@@ -106,9 +112,11 @@ Continuando de la misma forma es muy posible que:
 *   ϑ sea una 'o'
 *   λ sea una 's'
 
+```python
         texto = texto.replace('Ω', 'y')
         texto = texto.replace('ϑ', 'o')
         texto = texto.replace('λ', 's')
+```
 
 Obteniendo:
 
