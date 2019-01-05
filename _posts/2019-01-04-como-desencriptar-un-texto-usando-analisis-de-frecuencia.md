@@ -113,9 +113,9 @@ Continuando de la misma forma es muy posible que:
 *   λ sea una 's'
 
 ```python
-        texto = texto.replace('Ω', 'y')
-        texto = texto.replace('ϑ', 'o')
-        texto = texto.replace('λ', 's')
+texto = texto.replace('Ω', 'y')
+texto = texto.replace('ϑ', 'o')
+texto = texto.replace('λ', 's')
 ```
 
 Obteniendo:
