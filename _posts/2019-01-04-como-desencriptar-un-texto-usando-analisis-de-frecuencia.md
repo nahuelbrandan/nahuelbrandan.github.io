@@ -47,7 +47,7 @@ El análisis de frecuencias está basado en el hecho de que, dado un texto, cier
 
 Mediante un pequeño programa escrito en **python** vemos los diferentes signos utilizados, y la cantidad de uso de cada uno de ellos:
 
-```python
+<pre><code class="language-python">
 def letras_y_cantidad(texto):
     dict_letra_cantidad = {}
     for letra in texto:
@@ -62,7 +62,8 @@ letras = letras_y_cantidad(texto)
 
 print("cantidad de letras = ", len(letras))
 print(letras)
-```
+</code></pre>
+
 
 Obteniendo el resultado:
 
@@ -82,12 +83,12 @@ Luego reemplazamos el signo Ψ por un espacio, Δ por una 'a' y Σ por una 'e'.
 
 Agregamos éstas líneas a nuestro programa:
 
-```python
+<pre><code class="language-python">
 texto = texto.replace('Ψ', ' ')
 texto = texto.replace('Δ', 'a')
 texto = texto.replace('Σ', 'e')
 print(texto)
-```
+</code></pre>
 
 Obteniendo:
 
@@ -99,9 +100,9 @@ Analizando éste resultado es muy posible que el signo 'Ξ' sea una 'l', por que
 
 Hacemos el reemplazo..
 
-```python
+<pre><code class="language-python">
 texto = texto.replace('Ξ', 'l')
-```
+</code></pre>
 
 Obteniendo:
 
@@ -113,11 +114,11 @@ Continuando de la misma forma es muy posible que:
 *   ϑ sea una 'o'
 *   λ sea una 's'
 
-```python
+<pre><code class="language-python">
 texto = texto.replace('Ω', 'y')
 texto = texto.replace('ϑ', 'o')
 texto = texto.replace('λ', 's')
-```
+</code></pre>
 
 Obteniendo:
 
