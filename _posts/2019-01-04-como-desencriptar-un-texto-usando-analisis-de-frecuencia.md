@@ -31,15 +31,15 @@ Así que pensé que sería algo interesante para hacer, me arremangue la camisa 
 En éste punto sabemos muy poco así que vamos a suponer lo siguiente y ver hacia donde nos lleva.
 
 *   Que el lenguaje original esta en español, dado que la oferta laboral estaba en éste idioma.
-*   Suponemos que se utilizo una de las encriptaciones más simple e históricas, llamada [*cifrado clásico*](https://es.wikipedia.org/wiki/Cifrado_cl%C3%A1sico) más específicamente un subconjunto de éste llamado [*cifrado por sustitucion*](https://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n).
+*   Suponemos que se utilizo una de las encriptaciones más simple e históricas, llamada [*cifrado clásico*](https://es.wikipedia.org/wiki/Cifrado_cl%C3%A1sico) más específicamente un subconjunto de éste llamado [*cifrado por sustitución*](https://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n).
 
     En un cifrado por sustitución, las letras (o grupos de letras) son sistemáticamente reemplazadas en el mensaje por otras letras (o grupos de letras).
 
 ![Ejemplo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ROT13.png/600px-ROT13.png)
 
-## Analisis de frecuencia.
+## Análisis de frecuencia.
 
-Para poder romper la encriptación vamos a utilizar el método de [Análisis de frecuencia](https://es.wikipedia.org/wiki/An%C3%A1lisis_de_frecuencias).
+Para poder romper la encriptación vamos a utilizar el método de [*análisis de frecuencia*](https://es.wikipedia.org/wiki/An%C3%A1lisis_de_frecuencias).
 
 El análisis de frecuencias está basado en el hecho de que, dado un texto, ciertas letras o combinaciones de letras aparecen más a menudo que otras, existiendo distintas frecuencias para ellas. Por ejemplo, en español la letra A y E son muy comunes, mientras que la K y W son muy raras.
 
