@@ -28,6 +28,10 @@ Por ejemplo: Leer al menos un capitulo del libro, realizar unos ejercicios, real
 
 Creo que **constancia mata talento**, es decir, alguien que labura todos los días por un proyecto a la larga termina superando al que nació ya con fuertes capacidades en el tema pero se deja estar.
 
+![](http://vignette2.wikia.nocookie.net/simpsons/images/7/77/King_of_the_Hill_89.JPG/revision/latest?cb=20130921182413)
+
+Muchas veces nos encontramos ante tamaña tarea. Relajate, respira y avanzá de a poco, paso a paso, en un proceso iterativo y constante lograrás superarlo.
+
 ## La facultad es tu nueva casa.
 
 Vivila, disfrutala, querela, descubrí sus secretos, vas a pasar mucho tiempo con ella, mejor que se lleven bien.
