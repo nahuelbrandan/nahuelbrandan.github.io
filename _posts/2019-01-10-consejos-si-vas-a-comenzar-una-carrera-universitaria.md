@@ -94,7 +94,7 @@ Siempre hay que tener alguna. En vez de tener todo dando vueltas en la cabeza, q
 
 ## Roll the dice.
 
-Hay un poema de *Charles Bukowski* que me encanta, es para hacerlo un cuadro, se llama: **Roll the dice (tira los dados)** y es el siguiente:
+Hay un poema de *Charles Bukowski* que me encanta, es para hacerlo un cuadro, se llama: *Roll the dice (tira los dados)* y es el siguiente:
 
 > Si vas a intentarlo, ve hasta el final,<br/>
   de lo contrario no empieces siquiera.<br/><br/>
