@@ -159,6 +159,10 @@ Yo en lo personal debo admitir que no hice nada, pero reconozco que es important
 
 Me prometí que luego de que las aguas se calmaran comenzaría fuerte.
 
+***Edición:***
+
+[Francisco Nievas](https://www.linkedin.com/in/francisco-nievas-842899167/) me cuenta que siempre le pareció que luego de un día de estar 8-10hs en la facultad salir a caminar por el parque Sarmiento (en CBA), hacer natación, o ir a un gimnasio siempre ayuda a despejar la cabeza.
+
 ## Actividad extra que refuerce tu CV.
 
 Como nos dijo un profesor: "sino van a terminar con el currículum más flaco que ayudante de santa", posiblemente dificultando después conseguir trabajo.
@@ -171,6 +175,36 @@ Siempre hay algo interesante por aprender, no sólo específicamente de tu área
 
 Básicamente: **Mantente en movimiento.**
 
+## Persistencia.
+
+![](https://www.muyinteresante.com.mx/wp-content/uploads/2018/05/httpstved-prod.adobecqms.netcontentdameditorialTelevisamexicomuyinteresantemxnaturaleza1111fosil-ardilla-era-de-hielo-588x257.imgo_.jpg)
+
+Consejo aportado por ([Francisco Nievas](https://www.linkedin.com/in/francisco-nievas-842899167/)):
+
+ por mas que no te salga algo a la primera **SIGUE INTENTANDO!**.
+
+ Hay muchas materias que les dicen que son "filtros" de gente por su dificultar, pero a la larga de la carrera les encontrás sentido y te das cuenta que lo que te enseñan en por algo y tiene valor.
+
+## Encuentra tu forma de estudio y manejo de estrés.
+
+Consejo aportado por ([Francisco Nievas](https://www.linkedin.com/in/francisco-nievas-842899167/)):
+
+La mayoría de las personas vienen de secundarios donde nunca se los exigió demasiado y al encontrarse con una universidad que en la segunda semana de clases ya tenés que tener 2 prácticos listos de cada materia y leer varios libros se estresa por no dar abasto a todo.
+
+![](https://marlongalan.files.wordpress.com/2017/09/625x470_516f19beb937955b26000001_19_9-1366247454.jpg)
+
+La posta? Hacerse el hábito de estudio a la fuerza. Leer en blogs *formas de estudio* e ir intentando hasta encontrar alguna que nos sirva.
+
+A algunas personas les sirve hacer resúmenes escritos, otros hacen cuadros, afiches, audios, etc.
+
+Algunos prefieren estudiar solos, otros en grupo...
+
+**Probá y fijate con cual te sentís mejor!**
+
+![](http://noticias.universia.es/net/images/gente/m/mu/mus/musica-para-estudiar.jpg)
+
+---
+---
 ---
 
 ## Resumen nivel 5.
