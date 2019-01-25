@@ -222,9 +222,4 @@ Y si sos tan vago para ir derecho al resumen nivel 5 entonces me caes bien, me g
 
 Espero que te haya servido éste humilde artículo, ¡Haceme saber que te pareció!, si te sirvió, que punto le agregarías o editarías, puedo mantener el artículo agregando sus sugerencias.
 
-Mi email es: <A HREF="mailto:
-&#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
-&#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
-</A>
-
 Saludos!
