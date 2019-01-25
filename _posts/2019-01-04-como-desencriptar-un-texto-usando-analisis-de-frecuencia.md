@@ -2,6 +2,9 @@
 layout: post
 title: "Como desencriptar un texto usando análisis de frecuencia"
 date:   2019-01-04 00:00:01 -0300
+comments: true
+url: "https://www.nahuelbrandan.com/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html"
+identifier: "/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html"
 image: "https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2018/01/encriptar-telefono.jpg"
 
 ---

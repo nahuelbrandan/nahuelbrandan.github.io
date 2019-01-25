@@ -2,6 +2,9 @@
 layout: post
 title: "Zcash y su tremenda ceremonia para definir 'simplemente' una contraseña."
 date:   2019-01-03 00:00:01 -0300
+comments: true
+url: "https://www.nahuelbrandan.com/2019/01/03/zcash-y-su-ceremonia-para-definir-una-contraseña.html"
+identifier: "/2019/01/03/zcash-y-su-ceremonia-para-definir-una-contraseña.html"
 image: "https://www.bournemouth.ac.uk/sites/default/files/styles/b_4_3_desktop/public/assets/images/iStock_000063167077_Double.jpg?itok=rbxi0AHk&c=06c62c91f614622a6b2fd6a44aad401f"
 
 ---

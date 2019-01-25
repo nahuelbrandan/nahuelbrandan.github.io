@@ -2,6 +2,9 @@
 layout: post
 title:  "Hola Mundo!"
 date:   2018-12-22 00:00:01 -0300
+comments: true
+identifier: "/2018/12/22/hola-mundo.html"
+url: "www.nahuelbrandan.com/2018/12/22/hola-mundo.html"
 image: https://sergiomontufar.com/wp-content/uploads/2017/04/hello-world.jpg
 image: "https://sergiomontufar.com/wp-content/uploads/2017/04/hello-world.jpg"
 ---

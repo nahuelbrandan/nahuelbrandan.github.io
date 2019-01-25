@@ -2,6 +2,9 @@
 layout: post
 title:  "Quizás la última prueba de nuestra existencia.. una historia sobre Pioneer's & Voyager's"
 date:   2018-12-28 00:00:01 -0300
+comments: true
+url: "https://www.nahuelbrandan.com/2018/12/28/quizas-la-ultima-prueba-de-nuestra-existencia-historia-sobre-pioneer-y-voyager.html"
+identifier: "/2018/12/28/quizas-la-ultima-prueba-de-nuestra-existencia-historia-sobre-pioneer-y-voyager.html"
 image: "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/08/20/720379-universe-2250310960720.jpg"
 ---
 

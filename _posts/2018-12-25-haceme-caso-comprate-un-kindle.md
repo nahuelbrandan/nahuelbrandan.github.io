@@ -2,6 +2,9 @@
 layout: post
 title:  "Haceme caso, comprate un kindle."
 date:   2018-12-25 00:00:01 -0300
+comments: true
+url: "https://www.nahuelbrandan.com/2018/12/25/haceme-caso-comprate-un-kindle.html"
+identifier: "/2018/12/25/haceme-caso-comprate-un-kindle.html"
 image: http://i67.tinypic.com/s5uwdx.png
 image: "http://i67.tinypic.com/s5uwdx.png"
 ---
