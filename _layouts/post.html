@@ -15,7 +15,6 @@
             <div class="cf post-meta-text">
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
               <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
             </div>
           </div>
         </div>
@@ -43,7 +42,7 @@
           </section>
         </footer>
         <div class="bottom-teaser cf">
-          {{/post}}
+          {{post}}
         </div>
 
         {% if page.comments %}
@@ -73,7 +72,6 @@
       </div>
       <div class="inner">
         <h1 class="blog-title">{{ site.title }}</h1>
-        <!--<h2 class="blog-description">{{ site.description }}</h2>-->
         <a href={{ "/" | prepend: site.baseurl }} class="btn">Back to Home</a>
       </div>
     </div>

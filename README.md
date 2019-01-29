@@ -7,3 +7,9 @@
     bundle exec jekyll serve
 
 requiere tener instalado previamente jekyll y bundle
+
+o con:
+
+    bundle exec jekyll serve --livereload
+
+De ésta forma no necesita hacer un refresh de la página ante cada cambio que hagamos.
