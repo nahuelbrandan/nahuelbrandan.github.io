@@ -24,7 +24,7 @@ Primero definamos la importancia de contar con métodos de encriptación de mens
 
 En una guerra, si un bando logra obtener las comunicaciones tácticas y/o estratégicas del bando contrario, podría prepararse y hacer las modificaciones necesarias para que la situación salga a su favor, lo mismo sucede con las empresas y los estados.
 
-La información es poder!, tener la información justa en el momento apropiado te puede hacer ganar grandes batallas. Si no vean Game of Thrones.
+La información es poder!, tener la información justa en el momento apropiado te puede hacer ganar grandes batallas. O visto desde el otro lado, si tu información secreta sale a la luz te pueden poner en serios aprietos, si no vean Game of Thrones.
 
 ![](https://www.azquotes.com/picture-quotes/quote-information-is-power-but-like-all-power-there-are-those-who-want-to-keep-it-for-themselves-aaron-swartz-102-27-05.jpg)
 
