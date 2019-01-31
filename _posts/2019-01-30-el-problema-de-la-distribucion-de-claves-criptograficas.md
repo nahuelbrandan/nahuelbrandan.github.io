@@ -129,6 +129,6 @@ Un par de años después se desarrollo [RSA](https://es.wikipedia.org/wiki/RSA),
 
 ---
 
-Espero que te haya interesado.
+Espero que te haya sido tan interesante como a mi.
 
 Saludos y nos vemos.
