@@ -29,4 +29,4 @@ Podes contactarme por email a: <A HREF="mailto:
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
 </A>
 
-Mi [Curriculum Vitae](https://drive.google.com/open?id=1gMd4sz5EYTdLXQANfMJZFTNkOjEubJlp) por si estas interesado en hacerme una oferta laboral, estoy en búsqueda activa.
+Mi [Curriculum Vitae](https://drive.google.com/open?id=1x0v3L8Xhbj1f7pYMX1TK9fGz2qAEWrhI) por si estas interesado en hacerme una oferta laboral, estoy en búsqueda activa.
