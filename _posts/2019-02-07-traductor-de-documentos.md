@@ -12,11 +12,11 @@ image: "https://help.17track.net/hc/article_attachments/360018201051/235533167-0
 
 ![](https://help.17track.net/hc/article_attachments/360018201051/235533167-01.gif)
 
-Programa realizado en el marco de la facultad.
+Programa realizado en el ámbito académico.
 
 Es un traductor de texto palabra por palabra. Consulta al usuario que hacer cuando una palabra es desconocida.
 
-![descripcion visual](https://docs.google.com/drawings/d/e/2PACX-1vQYp1lJji6DKABS1UKgpwqocQnBrO8jYMfIXCS8u_AbTD4F5PIpBwpeyOHvFLuXdTVuh388cjImaTjL/pub?w=960&h=720)
+![descripcion gráfica](https://docs.google.com/drawings/d/e/2PACX-1vQYp1lJji6DKABS1UKgpwqocQnBrO8jYMfIXCS8u_AbTD4F5PIpBwpeyOHvFLuXdTVuh388cjImaTjL/pub?w=960&h=720)
 
 Instalación y forma de uso se especifica en el repositorio Github donde encuentra alojado.
 
