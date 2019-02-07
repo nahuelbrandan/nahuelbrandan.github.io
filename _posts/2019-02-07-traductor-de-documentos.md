@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Traductor de documentos"
-date:   2019-02-06 00:00:01 -0300
-comments: true
+date:   2019-02-07 00:00:01 -0300
+comments: false
 categories: [Portfolio]
 tags: [Java]
-url: "https://www.nahuelbrandan.com/2019/02/07/traductor-de-documentos.html"
-identifier: "/2019/02/07/traductor-de-documentos.html"
+url: "https://www.nahuelbrandan.com/portfolio/2019/02/07/traductor-de-documentos.html"
+identifier: "/portfolio/2019/02/07/traductor-de-documentos.html"
 image: "https://help.17track.net/hc/article_attachments/360018201051/235533167-01.gif"
 ---
 
