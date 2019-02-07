@@ -10,7 +10,7 @@ identifier: "/portfolio/2019/02/07/traductor-de-documentos.html"
 image: "https://help.17track.net/hc/article_attachments/360018201051/235533167-01.gif"
 ---
 
-![](https://help.17track.net/hc/article_attachments/360018201051/235533167-01.gif)
+![]({{page.image}})
 
 Programa realizado en el ámbito académico.
 

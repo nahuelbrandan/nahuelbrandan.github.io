@@ -8,7 +8,7 @@ identifier: "/2018/12/28/quizas-la-ultima-prueba-de-nuestra-existencia-historia-
 image: "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/08/20/720379-universe-2250310960720.jpg"
 ---
 
-![](https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/08/20/720379-universe-2250310960720.jpg)
+![]({{page.image}})
 
 Sabemos de la existencia de los dinosaurios en el pasado por sus restos fósiles encontrados.
 

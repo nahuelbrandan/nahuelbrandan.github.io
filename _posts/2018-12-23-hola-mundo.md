@@ -9,7 +9,7 @@ image: https://sergiomontufar.com/wp-content/uploads/2017/04/hello-world.jpg
 image: "https://sergiomontufar.com/wp-content/uploads/2017/04/hello-world.jpg"
 ---
 
-![](https://sergiomontufar.com/wp-content/uploads/2017/04/hello-world.jpg)
+![]({{page.image}})
 
 Siguiendo la clásica costumbre informática llamada 'Hola Mundo!', que se refiere a cuando alguien comienza a aprender un nuevo lenguaje o herramienta, realizar el programar más simple posible, generalmente imprimir por pantalla un texto, siendo éste el primer ejercicio típico y fundamental didácticamente.
 

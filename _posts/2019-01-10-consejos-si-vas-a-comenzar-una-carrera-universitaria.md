@@ -9,7 +9,7 @@ image: "http://ramengineeringclasses.com/images/advice-first-year-engineering-st
 
 ---
 
-![](http://ramengineeringclasses.com/images/advice-first-year-engineering-students-1.jpg)
+![]({{page.image}})
 
 Hace un par de meses me recibí de Analista en Computación y en este articulo quiero darles algunos consejos y enseñanzas que aprendí (a veces a la fuerza) durante el transcurso de la carrera. Mientras más pronto los sepas mejor.
 

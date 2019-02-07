@@ -46,8 +46,7 @@ layout: default
                   {% for tag in post.tags %}
                     {{tag}}
                   {%endfor%}
-                </b><br>
-                <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+                </b>
               </div>
             </div>
           </div>
@@ -56,6 +55,8 @@ layout: default
     {% endfor %}
   </div>
 </div>
+
+<hr>
 
 <div class="container">
   <h2>Articulos:</h2>

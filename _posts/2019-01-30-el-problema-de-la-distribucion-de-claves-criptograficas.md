@@ -8,7 +8,7 @@ identifier: "/2019/01/30/el-problema-de-la-distribucion-de-claves-criptograficas
 image: "https://vignette.wikia.nocookie.net/lotr/images/7/79/Argonath.png/revision/latest?cb=20180902182809"
 ---
 
-![](https://vignette.wikia.nocookie.net/lotr/images/7/79/Argonath.png/revision/latest?cb=20180902182809)
+![]({{page.image}})
 
 Ya hablamos en un artículo anterior sobre criptografía: [(https://www.nahuelbrandan.com/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html)](https://www.nahuelbrandan.com/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html).
 

@@ -10,7 +10,7 @@ identifier: "/portfolio/2019/02/07/coloreo-propio-de-grafos.html"
 image: "https://docs.google.com/drawings/d/e/2PACX-1vRp_95lZ58y8Za3riTw84ML5p0EB7WRjZgKbYwhTpIUMM55wXaBTX1ZpCjAeu8yhDxU_aJJ3DHQador/pub?w=960&h=517"
 ---
 
-![](https://docs.google.com/drawings/d/e/2PACX-1vRp_95lZ58y8Za3riTw84ML5p0EB7WRjZgKbYwhTpIUMM55wXaBTX1ZpCjAeu8yhDxU_aJJ3DHQador/pub?w=960&h=517)
+![]({{page.image}})
 
 Programa realizado en el ámbito académico. Es uno de mis mejores trabajos y de los que estoy más orgulloso.
 

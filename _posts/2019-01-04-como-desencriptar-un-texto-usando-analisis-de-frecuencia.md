@@ -9,7 +9,7 @@ image: "https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2018/01/en
 
 ---
 
-![](https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2018/01/encriptar-telefono.jpg)
+![]({{page.image}})
 
 Recientemente encontré una oferta laboral en la que como proceso de preselección pedía desencriptar el siguiente texto y explicar el procedimiento realizado:
 

@@ -9,7 +9,7 @@ image: "https://www.bournemouth.ac.uk/sites/default/files/styles/b_4_3_desktop/p
 
 ---
 
-![](https://www.bournemouth.ac.uk/sites/default/files/styles/b_4_3_desktop/public/assets/images/iStock_000063167077_Double.jpg?itok=rbxi0AHk&c=06c62c91f614622a6b2fd6a44aad401f)
+![]({{page.image}})
 
 Por lo general, al vernos en la situación de tener que definir una contraseña (nos registramos en una nueva página por ejemplo), seleccionamos algún par de palabras (posiblemente inspirados en objetos a nuestro alrededor) seguido de algún número, ejemplo: *edificioperro123*
 

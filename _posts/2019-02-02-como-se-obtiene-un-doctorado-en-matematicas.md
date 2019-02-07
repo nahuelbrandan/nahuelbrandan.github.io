@@ -8,7 +8,7 @@ identifier: "/2019/02/02/como-se-obtiene-un-doctorado-en-matematicas.html"
 image: "http://www.agenciapacourondo.com.ar/sites/www.agenciapacourondo.com.ar/files/styles/flexslider_full/public/articulos/5612b3b66e2cc_2.jpg?itok=i5dBMM9s"
 ---
 
-![](http://www.agenciapacourondo.com.ar/sites/www.agenciapacourondo.com.ar/files/styles/flexslider_full/public/articulos/5612b3b66e2cc_2.jpg?itok=i5dBMM9s)
+![]({{page.image}})
 
 En una entrevista radial, [Adrián Paenza](https://es.wikipedia.org/wiki/Adri%C3%A1n_Paenza), Doctor en matemáticas y gran divulgador científico, premiado internacionalmente, contó como fue su proceso de obtención del grado: Doctor. Historia que me gustó y voy a contar.
 

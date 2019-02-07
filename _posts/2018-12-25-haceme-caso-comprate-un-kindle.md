@@ -5,11 +5,10 @@ date:   2018-12-25 00:00:01 -0300
 comments: true
 url: "https://www.nahuelbrandan.com/2018/12/25/haceme-caso-comprate-un-kindle.html"
 identifier: "/2018/12/25/haceme-caso-comprate-un-kindle.html"
-image: http://i67.tinypic.com/s5uwdx.png
 image: "http://i67.tinypic.com/s5uwdx.png"
 ---
 
-![](http://i67.tinypic.com/s5uwdx.png)
+![]({{page.image}})
 
 Si eres asiduo a la lectura te lo recomiendo fuertemente, y sino siempre es un buen momento para comenzar. En ésta publicación te voy a contar como tener toda tu biblioteca en el bolsillo, siempre lista y al alcance de tu mano.
 
