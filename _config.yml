@@ -2,6 +2,7 @@
 plugins:
   - jemoji
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Site settings
 title: "Nahuel Brandán"
