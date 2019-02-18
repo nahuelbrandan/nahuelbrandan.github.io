@@ -5,8 +5,7 @@ date:   2019-02-07 10:00:01 -0300
 comments: false
 categories: [Portfolio]
 tags: [C]
-url: "https://www.nahuelbrandan.com/portfolio/2019/02/07/coloreo-propio-de-grafos.html"
-identifier: "/portfolio/2019/02/07/coloreo-propio-de-grafos.html"
+url: "/portfolio/2019/02/07/coloreo-propio-de-grafos.html"
 image: "https://docs.google.com/drawings/d/e/2PACX-1vRp_95lZ58y8Za3riTw84ML5p0EB7WRjZgKbYwhTpIUMM55wXaBTX1ZpCjAeu8yhDxU_aJJ3DHQador/pub?w=960&h=517"
 ---
 

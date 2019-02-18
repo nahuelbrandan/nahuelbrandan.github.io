@@ -5,8 +5,7 @@ date:   2019-02-07 17:50:01 -0300
 comments: false
 categories: [Portfolio]
 tags: [Python, Django, HTML, CSS]
-url: "https://www.nahuelbrandan.com/portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html"
-identifier: "/portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html"
+url: "/portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html"
 image: "https://www.jairogaleas.com/wp-content/uploads/2018/06/objetivos-jairo-galeas-700x445.png"
 ---
 
