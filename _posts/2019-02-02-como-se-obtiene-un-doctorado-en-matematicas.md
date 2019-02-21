@@ -4,7 +4,7 @@ title: "Cómo se obtiene un doctorado en matemáticas"
 date:   2019-02-02 02:00:01 -0300
 comments: true
 url: "/2019/02/02/como-se-obtiene-un-doctorado-en-matematicas.html"
-image: "http://www.agenciapacourondo.com.ar/sites/www.agenciapacourondo.com.ar/files/styles/flexslider_full/public/articulos/5612b3b66e2cc_2.jpg?itok=i5dBMM9s"
+image: "/assets/images/paenza.jpg"
 ---
 
 ![]({{page.image}})
