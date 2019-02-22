@@ -6,7 +6,8 @@ comments: false
 categories: [Portfolio]
 tags: [Java]
 url: "/portfolio/2019/02/07/traductor-de-documentos.html"
-image: "https://help.17track.net/hc/article_attachments/360018201051/235533167-01.gif"
+image: "/assets/images/posts/traductor.jpg"
+image_mini: "/assets/images/posts/traductor_mini.jpg"
 ---
 
 ![]({{page.image}})

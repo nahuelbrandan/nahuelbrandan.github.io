@@ -4,7 +4,9 @@ title: "Zcash y su tremenda ceremonia para definir 'simplemente' una contraseña
 date:   2019-01-03 00:00:01 -0300
 comments: true
 url: "/2019/01/03/zcash-y-su-ceremonia-para-definir-una-contraseña.html"
-image: "https://www.bournemouth.ac.uk/sites/default/files/styles/b_4_3_desktop/public/assets/images/iStock_000063167077_Double.jpg?itok=rbxi0AHk&c=06c62c91f614622a6b2fd6a44aad401f"
+image: "/assets/images/posts/ojo.jpg"
+image_mini: "/assets/images/posts/ojo_mini.jpg"
+
 
 ---
 

@@ -6,7 +6,8 @@ comments: false
 categories: [Portfolio]
 tags: [Python, Django, HTML, CSS]
 url: "/portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html"
-image: "https://www.jairogaleas.com/wp-content/uploads/2018/06/objetivos-jairo-galeas-700x445.png"
+image: "/assets/images/posts/meta.png"
+image_mini: "/assets/images/posts/meta_mini.jpg"
 ---
 
 ![]({{page.image}})

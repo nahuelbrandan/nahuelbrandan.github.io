@@ -4,7 +4,8 @@ title: "Como desencriptar un texto usando análisis de frecuencia"
 date:   2019-01-04 00:00:01 -0300
 comments: true
 url: "/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html"
-image: "https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2018/01/encriptar-telefono.jpg"
+image: "/assets/images/posts/encriptar.jpg"
+image_mini: "/assets/images/posts/encriptar_mini.jpg"
 
 ---
 

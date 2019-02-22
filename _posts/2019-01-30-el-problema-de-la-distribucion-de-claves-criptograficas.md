@@ -4,7 +4,8 @@ title: "El problema de la distribución de claves criptográficas"
 date:   2019-01-30 22:00:01 -0300
 comments: true
 url: "/2019/01/30/el-problema-de-la-distribucion-de-claves-criptograficas.html"
-image: "https://vignette.wikia.nocookie.net/lotr/images/7/79/Argonath.png/revision/latest?cb=20180902182809"
+image: "/assets/images/posts/Argonath.png"
+image_mini: "/assets/images/posts/Argonath_mini.jpg"
 ---
 
 ![]({{page.image}})
