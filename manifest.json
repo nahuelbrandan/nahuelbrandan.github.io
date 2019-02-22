@@ -6,5 +6,12 @@
   "display": "standalone",
   "Scope": "/",
   "start_url": "/",
+   "icons": [
+   {
+      "src": "images/logo.png",
+      "sizes": "544x512",
+      "type": "image/png"
+    }
+  ],
   "splash_pages": null
 }
