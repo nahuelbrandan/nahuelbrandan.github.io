@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como desencriptar un texto usando análisis de frecuencia"
+title: "Como desencriptar un texto usando análisis de frecuencia."
 date:   2019-01-04 00:00:01 -0300
 comments: true
 url: "/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html"

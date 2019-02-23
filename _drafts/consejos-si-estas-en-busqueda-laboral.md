@@ -4,7 +4,8 @@ title: "Consejos si estas en búsqueda laboral."
 comments: true
 url: "https://www.nahuelbrandan.com/2019/03/07/consejos-si-estas-en-busqueda-laboral.html"
 identifier: "/2019/03/07/consejos-si-estas-en-busqueda-laboral.html"
-image: "/assets/images/find_job.jpg"
+image: "/assets/images/posts/strategy.jpg"
+image_mini: "/assets/images/posts/strategy_mini.jpg"
 ---
 
 ![]({{page.image}})<br>

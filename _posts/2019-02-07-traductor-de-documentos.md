@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Traductor de documentos"
+title: "Traductor de documentos."
 date:   2019-02-07 00:00:01 -0300
 comments: false
 categories: [Portfolio]

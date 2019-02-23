@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cómo se obtiene un doctorado en matemáticas"
+title: "Cómo se obtiene un doctorado en matemáticas."
 date:   2019-02-02 02:00:01 -0300
 comments: true
 url: "/2019/02/02/como-se-obtiene-un-doctorado-en-matematicas.html"

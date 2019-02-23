@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coloreo propio de grafos"
+title: "Coloreo propio de grafos."
 date:   2019-02-07 10:00:01 -0300
 comments: false
 categories: [Portfolio]
