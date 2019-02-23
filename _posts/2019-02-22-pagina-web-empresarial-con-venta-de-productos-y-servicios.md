@@ -60,6 +60,7 @@ Si bien está desarrollado para una empresa en particular, haciendo las modifica
     -   Buen gusto.
     -   Análisis de los datos. (cantidad de visitantes, de donde son, como llegaron a tu página, comportamiento...)
     -   Social media.
+    -   Seguridad.
 
 ## Profundidad.
 
