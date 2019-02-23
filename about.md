@@ -2,7 +2,6 @@
 layout: page
 title: Sobre mi
 permalink: /about/
-image: "/assets/images/fond.jpg"
 ---
 
 Nací en el 93' al lado de mi casa, vivo en Río Primero-Córdoba.
@@ -30,3 +29,12 @@ Podes contactarme por email a: <A HREF="mailto:
 </A>
 
 Mi [Curriculum Vitae](https://drive.google.com/open?id=1lPDZ_0AHwed8uZBhaXjpy2J_kecGWb1v) por si estas interesado en hacerme una oferta laboral, estoy en búsqueda activa.
+
+## Galeria
+
+![Exposición en el evento 'Hackathon Industria Cba 2018']({{"/assets/images/hackathon_2018.png"}})
+
+[![La banda de la materia 'Redes y sistemas distribuidos' - 2017 (Seleccionar para ver ampliada)]({{"/assets/images/WP_20170622_17_38_59_Rich.jpg"}})](https://drive.google.com/file/d/1kqJSFPNMxDRSF26I5DB8hi6jfBwdzyW6/view?usp=sharing)
+
+
+
