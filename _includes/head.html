@@ -33,9 +33,9 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/main.css"  | prepend: site.baseurl  }}" />
-
-  <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/prism.css"  | prepend: site.baseurl  }}" />
-
+  {% if page.id %}
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/prism.css"  | prepend: site.baseurl  }}" />
+  {% endif %}
   <link rel="stylesheet" type="text/css" media="print" href="{{ "/css/print.css"  | prepend: site.baseurl  }}" />
   <link href="{{ "/css/bootstrap.min.css"  | prepend: site.baseurl  }}" rel="stylesheet" id="bootstrap-css">
 </head>
