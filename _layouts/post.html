@@ -4,7 +4,7 @@
 <html>
   {% include head.html %}
   <body itemscope itemtype="http://schema.org/Article">
-    {% include header.html %}
+    {% include_cached header.html %}
     <main class="content" role="main">
       <article class="post">
 
@@ -72,8 +72,8 @@
         <a href={{ "/" | prepend: site.baseurl }} class="btn">Back to Home</a>
       </div>
     </div>
-    {% include lazyload.html %}
-    {% include javascripts.html %}
+    {% include_cached lazyload.html %}
+    {% include_cached javascripts.html %}
     <script src="/assets/js/prism.js"></script>
     <script id="dsq-count-scr" src="//www-nahuelbrandan-com.disqus.com/count.js" async></script>
   </body>

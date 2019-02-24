@@ -3,6 +3,8 @@ plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-include-cache
+
 
 # Site settings
 title: "Nahuel Brandán"

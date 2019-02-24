@@ -4,13 +4,13 @@
 {% include head.html %}
 
 <body>
-    {% include header.html %}
+    {% include_cached header.html %}
 
     {{ content }}
 
-    {% include footer.html %}
-    {% include lazyload.html %}
-    {% include javascripts.html %}
+    {% include_cached footer.html %}
+    {% include_cached lazyload.html %}
+    {% include_cached javascripts.html %}
 </body>
 
 </html>
