@@ -4,13 +4,13 @@ title: Sobre mi
 permalink: /about/
 ---
 
-Nací en el 93' al lado de mi casa, vivo en Río Primero - Córdoba.
+Nací en el 93' al lado de mi casa, vivo en Río Primero - Córdoba - Argentina.
 
 Hijo de: *La Nanzi - la peluquera* y de *Matala*.
 
 Hermano de: *Mamey*, *La Meli*, *Julito*, *La Cande*, *El Chancho* y *El Nero'*.
 
-Me recibí de Analista en computación en la [Facultad de Matemática, Astronomía, Física y Computación (FaMAF)](http://www.famaf.unc.edu.ar/) de la Universidad Nacional de Córdoba (UNC).
+Me recibí a fines de 2018 de analista en computación en la [Facultad de Matemática, Astronomía, Física y Computación (FaMAF)](http://www.famaf.unc.edu.ar/) de la Universidad Nacional de Córdoba (UNC).
 
 Amante de la informática, el cine, la literatura, la política, la matemática y el ajedrez.
 
@@ -22,11 +22,11 @@ Miembro de la organización internacional [Mensa](https://es.wikipedia.org/wiki/
 
 Mis perfiles online son:
 
-*   [https://leetcode.com/nahuelbrandan](https://leetcode.com/nahuelbrandan)
-*   [https://www.nahuelbrandan.com](https://www.nahuelbrandan.com)
-*   [https://github.com/nahuelbrandan](https://github.com/nahuelbrandan)
-*   [https://www.linkedin.com/in/nahuelbrandan](https://www.linkedin.com/in/nahuelbrandan)
-*   [https://stackoverflow.com/users/6125910/nahuel-brandan](https://stackoverflow.com/users/6125910/nahuel-brandan)
+*   [www.nahuelbrandan.com](https://www.nahuelbrandan.com)
+*   [github.com/nahuelbrandan](https://github.com/nahuelbrandan)
+*   [www.linkedin.com/in/nahuelbrandan](https://www.linkedin.com/in/nahuelbrandan)
+*   [leetcode.com/nahuelbrandan](https://leetcode.com/nahuelbrandan)
+*   [stackoverflow.com/users/6125910/nahuel-brandan](https://stackoverflow.com/users/6125910/nahuel-brandan)
 
 
 Podes contactarme por email a: <A HREF="mailto:
@@ -41,6 +41,3 @@ Mi [Curriculum Vitae](https://drive.google.com/file/d/1lPDZ_0AHwed8uZBhaXjpy2J_k
 ![Exposición en el evento 'Hackathon Industria Cba 2018']({{"/assets/images/hackathon_2018.png"}})
 
 [![La banda de la materia 'Redes y sistemas distribuidos' - 2017 (Seleccionar para ver ampliada)]({{"/assets/images/WP_20170622_17_38_59_Rich.jpg"}})](https://drive.google.com/file/d/1kqJSFPNMxDRSF26I5DB8hi6jfBwdzyW6/view?usp=sharing)
-
-
-
