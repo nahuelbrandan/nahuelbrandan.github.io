@@ -22,19 +22,18 @@ Miembro de la organización internacional [Mensa](https://es.wikipedia.org/wiki/
 
 Mis perfiles online son:
 
-*   [www.nahuelbrandan.com](https://www.nahuelbrandan.com)
+*   [nahuelbrandan.com](https://www.nahuelbrandan.com)
+*   [linkedin.com/in/nahuelbrandan](https://www.linkedin.com/in/nahuelbrandan)
 *   [github.com/nahuelbrandan](https://github.com/nahuelbrandan)
-*   [www.linkedin.com/in/nahuelbrandan](https://www.linkedin.com/in/nahuelbrandan)
 *   [leetcode.com/nahuelbrandan](https://leetcode.com/nahuelbrandan)
 *   [stackoverflow.com/users/6125910/nahuel-brandan](https://stackoverflow.com/users/6125910/nahuel-brandan)
-
 
 Podes contactarme por email a: <A HREF="mailto:
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
 </A>
 
-Mi [Curriculum Vitae](https://drive.google.com/file/d/1lPDZ_0AHwed8uZBhaXjpy2J_kecGWb1v/view) por si estas interesado en hacerme una oferta laboral, estoy en búsqueda activa.
+Mi [Curriculum Vitae](https://drive.google.com/file/d/1lPDZ_0AHwed8uZBhaXjpy2J_kecGWb1v/view).
 
 ## Galeria
 
