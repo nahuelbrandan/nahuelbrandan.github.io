@@ -13,7 +13,7 @@ image_mini: "/assets/images/posts/strategy_mini.jpg"
 
 Desde el momento en que me recibí hasta conseguir mi primer trabajo pasaron **4 meses**, tiempo en el que estuve en búsqueda laboral activa (más del que esperaba).
 
-Buscar trabajo también es un trabajo y en éste artículo les quiero comentar las enseñanzas que fui obteniendo en éste tiempo, para que a ustedes se les reduzca.
+Buscar trabajo también es un trabajo y en éste artículo les quiero comentar las enseñanzas que fui obteniendo en éste tiempo, para que a ustedes este lapso se les reduzca.
 
 ---
 
@@ -23,7 +23,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   **Proactividad**. Esta es la clave. A mi parecer es la característica principal que buscan las empresas. Superando incluso los estudios y/o experiencia que tengas, es la actitud que llevas.
 
-    No quieren tener que llevar acarreando a alguien, tener que ir diciendole todo el tiempo lo que debe hacer, sino que él se mueva por cuenta propia también, dentro de sus posibilidad.
+    No quieren tener que llevar acarreando a alguien, tener que ir diciéndole todo el tiempo lo que debe hacer, sino que él se mueva por cuenta propia también, dentro de sus posibilidad.
 
     ***Que consulte, que proponga, que mueva, que vibre.***
 
@@ -43,23 +43,27 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   Una vez que te confirmen una entrevista laboral, **estudiar la empresa**. ¿Cuál es su objetivo?, reseñas de otras entidades, sus huellas digitales, sus fundadores, que tecnologías utilizan.
 
-    Prepararse para la pregunta: *¿Por qué querés trabajar en nuestra empresa?*, es decir: ¿Qué tenemos nosotros de especial que valores y te atraiga?
+    Prepararse para las preguntas:
+
+    *¿Por qué querés trabajar en nuestra empresa?*, es decir: ¿Qué tenemos nosotros de especial que valores y te atraiga?
+
+    *¿Que podes aportar a nuestra empresa?*, *¿Decinos una fortaleza y una debilidad tuya?*, entre otras.
 
     **El mejor candidato es el mejor informado**.
 
 *   **CV completo y correcto**. Al igual que tu cuenta el LinkedIn, tu CV es un ser vivo que hay que estarlo mejorando un poco constantemente.
 
-    Evita agregar elementos que no estén relacionados directamente con el puesto que estas aplicando. Éstos se pueden comentar, si se da la oportunidad en la entrevista.
+    Evita agregar elementos que no estén relacionados directamente con el puesto que estas aplicando, éstos se pueden comentar, si se da la oportunidad en la entrevista.
 
-    Colocar las categorías en orden de importancia, y dentro de éstas en orden cronológico.
+    Colocar las categorías en orden de importancia, y dentro de éstas en orden cronológico inverso.
 
     Entre otros consejos que no te costarán encontrar en Google.
 
-*   **CV con diseño**. En lo personal, desde que agregué un buen diseño a mi CV noté un incremento de respuestas a mis solicitudes. Tiene sentido si lo pensás, vivimos en un mundo rodeados de diseño, donde las empresas gastan millones en marketing, por algo será.
+*   **CV con diseño**. En lo personal, desde que agregué un buen diseño a mi CV noté un incremento de respuestas a mis solicitudes. Tiene sentido si lo pensás, vivimos en un mundo rodeados de diseño, donde las empresas gastan millones en marketing.
 
     **Debemos captar la atención** de a quien le toque analizar nuestra solicitud.
 
-    Para darles un ejemplo concreto, éste es mi CV.
+    Para darles un ejemplo concreto, este es mi CV.
 
     ![https://drive.google.com/file/d/1lPDZ_0AHwed8uZBhaXjpy2J_kecGWb1v/view]({{"/assets/images/elements_in_posts/cv.jpg"}})
 
@@ -69,7 +73,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   **Practicar** resolución de problemas **para tu entrevista técnica** (en desarrollo de software).
 
-*   **Cuida tus perfiles online**. Probá googleandote y ver que sale. Alguien que no te tiene como amigo en *Facebook*, ¿Cúanto puede ver de tu perfil?, o en tus otras redes sociales.
+*   **Cuida tus perfiles online**. Probá googleandote y ver que sale. Alguien que no te tiene como amigo en *Facebook*, ¿Cuanto puede ver de tu perfil?, o en tus otras redes sociales.
 
 *   **Celular cargado y a mano**. A la gente de recursos humanos les gusta llamar. Un llamado perdido puede ser potencialmente un puesto de trabajo perdido.
 
@@ -87,7 +91,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   **Cuenta una historia**. Un concepto que reforcé en la facultad. En una materia no podes ir y decirle al profesor: *profe, no entiendo nada, ¿Me explica?* o *profe, el ejercicio 7 no me sale.* No, así no.
 
-    Tenés que ir y contar la historia de qué hiciste, como fue tu proceso de pensamiento. *Profe, estoy intentando resolver el ejercicio 7. Dado que quiero encontrar X, y éste valor tiene tales propiedades me conviene utilizar el proceso L. ¿Voy bien?, perfecto. Ahora hago tal y tal cosa... y en éste punto tengo un error por que el valor no concuerda con éste otro. ¿Qué pasó? ¿En qúe paso del proceso me equivoqué?...*
+    Tenés que ir y contar la historia de qué hiciste, como fue tu proceso de pensamiento. *Profe, estoy intentando resolver el ejercicio 7. Dado que quiero encontrar X, y éste valor tiene tales propiedades me conviene utilizar el proceso L. ¿Voy bien?, perfecto. Ahora hago tal y tal cosa... y en éste punto tengo un error por que el valor no concuerda con éste otro. ¿Qué pasó? ¿En que paso del proceso me equivoqué?...*
 
     Ir uniendo los puntos de manera orgánica.
 
@@ -101,7 +105,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
     -   *¿como funcionan los horarios en la oficina, se podría quedar después de tiempo?*
     -   *¿Los equipos de trabajo son por tecnología, o un empleado tendría la posibilidad de trabajar en distintas áreas?*
 
-    Osea, evaluar a la empresa nosotros también. Si llegamos a ingresar vamos a pasar mucho tiempo en ella, e preferible que se adapte también a nuestras exigencias.
+    Osea, evaluar a la empresa nosotros también. Si llegamos a ingresar vamos a pasar mucho tiempo en ella, es preferible que sea apropiada también a nuestras exigencias.
 
 *   **Honestidad**, ésta es siempre la mejor política,  no exageres tus conocimientos, por que ésto luego se va a notar y quedas mal.
 
@@ -125,4 +129,4 @@ Espero te sirvan éstos consejos, haceme saber como te fue!. Espero que pronto c
 
 Saludos y fuerza.
 
-![Fuerza para tu Genkidama](https://media1.tenor.com/images/8890a2304921e24bba25bd85f760190e/tenor.gif?itemid=10221675)
+![Energía para tu Genkidama.](https://media1.tenor.com/images/8890a2304921e24bba25bd85f760190e/tenor.gif?itemid=10221675)
