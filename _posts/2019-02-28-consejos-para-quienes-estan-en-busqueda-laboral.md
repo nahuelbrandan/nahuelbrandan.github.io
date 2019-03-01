@@ -109,7 +109,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   **Honestidad**, ésta es siempre la mejor política,  no exageres tus conocimientos, por que ésto luego se va a notar y quedas mal.
 
-*   **Buena comunicación**. Recordemos que gran parte de la comunicación es no verbal, tener el cuenta todos los aspectos. Postura, mirada a los ojos, gesticular, etc.
+*   **Buena comunicación**. Recordemos que gran parte de la comunicación es no verbal, tener en cuenta todos los aspectos: Postura, mirada a los ojos, gesticular, etc.
 
     ![comunicación no verbal](http://zefirodelcielo.com/wp-content/uploads/2017/02/31-2.jpg)
 
@@ -121,11 +121,13 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
     En mi caso, luego de una de mis primeras entrevistas, donde en la parte técnica no me fue muy bien, decidí concentrarme en mejorar éste punto.
 
-    Particularmente mi página web surgió en ésta etapa del proceso. Es algo muy bueno para mostrar, que las empresas valoran, y una buena historia que contar. Además que practicas redacción de texto y resulto ser una experiencia sumamente beneficiosa.
+    Particularmente mi página web surgió en ésta etapa del proceso. Es algo muy bueno para mostrar, que las empresas valoran, y una buena historia que contar. Además que practicas redacción de texto y resulto ser una experiencia sumamente gratificante.
 
 ---
 
-Espero te sirvan éstos consejos, haceme saber como te fue!. Espero que pronto consigas el laburo que deseas. Si crees que debería agregar o editar algún punto hacémelo saber, puedo mantener el artículo.
+Espero te sirvan éstos consejos, haceme saber como te fue!. Ojalá que pronto consigas el laburo que deseas. 
+
+Si crees que debería agregar o editar algún punto hacémelo saber, puedo mantener el artículo.
 
 Saludos y fuerza.
 

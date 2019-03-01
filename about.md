@@ -14,7 +14,7 @@ Me recibí a fines de Octubre de 2018 de analista en computación en la [Faculta
 
 Conseguí mi primer empleo en Desarrollo de Software a comienzos de Marzo de 2019.
 
-Amante de la informática, el cine, la literatura, la política, la matemática y el ajedrez.
+Amante de la informática, el cine, la literatura, la política, la matemática, la filosofía y el ajedrez.
 
 Siempre dispuesto a escuchar o contar una buena historia.
 
