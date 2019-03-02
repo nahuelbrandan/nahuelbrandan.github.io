@@ -12,7 +12,7 @@ Hermano de: *Mamey*, *La Meli*, *Julito*, *La Cande*, *El Chancho* y *El Nero'*.
 
 Me recibí a fines de Octubre de 2018 de analista en computación en la [Facultad de Matemática, Astronomía, Física y Computación (FaMAF)](http://www.famaf.unc.edu.ar/) de la Universidad Nacional de Córdoba (UNC).
 
-Conseguí mi primer empleo en Desarrollo de Software a comienzos de Marzo de 2019.
+Conseguí mi primer empleo en Desarrollo de Software a comienzos de Marzo de 2019 en la empresa [Incluit](https://incluit.com/).
 
 Amante de la informática, el cine, la literatura, la política, la matemática, la filosofía y el ajedrez.
 

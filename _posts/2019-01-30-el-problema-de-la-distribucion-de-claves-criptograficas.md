@@ -10,7 +10,7 @@ image_mini: "/assets/images/posts/Argonath_mini.jpg"
 
 ![]({{page.image}})
 
-Ya hablamos en un artículo anterior sobre criptografía: [(https://www.nahuelbrandan.com/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html)](https://www.nahuelbrandan.com/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html).
+Ya hablamos sobre criptografía en [éste artículo anterior](https://www.nahuelbrandan.com/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html).
 
 Resulta que hay un problema que ha acosado a los criptógrafos a lo largo de la historia y es **el problema de la distribución de claves criptográficas.**
 
