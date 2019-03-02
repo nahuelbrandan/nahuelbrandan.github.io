@@ -117,7 +117,7 @@ Un video explicativo del proceso:
 
 ---
 
-Suena a algo simple, pero es un muy importante salto en materia cryptográfica.
+Suena a algo simple, pero es un muy importante salto en materia criptográfica.
 
 Éste algoritmo es de clave simétrica, es decir, se utiliza la misma clave para encriptar y desencriptar el mensaje.
 
