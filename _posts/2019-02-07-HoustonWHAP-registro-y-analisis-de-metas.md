@@ -16,13 +16,13 @@ Programa realizado en el ámbito académico, junto con otros 3 amigos y compañe
 
 ## Información.
 
-**¿Qué es un HoustonWHAP?**
+**¿Qué es HoustonWHAP?**
 
 Es una aplicación web, desarrollada en ***Python*** utilizando el framework ***Django***.
 
-La persona que desee utilizar éste producto deberá registrarse, y luego ingresar con su usuario y contraseña.
+La persona que desee utilizar éste producto deberá *registrarse*, y luego *ingresar* con su usuario y contraseña.
 
-Una vez en éste punto podrá crear listas de metas y submetas, a los cuales les podrá ir haciendo un seguimiento de como va su progreso. Podrá también observar estadísticas generales de su progreso.
+Una vez en éste punto podrá crear listas de metas y submetas, a los cuales les podrá ir haciendo un seguimiento, podrá también observar estadísticas generales de su progreso.
 
 **Algunas capturas de pantalla:**
 

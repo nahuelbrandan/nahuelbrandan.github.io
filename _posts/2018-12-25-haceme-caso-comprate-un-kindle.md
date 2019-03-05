@@ -52,7 +52,7 @@ Ahora te voy a explicar como descargar  por torrent un paquete genial con 30.000
     ![biblioteca link](http://i64.tinypic.com/2w2mwlu.png)
 
     Pesa 30GB, así que va a demorar, pero vale la pena.
-    Ésta descarga va a utilizar el programa anterior instalado.
+    Para descargarse utilizará el programa anterior instalado.
 
     Si dicha página esta caida pueden ingresar a alguna de las siguiente lista: [https://thepiratebay-proxylist.se/](https://thepiratebay-proxylist.se/) y continuar con la misma serie de pasos.
 3.  Una vez finalizada la descarga, ingresas al directorio, y al archivo *lista_genero.html* le das *click derecho*, abrir con el navegador que utilices.
@@ -84,7 +84,7 @@ No podemos pasarselos directamente utilizando un cable usb por que los libro ele
 
 **Comentarios:**
 
-*   Si bien también podes agregarle archivos en formato *.PDF*, éstos se van a reproducir como una imágen, perdiendo varias de las ventajas que tiene reproducir un archivo en formato *.MOBI*, como poder seleccionar texto, buscar en el diccionario de traducciones, etc.
+*   Si bien también podes agregarle archivos en formato *.PDF*, éstos se van a reproducir como una imágen, perdiendo varias de las ventajas que tiene reproducir un archivo en formato *.MOBI*, como poder seleccionar texto, buscar en el diccionario de traducciones, agrandar o disminuir el tamaño de letra, etc.
 
 *   **Algunos autores recomendados:**
     *   Hernan Casciari.

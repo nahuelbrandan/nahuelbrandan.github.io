@@ -22,7 +22,9 @@ Un grafo es un conjunto de vértices intercomunicados por aristas (como en la im
 
 **¿Que es un coloreo de grafo?**
 
-A cada vértice se le asigna un "color", con la condición que no hayan 2 o más vértices que esten conectados por alguna arista y que tengan el mismo color.
+A cada vértice se le asigna un "color", con la condición que no hayan 2 o más vértices que estén conectados por alguna arista y que tengan el mismo color.
+
+![ejemplo gráfico](https://docs.google.com/drawings/d/e/2PACX-1vRECQKsD5Ug1nJFwcabXvXEOJ1mRldy4bxWEOwZaI4_GjlQ4RgauR-k4n6dFnj1f7Z8tlfdBykFZWcY/pub?w=426&h=116)
 
 Un coloreo trivial para un grafo sería asignarle un color distinto a cada vértice.
 
@@ -34,13 +36,15 @@ Llamaremos **&chi;** a la mínima cantidad de colores necesarios para generar un
 
 ---
 
-Resulta que, salvo para casos particulares, no existe un algoritmo polinomial (rápido) para generar un coloreo propio de un Grafo. Por culpa de ésto vamos a utilizar una heurística, es decir, una función que aproxime el valor de **&chi;**. Dicha función va a ser utilizar múltiples veces **Greedy**, el cual depende del ordenamiento inicial de los vértices.
+Resulta que, salvo para casos particulares, no existe un algoritmo polinomial (rápido) para generar un coloreo propio de un Grafo, a causa de ésto vamos a utilizar una heurística, es decir, una función que aproxime el valor de **&chi;**. Dicha función va a ser utilizar múltiples veces **Greedy**, el cual depende del ordenamiento inicial de los vértices.
 
 ---
 
 ## Diseño.
 
-Éste programa fue pensado desde un pricipio para manejar grafos grandes, del orden de millones de vértices y aristas, y utilizar Greedy mil veces!. Por lo tanto para soportar éstas magnitudes se tuvo que pensar en eficiencia de manera constante. Si no se tiene mucho cuidado se podría desarrollar un programa que tarde días o meses en terminar.
+Éste programa fue pensado desde un pricipio para manejar **grafos grandes**, del orden de millones de vértices y decenas de millones de aristas, y utilizar Greedy mil veces!. Por lo tanto para soportar éstas magnitudes se tuvo que pensar en eficiencia de manera constante durante todo el proceso de desarrollo.
+
+Si no se tiene mucho cuidado se podría desarrollar un programa que tarde días o incluso meses en terminar!.
 
 ![Descripción gráfica](https://docs.google.com/drawings/d/e/2PACX-1vRtoy1g3svRkMHvuquHsUWwb5f3PU-p46w6sj01tso7xjRhvR3HLZtEwh8tph_Y7Fmx6klteQVu7dlJ/pub?w=944&h=563)
 

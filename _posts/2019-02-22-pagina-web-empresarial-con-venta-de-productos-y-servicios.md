@@ -26,6 +26,8 @@ Si bien está desarrollado para una empresa en particular, haciendo las modifica
 
 *   Un usuario normal podrá agregar a su *carrito de compras* los productos que desee y luego hacer la compra, habiéndose *registrado* e *ingresado* previamente.
 
+---
+
 ## Capturas de pantalla.
 
 ![]({{"/assets/images/company/1.jpg"}})
@@ -50,8 +52,8 @@ Si bien está desarrollado para una empresa en particular, haciendo las modifica
 
 ## Comentario.
 
-*   Gracias a éste proyecto aprendí bastante en desarrollo de front-end.
-*   Luego de éste proyecto y el de mi página web, iniciativas relativamente chicas,  comprendo la tremenda cantidad de cosas que se pueden y deben hacer para mantener un website:
+*   Gracias a este proyecto aprendí bastante en desarrollo de front-end.
+*   Luego de este proyecto y el de mi página web, iniciativas relativamente chicas,  comprendo la tremenda cantidad de cosas que se pueden y deben hacer para mantener un website:
     -   Hosting & Domain.
     -   SEO. (como posicionar mejor tu website en los buscadores.)
     -   Diseño.
@@ -61,6 +63,8 @@ Si bien está desarrollado para una empresa en particular, haciendo las modifica
     -   Análisis de los datos. (cantidad de visitantes, de donde son, como llegaron a tu página, comportamiento...)
     -   Social media.
     -   Seguridad.
+
+---
 
 ## Profundidad.
 

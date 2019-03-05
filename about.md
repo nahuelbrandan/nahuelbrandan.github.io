@@ -10,9 +10,9 @@ Hijo de: *La Nanzi - la peluquera* y de *Matala*.
 
 Hermano de: *Mamey*, *La Meli*, *Julito*, *La Cande*, *El Chancho* y *El Nero'*.
 
-Me recibí a fines de Octubre de 2018 de analista en computación en la [Facultad de Matemática, Astronomía, Física y Computación (FaMAF)](http://www.famaf.unc.edu.ar/) de la Universidad Nacional de Córdoba (UNC).
+Me recibí a fines de octubre de 2018 de analista en computación en la [Facultad de Matemática, Astronomía, Física y Computación (FaMAF)](http://www.famaf.unc.edu.ar/) de la Universidad Nacional de Córdoba (UNC).
 
-Conseguí mi primer empleo en Desarrollo de Software a comienzos de Marzo de 2019 en la empresa [Incluit](https://incluit.com/).
+Conseguí mi primer empleo en Desarrollo de Software a comienzos de marzo de 2019 en la empresa [Incluit](https://incluit.com/).
 
 Amante de la informática, el cine, la literatura, la política, la matemática, la filosofía y el ajedrez.
 

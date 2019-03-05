@@ -24,13 +24,15 @@ Primero definamos la importancia de contar con métodos de encriptación de mens
 
 En una guerra, si un bando logra obtener las comunicaciones tácticas y/o estratégicas del bando contrario, podría prepararse y hacer las modificaciones necesarias para que la situación salga a su favor, lo mismo sucede con las empresas y los estados.
 
-La información es poder!, tener la información justa en el momento apropiado te puede hacer ganar grandes batallas. O visto desde el otro lado, si tu información secreta sale a la luz te pueden poner en serios aprietos, si no vean Game of Thrones.
+La información es poder!, tener la información justa en el momento apropiado te puede hacer ganar grandes batallas. O visto desde el otro lado, si tu información secreta sale a la luz te pueden poner en serios aprietos, si no vean *Game of Thrones*.
 
 ![](https://www.azquotes.com/picture-quotes/quote-information-is-power-but-like-all-power-there-are-those-who-want-to-keep-it-for-themselves-aaron-swartz-102-27-05.jpg)
 
-**Nota:** La historia de Aaron Swartz, el autor de la cita, es muy importante, interesante y triste a la vez, recomiendo que vean éste documental sobre su vida y las causas honorables por las que luchaba (en lo personal la más importante: la libertad).
+**Nota:** La historia de Aaron Swartz, el autor de la cita, es muy interesante y triste a la vez, recomiendo que vean éste documental sobre su vida y las causas honorables por las que luchaba (en lo personal la más importante: la libertad).
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/mT8FJcIx3HI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 # Historia de encriptación
 
@@ -38,13 +40,13 @@ La información es poder!, tener la información justa en el momento apropiado t
 
 Supongamos que Ana quiere enviarle un mensaje importante a Bob y quiere que nadie más lo lea.
 
-Lo que hace es encriptar el mensaje mediante algún método, obteniendo así 2 elementos: El mensaje cifrado y la llave para desencriptarlo.
+Lo que hace es encriptar el mensaje mediante algún método, obteniendo así 2 elementos: El mensaje encriptado y la llave para desencriptarlo.
 
 ![](http://i68.tinypic.com/2ilixlk.jpg)
 
-En el ejemplo visto en el articulo anterior, el mensaje cifrado es el que vemos escrito apenas al comienzo (ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλ...), y la llave para descifrarlo sería una lista de símbolos con su traducción a la letra correspondiente (Ψ=' ', Δ='a', Σ='e'...).
+En el ejemplo visto en el articulo anterior, el mensaje encriptado es el que vemos escrito apenas al comienzo (ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλ...), y la llave para desencriptarlo sería una lista de símbolos con su traducción a la letra correspondiente (Ψ=' ', Δ='a', Σ='e'...).
 
-El mensaje puede enviarse por cualquier medio, incluso por uno no seguro, dado que por más que alguien intercepte el mensaje y lo copie, sin la llave para desencriptarlo no va a poder hacer nada (aunque ya vimos que ante ciertos métodos de encriptación, éstos se pueden romper por análisis de frecuencia hay otros mucho más robustos que no).
+El mensaje puede enviarse por cualquier medio, incluso por uno no seguro, dado que por más que alguien intercepte el mensaje y lo copie, sin la llave para desencriptarlo no va a poder hacer nada (aunque ya vimos que ante ciertos métodos de encriptación, éstos se pueden romper por análisis de frecuencia, hay otros mucho más robustos que no).
 
 Por otro lado, la llave tiene que ser enviada por un canal seguro si o si!.
 
@@ -54,7 +56,7 @@ Si alguien intercepta el mensaje y la llave va a ser muy fácil para él obtener
 
 Pero ¿y si viven alejados, en otros países o continentes? sería impráctico y costoso el juntarse sólo para definir una contraseña segura.
 
-Imagina que querés comprar algo por MercadoLibre y pagarlo con tarjeta de crédito, el banco tendría que enviarte una clave de cifrado escrita en una carta sellada, mediante un mensajero de extrema confianza al igual que MercadoLibre para poder ingresar a sus sistemas. Hacer ésto para millones de personas, y cientos de empresas tendría un problema logístico gigantesco.
+Imagina que querés comprar algo por MercadoLibre y pagarlo con tarjeta de crédito. El banco, para permitirte acceder a su sistema, primero tendría que enviarte mediante un mensajero de extrema confianza una clave de cifrado, escrita en una carta sellada. El mismo proceso lo deberá realizar MercadoLibre para para que puedas ingresar a su sistema. Hacer ésto para millones de personas, y cientos de empresas tendría un problema logístico gigantesco.
 
 De hecho se ha hecho así durante mucho tiempo, por ejemplo: Alemania en la 2GM tenía que transportar libros de códigos periódicamente a cada punto de comunicación, para utilizarlos en sus máquinas ENIGMAS.
 
@@ -95,10 +97,10 @@ El algoritmo es el siguiente:
 * Alicia recibe **&beta;** y calcula **&beta;<sup>A</sup> mod(P)** llamaremos al resultado **&gamma;**
   En nuestro ejemplo: 1<sup>3</sup> mod(11) = 1
 
-* Análogamente Bob recibe &alpha; y calcula **&alpha;<sup>B</sup> mod(P)** llamaremos al resultado **&gamma;2**
+* Análogamente Bob recibe &alpha; y calcula **&alpha;<sup>B</sup> mod(P)** llamaremos al resultado **&delta;**
   En nuestro ejemplo: 3<sup>5</sup> mod(11) = 243 mod(11) = 1
 
-Resulta que **&gamma;** es igual a **&gamma;2**, es decir Alicia y Bob han logrado definir una misma clave! (en nuestro ejemplo: 1)
+Resulta que **&gamma;** siempre es igual a **&delta;**, es decir Alicia y Bob han logrado definir una misma clave! (en nuestro ejemplo: 1)
 
 La explicación de ésto es que: **&alpha;<sup>B</sup> mod(P) = Y<sup>AB</sup> mod(P) = Y<sup>BA</sup> mod(P) = &beta;<sup>A</sup> mod(P)**
 

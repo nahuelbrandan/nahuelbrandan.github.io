@@ -31,7 +31,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
     A continuación un ejemplo real:
 
-    ![https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656]({{"/assets/images/elements_in_posts/meli.png"}})
+    [![https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656]({{"/assets/images/elements_in_posts/meli.png"}})](https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656)
 
 ---
 
@@ -39,7 +39,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   Create un perfil en **LinkedIn** y mantenerlo vivo. Ingresá todos los días y pensá como mejorarlo un poco más. Tené en cuenta que es posible que el primer contacto a tu empleo sea por éste medio.
 
-*   Además de aplicar a las propuestas laborales que crees apropiadas, también **enviar tu CV a agencias de RRHH**.
+*   Además de aplicar a las propuestas laborales que crees apropiadas, también enviar tu CV a agencias de RRHH.
 
 *   Una vez que te confirmen una entrevista laboral, **estudiar la empresa**. ¿Cuál es su objetivo?, reseñas de otras entidades, sus huellas digitales, sus fundadores, que tecnologías utilizan.
 
@@ -49,11 +49,11 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
     *¿Que podes aportar a nuestra empresa?*, *¿Decinos una fortaleza y una debilidad tuya?*, entre otras.
 
-    **El mejor candidato es el mejor informado**.
+    **El mejor candidato es el más informado**.
 
 *   **CV completo y correcto**. Al igual que tu cuenta el LinkedIn, tu CV es un ser vivo que hay que estarlo mejorando un poco constantemente.
 
-    Evita agregar elementos que no estén relacionados directamente con el puesto que estas aplicando, éstos se pueden comentar, si se da la oportunidad en la entrevista.
+    Evita agregar elementos que no estén relacionados directamente con el puesto que estas aplicando, éstos se pueden comentar en la entrevista, si se da la oportunidad.
 
     Colocar las categorías en orden de importancia, y dentro de éstas en orden cronológico inverso.
 
@@ -91,9 +91,9 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   **Cuenta una historia**. Un concepto que reforcé en la facultad. En una materia no podes ir y decirle al profesor: *profe, no entiendo nada, ¿Me explica?* o *profe, el ejercicio 7 no me sale.* No, así no.
 
-    Tenés que ir y contar la historia de qué hiciste, como fue tu proceso de pensamiento. *Profe, estoy intentando resolver el ejercicio 7. Dado que quiero encontrar X, y éste valor tiene tales propiedades me conviene utilizar el proceso L. ¿Voy bien?, perfecto. Ahora hago tal y tal cosa... y en éste punto tengo un error por que el valor no concuerda con éste otro. ¿Qué pasó? ¿En que paso del proceso me equivoqué?...*
+    Tenés que ir y contar la historia de qué hiciste, como fue tu proceso de pensamiento. *Profe, estoy intentando resolver el ejercicio 7. Dado que quiero encontrar X, y éste valor tiene tales propiedades me conviene utilizar el proceso L. ¿Voy bien?, perfecto. Ahora hago tal y tal cosa... y en éste punto tengo un error por que el valor no concuerda con éste otro. ¿Qué pasó? ¿En que le estoy errando?...*
 
-    Ir uniendo los puntos de manera orgánica.
+    **Ir uniendo los puntos de manera orgánica**.
 
     Supongamos que en la entrevista te consultan *¿Contame sobre éste Z proyecto que realizaste?*. Una respuesta sería: *_Un día me encontré en tal situación, eso me llevo a pensar que estaría bueno realizar tal proyecto. Una vez comenzado resulto mucho más gratificante de lo que esperaba por tal y tal motivo...*
 
@@ -101,7 +101,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
     En las primeras es preferible hablar más lento, con más detalles, más distendidos. En las últimas es preferible responder rápido y de manera precisa, con algunos detalles.
 
-*   **Hacer preguntas** al entrevistador demuestra cierta proactividad. Prepara de ante mano algunas como:
+*   **Hacer preguntas** al entrevistador, muestra cierta proactividad. Prepara de ante mano algunas como:
     -   *¿como funcionan los horarios en la oficina, se podría quedar después de tiempo?*
     -   *¿Los equipos de trabajo son por tecnología, o un empleado tendría la posibilidad de trabajar en distintas áreas?*
 
@@ -109,7 +109,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   **Honestidad**, ésta es siempre la mejor política,  no exageres tus conocimientos, por que ésto luego se va a notar y quedas mal.
 
-*   **Buena comunicación**. Recordemos que gran parte de la comunicación es no verbal, tener en cuenta todos los aspectos: Postura, mirada a los ojos, gesticular, etc.
+*   **Buena comunicación**. Recordemos que gran parte de la comunicación es no verbal, tener en cuenta todos los aspectos: postura, mirada a los ojos, gesticulación, etc.
 
     ![comunicación no verbal](http://zefirodelcielo.com/wp-content/uploads/2017/02/31-2.jpg)
 
@@ -125,7 +125,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 ---
 
-Espero te sirvan éstos consejos, haceme saber como te fue!. Ojalá que pronto consigas el laburo que deseas. 
+Espero te sirvan éstos consejos, haceme saber como te fue!. Ojalá que pronto consigas el laburo que deseas.
 
 Si crees que debería agregar o editar algún punto hacémelo saber, puedo mantener el artículo.
 

@@ -26,7 +26,7 @@ Comencemos...
 
 **TODOS LOS DÍAS** tenés que avanzar al menos un poco.
 
-Por ejemplo: Leer al menos un capítulo del libro, realizar unos ejercicios, realizar las consultas que te quedan pendiente, etc; por lo menos obtener y ordenar los materiales necesarios para próximamente comenzar.
+Por ejemplo: Leer al menos un capítulo del libro, realizar unos ejercicios, ver las consultas que te quedan pendiente, etc; por lo menos obtener y ordenar los materiales necesarios para próximamente comenzar.
 
 Creo que **constancia mata talento**, es decir, alguien que labura todos los días por un proyecto a la larga termina superando al que nació ya con grandes capacidades en el tema pero se deja estar.
 
@@ -147,9 +147,9 @@ También aplicable a la inversa:
 
 ![](https://www.guazones.com/wp-content/uploads/2015/12/FB_IMG_1449998252994.jpg)
 
-Todo atenta contra la creación y hoy en día más que nunca estamos rodeados de distracciones: Facebook, Whatsapp, Youtube, Instagram, Netflix, Series interminables, Memes, etc;
+Todo atenta contra la creación y hoy en día más que nunca estamos rodeados de distracciones: Facebook, Whatsapp, Youtube, Instagram, Netflix, series interminables, memes, etc;
 
-Disminuye el uso del celular, las redes sociales y en general de la [procrastinación](https://es.wikipedia.org/wiki/Procrastinaci%C3%B3n).
+Disminuye el uso del celular, las redes sociales y en general de [procrastinar](https://es.wikipedia.org/wiki/Procrastinaci%C3%B3n).
 
 ## Disfruta el tiempo con tu familia.
 
