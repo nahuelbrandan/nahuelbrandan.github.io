@@ -56,7 +56,7 @@ Si alguien intercepta el mensaje y la llave va a ser muy fácil para él obtener
 
 Pero ¿y si viven alejados, en otros países o continentes? sería impráctico y costoso el juntarse sólo para definir una contraseña segura.
 
-Imagina que querés comprar algo por MercadoLibre y pagarlo con tarjeta de crédito. El banco, para permitirte acceder a su sistema, primero tendría que enviarte mediante un mensajero de extrema confianza una clave de cifrado, escrita en una carta sellada. El mismo proceso lo deberá realizar MercadoLibre para para que puedas ingresar a su sistema. Hacer ésto para millones de personas, y cientos de empresas tendría un problema logístico gigantesco.
+Imagina que querés comprar algo por MercadoLibre y pagarlo con tarjeta de crédito. El banco, para permitirte acceder a su sistema, primero tendría que enviarte mediante un mensajero de extrema confianza una clave de cifrado, escrita en una carta sellada. El mismo proceso lo deberá realizar MercadoLibre para que puedas ingresar a su sistema. Hacer ésto para millones de personas, y cientos de empresas tendría un problema logístico gigantesco.
 
 De hecho se ha hecho así durante mucho tiempo, por ejemplo: Alemania en la 2GM tenía que transportar libros de códigos periódicamente a cada punto de comunicación, para utilizarlos en sus máquinas ENIGMAS.
 
