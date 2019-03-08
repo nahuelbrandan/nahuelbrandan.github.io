@@ -22,6 +22,8 @@ Gran jugador del [*chinchon*](https://es.wikipedia.org/wiki/Chinch%C3%B3n_(juego
 
 Miembro de la organización internacional [Mensa](https://es.wikipedia.org/wiki/Mensa_(organizaci%C3%B3n)).
 
+Obedezco las leyes de la termodinámica.
+
 Mis perfiles online son:
 
 *   [nahuelbrandan.com](https://www.nahuelbrandan.com)
