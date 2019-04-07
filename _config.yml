@@ -4,6 +4,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-gist
 
 
 # Site settings
