@@ -20,4 +20,11 @@ requiere tener instalado previamente *ruby*, *bundle* y *jekyll*, esto se realiz
 
     bundle install
 
+### Errores.
+
 * Por problemas con la instalación de Jekyll ver: [Jekyll installation problems.](https://jekyllrb.com/docs/troubleshooting/#installation-problems)
+* Al ejecutar, si figura un error del tipo: *FATAL: Listen error: unable to monitor directories for changes.* ejecutar el siguiente comando
+
+        echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+---

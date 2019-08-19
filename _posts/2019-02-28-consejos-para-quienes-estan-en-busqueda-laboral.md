@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Consejos para quienes están en búsqueda laboral."
+title: "Consejos para quienes estan en búsqueda laboral."
 comments: true
 date:   2019-02-28 12:00:00 -0300
 url: "https://www.nahuelbrandan.com/2019/02/28/consejos-para-quienes-estan-en-busqueda-laboral.html"
@@ -13,15 +13,15 @@ image_mini: "/assets/images/posts/strategy_mini.jpg"
 
 Desde el momento en que me recibí hasta conseguir mi primer trabajo pasaron **4 meses**, tiempo en el que estuve en búsqueda laboral activa (más del que esperaba).
 
-Buscar trabajo también es un trabajo y en éste artículo les quiero comentar las enseñanzas que fui obteniendo en éste tiempo, para que a ustedes este lapso se les reduzca.
+Buscar trabajo también es un trabajo y en este artículo les quiero comentar las enseñanzas que fui obteniendo en éste tiempo, para que a ustedes el lapso se les reduzca.
 
 ---
 
 ## Durante todo el proceso.
 
-*   **Paciencia**. No ponerse loco. Ya sé, es una situación desesperante el buscar y no encontrar, pero si cada día mejoras al menos un poco en algún punto de tu perfil, eventualmente éso se va a notar y no va a faltar empresa que lo valore. **Confianza en vos y en tus habilidades**, vos sabés todas las batallas que superaste.
+*   **Paciencia**. No ponerse loco. Ya sé, es una situación desesperante el buscar y no encontrar, pero si cada día mejoras al menos un poco en algún punto de tu perfil, eventualmente eso se va a notar y no va a faltar empresa que lo valore. **Confianza en vos y en tus habilidades**, vos sabés todas las batallas que superaste.
 
-*   **Proactividad**. Esta es la clave. A mi parecer es la característica principal que buscan las empresas. Superando incluso los estudios y/o experiencia que tengas, es la actitud que llevas.
+*   **Proactividad**. Esta es la clave. A mi parecer es la característica principal que buscan las empresas, superando incluso los estudios y/o experiencia que tengas, es la actitud que llevas.
 
     No quieren tener que llevar acarreando a alguien, tener que ir diciéndole todo el tiempo lo que debe hacer, sino que él se mueva por cuenta propia también, dentro de sus posibilidad.
 
@@ -37,7 +37,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 ## Antes de la entrevista laboral.
 
-*   Create un perfil en **LinkedIn** y mantenerlo vivo. Ingresá todos los días y pensá como mejorarlo un poco más. Tené en cuenta que es posible que el primer contacto a tu empleo sea por éste medio.
+*   Create un perfil en **LinkedIn** y mantenerlo vivo. Ingresá todos los días y pensá como mejorarlo un poco más. Tené en cuenta que es posible que el primer contacto a tu empleo sea por este medio.
 
 *   Además de aplicar a las propuestas laborales que crees apropiadas, también enviar tu CV a agencias de RRHH.
 
@@ -89,7 +89,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   **La primera regla al ingresar a un lugar es: sonrerir**. Mostrarte amable y dispuesto.
 
-*   **Cuenta una historia**. Un concepto que reforcé en la facultad. En una materia no podes ir y decirle al profesor: *profe, no entiendo nada, ¿Me explica?* o *profe, el ejercicio 7 no me sale.* No, así no.
+*   **Cuenta una historia**. Este es un concepto que reforcé en la facultad. En una materia no podes ir y decirle al profesor: *profe, no entiendo nada, ¿Me explica?* o *profe, el ejercicio 7 no me sale.* No, así no.
 
     Tenés que ir y contar la historia de qué hiciste, como fue tu proceso de pensamiento. *Profe, estoy intentando resolver el ejercicio 7. Dado que quiero encontrar X, y éste valor tiene tales propiedades me conviene utilizar el proceso L. ¿Voy bien?, perfecto. Ahora hago tal y tal cosa... y en éste punto tengo un error por que el valor no concuerda con éste otro. ¿Qué pasó? ¿En que le estoy errando?...*
 
@@ -97,7 +97,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
     Supongamos que en la entrevista te consultan *¿Contame sobre éste Z proyecto que realizaste?*. Una respuesta sería: *_Un día me encontré en tal situación, eso me llevo a pensar que estaría bueno realizar tal proyecto. Una vez comenzado resulto mucho más gratificante de lo que esperaba por tal y tal motivo...*
 
-*   **Adaptarte al contexto**. Hay entrevistas largas, que se cocinan a fuego lento, donde van analizando cada punto de tu perfil, pudiendo durar unos 40 minutos, y hay otras que van derecho al hueso y en 5 minutos ya estar listos.
+*   **Adaptarte al contexto**. Hay entrevistas largas, que se cocinan a fuego lento, donde van analizando cada punto de tu perfil, pudiendo durar unos 40 a 60 minutos, y hay otras que van derecho al hueso y en 5 minutos ya estar listos.
 
     En las primeras es preferible hablar más lento, con más detalles, más distendidos. En las últimas es preferible responder rápido y de manera precisa, con algunos detalles.
 
@@ -111,7 +111,7 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
 *   **Buena comunicación**. Recordemos que gran parte de la comunicación es no verbal, tener en cuenta todos los aspectos: postura, mirada a los ojos, gesticulación, etc.
 
-    ![comunicación no verbal](http://zefirodelcielo.com/wp-content/uploads/2017/02/31-2.jpg)
+    ![Comunicación no verbal]({{"/assets/images/lenguaje_corporal.png"}})
 
 ---
 
@@ -121,13 +121,13 @@ Buscar trabajo también es un trabajo y en éste artículo les quiero comentar l
 
     En mi caso, luego de una de mis primeras entrevistas, donde en la parte técnica no me fue muy bien, decidí concentrarme en mejorar éste punto.
 
-    Particularmente mi página web surgió en ésta etapa del proceso. Es algo muy bueno para mostrar, que las empresas valoran, y una buena historia que contar. Además que practicas redacción de texto y resulto ser una experiencia sumamente gratificante.
+    Particularmente mi página web surgió en esta etapa del proceso. Es algo muy bueno para mostrar, que las empresas valoran, y una buena historia que contar. Además que practicas redacción de texto y resulto ser una experiencia sumamente gratificante.
 
 ---
 
-Espero te sirvan éstos consejos, haceme saber como te fue!. Ojalá que pronto consigas el laburo que deseas.
+Espero te sirvan estos consejos, haceme saber como te fue!. Ojalá que pronto consigas el laburo que deseas.
 
-Si crees que debería agregar o editar algún punto hacémelo saber, puedo mantener el artículo.
+Si crees que debería agregar o editar algún punto hacemelo saber, puedo mantener el artículo.
 
 Saludos y fuerza.
 
