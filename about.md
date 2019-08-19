@@ -32,6 +32,9 @@ Mis perfiles online son:
 *   [leetcode.com/nahuelbrandan](https://leetcode.com/nahuelbrandan)
 *   [stackoverflow.com/users/6125910/nahuel-brandan](https://stackoverflow.com/users/6125910/nahuel-brandan)
 
+*   [facebook.com/nahuelbrandan123](https://www.facebook.com/nahuelbrandan123)
+*   [instagram.com/neobraf](https://www.instagram.com/neobraf/?hl=es-la)
+
 Podes contactarme por email a: <A HREF="mailto:
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
@@ -40,6 +43,8 @@ Podes contactarme por email a: <A HREF="mailto:
 Mi [Curriculum Vitae](https://drive.google.com/open?id=1kE0ERs75fvMunyY8D8W158QoDdpLIvzE).
 
 ## Galeria
+
+![Con algunos de los queridos compañeros del laburo en una fiesta. 08/2019]({{"/assets/images/compañeros_de_trabajo.jpeg"}})
 
 ![Exposición en el evento 'Hackathon Industria Cba 2018']({{"/assets/images/hackathon_2018.png"}})
 
