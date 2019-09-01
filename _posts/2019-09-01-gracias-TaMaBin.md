@@ -2,6 +2,9 @@
 layout: post
 title: "Gracias TaMaBin."
 comments: true
+date:   2019-09-01 15:00:00 -0300
+url: "https://www.nahuelbrandan.com/2019/09/01/gracias-TaMaBin.html"
+identifier: "/2019/09/01/gracias-TaMaBin.html"
 image: "/assets/images/posts/TaMaBin.jpg"
 image_mini: "/assets/images/posts/TaMaBin_mini.jpg"
 ---
