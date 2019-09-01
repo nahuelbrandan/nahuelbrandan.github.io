@@ -6,8 +6,10 @@
 
     bundle exec jekyll serve    
     bundle exec jekyll serve --livereload
+    bundle exec jekyll serve --drafts --livereload
 
-(La segunda forma no necesita hacer un refresh de la página ante cada cambio que hagamos)
+* La segunda forma no necesita hacer un refresh de la página ante cada cambio que hagamos
+* La tercera forma se le agrega la visualizacion de los drafts (publicaciones en proceso de construccion.)
 
 ### Prerequisitos.
 
@@ -28,3 +30,8 @@ requiere tener instalado previamente *ruby*, *bundle* y *jekyll*, esto se realiz
         echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
 ---
+
+### Notas
+
+* Por cada post se tienen 2 imagenes iguales en distinto tamaño. La original y una en miniatura. La imágen de miniatura tendra un ancho de 350 pixeles.
+
