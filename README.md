@@ -33,5 +33,6 @@ requiere tener instalado previamente *ruby*, *bundle* y *jekyll*, esto se realiz
 
 ### Notas
 
-* Por cada post se tienen 2 imagenes iguales en distinto tamaño. La original y una en miniatura. La imágen de miniatura tendra un ancho de 350 pixeles.
-
+* Por cada post se tienen 2 imagenes iguales en distinto tamaño. La original y una en miniatura.
+* La imágen original preferentemente tendra un tamaño de: 1300 px * 700 px.
+* La imágen de miniatura tendra un ancho de 350 px.
