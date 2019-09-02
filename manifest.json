@@ -1,8 +1,6 @@
 {
   "name": "Nahuel Brandan",
   "short_name": "N Brandan",
-  "theme_color": "#001119",
-  "background_color": "#062f43",
   "display": "standalone",
   "Scope": "/",
   "start_url": "/",
