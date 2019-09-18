@@ -49,7 +49,7 @@ Ahora te voy a explicar como descargar  por torrent un paquete genial con 30.000
 2.  En la pagina [https://thepiratebay3.org/](https://thepiratebay3.org/) buscamos
 **Biblioteca con 30.026 libros**, lo seleccionamos y luego seleccionamos: *get this torrent*.
 
-    ![biblioteca link)]({{"/assets/images/elements_in_posts/torrent.png"}})
+    ![biblioteca link]({{"/assets/images/elements_in_posts/torrent.png"}})
 
     Pesa 30GB, así que va a demorar, pero vale la pena.
     Para descargarse utilizará el programa anterior instalado.
@@ -95,6 +95,6 @@ No podemos pasarselos directamente utilizando un cable usb por que los libro ele
 
 ---
 
-Espero que te haya servido éste pequeño tutorial, saludos!.
+Espero que te haya servido este pequeño tutorial, saludos!.
 
 ---
