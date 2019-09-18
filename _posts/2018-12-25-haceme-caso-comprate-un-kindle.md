@@ -49,7 +49,7 @@ Ahora te voy a explicar como descargar  por torrent un paquete genial con 30.000
 2.  En la pagina [https://thepiratebay3.org/](https://thepiratebay3.org/) buscamos
 **Biblioteca con 30.026 libros**, lo seleccionamos y luego seleccionamos: *get this torrent*.
 
-    ![biblioteca link](http://i64.tinypic.com/2w2mwlu.png)
+    ![biblioteca link)]({{"/assets/images/elements_in_posts/torrent.png"}})
 
     Pesa 30GB, así que va a demorar, pero vale la pena.
     Para descargarse utilizará el programa anterior instalado.
@@ -57,7 +57,7 @@ Ahora te voy a explicar como descargar  por torrent un paquete genial con 30.000
     Si dicha página esta caida pueden ingresar a alguna de las siguiente lista: [https://thepiratebay-proxylist.se/](https://thepiratebay-proxylist.se/) y continuar con la misma serie de pasos.
 3.  Una vez finalizada la descarga, ingresas al directorio, y al archivo *lista_genero.html* le das *click derecho*, abrir con el navegador que utilices.
 
-    ![lista_genero](http://i63.tinypic.com/23h58h2.png)
+    ![lista de generos]({{"/assets/images/elements_in_posts/lista_generos.png"}})
 
     Acá ya podemos ver los autores y libros disponibles, esta muy bien organizado, revisalo un poco.
 
@@ -74,7 +74,7 @@ No podemos pasarselos directamente utilizando un cable usb por que los libro ele
 
     Luego seleccionamos los libros presionando la tecla *'CTRL'* y le damos a *convertir libros* y luego *aceptar*.
 
-    ![pasos en calibre](http://i64.tinypic.com/15hfpu9.png)
+    ![pasos en calibre]({{"/assets/images/elements_in_posts/calibre.png"}})
 
 3.  Conectamos el kindle mediante el cable USB a la computadora.
 4.  Una vez terminada la conversión hacemos *click derecho* a uno de los libros y seleccionamos *abrir carpeta contenedora*
@@ -87,11 +87,11 @@ No podemos pasarselos directamente utilizando un cable usb por que los libro ele
 *   Si bien también podes agregarle archivos en formato *.PDF*, éstos se van a reproducir como una imágen, perdiendo varias de las ventajas que tiene reproducir un archivo en formato *.MOBI*, como poder seleccionar texto, buscar en el diccionario de traducciones, agrandar o disminuir el tamaño de letra, etc.
 
 *   **Algunos autores recomendados:**
-    *   Hernan Casciari.
-    *   Eduardo Sacheri.
-    *   Felipe Pigna.
-    *   Agatha Christie.
-    *   Gabriel Rolón.
+    *   [Hernan Casciari.](https://es.wikipedia.org/wiki/Hern%C3%A1n_Casciari)
+    *   [Eduardo Sacheri.](https://es.wikipedia.org/wiki/Eduardo_Sacheri)
+    *   [Felipe Pigna.](https://es.wikipedia.org/wiki/Felipe_Pigna)
+    *   [Agatha Christie.](https://es.wikipedia.org/wiki/Agatha_Christie)
+    *   [Gabriel Rolón.](https://es.wikipedia.org/wiki/Gabriel_Rol%C3%B3n)
 
 ---
 
