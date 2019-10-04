@@ -63,7 +63,7 @@ print(letters)
 
 Obteniendo el resultado:
 
-![](http://i68.tinypic.com/15f5a1j.png)
+![signos y sus cantidades.]({{"/assets/images/elements_in_posts/decrypt_program1.png"}})
 
 *   Dándonos cierta confirmación de que vamos bien ya que se utilizan 23 signos distintos, un valor cercano a la cantidad de letras en el alfabeto.
 
@@ -80,29 +80,29 @@ Luego reemplazamos el signo Ψ por un espacio, Δ por una 'a' y Σ por una 'e'.
 Agregamos éstas líneas a nuestro programa:
 
 <pre><code class="language-python">
-texto = texto.replace('Ψ', ' ')
-texto = texto.replace('Δ', 'a')
-texto = texto.replace('Σ', 'e')
-print(texto)
+text = text.replace('Ψ', ' ')
+text = text.replace('Δ', 'a')
+text = text.replace('Σ', 'e')
+print(text)
 </code></pre>
 
 Obteniendo:
 
-![](http://i65.tinypic.com/2eyezyp.png)
+![]({{"/assets/images/elements_in_posts/decrypt_program2.png"}})
 
 Analizando éste resultado es muy posible que el signo 'Ξ' sea una 'l', por que en una palabra se repite 2 veces seguidas, y por que se usaría para las palabras 'las' 'los', 'el, 'la'.
 
-![](http://i63.tinypic.com/2iivlf8.png)
+![]({{"/assets/images/elements_in_posts/decrypt_program3.png"}})
 
 Hacemos el reemplazo..
 
 <pre><code class="language-python">
-texto = texto.replace('Ξ', 'l')
+text = text.replace('Ξ', 'l')
 </code></pre>
 
 Obteniendo:
 
-![](http://i67.tinypic.com/j76c28.png)
+![]({{"/assets/images/elements_in_posts/decrypt_program4.png"}})
 
 Continuando de la misma forma es muy posible que:
 
@@ -111,14 +111,14 @@ Continuando de la misma forma es muy posible que:
 *   λ sea una 's'
 
 <pre><code class="language-python">
-texto = texto.replace('Ω', 'y')
-texto = texto.replace('ϑ', 'o')
-texto = texto.replace('λ', 's')
+text = text.replace('Ω', 'y')
+text = text.replace('ϑ', 'o')
+text = text.replace('λ', 's')
 </code></pre>
 
 Obteniendo:
 
-![](http://i63.tinypic.com/2j1kcb6.png)
+![]({{"/assets/images/elements_in_posts/decrypt_program5.png"}})
 
 Ésto es un proceso iterativo, donde en cada iteración nos vamos acercando cada vez más al objetivo...
 
