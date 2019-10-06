@@ -42,7 +42,7 @@ Supongamos que Ana quiere enviarle un mensaje importante a Bob y quiere que nadi
 
 Lo que hace es encriptar el mensaje mediante algún método, obteniendo así 2 elementos: El mensaje encriptado y la llave para desencriptarlo.
 
-![](http://i68.tinypic.com/2ilixlk.jpg)
+![mensaje encriptado y llave.]({{"/assets/images/elements_in_posts/encriptacion.jpg"}})
 
 En el ejemplo visto en el articulo anterior, el mensaje encriptado es el que vemos escrito apenas al comienzo (ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλ...), y la llave para desencriptarlo sería una lista de símbolos con su traducción a la letra correspondiente (Ψ=' ', Δ='a', Σ='e'...).
 

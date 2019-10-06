@@ -22,7 +22,7 @@ Comencemos...
 
 ## Dedicale tiempo TODOS los dias.
 
-![Autor: https://www.facebook.com/72Kilos/](https://scontent.fcor7-1.fna.fbcdn.net/v/t1.0-9/49538218_1969931163062559_8063673992977842176_n.jpg?_nc_cat=111&_nc_ht=scontent.fcor7-1.fna&oh=66b54bfffb905847c9d1deb59585047e&oe=5CBE39B4)
+![Autor: https://www.facebook.com/72Kilos/]({{"/assets/images/elements_in_posts/constancia.png"}})
 
 **TODOS LOS DÍAS** tenés que avanzar al menos un poco.
 

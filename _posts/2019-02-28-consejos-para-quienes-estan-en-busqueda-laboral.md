@@ -65,7 +65,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
     Para darles un ejemplo concreto, este es mi CV.
 
-    ![https://drive.google.com/file/d/1lPDZ_0AHwed8uZBhaXjpy2J_kecGWb1v/view]({{"/assets/images/elements_in_posts/cv.jpg"}})
+    ![CV]({{"/assets/images/elements_in_posts/cv.png"}})
 
     Utilicé la aplicación web [Canva](https://www.canva.com/), la cual recomiendo, esta muy buena y su version gratuita es muy completa.
 
