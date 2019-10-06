@@ -40,9 +40,11 @@ Podes contactarme por email a: <A HREF="mailto:
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
 </A>
 
-Mi [Curriculum Vitae](https://drive.google.com/open?id=1kE0ERs75fvMunyY8D8W158QoDdpLIvzE).
+Mi [Curriculum Vitae](https://drive.google.com/file/d/11U2SH2KQJYYb2mItX_KxxbyNzEYavTF1).
 
 ## Galeria
+
+![Asistencia a la conferencia de cyber seguridad 'EkoParty', durante 3 días en CaBa junto con amigos-compañeros del trabajo. 09/2019]({{"/assets/images/eko.png"}})
 
 ![Con algunos de los queridos compañeros del laburo en una fiesta. 08/2019]({{"/assets/images/compañeros_de_trabajo.jpeg"}})
 
