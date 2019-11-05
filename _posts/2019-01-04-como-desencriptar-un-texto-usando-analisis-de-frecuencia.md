@@ -34,7 +34,7 @@ Así que pensé que sería algo interesante para hacer, me arremangue la camisa 
 
 En éste punto sabemos muy poco así que vamos a suponer lo siguiente y ver hacia donde nos lleva.
 
-*   Que el lenguaje original esta en español, dado que la oferta laboral estaba en éste idioma.
+*   Que el lenguaje original del mensaje es en español, dado que la oferta laboral estaba en este idioma.
 *   Suponemos que se utilizo una de las encriptaciones más simple e históricas, llamada [*cifrado clásico*](https://es.wikipedia.org/wiki/Cifrado_cl%C3%A1sico) más específicamente un subconjunto de éste llamado [*cifrado por sustitución*](https://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n).
 
     En un cifrado por sustitución, las letras (o grupos de letras) son sistemáticamente reemplazadas en el mensaje por otras letras (o grupos de letras).
@@ -65,19 +65,19 @@ Obteniendo el resultado:
 
 ![signos y sus cantidades.]({{"/assets/images/elements_in_posts/decrypt_program1.png"}})
 
-*   Dándonos cierta confirmación de que vamos bien ya que se utilizan 23 signos distintos, un valor cercano a la cantidad de letras en el alfabeto.
+*   Dandonos cierta confirmación de que vamos bien ya que se utilizan 23 signos distintos, un valor cercano a la cantidad de letras en el alfabeto.
 
 *   Además vemos que de mayor a menor en cantidad de usos de un signo es: 74 - 53 - 34 - 31 - 31...
 
 ---
 
-Según éste artículo ([frecuencia de aparición de letras](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras)) en el idioma español la letra 'a' es la más frecuente, seguida de cerca por la letra 'e', pero superandolas esta el 'espacio' casi duplicando a la letra más frecuente.
+Según el siguiente artículo ([frecuencia de aparición de letras](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras)) en el idioma español la letra 'a' es la más frecuente, seguida de cerca por la letra 'e', pero superandolas esta el 'espacio' casi duplicando a la letra más frecuente.
 
 Luego reemplazamos el signo Ψ por un espacio, Δ por una 'a' y Σ por una 'e'.
 
 **Nota:** Tener en cuenta por supuesto que esto no es una ciencia exacta, estamos haciendo uso de la probabilidad, "puede fallar" dijo Tusam, si éste fuera el caso se puede volver atrás e intercambiar la 'a' por la 'e' y continuar el proceso.
 
-Agregamos éstas líneas a nuestro programa:
+Agregamos las siguientes líneas de código a nuestro programa:
 
 <pre><code class="language-python">
 text = text.replace('Ψ', ' ')
