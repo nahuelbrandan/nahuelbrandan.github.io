@@ -45,7 +45,7 @@ En éste punto sabemos muy poco así que vamos a suponer lo siguiente y ver haci
 
 Para poder romper la encriptación vamos a utilizar el método de [*análisis de frecuencia*](https://es.wikipedia.org/wiki/An%C3%A1lisis_de_frecuencias).
 
-El análisis de frecuencias está basado en el hecho de que, dado un texto, ciertas letras o combinaciones de letras aparecen más a menudo que otras, existiendo distintas frecuencias para ellas. Por ejemplo, en español la letra A y E son muy comunes, mientras que la K y W son muy raras.
+El análisis de frecuencias está basado en el hecho que, dado un texto, ciertas letras o combinaciones de letras aparecen más a menudo que otras, existiendo distintas frecuencias para ellas. Por ejemplo, en español la letra A y E son muy comunes, mientras que la K y W son muy raras.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/98/Frecuencia_de_uso_de_letras_en_espa%C3%B1ol.PNG)
 
@@ -71,7 +71,7 @@ Obteniendo el resultado:
 
 ---
 
-Según éste artículo ([frecuencia de aparición de letras](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras)) en el idioma español la letra 'a' es la más frecuente, seguida de cerca por la letra 'e', pero superior a éstas es el 'espacio', éste último casi duplicando a la letra más frecuente.
+Según éste artículo ([frecuencia de aparición de letras](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras)) en el idioma español la letra 'a' es la más frecuente, seguida de cerca por la letra 'e', pero superandolas esta el 'espacio' casi duplicando a la letra más frecuente.
 
 Luego reemplazamos el signo Ψ por un espacio, Δ por una 'a' y Σ por una 'e'.
 
@@ -90,7 +90,7 @@ Obteniendo:
 
 ![]({{"/assets/images/elements_in_posts/decrypt_program2.png"}})
 
-Analizando éste resultado es muy posible que el signo 'Ξ' sea una 'l', por que en una palabra se repite 2 veces seguidas, y por que se usaría para las palabras 'las' 'los', 'el, 'la'.
+Analizando el resultado es muy posible que el signo 'Ξ' sea una 'l', por que en una palabra se repite 2 veces seguidas, y por que se usaría para las palabras 'las' 'los', 'el, 'la'.
 
 ![]({{"/assets/images/elements_in_posts/decrypt_program3.png"}})
 
@@ -120,6 +120,6 @@ Obteniendo:
 
 ![]({{"/assets/images/elements_in_posts/decrypt_program5.png"}})
 
-Ésto es un proceso iterativo, donde en cada iteración nos vamos acercando cada vez más al objetivo...
+Esto es un proceso iterativo, donde en cada iteración nos vamos acercando cada vez más al objetivo...
 
 A partir de acá ya es mucho más fácil deducir el resto, ¿Te animás a completarlo?. Buena suerte y nos vemos!.
