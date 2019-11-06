@@ -22,7 +22,7 @@ Recientemente encontré una oferta laboral en la que como proceso de preselecci�
 ΦΔλΨΩΨΞΔλΨαΔηβϗμΔλΨλΣΨαΔΦΨΠΔΛΨΞΔΨΘϗλΘΔΨλΣΦϖΔΨΞΔλΨΠΣΦΔλΨλϑ
 ΦΨϖΣΨΦϑλϑμΛϑλΨΞΔλΨαΔηβϗμΔλΨλϑΦΨΔζΣΦΔλ</p>
 
-Hace poco también leí el libro 'Los códigos secretos' de Simon Singh, donde cuenta y muestra toda la historia de la criptografía y sus usos, muy bueno y lo súper recomiendo.
+Hace poco también leí el libro 'Los códigos secretos' de Simon Singh, donde cuenta toda la historia de la criptografía y sus usos, muy bueno y lo súper recomiendo.
 
 ![Portada del libro](http://www.librosmaravillosos.com/loscodigossecretos/imagenes/portada.jpg)
 
