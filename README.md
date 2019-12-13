@@ -2,13 +2,15 @@
 
 Ésta es mi genial página web, la pueden visualizar en: [https://www.nahuelbrandan.com](https://www.nahuelbrandan.com)
 
-### Ejecución localmente.
+### Ejecución localmente, diferentes formas.
 
     bundle exec jekyll serve    
+
     bundle exec jekyll serve --livereload
+
     bundle exec jekyll serve --drafts --livereload
 
-* La segunda forma no necesita hacer un refresh de la página ante cada cambio que hagamos
+* La segunda forma no necesita hacer un refresh de la página ante cada cambio que hagamos.
 * La tercera forma se le agrega la visualizacion de los drafts (publicaciones en proceso de construccion.)
 
 ### Prerequisitos.
