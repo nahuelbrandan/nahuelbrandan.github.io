@@ -32,9 +32,6 @@ Mis perfiles online son:
 *   [leetcode.com/nahuelbrandan](https://leetcode.com/nahuelbrandan)
 *   [stackoverflow.com/users/6125910/nahuel-brandan](https://stackoverflow.com/users/6125910/nahuel-brandan)
 
-*   [facebook.com/nahuelbrandan123](https://www.facebook.com/nahuelbrandan123)
-*   [instagram.com/neobraf](https://www.instagram.com/neobraf/?hl=es-la)
-
 Podes contactarme por email a: <A HREF="mailto:
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
@@ -43,6 +40,8 @@ Podes contactarme por email a: <A HREF="mailto:
 Mi [Curriculum Vitae](https://drive.google.com/file/d/11U2SH2KQJYYb2mItX_KxxbyNzEYavTF1).
 
 ## Galeria
+
+![Foto de graduación]({{"/assets/images/graduation.JPG"}})
 
 ![Asistencia a la conferencia de cyber seguridad 'EkoParty', durante 3 días en CaBa junto con amigos-compañeros del trabajo. 09/2019]({{"/assets/images/eko.png"}})
 
