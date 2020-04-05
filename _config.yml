@@ -25,6 +25,8 @@ name: 'Nahuel Brandan'
 author: 'Nahuel Brandan'
 author_image: "/assets/images/me.jpg"
 
+site_thumbnail: "/assets/images/informatic.jpg"
+
 paginate: 5
 
 url: "https://www.nahuelbrandan.com" # the base hostname & protocol for your site
