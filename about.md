@@ -31,6 +31,8 @@ Mis perfiles online son:
 *   [github.com/nahuelbrandan](https://github.com/nahuelbrandan)
 *   [leetcode.com/nahuelbrandan](https://leetcode.com/nahuelbrandan)
 *   [stackoverflow.com/users/6125910/nahuel-brandan](https://stackoverflow.com/users/6125910/nahuel-brandan)
+*   [upwork.com/o/profiles/users/~015798ff54e15f7548](https://www.upwork.com/o/profiles/users/~015798ff54e15f7548/)
+*   [lichess.org/@/nbraf26](https://lichess.org/@/nbraf26)
 
 Podes contactarme por email a: <A HREF="mailto:
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
