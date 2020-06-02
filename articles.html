@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /articles/
 ---
 
 <div class="teaserimage">
@@ -23,11 +24,11 @@ layout: default
         &nbsp;&nbsp;·&nbsp;&nbsp;
       {% endif %}
     {% endfor %}
-    <a href={{ "/about/" | prepend: site.baseurl }}>Sobre mi</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{ "/archive/" | prepend: site.baseurl }}>Archivo</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{ "/portfolio/" | prepend: site.baseurl }}>Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{ "/articles/" | prepend: site.baseurl }}>Articulos</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{ "/" | prepend: site.baseurl }}>Home</a>
+    <a href={{"/about/" | prepend: site.baseurl}}>Sobre mi</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href={{"/archive/" | prepend: site.baseurl}}>Archivo</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href={{"/portfolio/" | prepend: site.baseurl}}>Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href={{"/articles/" | prepend: site.baseurl}}>Articulos</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href={{"/" | prepend: site.baseurl}}>Home</a>
   </div>
 </header>
 
@@ -38,7 +39,7 @@ layout: default
           <div class="col-md-4">
             <div class="thumbnail">
               <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-                <img src="/assets/images/blank.png" data-echo={{post.image}} alt={{post.image}}>
+                <img src="/assets/images/blank.png" data-echo={{post.image_mini}} alt={{post.image}}>
                 <h3>{{post.title}}</h3>
               </a>
               <div class="post-meta">
