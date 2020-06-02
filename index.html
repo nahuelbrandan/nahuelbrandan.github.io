@@ -23,29 +23,53 @@ layout: default
         &nbsp;&nbsp;·&nbsp;&nbsp;
       {% endif %}
     {% endfor %}
-    <a href={{ "/about/" | prepend: site.baseurl }}>Sobre mi</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{ "/archive/" | prepend: site.baseurl }}>Archivo</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{ "/portfolio/" | prepend: site.baseurl }}>Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{ "/" | prepend: site.baseurl }}>Articulos</a>
+    <a href={{"/about/" | prepend: site.baseurl}}>Sobre mi</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href={{"/archive/" | prepend: site.baseurl}}>Archivo</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href={{"/portfolio/" | prepend: site.baseurl}}>Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href={{"/articles/" | prepend: site.baseurl}}>Articulos</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href={{"/" | prepend: site.baseurl}}>Home</a>
   </div>
 </header>
 
 <div class="container">
   <div class="row">
-    {%for post in site.posts%}
-      {%if post.categories[0] != "Portfolio"%}
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-                <img src="/assets/images/blank.png" data-echo={{post.image_mini}} alt={{post.image}}>
-                <h3>{{post.title}}</h3>
-              </a>
-              <div class="post-meta">
-                <span class="post-date">{% include date_ge.html date = post.date %}</span>
-              </div>
-            </div>
-          </div>
-      {%endif%}
-    {%endfor%}
+
+    <div class="col-md-6 mb-3">
+      <div class="thumbnail">
+        <a href={{"/portfolio/" | prepend: site.baseurl}} itemprop="url">
+          <img src="/assets/images/home/option1.jpg" class="img-fluid z-depth-1" alt="Portfolio">
+          <p>Portfolio</p>
+        </a>
+        <div class="black_overlay"></div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="thumbnail">
+        <a href={{"/articles/" | prepend: site.baseurl}} itemprop="url">
+          <img src="/assets/images/home/option2.jpg" class="img-fluid z-depth-1" alt="Articulos">
+          <p>Articulos</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="thumbnail">
+        <a href={{"/about/" | prepend: site.baseurl}} itemprop="url">
+          <img src="/assets/images/home/option3.jpg" class="img-fluid z-depth-1" alt="Sobre Mi">
+          <p>Sobre Mi</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="thumbnail">
+        <a href="https://drive.google.com/file/d/15ueWIRPGW4iJvimmbiAk71Pf_LlzX_35/view" itemprop="url" target="_blank">
+          <img src="/assets/images/home/option4.jpg" class="img-fluid z-depth-1" alt="Curriculum Vitae">
+          <p>Curriculum Vitae</p>
+        </a>
+      </div>
+    </div>
+
   </div>
 </div>
