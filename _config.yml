@@ -10,7 +10,7 @@ plugins:
 # Site settings
 title: "Nahuel Brandán"
 description: > # this means to ignore newlines until "email:"
-    Portfolio y blog profesional, con historias geniales de informática y ciencias en gral.
+    Portfolio y personal website.
 
 email: nahuelbrandan123@gmail.com
 
