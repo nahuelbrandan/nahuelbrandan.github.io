@@ -11,9 +11,9 @@
     bundle exec jekyll serve --drafts --livereload
 
 * La segunda forma no necesita hacer un refresh de la página ante cada cambio que hagamos.
-* La tercera forma se le agrega la visualizacion de los drafts (publicaciones en proceso de construccion.)
+* La tercera forma se le agrega la visualización de los drafts (publicaciones en proceso de construcción.)
 
-### Prerequisitos.
+### Pre requisitos.
 
 requiere tener instalado previamente *ruby*, *bundle* y *jekyll*, esto se realiza con:
 
@@ -36,5 +36,5 @@ requiere tener instalado previamente *ruby*, *bundle* y *jekyll*, esto se realiz
 ### Notas
 
 * Por cada post se tienen 2 imagenes iguales en distinto tamaño. La original y una en miniatura.
-* La imágen original preferentemente tendra un tamaño de: 1300 px * 700 px.
-* La imágen de miniatura tendra un ancho de 350 px.
+* La imagen original preferentemente tendrá un tamaño de: 1300 px * 700 px.
+* La imagen de miniatura tendrá un ancho de 350 px.
