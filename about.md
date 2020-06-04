@@ -39,7 +39,7 @@ Podes contactarme por email a: <A HREF="mailto:
 &#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
 </A>
 
-Mi [Curriculum Vitae](https://drive.google.com/file/d/11zHzfbyAIDIgyLHFNJvZ_cQYKL1aw1m3/view?usp=sharing).
+Mi [Curriculum Vitae]({{ site.cv }}).
 
 ## Galería
 

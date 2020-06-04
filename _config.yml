@@ -32,6 +32,7 @@ paginate: 5
 url: "https://www.nahuelbrandan.com" # the base hostname & protocol for your site
 baseurl: ""
 
+cv: "https://drive.google.com/file/d/1knU6s4TrxiwC8Koc1oFZF4pxYRX4GmTV/view?usp=sharing"
 
 social:
 
