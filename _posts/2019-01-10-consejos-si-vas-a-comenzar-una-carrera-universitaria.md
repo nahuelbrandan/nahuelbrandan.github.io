@@ -145,7 +145,7 @@ También aplicable a la inversa:
 
 ## Reduce las distracciones.
 
-![](https://www.guazones.com/wp-content/uploads/2015/12/FB_IMG_1449998252994.jpg)
+![distracciones]({{"/assets/images/elements_in_posts/distractions.jpg"}})
 
 Todo atenta contra la creación y hoy en día más que nunca estamos rodeados de distracciones: Facebook, Whatsapp, Youtube, Instagram, Netflix, series interminables, memes, etc;
 

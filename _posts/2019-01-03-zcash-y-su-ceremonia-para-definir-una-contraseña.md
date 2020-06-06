@@ -70,12 +70,13 @@ En paralelo, otros integrantes de la organización en difentes locaciones geogr�
 
 Cada uno de los integrantes de manera colaborativa tiene que definir una parte de la clave, luego se juntan todas las partes y se encripta.
 
-
-[![Video oficial de explicación sobre la ceremonia](http://i64.tinypic.com/28u5nwg.png)](https://www.youtube.com/watch?v=D6dY-3x3teM&feature=youtu.be)
-
 Finalmente se destruye la maquinaria utilizada.
 
-![](https://z.cash/wp-content/uploads/2018/09/paramgen-ceremony.png)
+---
+
+Video oficial describiendo el proceso:
+
+<iframe width="1275" height="717" src="https://www.youtube.com/embed/D6dY-3x3teM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -85,6 +86,6 @@ Mucho Nerd, paranoia y genialidad concentrada.
 
 ---
 
-Para mas informacion:
+Para mas información:
 
 [https://z.cash/es/blog/the-design-of-the-ceremony/](https://z.cash/es/blog/the-design-of-the-ceremony/)
