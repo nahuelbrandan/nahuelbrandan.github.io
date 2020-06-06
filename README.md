@@ -24,6 +24,10 @@ requiere tener instalado previamente *ruby*, *bundle* y *jekyll*, esto se realiz
 
     bundle install
 
+### Actualización.
+
+    bundle update
+
 ### Errores.
 
 * Por problemas con la instalación de Jekyll ver: [Jekyll installation problems.](https://jekyllrb.com/docs/troubleshooting/#installation-problems)
