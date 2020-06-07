@@ -34,10 +34,7 @@ Mis perfiles online son:
 *   [upwork.com/o/profiles/users/~015798ff54e15f7548](https://www.upwork.com/o/profiles/users/~015798ff54e15f7548/)
 *   [lichess.org/@/nbraf26](https://lichess.org/@/nbraf26)
 
-Podes contactarme por email a: <A HREF="mailto:
-&#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
-&#110;&#097;&#104;&#117;&#101;&#108;&#098;&#114;&#097;&#110;&#100;&#097;&#110;&#049;&#050;&#051;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
-</A>
+Podes contactarme por email a: <A HREF="mailto: {{ site.email }}"> {{ site.email }} </A>
 
 Mi [Curriculum Vitae]({{ site.cv }}).
 
