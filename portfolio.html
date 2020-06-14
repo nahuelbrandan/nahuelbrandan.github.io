@@ -27,8 +27,10 @@ permalink: /portfolio/
     <a href={{"/about/" | prepend: site.baseurl}}>Sobre mi</a>&nbsp;&nbsp;·&nbsp;&nbsp;
     <a href={{"/archive/" | prepend: site.baseurl}}>Archivo</a>&nbsp;&nbsp;·&nbsp;&nbsp;
     <a href={{"/portfolio/" | prepend: site.baseurl}}>Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{"/articles/" | prepend: site.baseurl}}>Articulos</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{"/" | prepend: site.baseurl}}>Home</a>
+    <a href={{"/articles/" | prepend: site.baseurl}}>Artículos</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a class="icon-home" href='/' title="Home">
+      <i class="fa fa-home"></i>
+    </a>
   </div>
 </header>
 
@@ -40,7 +42,7 @@ permalink: /portfolio/
           <div class="col-md-4">
             <div class="thumbnail">
               <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-                <img src="/assets/images/blank.png" data-echo={{post.image_mini}} alt={{post.image}}>
+                <img src="/assets/images/blank.png" data-echo={{post.image}} alt={{post.image}}>
                 <h3>{{post.title}}</h3>
               </a>
               <div class="post-meta">

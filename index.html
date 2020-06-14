@@ -10,14 +10,14 @@ layout: default
 
 <header class="blog-header">
   {% if site.author_image %}
-    <a class="blog-logo" href="{{ "/" | absolute_url }}" style="background-image: url('{{ site.author_image | prepend: site.baseurl }}')">{{ site.title }}</a>
+    <a class="blog-logo" href="{{ '/' | absolute_url }}" style="background-image: url('{{ site.author_image | prepend: site.baseurl }}');">{{ site.title }}</a>
   {% endif %}
   <h1 class="blog-title">{{ site.title }}</h1>
   <!--<h2 class="blog-description">{{ site.description }}</h2>-->
   <div class="custom-links">
     {% for social in site.social %}
       {% if social.url %}
-        <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}" {% endif %}" target="_blank">
+        <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}" {% endif %} target="_blank">
           <i class="fa fa-{{ social.icon }}"></i>
         </a>
         &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -26,8 +26,10 @@ layout: default
     <a href={{"/about/" | prepend: site.baseurl}}>Sobre mi</a>&nbsp;&nbsp;·&nbsp;&nbsp;
     <a href={{"/archive/" | prepend: site.baseurl}}>Archivo</a>&nbsp;&nbsp;·&nbsp;&nbsp;
     <a href={{"/portfolio/" | prepend: site.baseurl}}>Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{"/articles/" | prepend: site.baseurl}}>Articulos</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href={{"/" | prepend: site.baseurl}}>Home</a>
+    <a href={{"/articles/" | prepend: site.baseurl}}>Artículos</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+    <a class="icon-home" href='/' title="Home">
+      <i class="fa fa-home"></i>
+    </a>
   </div>
 </header>
 
@@ -56,8 +58,8 @@ layout: default
     <div class="col-md-6 mb-3">
       <div class="thumbnail">
         <a href={{"/about/" | prepend: site.baseurl}} itemprop="url">
-          <img src="/assets/images/home/option3.jpg" class="img-fluid z-depth-1" alt="Sobre Mi">
-          <p>Sobre Mi</p>
+          <img src="/assets/images/home/option3.jpg" class="img-fluid z-depth-1" alt="Sobre mi">
+          <p>Sobre mi</p>
         </a>
       </div>
     </div>
