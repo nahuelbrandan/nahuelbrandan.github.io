@@ -1,8 +1,7 @@
 .sass-cache/
 _site/
+_sass/
 .idea/
 rafts/
-
-_drafts/
 
 main.css
