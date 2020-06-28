@@ -2,6 +2,7 @@
 plugins:
   - jemoji
   - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
   - jekyll-gist
