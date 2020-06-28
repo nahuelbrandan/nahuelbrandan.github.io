@@ -22,12 +22,12 @@
     },
     {
       "src": "assets/images/icons/icon-144x144.png",
-      "sizes": "144x144",
+      "sizes": "144x135",
       "type": "image/png"
     },
     {
       "src": "assets/images/icons/icon-152x152.png",
-      "sizes": "152x152",
+      "sizes": "152x143",
       "type": "image/png"
     },
     {

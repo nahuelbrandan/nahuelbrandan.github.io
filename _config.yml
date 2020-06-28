@@ -5,7 +5,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
   - jekyll-gist
-
+  - github-pages
+  - bourbon
+  - jemoji
+  - rouge
 
 # Site settings
 title: "Nahuel Brandán"
