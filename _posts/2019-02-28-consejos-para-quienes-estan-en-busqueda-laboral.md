@@ -63,9 +63,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
     **Debemos captar la atención** de a quien le toque analizar nuestra solicitud.
 
-    Para darles un ejemplo concreto, este es mi CV.
-
-    ![CV]({{"/assets/images/elements_in_posts/cv.png"}})
+    Para darles un ejemplo concreto, este es [mi CV]({{ site.cv }}).
 
     Utilicé la aplicación web [Canva](https://www.canva.com/), la cual recomiendo, esta muy buena y su version gratuita es muy completa.
 

@@ -3,5 +3,6 @@ _site/
 _sass/
 .idea/
 rafts/
+node_modules/
 
 main.css
