@@ -30,7 +30,7 @@ Por ejemplo: Leer al menos un capítulo del libro, realizar unos ejercicios, ver
 
 Creo que **constancia mata talento**, es decir, alguien que labura todos los días por un proyecto a la larga termina superando al que nació ya con grandes capacidades en el tema pero se deja estar.
 
-![](http://vignette2.wikia.nocookie.net/simpsons/images/7/77/King_of_the_Hill_89.JPG/revision/latest?cb=20130921182413)
+![Homero al ver la montaña que tendrá que escalar]({{"/assets/images/elements_in_posts/King_of_the_Hill.jpg"}})
 
 Muchas veces nos encontramos ante tamaña tarea. Relajate, respira y avanza de a poco, paso a paso, en un proceso iterativo y constante lograrás superarlo.
 
@@ -58,11 +58,11 @@ Diría que mínimo un mes antes. Es mejor 4hs/día durante uno o dos meses que 1
 
 Hay temas complejos que requieren tiempo para decantar los conocimientos. Anota las dudas y ve a una última clase de consulta.
 
-Hace uso de Internet para investigar el tema: Wikipedia, artículos, videos tutoriales en youtube, Julioprofe, etc.
+Hace uso de Internet para investigar el tema: Wikipedia, artículos, videos tutoriales en youtube, Julio profe, etc.
 
-## Relacionate, haz amigos.
+## Relaciónate, haz amigos.
 
-![](http://www.braindirector.com/wp-content/uploads/2015/07/techniques-to-make-friends.png)
+![]({{"/assets/images/elements_in_posts/techniques-to-make-friends.png"}})
 
 Entras en una retroalimentación muy buena de conocimientos, apoyo, energía e incluso distensión.
 
@@ -173,7 +173,7 @@ Como nos dijo un profesor: "...si no van a terminar con el currículum más flac
 
 ## Nunca pares de aprender!.
 
-Siempre hay algo interesante por aprender, no sólo específicamente de tu área de estudio. Podés leer un libro de Asimov, de Sacheri (lo re banco) o de finanzas!, tocar un instrumento, crear tu blog y practicar redacción de texto, aprender de diseño, de leyes?, de arte, de cine, fotografía!..
+Siempre hay algo interesante por aprender, no sólo específicamente de tu área de estudio. Podes leer un libro de Asimov, de Sacheri (lo re banco) o de finanzas!, tocar un instrumento, crear tu blog y practicar redacción de texto, aprender de diseño, de leyes?, de arte, de cine, fotografía!..
 
 Básicamente: **Mantente en movimiento.**
 
@@ -185,7 +185,7 @@ Consejo aportado por ([Francisco Nievas](https://www.linkedin.com/in/francisco-n
 
  Por más que no te salga algo a la primera **SIGUE INTENTANDO!**.
 
- Hay muchas materias que les dicen que son "filtros" de gente por su dificultad, pero a la larga de la carrera les encontrás sentido y te das cuenta que lo que te enseñan en por algo y tiene valor.
+ Hay muchas materias que les dicen que son "filtros" de gente por su dificultad, pero a la larga de la carrera les encontras sentido y te das cuenta que lo que te enseñan en por algo y tiene valor.
 
 ## Encuentra tu forma de estudio y manejo de estrés.
 
@@ -201,9 +201,7 @@ A algunas personas les sirve hacer resúmenes escritos, otros hacen cuadros, afi
 
 Algunos prefieren estudiar solos, otros en grupo...
 
-**Probá y fijate con cual te sentís mejor!**
-
-![](http://noticias.universia.es/net/images/gente/m/mu/mus/musica-para-estudiar.jpg)
+**Proba y fijate con cual te sentís mejor!**
 
 ---
 ---

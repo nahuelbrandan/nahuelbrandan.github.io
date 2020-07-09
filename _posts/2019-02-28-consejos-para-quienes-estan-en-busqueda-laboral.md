@@ -81,7 +81,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
 ## Durante la entrevista.
 
-![entrevista](http://www.pagina16.com.ar/wp-content/uploads/2018/06/20180209171748_31476921_0_body-760x433-c-center.jpg)
+![entrevista]({{"/assets/images/elements_in_posts/entrevista.jpg"}})
 
 *   **Sé puntual**. Es preferible llegar a la entrevista entre 20 y 5 minutos antes de la hora pactada.
 

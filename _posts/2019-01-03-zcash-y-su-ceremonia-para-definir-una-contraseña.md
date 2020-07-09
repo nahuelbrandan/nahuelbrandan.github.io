@@ -54,7 +54,7 @@ Dado que dicha clave, luego de utilizarla se destruye, podríamos presionar much
 
 Nos ponemos cada vez más **paranoicos**, desconfiamos de todo y de todos.
 
-![Bart paranoico](http://2.bp.blogspot.com/-4fzc0owniWI/ThpESClVFzI/AAAAAAAAAZE/k0gblDzu6MA/s1600/Bart%2BParanoid.JPG)
+![Bart paranoico]({{"/assets/images/elements_in_posts/bart_paranoico.jpg"}})
 
 ## La ceremonia.
 
