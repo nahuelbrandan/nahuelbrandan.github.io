@@ -30,7 +30,7 @@ name: 'Nahuel Brandan'
 author: 'Nahuel Brandan'
 author_image: "/assets/images/me.jpeg"
 
-site_thumbnail: "/assets/images/informatic.jpg"
+site_thumbnail: "/assets/images/me.jpeg"
 
 paginate: 5
 
