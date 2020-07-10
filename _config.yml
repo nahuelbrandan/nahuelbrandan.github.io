@@ -12,7 +12,8 @@ plugins:
   - rouge
 
 # Site settings
-title: "Nahuel Brandán - Portfolio & Blog."
+title: "Nahuel Brandán"
+
 description: > # this means to ignore newlines until "email:"
     Personal website, Con muestra de portfolio & artículos.
 
