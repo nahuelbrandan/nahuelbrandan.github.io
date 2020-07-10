@@ -13,7 +13,7 @@ plugins:
 
 # Site settings
 title: "Nahuel Brandán"
-
+meta_title: "Nahuel Brandán - Portfolio & Blog."
 description: > # this means to ignore newlines until "email:"
     Personal website, Con muestra de portfolio & artículos.
 
