@@ -29,6 +29,8 @@
   <meta property="og:image" content="{{ "/assets/images/site_thumbnail.jpg" | prepend: site.baseurl }}" >
   {% endif %}
   
+  <meta name="author" content="{{ site.author }}">
+  
   {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   {% endif %}
