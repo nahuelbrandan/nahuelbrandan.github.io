@@ -14,11 +14,11 @@ Me recibí a fines de octubre de 2018 de analista en computación en la [Faculta
 
 Conseguí mi primer empleo en Desarrollo de Software a comienzos de marzo de 2019 en la empresa [Incluit](https://incluit.com/).
 
-Amante de la informática, el cine, la literatura, la política, la matemática, la filosofía y el ajedrez.
+Amante de la informática, el cine, la literatura, la política, la matemática, la filosofía, el ajedrez entre otras áreas.
 
 Siempre dispuesto a escuchar o contar una buena historia.
 
-Gran jugador del [*chinchon*](https://es.wikipedia.org/wiki/Chinch%C3%B3n_(juego_de_naipes)) y las [*bolitas*](https://es.wikipedia.org/wiki/Canica).
+Gran jugador del [*chinchon*](https://es.wikipedia.org/wiki/Chinch%C3%B3n_(juego_de_naipes)), el [*truco*](https://es.wikipedia.org/wiki/Truco_(juego_de_naipes))  y las [*bolitas*](https://es.wikipedia.org/wiki/Canica).
 
 Miembro de la organización internacional [Mensa](https://es.wikipedia.org/wiki/Mensa_(organizaci%C3%B3n)).
 
@@ -29,8 +29,8 @@ Mis perfiles online son:
 *   [nahuelbrandan.com](https://www.nahuelbrandan.com)
 *   [linkedin.com/in/nahuelbrandan](https://www.linkedin.com/in/nahuelbrandan)
 *   [github.com/nahuelbrandan](https://github.com/nahuelbrandan)
-*   [leetcode.com/nahuelbrandan](https://leetcode.com/nahuelbrandan)
 *   [stackoverflow.com/users/6125910/nahuel-brandan](https://stackoverflow.com/users/6125910/nahuel-brandan)
+*   [leetcode.com/nahuelbrandan](https://leetcode.com/nahuelbrandan)
 *   [upwork.com/o/profiles/users/~015798ff54e15f7548](https://www.upwork.com/o/profiles/users/~015798ff54e15f7548/)
 *   [lichess.org/@/nbraf26](https://lichess.org/@/nbraf26)
 
@@ -40,7 +40,7 @@ Mi [Curriculum Vitae]({{ site.cv }}).
 
 ## Galería
 
-![Foto de graduación]({{"/assets/images/graduation.JPG"}})
+![Foto de graduación]({{"/assets/images/graduation.jpg"}})
 
 ![Asistencia a la conferencia de cyber seguridad 'EkoParty', durante 3 días en CaBa junto con amigos-compañeros del trabajo. 09/2019]({{"/assets/images/eko.png"}})
 
