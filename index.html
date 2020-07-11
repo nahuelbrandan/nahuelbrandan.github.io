@@ -48,48 +48,68 @@ layout: default
 
 <div class="container">
   <div class="site_description_container">
-    <p class="site_description">Soy Desarrollador de Software backend, especializado en Python.<br>
-      Esta es mi página web personal, como muestra de portafolio y publicación de artículos relacionados con el mundo de
-      la informática.</p>
+    <p class="site_description">Hola!, soy Desarrollador de Software backend, con intención de especializarme en Python.<br>
+      Me siento muy afortunado de poder trabajar de lo que me gusta y divierte.<br>
+      Entusiasta de los campos <i>Machine Learning</i> y <i>Data Science</i>.<br><br>
+      <i>Solucionador de problemas</i> es un término que se adapta mucho a mi.
+    </p>
   </div>
+  
   <div class="row">
+    
     <div class="col-md-6 mb-3">
-      <div class="thumbnail">
-        <a href={{"/portfolio/" | prepend: site.baseurl}} itemprop="url">
-          <img src="/assets/images/home/option1.jpg" class="img-fluid z-depth-1" alt="Portfolio" title="Portfolio">
-          <p>Portafolio</p>
-        </a>
-        <div class="black_overlay"></div>
+      <div class="hover14">
+        <figure>
+          <div class="thumbnail">
+            <a href={{"/portfolio/" | prepend: site.baseurl}} itemprop="url">
+              <img src="/assets/images/home/option1.jpg" class="img-fluid z-depth-1" alt="Portfolio" title="Portfolio">
+              <p>Portafolio</p>
+            </a>
+          </div>
+        </figure>
       </div>
     </div>
-
+    
     <div class="col-md-6 mb-3">
-      <div class="thumbnail">
-        <a href={{"/articles/" | prepend: site.baseurl}} itemprop="url">
-          <img src="/assets/images/home/option2.jpg" class="img-fluid z-depth-1" alt="Articulos" title="Articulos">
-          <p>Artículos</p>
-        </a>
+      <div class="hover14">
+        <figure>
+          <div class="thumbnail">
+            <a href={{"/articles/" | prepend: site.baseurl}} itemprop="url">
+              <img src="/assets/images/home/option2.jpg" class="img-fluid z-depth-1" alt="Articulos" title="Articulos">
+              <p>Artículos</p>
+            </a>
+          </div>
+        </figure>
       </div>
     </div>
-
+    
     <div class="col-md-6 mb-3">
-      <div class="thumbnail">
-        <a href={{"/about/" | prepend: site.baseurl}} itemprop="url">
-          <img src="/assets/images/home/option3.jpg" class="img-fluid z-depth-1" alt="Sobre mi" title="Sobre mi">
-          <p>Sobre mi</p>
-        </a>
+      <div class="hover14">
+        <figure>
+          <div class="thumbnail">
+            <a href={{"/about/" | prepend: site.baseurl}} itemprop="url">
+              <img src="/assets/images/home/option3.jpg" class="img-fluid z-depth-1" alt="Sobre mi" title="Sobre mi">
+              <p>Sobre mi</p>
+            </a>
+          </div>
+        </figure>
+      </div>
+    </div>
+    
+    <div class="col-md-6 mb-3">
+      <div class="hover14">
+        <figure>
+          <div class="thumbnail">
+            <a href="{{ site.cv }}" itemprop="url" target="_blank">
+              <img src="/assets/images/home/option4.jpg" class="img-fluid z-depth-1" alt="Curriculum Vitae"
+                   title="Curriculum Vitae">
+              <p>Curriculum Vitae</p>
+            </a>
+          </div>
+        </figure>
       </div>
     </div>
   
-    <div class="col-md-6 mb-3">
-      <div class="thumbnail">
-        <a href="{{ site.cv }}" itemprop="url" target="_blank">
-          <img src="/assets/images/home/option4.jpg" class="img-fluid z-depth-1" alt="Curriculum Vitae"
-               title="Curriculum Vitae">
-          <p>Curriculum Vitae</p>
-        </a>
-      </div>
-    </div>
   </div>
   
   <div class="site_quote">
@@ -104,4 +124,24 @@ layout: default
       </cite>
     </div>
   </div>
+  
+  <div class="site_contact_container">
+    <p class="site_contact">Te interesa mi perfil y tenes un proyecto desafiante para ofrecerme? Contactame!.</p>
+    <form class="form-style-9">
+      <ul>
+        <li>
+          <input type="text" name="field1" class="field-style field-split align-left" placeholder="Nombre"/>
+          <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email"/>
+        
+        </li>
+        <li>
+          <textarea name="field5" class="field-style" placeholder="Mensaje"></textarea>
+        </li>
+        <li>
+          <input type="submit" value="Enviar"/>
+        </li>
+      </ul>
+    </form>
+  </div>
+
 </div>

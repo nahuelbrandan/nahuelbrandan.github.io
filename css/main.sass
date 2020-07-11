@@ -219,7 +219,7 @@ body
 
 .site-footer
   margin: 0 auto
-  padding-top: 5em
+  padding-top: 3em
   padding-bottom: 2em
   width: 100%
   max-width: 640px
@@ -647,13 +647,24 @@ pre
     font-size: 2.5em
     padding-bottom: 0.5em
   .site_description_container
-    padding-bottom: 3em
+    padding-bottom: 4em
   .site_description
     font-family: Georgia, serif
-    font-size: 1.5em
-    padding-top: 1em
-    padding-bottom: 1em
-    border-style: groove
+    padding: 1em
+    text-align: left
+    margin: 0
+    border: 0.2em groove
+    background: none
+    color: #6a6a6a
+    line-height: 1.4 !important
+    position: relative
+    text-shadow: 0 1px white
+    z-index: -1
+    font-size: 2em
+  .site_contact_container
+    border: 0.1em groove
+  .site_contact
+    font-family: Georgia, serif
     text-align: center
     margin: 0
     background: none
@@ -662,12 +673,12 @@ pre
     position: relative
     text-shadow: 0 1px white
     z-index: -1
-
+    font-size: 2em
   .site_quote
     margin: 0 auto
-    padding-top: 3em
+    padding-top: 5em
     padding-left: 3em
-
+    padding-bottom: 5em
 .thumbnail
   position: relative
   text-align: center
@@ -695,7 +706,7 @@ pre
   background: none
   color: gray
   font-family: Georgia, serif
-  font-size: 1.5em
+  font-size: 2em
   font-style: italic
   line-height: 1.4 !important
   position: relative
@@ -734,3 +745,112 @@ pre
   letter-spacing: 1px
   text-transform: uppercase
   text-shadow: 0 1px white
+
+.form-style-9
+  max-width: 450px
+  background: #FAFAFA
+  padding: 1em
+  margin: 50px auto
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35)
+  border-radius: 10px
+  border: 6px solid #305A72
+
+.form-style-9 ul
+  padding: 0
+  margin: 0
+  list-style: none
+
+.form-style-9 ul li
+  display: block
+  margin-bottom: 10px
+  min-height: 35px
+
+.form-style-9 ul li  .field-style
+  box-sizing: border-box
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  padding: 8px
+  outline: none
+  border: 1px solid #B0CFE0
+  -webkit-transition: all 0.30s ease-in-out
+  -moz-transition: all 0.30s ease-in-out
+  -ms-transition: all 0.30s ease-in-out
+  -o-transition: all 0.30s ease-in-out
+
+.form-style-9 ul li  .field-style:focus
+  box-shadow: 0 0 5px #B0CFE0
+  border: 1px solid #B0CFE0
+
+.form-style-9 ul li .field-split
+  width: 49%
+
+.form-style-9 ul li .field-full
+  width: 100%
+
+.form-style-9 ul li input.align-left
+  float: left
+
+.form-style-9 ul li input.align-right
+  float: right
+
+.form-style-9 ul li textarea
+  width: 100%
+  height: 100px
+
+.form-style-9 ul li input[type="button"],
+.form-style-9 ul li input[type="submit"]
+  -moz-box-shadow: inset 0 1px 0 0 #3985B1
+  -webkit-box-shadow: inset 0 1px 0 0 #3985B1
+  box-shadow: inset 0 1px 0 0 #3985B1
+  background-color: #216288
+  border: 1px solid #17445E
+  display: inline-block
+  cursor: pointer
+  color: #FFFFFF
+  padding: 8px 18px
+  text-decoration: none
+  font: 12px Arial, Helvetica, sans-serif
+
+.form-style-9 ul li input[type="button"]:hover,
+.form-style-9 ul li input[type="submit"]:hover
+  background: #28739E linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%)
+
+figure
+  margin: 0
+  padding: 0
+  background: #fff
+  overflow: hidden
+
+figure:hover+span
+  bottom: -36px
+  opacity: 1
+
+/* Shine */
+.hover14 figure
+  position: relative
+
+.hover14 figure::before
+  position: absolute
+  top: 0
+  left: -75%
+  z-index: 2
+  display: block
+  content: ''
+  width: 50%
+  height: 100%
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%)
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%)
+  -webkit-transform: skewX(-25deg)
+  transform: skewX(-25deg)
+
+.hover14 figure:hover::before
+  -webkit-animation: shine .75s
+  animation: shine .75s
+
+@-webkit-keyframes shine
+  100%
+    left: 125%
+
+@keyframes shine
+  100%
+    left: 125%
