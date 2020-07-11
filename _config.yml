@@ -20,17 +20,15 @@ description: > # this means to ignore newlines until "email:"
 email: nahuelbrandan123@gmail.com
 
 # blog logo
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.webp"
 float_logo: true
 
 # blog cover
-cover: "/assets/images/cover.jpg"
+cover: "/assets/images/cover.webp"
 
 name: 'Nahuel Brandan'
 author: 'Nahuel Brandan'
-author_image: "/assets/images/me.jpeg"
-
-site_thumbnail: "/assets/images/me.jpeg"
+author_image: "/assets/images/me.webp"
 
 paginate: 5
 
