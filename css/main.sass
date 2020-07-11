@@ -56,7 +56,7 @@ body
     background-repeat: no-repeat
 
 .teaserimage
-  height: 130px
+  height: 200px
   position: relative
   overflow: hidden
   background-color: #000
@@ -81,12 +81,12 @@ body
   @include respond-to(800)
     padding: 0 $rs
   .blog-logo
-    width: $rs*11
-    height: $rs*11
+    width: $rs*14
+    height: $rs*14
     position: absolute
-    top: -$rs*5.5
+    top: -$rs*7.5
     right: 50%
-    margin-right: -$rs*5
+    margin-right: -$rs*6.5
     background-size: cover
     border-radius: 50%
     z-index: 99
@@ -98,7 +98,7 @@ body
     box-shadow: 0 1px 1px rgba(0,0,0,0.3)
   .blog-title
     margin: 0
-    padding: $rs*6 $rs $rs/2
+    padding: $rs*7.5 $rs $rs
     font-size: 50px
     text-align: center
     font-weight: 700
@@ -218,7 +218,8 @@ body
 
 .site-footer
   margin: 0 auto
-  padding: $rs*3 0
+  padding-top: 5em
+  padding-bottom: 2em
   width: 100%
   max-width: 640px
   font-size: $rs/4*3
@@ -579,6 +580,8 @@ body
       text-shadow: 0 1px 16px rgba(0,0,0,0.5), 0 0 1px rgba(0,0,0,0.5)
     .custom-links
       margin: 0 0 50px
+    .icon-cog
+      color: red
     .btn
       display: inline-block
       text-align: center
@@ -642,19 +645,34 @@ pre
     font-family: $font-serif
     font-size: 2.5em
     padding-bottom: 0.5em
+  .site_description_container
+    padding-bottom: 3em
   .site_description
-    font-family: $font-serif
+    font-family: Georgia, serif
     font-size: 1.5em
     padding-top: 1em
     padding-bottom: 1em
     border-style: groove
     text-align: center
+    margin: 0
+    background: none
+    color: #6a6a6a
+    line-height: 1.4 !important
+    position: relative
+    text-shadow: 0 1px white
+    z-index: -1
+
+  .site_quote
+    margin: 0 auto
+    padding-top: 3em
+    padding-left: 3em
 
 .thumbnail
   position: relative
   text-align: center
   color: black
   background-color: rgba(0, 0, 0, 0.6)
+
   p
     color: white
     position: absolute
@@ -663,3 +681,55 @@ pre
     transform: translate(-50%, -50%)
     font-size: 3.5em
     -webkit-text-stroke: 0.5px black
+
+.testimonial-quote
+  font-size: 16px
+  position: relative
+
+.testimonial-quote blockquote
+  /* Negate theme styles */
+  border: 0
+  margin: 0
+  padding: 0
+  background: none
+  color: gray
+  font-family: Georgia, serif
+  font-size: 1.5em
+  font-style: italic
+  line-height: 1.4 !important
+  position: relative
+  text-shadow: 0 1px white
+  z-index: 600
+
+.testimonial-quote blockquote *
+  box-sizing: border-box
+
+.testimonial-quote blockquote p
+  color: #75808a
+  line-height: 1.4 !important
+
+.testimonial-quote blockquote p:first-child:before
+  content: '\201C'
+  color: #81bedb
+  font-size: 7.5em
+  font-weight: 700
+  opacity: .3
+  position: absolute
+  top: -.4em
+  left: -.2em
+  text-shadow: none
+  z-index: -300
+
+.testimonial-quote cite
+  color: gray
+  display: block
+  font-size: .8em
+
+.testimonial-quote cite span
+  color: #5e5e5e
+  font-size: 1em
+  font-style: normal
+  font-weight: 700
+  letter-spacing: 1px
+  text-transform: uppercase
+  text-shadow: 0 1px white

@@ -18,38 +18,40 @@ layout: default
     {% for social in site.social %}
       {% if social.url %}
         <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}" {% endif %} target="_blank">
-          <i class="fa fa-{{ social.icon }}"></i>
+          <i class="fa fa-{{ social.icon }} fa-2x" style="color: #6a6a6a;"></i>
         </a>
         &nbsp;·&nbsp;
       {% endif %}
     {% endfor %}
     
     <a href={{"/about/" | prepend: site.baseurl}} title="Sobre mi">
-      <i class="fa fa-user"></i>
+      <i class="fa fa-user fa-2x" style="color: #6a6a6a;"></i>
     </a>&nbsp;·&nbsp;
 
-    <a href={{"/portfolio/" | prepend: site.baseurl}} title="Portfolio">
-      <i class="fa fa-briefcase"></i>
+    <a href={{"/portfolio/" | prepend: site.baseurl}} title="Portafolio">
+      <i class="fa fa-briefcase fa-2x" style="color: #6a6a6a;"></i>
     </a>&nbsp;·&nbsp;
     
     <a href={{"/articles/" | prepend: site.baseurl}} title="Artículos">
-      <i class="fa fa-newspaper-o"></i>
+      <i class="fa fa-newspaper-o fa-2x" style="color: #6a6a6a;"></i>
     </a>&nbsp;·&nbsp;
 
     <a href={{"/archive/" | prepend: site.baseurl}} title="Archivos">
-      <i class="fa fa-archive"></i>
+      <i class="fa fa-archive fa-2x" style="color: #6a6a6a;"></i>
     </a>&nbsp;·&nbsp;
 
     <a href={{"/" | prepend: site.baseurl}} title="Home">
-      <i class="fa fa-home"></i>
+      <i class="fa fa-home fa-2x" style="color: #6a6a6a;"></i>
     </a>
   </div>
 </header>
 
 <div class="container">
-  <p class="site_description">Soy Desarrollador de Software backend, especializado en Python.<br>
-    Esta es mi página web personal, como muestra de Portafolio y publicación de artículos relacionados con el mundo de
-    la informática.</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="site_description_container">
+    <p class="site_description">Soy Desarrollador de Software backend, especializado en Python.<br>
+      Esta es mi página web personal, como muestra de portafolio y publicación de artículos relacionados con el mundo de
+      la informática.</p>
+  </div>
   <div class="row">
     <div class="col-md-6 mb-3">
       <div class="thumbnail">
@@ -78,14 +80,28 @@ layout: default
         </a>
       </div>
     </div>
-    
+  
     <div class="col-md-6 mb-3">
       <div class="thumbnail">
         <a href="{{ site.cv }}" itemprop="url" target="_blank">
-          <img src="/assets/images/home/option4.jpg" class="img-fluid z-depth-1" alt="Curriculum Vitae" title="Curriculum Vitae">
+          <img src="/assets/images/home/option4.jpg" class="img-fluid z-depth-1" alt="Curriculum Vitae"
+               title="Curriculum Vitae">
           <p>Curriculum Vitae</p>
         </a>
       </div>
+    </div>
+  </div>
+  
+  <div class="site_quote">
+    <div class="testimonial-quote group">
+      <blockquote>
+        <p>Any fool can write code that a computer can understand. Good programmers write code that humans can
+          understand.”</p>
+      </blockquote>
+      <cite><span>Martin Fowler</span><br>
+        Software Engineer.<br>
+        British information technology author and speaker.
+      </cite>
     </div>
   </div>
 </div>
