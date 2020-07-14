@@ -1,63 +1,18 @@
 ---
 layout: default
 ---
-
-<div class="teaserimage">
-  <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }})" {% endif %}>
-    Teaser Image
-  </div>
-</div>
-
-<header class="blog-header">
-  {% if site.author_image %}
-    <a class="blog-logo" href="{{ '/' | absolute_url }}" style="background-image: url('{{ site.author_image | prepend: site.baseurl }}');">{{ site.title }}</a>
-  {% endif %}
-  <h1 class="blog-title">{{ site.title }}</h1>
-  <!--<h2 class="blog-description">{{ site.description }}</h2>-->
-  <div class="custom-links">
-    {% for social in site.social %}
-    {% if social.url %}
-    <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}" {% endif %}
-       target="_blank">
-      <i class="fa fa-{{ social.icon }} fa-2x" style="color: #6a6a6a;"></i>
-    </a>
-    &nbsp;·&nbsp;
-    {% endif %}
-    {% endfor %}
-    
-    <a href={{"/about/" | prepend: site.baseurl}} title="Sobre mi">
-      <i class="fa fa-user fa-2x" style="color: #6a6a6a;"></i>
-    </a>&nbsp;·&nbsp;
-
-    <a href={{"/portfolio/" | prepend: site.baseurl}} title="Portafolio">
-      <i class="fa fa-briefcase fa-2x" style="color: #6a6a6a;"></i>
-    </a>&nbsp;·&nbsp;
-    
-    <a href={{"/articles/" | prepend: site.baseurl}} title="Artículos">
-      <i class="fa fa-newspaper-o fa-2x" style="color: #6a6a6a;"></i>
-    </a>&nbsp;·&nbsp;
-
-    <a href={{"/archive/" | prepend: site.baseurl}} title="Archivos">
-      <i class="fa fa-archive fa-2x" style="color: #6a6a6a;"></i>
-    </a>&nbsp;·&nbsp;
-
-    <a href={{"/" | prepend: site.baseurl}} title="Home">
-      <i class="fa fa-home fa-2x" style="color: #6a6a6a;"></i>
-    </a>
-  </div>
-</header>
+{% include start_index.html %}
 
 <div class="container">
   <div class="site_description_container">
     <p class="site_description">Hola!, soy Desarrollador de Software backend, con intención de especializarme en Python.<br>
       Me siento muy afortunado de poder trabajar de lo que me gusta y divierte.<br>
       Entusiasta de los campos <i>Machine Learning</i> y <i>Data Science</i>.<br><br>
-      <i>Solucionador de problemas</i> es un término que se adapta mucho a mi.
+      <i>"Solucionador de problemas"</i> es un término que se adapta mucho a mi.
     </p>
   </div>
   
   <div class="row">
-    
     <div class="col-md-6 mb-3">
       <div class="hover14">
         <figure>

@@ -11,6 +11,8 @@ plugins:
   - jemoji
   - rouge
 
+include: ['_pages']
+
 # Site settings
 title: "Nahuel Brandán"
 meta_title: "Nahuel Brandán - Portfolio & Blog."

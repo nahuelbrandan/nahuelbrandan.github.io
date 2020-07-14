@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /articles/
+---
+
+{% include start_index.html %}
+
+<div class="container">
+  <p class="category_text">Artículos:</p>
+  <div class="row">
+    {%for post in site.posts%}
+      {%if post.categories[0] != "Portfolio"%}
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+                <img src="/assets/images/blank.png" data-echo={{post.image}} alt={{post.image}} title="{{post.title}}">
+                <h3>{{post.title}}</h3>
+              </a>
+            </div>
+          </div>
+      {%endif%}
+    {%endfor%}
+  </div>
+</div>
