@@ -20,8 +20,6 @@ Siempre dispuesto a escuchar o contar una buena historia.
 
 Gran jugador del [*chinchon*](https://es.wikipedia.org/wiki/Chinch%C3%B3n_(juego_de_naipes)), el [*truco*](https://es.wikipedia.org/wiki/Truco_(juego_de_naipes))  y las [*bolitas*](https://es.wikipedia.org/wiki/Canica).
 
-Miembro de la organización internacional [Mensa](https://es.wikipedia.org/wiki/Mensa_(organizaci%C3%B3n)).
-
 Obedezco las leyes de la termodinámica.
 
 Mis perfiles online son:
