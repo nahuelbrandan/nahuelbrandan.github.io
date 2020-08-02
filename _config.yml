@@ -34,33 +34,23 @@ author_image: "/assets/images/me.webp"
 
 paginate: 5
 
-url: "https://www.nahuelbrandan.com" # the base hostname & protocol for your site
+url: "https://www.nahuelbrandan.com"
 baseurl: ""
 
 cv: "https://drive.google.com/file/d/119s_l6mmdmdnJ6-qgtJW92hOrXcJ70QO/view?usp=sharing"
 
 social:
-
   - icon: linkedin-square
     url: https://www.linkedin.com/in/nahuelbrandan/
     desc: Linkedin
-    share_url:
-    share_title:
-    share_link:
 
   - icon: github
     url: https://github.com/nahuelbrandan
     desc: Github
-    share_url:
-    share_title:
-    share_link:
 
   - icon: stack-overflow
     url: https://stackoverflow.com/users/6125910/nahuel-brandan
     desc: Stackoverflow
-    share_url:
-    share_title:
-    share_link:
 
 excerpt_separator: <!-- more -->
 
