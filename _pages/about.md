@@ -34,7 +34,7 @@ Mi [Curriculum Vitae]({{ site.cv }}).
 
 ![Foto de graduación]({{"/assets/images/graduation.jpg"}})
 
-![Asistencia a la conferencia de cyber seguridad 'EkoParty', durante 3 días en CaBa junto con amigos-compañeros del trabajo. 09/2019]({{"/assets/images/eko.png"}})
+![Asistencia a la conferencia de cyber seguridad 'EkoParty', durante 3 días en CABA junto con amigos-compañeros del trabajo. 09/2019]({{"/assets/images/eko.png"}})
 
 ![Con algunos de los queridos compañeros del laburo en una fiesta. 08/2019]({{"/assets/images/compañeros_de_trabajo.jpeg"}})
 
