@@ -1,26 +1,36 @@
 ---
 layout: default
 permalink: /articles/
+title: Artículos - Nahuel Brandán
 ---
 
-{% include start_index.html %}
-
-<div class="container">
-  <p class="category_text">Artículos:</p>
-  <div class="row">
-    {%for post in site.posts%}
-      {%if post.categories[0] != "Portfolio"%}
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-                <img src="/assets/images/blank.png" data-echo={{post.image}} alt={{post.image}} title="{{post.title}}">
-                {%if post.hide_title != true%}
-                <h3>{{post.title}}</h3>
-                {%endif%}
-              </a>
+<main class="page projects-page">
+  <section class="portfolio-block projects-cards">
+    <div class="container">
+      <div class="heading">
+        <h2 class="text-capitalize" style="font-weight: 500;">Artículos</h2>
+      </div>
+      <div class="row">
+        
+        {%for post in site.posts%}
+        {%if post.categories[0] != "Portfolio"%}
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0">
+            <a href="{{ post.url | prepend: site.baseurl }}"><img class="card-img-top scale-on-hover"
+                                                                  src={{post.image}} alt={{post.image}}
+                                                                  title="{{post.title}}"></a>
+            
+            {%if post.hide_title != true%}
+            <div class="card-body">
+              <h6><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h6>
             </div>
+            {% endif%}
           </div>
-      {%endif%}
-    {%endfor%}
-  </div>
-</div>
+        </div>
+        {% endif%}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

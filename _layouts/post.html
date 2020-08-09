@@ -2,9 +2,9 @@
 ---
 <!DOCTYPE html>
 <html lang="es-AR">
-  {% include head.html %}
+  {% include head_post.html %}
   <body itemscope itemtype="http://schema.org/Article">
-    {% include header.html %}
+    {% include header_post.html %}
     <main class="content" role="main">
       <article class="post">
 
@@ -63,17 +63,9 @@
 
       </article>
     </main>
-    <div class="bottom-closer">
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
-        Image
-      </div>
-      <div class="inner">
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <a href={{"/" | prepend: site.baseurl }} class="btn">Volver al inicio</a>
-      </div>
-    </div>
+
     {% include lazyload.html %}
-    {% include javascripts.html %}
+    {% include javascripts_post.html %}
     <script src="/assets/js/prism.js"></script>
     <script id="dsq-count-scr" src="//www-nahuelbrandan-com.disqus.com/count.js" async></script>
   </body>

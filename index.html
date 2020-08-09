@@ -1,103 +1,163 @@
 ---
 layout: default
+permalink: /
 ---
-{% include start_index.html %}
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 mb-3">
-      <div class="hover14">
-        <figure>
-          <div class="thumbnail">
-            <a href={{"/portfolio/" | prepend: site.baseurl}} itemprop="url">
-              <img src="/assets/images/home/option1.jpg" class="img-fluid z-depth-1" alt="Portfolio" title="Portfolio">
-              <p>Portafolio</p>
-            </a>
+<main class="page lanidng-page">
+  <section class="portfolio-block block-intro" style="padding: 50px;">
+    <div class="container">
+      <div class="border rounded-circle border-primary shadow-sm avatar" data-bs-hover-animate="pulse"
+           style="background: url(assets/img/avatars/me.jpeg?h=2bed6b12b084c77600cebf46b332469a);background-size: cover;width: 15em;height: 15em;"></div>
+      <div class="about-me">
+        <p>Hola! Soy&nbsp;<strong>Nahuel Brandán</strong>. Desarrollador de Software backend, actualmente
+          especializándome en Python. <br>Soy muy afortunado de poder trabajar en un área tan apasionante.
+        </p><a class="btn btn-outline-primary" role="button"
+               href="/contact/">Contacto</a></div>
+    </div>
+  </section>
+  <section class="portfolio-block photography" style="padding: 0 0 1em;">
+    <h3 class="text-center" style="text-align: left;margin: 1em;">Algunos de mis proyectos:</h3>
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-md-6 col-lg-4 item zoom-on-hover" style="font-size: 5px;"><a
+           href="portfolio/2020/08/09/Nanzi-y-Cande-Centro-de-belleza.html" target="_blank"><img
+           class="img-thumbnail img-fluid shadow d-sm-inline image"
+           src="assets/img/nature/nanzi-y-cande.jpg?h=fec92d6ee532029c84dd4a553a944057"
+           style="font-size: 16px;"></a></div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
+           href="portfolio/2020/08/09/Incluit-Junar-desarrollo-de-software.html" target="_blank"><img
+           class="img-thumbnail img-fluid shadow image"
+           src="assets/img/nature/incluit-junar.jpg?h=c3bd04ca173e36493573dd896d0a4054"></a></div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
+           href="portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html" target="_blank"><img
+           class="img-thumbnail img-fluid shadow image"
+           src="assets/img/tech/HoustonWHAP.jpg?h=a5079c057b0b90a2f7ed304d77d1e5e7"></a></div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center content" style="margin: 2em;">
+        <h3 style="text-align: left;"></h3><a class="btn btn-outline-primary" role="button" href="/portfolio/">Ver
+        más</a></div>
+    </div>
+  </section>
+  <section class="portfolio-block photography" style="padding: 0 0 1em;box-shadow: 0px 0px;">
+    <h3 class="text-center" style="text-align: left;margin: 1em;">Algunos de mis artículos:</h3>
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
+           href="/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html" target="_blank"><img
+           class="img-thumbnail img-fluid image"
+           src="assets/img/nature/encriptar.jpg?h=40e388f11e4e8b48104cca6b67f07ee6"></a></div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
+           href="/2019/01/10/consejos-si-vas-a-comenzar-una-carrera-universitaria.html" target="_blank"><img
+           class="img-thumbnail img-fluid image"
+           src="assets/img/nature/consejos.jpg?h=a0ddf31536266ab7db3175e80da33719"></a></div>
+        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
+           href="/2019/02/28/consejos-para-quienes-estan-en-busqueda-laboral.html" target="_blank"><img
+           class="img-thumbnail img-fluid image"
+           src="assets/img/tech/strategy.jpg?h=335a3be032b193da79f7c71bbf8ab797"
+           style="box-shadow: 0px 0px;"></a></div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center content" style="margin: 2em;">
+        <h3 style="text-align: left;"></h3><a class="btn btn-outline-primary" role="button" href="/articles/">Ver
+        más</a></div>
+    </div>
+  </section>
+  <section data-aos="fade-up" class="portfolio-block website gradient" style="font-size: 1.5em;">
+    <blockquote class="blockquote" style="text-align: center;">
+      <p class="lead mb-0" style="text-shadow: 0px 0px;font-size: 2em;"><em>“Any fool can write code that a
+        computer can understand. </em><br><em>Good programmers write code that humans can understand.”</em></p>
+      <footer class="blockquote-footer" style="color: rgb(65,71,77);"><strong>MARTIN FOWLER</strong></footer>
+    </blockquote>
+  </section>
+  <section class="portfolio-block skills" style="padding: 2em;">
+    <div class="container">
+      <!-- Start: portfolio heading -->
+      <div class="heading">
+        <h2 class="text-capitalize">Sobre mi</h2>
+      </div>
+      <!-- End: portfolio heading -->
+      <p style="font-size: 24px;line-height: 36px;text-align: left;opacity: 0.96;font-family: Lato, sans-serif;font-weight: 300;">
+        Me recibí de analista en computación en la&nbsp;<a href="http://www.famaf.unc.edu.ar/"><span
+         style="text-decoration: underline;">Facultad de Matemática, Astronomía, Física y Computación (FaMAF)</span></a>&nbsp;de
+        la Universidad Nacional
+        de Córdoba (UNC) a fines de octubre de 2018.<br><br>Ingrese en la industria del software en la empresa&nbsp;<a
+         href="https://incluit.com/"><span style="text-decoration: underline;">IncluIT</span></a>&nbsp;a comienzos
+        de marzo de 2019.&nbsp;<br><br>Amante
+        de la informática, el cine, la literatura, la matemática, la filosofía, el ajedrez entre otras
+        áreas.<br><br>Obedezco las leyes de la termodinámica.<br><br></p>
+      <div class="row" data-aos="fade-right">
+        <div class="col-md-4">
+          <div class="card special-skill-item border-0">
+            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Desarrollo de software</h3>
+              <p class="card-text">Perfeccionándome en backend y Python en particular. Incrementando mis
+                conocimientos en Django, MySQL, Redis, Elastic Search, Celery, entre otros..</p>
+            </div>
           </div>
-        </figure>
+        </div>
+        <div class="col-md-4">
+          <div class="card special-skill-item border-0">
+            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Resolución de problemas</h3>
+              <p class="card-text">Luego de 4 años en la facultad, más otros 2 en la industria, el
+                denominador común en estas áreas y en la vida es: enfrentar, analizar y solucionar problemas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card special-skill-item border-0">
+            <div class="card-header bg-transparent border-0"><i class="icon ion-happy-outline"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Curioso</h3>
+              <p class="card-text">Me considero una persona muy curiosa, interesado en aprender de
+                múltiples áreas. Si bien me quiero especializar en backend, incursiono de a poco en el
+                front, el diseño, la arquitectura, negocios, etc.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <div class="col-md-6 mb-3">
-      <div class="hover14">
-        <figure>
-          <div class="thumbnail">
-            <a href={{"/articles/" | prepend: site.baseurl}} itemprop="url">
-              <img src="/assets/images/home/option2.jpg" class="img-fluid z-depth-1" alt="Articulos" title="Articulos">
-              <p>Artículos</p>
-            </a>
-          </div>
-        </figure>
+  </section>
+</main>
+<!-- Start: 2 Rows 1+3 Columns -->
+<div data-aos="fade-right" style="padding: 0 0 2em;">
+  <div class="container" style="padding: 0 0 1em;">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-center" style="text-align: left;margin: 1em;"><strong>Galería</strong></h3>
       </div>
     </div>
-    
-    <div class="col-md-6 mb-3">
-      <div class="hover14">
-        <figure>
-          <div class="thumbnail">
-            <a href={{"/about/" | prepend: site.baseurl}} itemprop="url">
-              <img src="/assets/images/home/option3.jpg" class="img-fluid z-depth-1" alt="Sobre mi" title="Sobre mi">
-              <p>Sobre mi</p>
-            </a>
-          </div>
-        </figure>
-      </div>
+    <div class="row">
+      <div class="col-md-4"><img class="img-fluid" data-toggle="tooltip" data-bs-tooltip=""
+                                 data-bs-hover-animate="pulse"
+                                 src="assets/img/Captura%20de%20pantalla%20de%202020-06-18%2017-09-14.png?h=db92b09f11d5ed1d27da3c7e529951c6"
+                                 title="Junto a Edu, alias Finito, alias Jiraman." alt="Junto a Edu, alias Finito, alias Jiraman."></div>
+      <div class="col-md-4"><img class="img-fluid" data-toggle="tooltip" data-bs-tooltip=""
+                                 data-bs-hover-animate="pulse"
+                                 src="assets/img/eko.png?h=31fffb32c479422fd9e8b18c103c0756"
+                                 title="conferencia de cyber seguridad 'EkoParty' en CABA. 09/2019" alt="conferencia de cyber seguridad 'EkoParty' en CABA. 09/2019"></div>
+      <div class="col-md-4"><img class="img-fluid" data-toggle="tooltip" data-bs-tooltip=""
+                                 data-bs-hover-animate="pulse"
+                                 src="assets/img/compañeros_de_trabajo.jpeg?h=2e59af5e32a220ae5e87b583d39d12ec"
+                                 title="Fiesta empresarial de IncluIT. 08/2019" alt="Fiesta empresarial de IncluIT. 08/2019"></div>
     </div>
-    
-    <div class="col-md-6 mb-3">
-      <div class="hover14">
-        <figure>
-          <div class="thumbnail">
-            <a href="{{ site.cv }}" itemprop="url" target="_blank">
-              <img src="/assets/images/home/option4.jpg" class="img-fluid z-depth-1" alt="Curriculum Vitae"
-                   title="Curriculum Vitae">
-              <p>Curriculum Vitae</p>
-            </a>
-          </div>
-        </figure>
-      </div>
+    <div class="row">
+      <div class="col-md-4"><img class="img-fluid" data-toggle="tooltip" data-bs-tooltip=""
+                                 data-bs-hover-animate="pulse"
+                                 src="assets/img/IMG-20200103-WA0034.jpg?h=f44853adaf19a58e9ebcf5ba16dd6469"
+                                 title="after office con grandes amigos del laburo" alt="after office con grandes amigos del laburo"></div>
+      <div class="col-md-4"><img class="img-fluid" data-toggle="tooltip" data-bs-tooltip=""
+                                 data-bs-hover-animate="pulse"
+                                 src="assets/img/236.jpg?h=a64f60b6da1694f526a9c253b617c1fd"
+                                 title="acto de colación junto a mi familia" alt="acto de colación junto a mi familia"></div>
+      <div class="col-md-4"><img class="img-fluid" data-toggle="tooltip" data-bs-tooltip=""
+                                 data-bs-hover-animate="pulse"
+                                 src="assets/img/237.jpg?h=e6d05934d44454a7a71eff17440bab3f"
+                                 title="acto de colación, junto a mi pareja" alt="acto de colación, junto a mi pareja"></div>
     </div>
   
   </div>
-  
-  <div class="site_quote">
-    <div class="testimonial-quote group">
-      <blockquote>
-        <p>Any fool can write code that a computer can understand. Good programmers write code that humans can
-          understand.”</p>
-      </blockquote>
-      <cite><span>Martin Fowler</span><br>
-        Software Engineer.<br>
-        British information technology author and speaker.
-      </cite>
-    </div>
-  </div>
-  
-  <div class="site_description_container">
-    <p class="site_description">Hola!, soy Desarrollador de Software backend, con intención de especializarme en Python.<br>
-      Me siento muy afortunado de poder trabajar de lo que me gusta y divierte.<br>
-      Entusiasta de los campos <i>Machine Learning</i> y <i>Data Science</i>.<br><br>
-      <i>"Solucionador de problemas"</i> es un término que se adapta mucho a mi.
-    </p>
-  </div>
-  
-  <div class="site_contact_container">
-    <p class="site_contact">Te interesa mi perfil y tenes un proyecto desafiante para ofrecerme? Contactame!.</p>
-    <form class="form-style-9">
-      <ul>
-        <li>
-          <input type="text" name="field1" class="field-style field-split align-left" placeholder="Nombre"/>
-          <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email"/>
-        
-        </li>
-        <li>
-          <textarea name="field5" class="field-style" placeholder="Mensaje"></textarea>
-        </li>
-        <li>
-          <input type="submit" value="Enviar"/>
-        </li>
-      </ul>
-    </form>
-  </div>
-
 </div>
+<div></div>

@@ -28,8 +28,8 @@ float_logo: true
 # blog cover
 cover: "/assets/images/cover.webp"
 
-name: 'Nahuel Brandan'
-author: 'Nahuel Brandan'
+name: 'Nahuel Brandán'
+author: 'Nahuel Brandán'
 author_image: "/assets/images/me.webp"
 
 paginate: 5

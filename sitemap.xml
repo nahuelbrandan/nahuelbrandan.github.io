@@ -1,52 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://www.nahuelbrandan.com/</loc>
-  <lastmod>2019-09-02T02:33:18+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.nahuelbrandan.com/about/</loc>
-  <lastmod>2019-09-02T02:33:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.nahuelbrandan.com/archive/</loc>
-  <lastmod>2019-09-02T02:33:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.nahuelbrandan.com/portfolio/</loc>
-  <lastmod>2019-09-02T02:33:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.nahuelbrandan.com/2019/09/01/gracias-TaMaBin.html</loc>
-  <lastmod>2019-09-02T02:33:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.nahuelbrandan.com/2019/02/28/consejos-para-quienes-estan-en-busqueda-laboral.html</loc>
-  <lastmod>2019-09-02T02:33:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.nahuelbrandan.com/2019/02/02/como-se-obtiene-un-doctorado-en-matematicas.html</loc>
-  <lastmod>2019-09-02T02:33:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.nahuelbrandan.com/2019/01/31/el-problema-de-la-distribucion-de-claves-criptograficas.html</loc>
-  <lastmod>2019-09-02T02:33:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://www.nahuelbrandan.com/</loc>
+    <lastmod>2019-09-02T02:33:18+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.nahuelbrandan.com/portfolio/</loc>
+    <lastmod>2019-09-02T02:33:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.nahuelbrandan.com/articles/</loc>
+    <lastmod>2019-09-02T02:33:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.nahuelbrandan.com/portfolio/2020/08/09/Nanzi-y-Cande-Centro-de-belleza.html</loc>
+    <lastmod>2019-09-02T02:33:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.nahuelbrandan.com/portfolio/2020/08/09/Incluit-Junar-desarrollo-de-software.html</loc>
+    <lastmod>2019-09-02T02:33:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.nahuelbrandan.com/2019/09/01/gracias-TaMaBin.html</loc>
+    <lastmod>2019-09-02T02:33:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.nahuelbrandan.com/2019/02/28/consejos-para-quienes-estan-en-busqueda-laboral.html</loc>
+    <lastmod>2019-09-02T02:33:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.nahuelbrandan.com/2019/02/02/como-se-obtiene-un-doctorado-en-matematicas.html</loc>
+    <lastmod>2019-09-02T02:33:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.nahuelbrandan.com/2019/01/31/el-problema-de-la-distribucion-de-claves-criptograficas.html</loc>
+    <lastmod>2019-09-02T02:33:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 <url>
   <loc>https://www.nahuelbrandan.com/2019/01/10/consejos-si-vas-a-comenzar-una-carrera-universitaria.html</loc>
   <lastmod>2019-09-02T02:33:18+00:00</lastmod>
