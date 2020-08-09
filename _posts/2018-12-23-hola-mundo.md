@@ -6,7 +6,7 @@ comments: true
 identifier: "/2018/12/23/hola-mundo.html"
 url: "/2018/12/23/hola-mundo.html"
 image: "/assets/images/posts/hello_world.jpg"
-image_mini: "/assets/images/posts/hello_world_mini.jpg"
+hide_title: true
 ---
 
 ![]({{page.image}})

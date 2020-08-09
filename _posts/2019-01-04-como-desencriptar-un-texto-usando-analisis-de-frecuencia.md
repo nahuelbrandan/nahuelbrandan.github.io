@@ -5,8 +5,7 @@ date:   2019-01-04 00:00:01 -0300
 comments: true
 url: "/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html"
 image: "/assets/images/posts/encriptar.jpg"
-image_mini: "/assets/images/posts/encriptar_mini.jpg"
-
+hide_title: true
 ---
 
 ![]({{page.image}})

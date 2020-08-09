@@ -7,7 +7,7 @@ categories: [Portfolio]
 tags: [Python, Django, CSS, HTML, Bootstrap]
 url: "/portfolio/2019/02/22/pagina-web-empresarial-con-venta-de-productos-y-servicios.html"
 image: "/assets/images/posts/company.jpg"
-image_mini: "/assets/images/posts/company_mini.jpg"
+hide: true
 ---
 
 ![]({{page.image}})<br>

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Algunos consejos si vas a comenzar una carrera universitaria."
+title: "Consejos si vas a comenzar una carrera universitaria."
 date:   2019-01-10 00:00:01 -0300
 comments: true
 url: "/2019/01/10/consejos-si-vas-a-comenzar-una-carrera-universitaria.html"
 image: "/assets/images/posts/consejos.jpg"
-image_mini: "/assets/images/posts/consejos_mini.jpg"
+hide_title: true
 ---
 
 ![]({{page.image}})

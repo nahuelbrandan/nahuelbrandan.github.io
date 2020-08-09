@@ -6,8 +6,7 @@ comments: false
 categories: [Portfolio]
 tags: [Python, Django, HTML, CSS]
 url: "/portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html"
-image: "/assets/images/posts/meta.png"
-image_mini: "/assets/images/posts/meta_mini.jpg"
+image: "/assets/images/posts/HoustonWHAP.jpg"
 ---
 
 ![]({{page.image}})

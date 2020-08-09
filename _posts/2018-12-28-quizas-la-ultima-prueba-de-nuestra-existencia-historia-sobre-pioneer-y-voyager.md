@@ -5,8 +5,7 @@ date:   2018-12-28 00:00:01 -0300
 comments: true
 url: "/2018/12/28/quizas-la-ultima-prueba-de-nuestra-existencia-historia-sobre-pioneer-y-voyager.html"
 image: "/assets/images/posts/universo.jpg"
-image_mini: "/assets/images/posts/universo_mini.jpg"
-
+hide_title: true
 ---
 
 ![]({{page.image}})

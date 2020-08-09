@@ -6,7 +6,7 @@ date:   2019-02-28 12:00:00 -0300
 url: "https://www.nahuelbrandan.com/2019/02/28/consejos-para-quienes-estan-en-busqueda-laboral.html"
 identifier: "/2019/03/07/consejos-si-estas-en-busqueda-laboral.html"
 image: "/assets/images/posts/strategy.jpg"
-image_mini: "/assets/images/posts/strategy_mini.jpg"
+hide_title: true
 ---
 
 ![]({{page.image}})<br>

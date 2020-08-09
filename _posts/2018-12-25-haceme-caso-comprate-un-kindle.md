@@ -4,9 +4,8 @@ title:  "Haceme caso, comprate un kindle."
 date:   2018-12-25 00:00:01 -0300
 comments: true
 url: "/2018/12/25/haceme-caso-comprate-un-kindle.html"
-image: "/assets/images/posts/book.jpg"
-image_mini: "/assets/images/posts/book_mini.jpg"
-
+image: "/assets/images/posts/kindle.jpg"
+hide_title: true
 ---
 
 ![]({{page.image}})

@@ -6,8 +6,7 @@ comments: false
 categories: [Portfolio]
 tags: [C]
 url: "/portfolio/2019/02/07/coloreo-propio-de-grafos.html"
-image: "/assets/images/posts/grafo.png"
-image_mini: "/assets/images/posts/grafo_mini.jpg"
+image: "/assets/images/posts/grafos.jpg"
 ---
 
 ![]({{page.image}})

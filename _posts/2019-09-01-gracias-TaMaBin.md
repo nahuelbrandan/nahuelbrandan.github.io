@@ -6,7 +6,6 @@ date:   2019-09-01 12:00:00 -0300
 url: "https://www.nahuelbrandan.com/2019/09/01/gracias-TaMaBin.html"
 identifier: "/2019/09/01/gracias-TaMaBin.html"
 image: "/assets/images/posts/TaMaBin.jpg"
-image_mini: "/assets/images/posts/TaMaBin_mini.jpg"
 ---
 
 ![]({{page.image}})<br>

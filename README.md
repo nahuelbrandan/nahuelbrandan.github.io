@@ -1,10 +1,8 @@
 ### Descripción.
 
-Ésta es mi genial página web, la pueden visualizar en: [https://www.nahuelbrandan.com](https://www.nahuelbrandan.com)
+Esta es mi página web, la pueden visualizar en: [nahuelbrandan.com](https://www.nahuelbrandan.com)
 
 ### Instalación.
-
-requiere tener instalado previamente *ruby*, *bundle* y *jekyll*, esto se realiza con:
 
     sudo apt install ruby ruby-dev libffi-dev build-essential zlib1g-dev
     sudo gem install bundle jekyll
@@ -33,4 +31,4 @@ requiere tener instalado previamente *ruby*, *bundle* y *jekyll*, esto se realiz
 * Por problemas con la instalación de Jekyll ver: [Jekyll installation problems.](https://jekyllrb.com/docs/troubleshooting/#installation-problems)
 * Al ejecutar, si figura un error del tipo: *FATAL: Listen error: unable to monitor directories for changes.* ejecutar el siguiente comando
 
-        echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+  `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`
