@@ -3,9 +3,6 @@
 
 @import 'bourbon/bourbon'
 
-.cf
-  @include clearfix
-
 $rs: 16px
 $font-serif: Linux Libertine
 $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
@@ -32,44 +29,8 @@ body
   width: 100%
   max-width: 800px
   margin: 0 auto
-  @include box-sizing(border-box)
   @include respond-to(800)
     padding: 0 $rs*2
-  article
-    padding: 40px 0
-    border-bottom: 1px solid #f2f2f0
-    &:last-child
-      border-bottom: 0
-    .post-title
-      letter-spacing: -0.02em
-      font-weight: 700
-      font-style: normal
-      display: block
-      font-size: 30px
-      line-height: 1
-      margin: 0 0
-      font-family: $font-serif
-      a
-        text-decoration: none
-        color: #000000
-        &:hover
-          text-decoration: none
-    .post-excerpt
-      letter-spacing: -0.02em
-      font-weight: 300
-      font-style: normal
-      font-size: 20px
-      line-height: 1.3
-      color: #666665
-    .post-meta
-      font-size: 14px
-      color: #b3b3b1
-      line-height: 30px
-      a
-        color: #b3b3b1
-        text-decoration: none
-        &:hover
-          text-decoration: underline
 
 .post-reading
   position: absolute

@@ -32,3 +32,7 @@ Esta es mi página web, la pueden visualizar en: [nahuelbrandan.com](https://www
 * Al ejecutar, si figura un error del tipo: *FATAL: Listen error: unable to monitor directories for changes.* ejecutar el siguiente comando
 
   `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`
+
+* Port is in use or requires root privileges
+
+  `fuser -n tcp -k 4000`
