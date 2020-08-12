@@ -2,42 +2,56 @@
 <html lang="es-AR">
   {% include head_post.html %}
   <body itemscope itemtype="http://schema.org/Article">
-    <main class="content" role="main">
-      <article class="post">
-        <div class="noarticleimage">
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <div class="cf post-meta-text">
-              <span class="post-date">{% include date_ge.html date = post.date %}</span>
-            </div>
-          </div>
-        </div>
-        <br>
+  {% include navbar.html %}
 
+  <main>
+    <div class="content_header">
+      <article class="post">
+        <div class="post-meta">
+          <img class="post-img" src={{ page.image }} alt={{ page.title }}>
+          <div class="cf post-meta-text">
+            <span class="post-date">{% include date_ge.html date = post.date %}</span>
+          </div>
+        
+          {% if page.show_title %}
+            <h1 class="text-center" style="text-align: left;margin: 1em;">{{page.title}}</h1>
+          {% endif %}
+        </div>
+      </article>
+    </div>
+  
+    <div class="content">
+      <article class="post">
+      
         <section class="post-content">
           {{content}}
         </section>
-
+      
         {% if page.comments %}
-          <div id="disqus_thread"></div>
-          <script>
+        <div id="disqus_thread"></div>
+        <script>
 
             var disqus_config = function () {
-            this.page.url = post.url;
-            this.page.identifier = post.identifier;
+                this.page.url = post.url;
+                this.page.identifier = post.identifier;
             };
 
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://www-nahuelbrandan-com.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://www-nahuelbrandan-com.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
             })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+          Disqus.</a></noscript>
         {% endif %}
+      
+        {% include footer.html %}
+    
       </article>
-    </main>
+    </div>
+  </main>
 
     {% include lazyload.html %}
     {% include javascripts_post.html %}

@@ -9,8 +9,6 @@ url: "/portfolio/2019/09/02/autenticar-aplicaciones-clientes-de-APIs-con-Auth0.h
 image: "/assets/images/posts/auth0.jpg"
 ---
 
-![]({{page.image}})
-
 En el ámbito laboral, te cuento uno de los mayores desafios que tuve que enfrentar.
 
 ## Introducción.

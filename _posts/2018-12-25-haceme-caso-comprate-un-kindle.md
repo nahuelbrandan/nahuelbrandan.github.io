@@ -8,8 +8,6 @@ image: "/assets/images/posts/kindle.jpg"
 hide_title: true
 ---
 
-![]({{page.image}})
-
 Si eres asiduo a la lectura te lo recomiendo fuertemente, y sino siempre es un buen momento para comenzar. En ésta publicación te voy a contar como tener toda tu biblioteca en el bolsillo, siempre lista y al alcance de tu mano.
 
 ---

@@ -9,8 +9,6 @@ url: "/portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html"
 image: "/assets/images/posts/HoustonWHAP.jpg"
 ---
 
-![]({{page.image}})
-
 Programa realizado en el ámbito académico, junto con otros 3 amigos y compañeros, para la materia: *Ingenieria de Software I*.
 
 ## Información.

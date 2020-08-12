@@ -10,8 +10,6 @@ image: "/assets/images/posts/traductor.jpg"
 hide: true
 ---
 
-![]({{page.image}})
-
 Programa realizado en el ámbito académico.
 
 Es un traductor de texto palabra por palabra. Consulta al usuario que hacer cuando una palabra es desconocida.

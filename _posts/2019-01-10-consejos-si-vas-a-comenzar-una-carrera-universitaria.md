@@ -8,8 +8,6 @@ image: "/assets/images/posts/consejos.jpg"
 hide_title: true
 ---
 
-![]({{page.image}})
-
 Hace un par de meses me recibí de Analista en Computación y en este articulo quiero darles algunos consejos y enseñanzas que aprendí (a veces a la fuerza) durante el transcurso de la carrera. Mientras más pronto los sepas mejor.
 
 Esto es como [*el arte de la guerra*](https://es.wikipedia.org/wiki/El_arte_de_la_guerra), varias de estas enseñanzas son aplicables en otros ámbitos, he incluso en la vida misma!.

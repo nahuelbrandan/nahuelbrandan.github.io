@@ -8,8 +8,6 @@ image: "/assets/images/posts/universo.jpg"
 hide_title: true
 ---
 
-![]({{page.image}})
-
 Sabemos de la existencia de los dinosaurios en el pasado por sus restos fósiles encontrados.
 
 Sabemos de la existe del viento por las consecuencia que provoca (mueve los árboles por ejemplo).

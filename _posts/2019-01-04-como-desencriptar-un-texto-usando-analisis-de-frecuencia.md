@@ -8,8 +8,6 @@ image: "/assets/images/posts/encriptar.jpg"
 hide_title: true
 ---
 
-![]({{page.image}})
-
 Recientemente encontré una oferta laboral en la que como proceso de preselección pedía desencriptar el siguiente texto y explicar el procedimiento realizado:
 
 <p style="background-color:#f5f5f0">

@@ -9,10 +9,6 @@ url: "/portfolio/2020/08/09/Nanzi-y-Cande-Centro-de-belleza.html"
 image: "/assets/images/posts/nanzi-y-cande.jpg"
 ---
 
-![]({{page.image}})
-
----
-
 Realizando las actividades: desarrollo, diseño, despliegue y mantenimiento de una página web empresarial.
 
 Se puede visualizar en [https://www.nanziycande.com/](https://www.nanziycande.com/).

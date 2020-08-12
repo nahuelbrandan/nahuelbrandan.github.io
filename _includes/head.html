@@ -1,13 +1,72 @@
 <!--suppress HtmlRequiredTitleElement, HtmlUnknownTarget -->
 <head>
-  {% include head_mixin.html %}
+  <!--suppress HtmlUnknownTarget -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   
-  <link rel="stylesheet" href="{{ '/assets/bootstrap/css/bootstrap.min.css?h=901fecf2137eadd431c922473ae63856' | prepend: site.baseurl  }}">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="manifest" href="{{ '/manifest.json'  | prepend: site.baseurl  }}">
+  <meta name="theme-color" content="#2198FD"/>
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.meta_title }}{% endif %}"/>
+  
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image }}">
+  {% else %}
+  <meta property="og:image" content="{{ '/assets/images/site_thumbnail.jpg' | prepend: site.baseurl }}">
+  {% endif %}
+  
+  {% if page.excerpt %}
+  <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}"/>
+  {% elsif site.description %}
+  <meta property="og:description" content="{{ site.description | strip_html | strip_newlines | truncate: 200 }}"/>
+  {% endif %}
+  
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+  <meta name="description"
+        content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}"/>
+  
+  <meta name="HandheldFriendly" content="True"/>
+  <meta name="MobileOptimized" content="320"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" sizes="120x113" href="{{'/assets/images/logo_120.jpg'}}"/>
+  <link rel="apple-touch-icon" sizes="152x143" href="{{'/assets/images/logo_152.jpg'}}"/>
+  <meta property="og:site_name" content="{{ site.title }}"/>
+  <meta name="author" content="{{ site.author }}">
+  
+  {% if page.date %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% endif %}
+  
+  <meta property="og:type" content="website">
+  <meta name="twitter:title" content="Nahuel Brandán - Portfolio &amp; Blog - Desarrollo de Software.">
+  <meta name="twitter:description"
+        content="Sitio web personal, con muestra de portfolio &amp; artículos relacionados con el desarrollo de software.">
+  <meta name="twitter:image" content="assets/img/site_thumbnail.jpg?h=f00085ac8a9ed0c8b95cde3fdb311d8f">
+  
+  <link rel="stylesheet"
+        href="{{ '/assets/bootstrap/css/bootstrap.min.css?h=901fecf2137eadd431c922473ae63856' | prepend: site.baseurl  }}">
+  <link rel="icon" type="image/png" sizes="16x16"
+        href="{{ '/assets/images/icons/favicon-16x16.png?h=dc374e3d364ccb0f3790e88e18a92872' | prepend: site.baseurl  }}">
+  <link rel="icon" type="image/png" sizes="32x32"
+        href="{{ '/assets/images/icons/favicon-32x32.png?h=d258670f5aa95ca580c8792a60db0a8f' | prepend: site.baseurl  }}">
+  <link rel="icon" type="image/png" sizes="180x180"
+        href="{{ '/assets/images/icons/apple-icon-180x180.png?h=968c9820e9000ca43bf49d3e38b80d29' | prepend: site.baseurl  }}">
+  <link rel="icon" type="image/png" sizes="192x192"
+        href="{{ '/assets/images/icons/android-icon-192x192.png?h=138be6a00aa06a28ffd37ba11376c0d7' | prepend: site.baseurl  }}">
+  <link rel="icon" type="image/png" sizes="500x500"
+        href="{{ '/assets/images/icons/NB.png?h=b61705915672891f15dcdba81dace542' | prepend: site.baseurl  }}">
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+  <link rel="shortcut icon" href="{{ '/assets/images/logo.png' | prepend: site.baseurl }}"/>
+  <script src="{{ '/assets/js/jquery-3.5.1.min.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
 </head>

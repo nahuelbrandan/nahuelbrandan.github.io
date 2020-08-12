@@ -8,8 +8,6 @@ image: "/assets/images/posts/paenza.jpg"
 hide_title: true
 ---
 
-![]({{page.image}})
-
 En una entrevista radial, [Adrián Paenza](https://es.wikipedia.org/wiki/Adri%C3%A1n_Paenza), Doctor en matemáticas y gran divulgador científico, premiado internacionalmente, contó como fue su proceso de obtención del grado: Doctor. Historia que me gustó y voy a contar.
 
 ---

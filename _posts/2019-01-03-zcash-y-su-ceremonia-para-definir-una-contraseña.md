@@ -8,8 +8,6 @@ image: "/assets/images/posts/ojo.jpg"
 hide_title: true
 ---
 
-![]({{page.image}})
-
 Por lo general, al vernos en la situación de tener que definir una contraseña (nos registramos en una nueva página por ejemplo), seleccionamos algún par de palabras (posiblemente inspirados en objetos a nuestro alrededor) seguido de algún número, ejemplo: *edificioperro123*
 
 Ahora si te dijera que definas una contraseña, que va a ser **tremendamente importante**, donde años de trabajo de miles de personas se perderían si se llegara a descubrir, ¿Qué harías?

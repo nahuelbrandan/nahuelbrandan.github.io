@@ -25,50 +25,57 @@ body
   -o-font-feature-settings: "liga", "dlig"
   font-feature-settings: "liga", "dlig"
 
+body
+  padding-top: 60px
+
+@media (max-width: 979px)
+  body
+    padding-top: 50px
+
 .content
   width: 100%
   max-width: 800px
-  margin: 0 auto
+  margin: 1.5em auto 0
   @include respond-to(800)
     padding: 0 $rs*2
 
+.content_header
+  width: 100%
+  max-width: 1200px
+  margin: 2em auto 0
+  @include respond-to(1200)
+    padding: 0 $rs*2
+
 .post
-  .noarticleimage
-    .post-meta
-      font-family: $font-serif
-      padding-top: 30px
-    .post-title
-      width: 100%
-      font-weight: 700
-      font-style: normal
-      letter-spacing: -0.04em
-      font-size: 50px
-      line-height: 1.1
-      color: #333332
-      margin-bottom: 16px
-    .author-image
-      display: inline-block
-      width: 30px
-      height: 30px
-      line-height: 30px
-      margin-right: 8px
-      margin-bottom: -10px
-      float: left
-      background-size: cover
-      border-radius: 100%
-      text-indent: -9999px
-    .author-name
-      display: inline
-    .post-meta-text
-      color: #b3b3b1
-      letter-spacing: -0.02em
-      font-weight: 400
-      font-style: normal
-      font-size: 14px
-      overflow: hidden
-      font-family: $font-sans
-      white-space: nowrap
-      text-overflow: ellipsis
+  .post-meta
+    font-family: $font-serif
+    padding-top: 15px
+  .post-title
+    width: 100%
+    font-weight: 700
+    font-style: normal
+    letter-spacing: -0.04em
+    font-size: 4em
+    text-align: center
+    line-height: 1.1
+    color: #333332
+    margin-bottom: 16px
+  .post-img
+    max-width: 100%
+    display: block
+    margin-left: auto
+    margin-right: auto
+  .post-meta-text
+    color: #b3b3b1
+    letter-spacing: -0.02em
+    font-weight: 400
+    font-style: normal
+    font-size: 14px
+    overflow: hidden
+    font-family: $font-sans
+    white-space: nowrap
+    margin-bottom: 0.3em
+    text-overflow: ellipsis
   .post-content
     width: 100%
     font-family: $font-serif

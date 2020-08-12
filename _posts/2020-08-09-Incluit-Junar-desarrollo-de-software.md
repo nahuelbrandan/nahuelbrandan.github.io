@@ -9,8 +9,6 @@ url: "/portfolio/2020/08/08/Incluit-Junar-Desarrollo-de-Software-Backend.html"
 image: "/assets/images/posts/incluit-junar.jpg"
 ---
 
-![]({{page.image}})
-
 Desde Marzo-2019 hasta la actualidad me encuentro trabajando en [IncluIT](https://incluit.com/) como _Desarrollador de 
 Software Backend_ para el proyecto [Junar](https://junar.com/).
 
