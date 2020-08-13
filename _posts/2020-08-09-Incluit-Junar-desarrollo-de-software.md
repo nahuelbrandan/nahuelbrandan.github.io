@@ -6,7 +6,7 @@ comments: false
 categories: [Portfolio]
 tags: [Python, Django, APIs, Auth0, Redis, Elastic Search, Celery]
 url: "/portfolio/2020/08/08/Incluit-Junar-Desarrollo-de-Software-Backend.html"
-image: "/assets/img/posts/incluit-junar.jpg"
+image: "/assets/img/posts/incluit-junar.webp"
 ---
 
 Desde Marzo-2019 hasta la actualidad me encuentro trabajando en [IncluIT](https://incluit.com/) como _Desarrollador de 

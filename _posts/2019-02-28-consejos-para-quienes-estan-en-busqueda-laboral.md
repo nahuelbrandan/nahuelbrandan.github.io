@@ -5,7 +5,7 @@ comments: true
 date:   2019-02-28 12:00:00 -0300
 url: "https://www.nahuelbrandan.com/2019/02/28/consejos-para-quienes-estan-en-busqueda-laboral.html"
 identifier: "/2019/03/07/consejos-si-estas-en-busqueda-laboral.html"
-image: "/assets/img/posts/strategy.jpg"
+image: "/assets/img/posts/strategy.webp"
 hide_title: true
 ---
 
@@ -107,7 +107,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
 *   **Buena comunicación**. Recordemos que gran parte de la comunicación es no verbal, tener en cuenta todos los aspectos: postura, mirada a los ojos, gesticulación, etc.
 
-    ![Comunicación no verbal]({{"/assets/img/lenguaje_corporal.png"}})
+    ![Comunicación no verbal]({{"/assets/img/elements_in_posts/lenguaje_corporal.png"}})
 
 ---
 
