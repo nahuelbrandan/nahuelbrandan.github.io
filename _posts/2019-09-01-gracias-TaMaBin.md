@@ -5,7 +5,7 @@ comments: true
 date:   2019-09-01 12:00:00 -0300
 url: "https://www.nahuelbrandan.com/2019/09/01/gracias-TaMaBin.html"
 identifier: "/2019/09/01/gracias-TaMaBin.html"
-image: "/assets/images/posts/TaMaBin.jpg"
+image: "/assets/img/posts/TaMaBin.webp"
 show_title: true
 ---
 
@@ -27,9 +27,9 @@ Resulta que hay una usuaria que ha creado más de **15000** subtítulos! y de un
 
 15000 traducciones son muchisimas!, si calculamos 1 hora para realizar cada uno (una especulación muy baja), son un total de 15000 hs, lo cual son casi 2 años enteros de laburo!.
 
-![Perfil de TaMaBin. (https://www.subdivx.com/X9X1616837)]({{"/assets/images/elements_in_posts/tama1.png"}})
+![Perfil de TaMaBin. (https://www.subdivx.com/X9X1616837)]({{"/assets/img/elements_in_posts/tama1.png"}})
 
-![Comentarios en su perfil, con mucho cariño y agradecimientos.]({{"/assets/images/elements_in_posts/tama2.png"}})
+![Comentarios en su perfil, con mucho cariño y agradecimientos.]({{"/assets/img/elements_in_posts/tama2.png"}})
 
 ---
 

@@ -5,7 +5,7 @@ date:   2018-12-23 00:00:01 -0300
 comments: true
 identifier: "/2018/12/23/hola-mundo.html"
 url: "/2018/12/23/hola-mundo.html"
-image: "/assets/images/posts/hello_world.jpg"
+image: "/assets/img/posts/hello_world.webp"
 hide_title: true
 ---
 

@@ -4,7 +4,7 @@ title: "Zcash y su tremenda ceremonia para definir 'simplemente' una contraseña
 date:   2019-01-03 00:00:01 -0300
 comments: true
 url: "/2019/01/03/zcash-y-su-ceremonia-para-definir-una-contraseña.html"
-image: "/assets/images/posts/ojo.jpg"
+image: "/assets/img/posts/ojo.webp"
 hide_title: true
 ---
 
@@ -50,7 +50,7 @@ Dado que dicha clave, luego de utilizarla se destruye, podríamos presionar much
 
 Nos ponemos cada vez más **paranoicos**, desconfiamos de todo y de todos.
 
-![Bart paranoico]({{"/assets/images/elements_in_posts/bart_paranoico.jpg"}})
+![Bart paranoico]({{"/assets/img/elements_in_posts/bart_paranoico.jpg"}})
 
 ## La ceremonia.
 

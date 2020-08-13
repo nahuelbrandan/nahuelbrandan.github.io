@@ -6,7 +6,7 @@ comments: false
 categories: [Portfolio]
 tags: [Python, Django, APIs, Auth0, Redis, Elastic Search, Celery]
 url: "/portfolio/2020/08/08/Incluit-Junar-Desarrollo-de-Software-Backend.html"
-image: "/assets/images/posts/incluit-junar.jpg"
+image: "/assets/img/posts/incluit-junar.webp"
 ---
 
 Desde Marzo-2019 hasta la actualidad me encuentro trabajando en [IncluIT](https://incluit.com/) como _Desarrollador de 
@@ -23,7 +23,7 @@ La [Comisión Nacional de Energia de Chile](https://es.wikipedia.org/wiki/Comisi
 por su parte también: 
 [https://desarrolladores.energiaabierta.cl/](https://desarrolladores.energiaabierta.cl/)
 
-![API's de CNE]({{"/assets/images/elements_in_posts/cne.png"}})
+![API's de CNE]({{"/assets/img/elements_in_posts/cne.png"}})
 
 ---
 
@@ -36,6 +36,6 @@ _Redis_, _Elastic Search_, _Celery_, _Django Rest Framework_, etc. Organizándon
  
 Además realizando análisis de arquitectura de software, análisis de nuevos requerimientos, etc.
 
-![http://energiaabierta.cl/visualizaciones/mapa-precio-de-combustibles]({{"/assets/images/elements_in_posts/cne2.png"}})
+![http://energiaabierta.cl/visualizaciones/mapa-precio-de-combustibles]({{"/assets/img/elements_in_posts/cne2.png"}})
 
 ---

@@ -4,7 +4,7 @@ title: "Consejos si vas a comenzar una carrera universitaria."
 date:   2019-01-10 00:00:01 -0300
 comments: true
 url: "/2019/01/10/consejos-si-vas-a-comenzar-una-carrera-universitaria.html"
-image: "/assets/images/posts/consejos.jpg"
+image: "/assets/img/posts/consejos.webp"
 hide_title: true
 ---
 
@@ -20,7 +20,7 @@ Comencemos...
 
 ## Dedicale tiempo TODOS los dias.
 
-![Autor: https://www.facebook.com/72Kilos/]({{"/assets/images/elements_in_posts/constancia.png"}})
+![Autor: https://www.facebook.com/72Kilos/]({{"/assets/img/elements_in_posts/constancia.png"}})
 
 **TODOS LOS DÍAS** tenés que avanzar al menos un poco.
 
@@ -28,7 +28,7 @@ Por ejemplo: Leer al menos un capítulo del libro, realizar unos ejercicios, ver
 
 Creo que **constancia mata talento**, es decir, alguien que labura todos los días por un proyecto a la larga termina superando al que nació ya con grandes capacidades en el tema pero se deja estar.
 
-![Homero al ver la montaña que tendrá que escalar]({{"/assets/images/elements_in_posts/King_of_the_Hill.jpg"}})
+![Homero al ver la montaña que tendrá que escalar]({{"/assets/img/elements_in_posts/King_of_the_Hill.jpg"}})
 
 Muchas veces nos encontramos ante tamaña tarea. Relajate, respira y avanza de a poco, paso a paso, en un proceso iterativo y constante lograrás superarlo.
 
@@ -60,7 +60,7 @@ Hace uso de Internet para investigar el tema: Wikipedia, artículos, videos tuto
 
 ## Relaciónate, haz amigos.
 
-![]({{"/assets/images/elements_in_posts/techniques-to-make-friends.png"}})
+![]({{"/assets/img/elements_in_posts/techniques-to-make-friends.png"}})
 
 Entras en una retroalimentación muy buena de conocimientos, apoyo, energía e incluso distensión.
 
@@ -143,7 +143,7 @@ También aplicable a la inversa:
 
 ## Reduce las distracciones.
 
-![distracciones]({{"/assets/images/elements_in_posts/distractions.jpg"}})
+![distracciones]({{"/assets/img/elements_in_posts/distractions.jpg"}})
 
 Todo atenta contra la creación y hoy en día más que nunca estamos rodeados de distracciones: Facebook, Whatsapp, Youtube, Instagram, Netflix, series interminables, memes, etc;
 

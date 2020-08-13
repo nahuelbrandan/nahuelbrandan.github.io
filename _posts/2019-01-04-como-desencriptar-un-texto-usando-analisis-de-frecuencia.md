@@ -4,7 +4,7 @@ title: "Como desencriptar un texto usando análisis de frecuencia."
 date:   2019-01-04 00:00:01 -0300
 comments: true
 url: "/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html"
-image: "/assets/images/posts/encriptar.jpg"
+image: "/assets/img/posts/encriptar.webp"
 hide_title: true
 ---
 
@@ -21,7 +21,7 @@ Recientemente encontré una oferta laboral en la que como proceso de preselecci�
 
 Hace poco también leí el libro 'Los códigos secretos' de Simon Singh, donde cuenta toda la historia de la criptografía y sus usos, muy bueno y lo súper recomiendo.
 
-![Portada del libro]({{"/assets/images/elements_in_posts/portada.jpg"}})
+![Portada del libro]({{"/assets/img/elements_in_posts/portada.jpg"}})
 
 Así que pensé que sería algo interesante para hacer, me arremangue la camisa y comencé.
 
@@ -60,7 +60,7 @@ print(letters)
 
 Obteniendo el resultado:
 
-![signos y sus cantidades.]({{"/assets/images/elements_in_posts/decrypt_program1.png"}})
+![signos y sus cantidades.]({{"/assets/img/elements_in_posts/decrypt_program1.png"}})
 
 *   Dandonos cierta confirmación de que vamos bien ya que se utilizan 23 signos distintos, un valor cercano a la cantidad de letras en el alfabeto.
 
@@ -85,11 +85,11 @@ print(text)
 
 Obteniendo:
 
-![]({{"/assets/images/elements_in_posts/decrypt_program2.png"}})
+![]({{"/assets/img/elements_in_posts/decrypt_program2.png"}})
 
 Analizando el resultado es muy posible que el signo 'Ξ' sea una 'l', por que en una palabra se repite 2 veces seguidas, y por que se usaría para las palabras 'las' 'los', 'el, 'la'.
 
-![]({{"/assets/images/elements_in_posts/decrypt_program3.png"}})
+![]({{"/assets/img/elements_in_posts/decrypt_program3.png"}})
 
 Hacemos el reemplazo..
 
@@ -99,7 +99,7 @@ text = text.replace('Ξ', 'l')
 
 Obteniendo:
 
-![]({{"/assets/images/elements_in_posts/decrypt_program4.png"}})
+![]({{"/assets/img/elements_in_posts/decrypt_program4.png"}})
 
 Continuando de la misma forma es muy posible que:
 
@@ -115,7 +115,7 @@ text = text.replace('λ', 's')
 
 Obteniendo:
 
-![]({{"/assets/images/elements_in_posts/decrypt_program5.png"}})
+![]({{"/assets/img/elements_in_posts/decrypt_program5.png"}})
 
 Esto es un proceso iterativo, donde en cada iteración nos vamos acercando cada vez más al objetivo...
 

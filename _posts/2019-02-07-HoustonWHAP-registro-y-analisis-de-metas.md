@@ -6,7 +6,7 @@ comments: false
 categories: [Portfolio]
 tags: [Python, Django, HTML, CSS]
 url: "/portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html"
-image: "/assets/images/posts/HoustonWHAP.jpg"
+image: "/assets/img/posts/HoustonWHAP.webp"
 ---
 
 Programa realizado en el ámbito académico, junto con otros 3 amigos y compañeros, para la materia: *Ingenieria de Software I*.
@@ -23,9 +23,9 @@ Una vez en éste punto podrá crear listas de metas y submetas, a los cuales les
 
 **Algunas capturas de pantalla:**
 
-![]({{"/assets/images/HoustonWHAP.jpg"}})
+![]({{"/assets/img/HoustonWHAP.jpg"}})
 
-![]({{"/assets/images/HoustonWHAP2.jpg"}})
+![]({{"/assets/img/HoustonWHAP2.jpg"}})
 
 ---
 

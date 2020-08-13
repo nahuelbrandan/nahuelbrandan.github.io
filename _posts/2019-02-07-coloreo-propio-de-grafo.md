@@ -6,7 +6,7 @@ comments: false
 categories: [Portfolio]
 tags: [C]
 url: "/portfolio/2019/02/07/coloreo-propio-de-grafos.html"
-image: "/assets/images/posts/grafos.jpg"
+image: "/assets/img/posts/grafos.webp"
 ---
 
 Programa realizado en el ámbito académico. Es uno de mis mejores trabajos y de los que estoy más orgulloso.
