@@ -6,7 +6,7 @@ comments: false
 categories: [Portfolio]
 tags: [Java]
 url: "/portfolio/2019/02/07/traductor-de-documentos.html"
-image: "/assets/images/posts/traductor.jpg"
+image: "/assets/img/posts/traductor.jpg"
 hide: true
 ---
 

@@ -5,7 +5,7 @@ comments: true
 date:   2019-02-28 12:00:00 -0300
 url: "https://www.nahuelbrandan.com/2019/02/28/consejos-para-quienes-estan-en-busqueda-laboral.html"
 identifier: "/2019/03/07/consejos-si-estas-en-busqueda-laboral.html"
-image: "/assets/images/posts/strategy.jpg"
+image: "/assets/img/posts/strategy.jpg"
 hide_title: true
 ---
 
@@ -29,7 +29,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
     A continuación un ejemplo real:
 
-    [![https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656]({{"/assets/images/elements_in_posts/meli.png"}})](https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656)
+    [![https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656]({{"/assets/img/elements_in_posts/meli.png"}})](https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656)
 
 ---
 
@@ -79,7 +79,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
 ## Durante la entrevista.
 
-![entrevista]({{"/assets/images/elements_in_posts/entrevista.jpg"}})
+![entrevista]({{"/assets/img/elements_in_posts/entrevista.jpg"}})
 
 *   **Sé puntual**. Es preferible llegar a la entrevista entre 20 y 5 minutos antes de la hora pactada.
 
@@ -107,7 +107,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
 *   **Buena comunicación**. Recordemos que gran parte de la comunicación es no verbal, tener en cuenta todos los aspectos: postura, mirada a los ojos, gesticulación, etc.
 
-    ![Comunicación no verbal]({{"/assets/images/lenguaje_corporal.png"}})
+    ![Comunicación no verbal]({{"/assets/img/lenguaje_corporal.png"}})
 
 ---
 

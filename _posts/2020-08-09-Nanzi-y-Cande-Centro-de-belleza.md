@@ -6,7 +6,7 @@ comments: false
 categories: [Portfolio]
 tags: [Github Pages, Bootstrap, HTML, CSS]
 url: "/portfolio/2020/08/09/Nanzi-y-Cande-Centro-de-belleza.html"
-image: "/assets/images/posts/nanzi-y-cande.jpg"
+image: "/assets/img/posts/nanzi-y-cande.jpg"
 ---
 
 Realizando las actividades: desarrollo, diseño, despliegue y mantenimiento de una página web empresarial.

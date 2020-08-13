@@ -4,7 +4,7 @@ title:  "Quizás la última prueba de nuestra existencia.. una historia sobre Pi
 date:   2018-12-28 00:00:01 -0300
 comments: true
 url: "/2018/12/28/quizas-la-ultima-prueba-de-nuestra-existencia-historia-sobre-pioneer-y-voyager.html"
-image: "/assets/images/posts/universo.jpg"
+image: "/assets/img/posts/universo.jpg"
 hide_title: true
 ---
 
@@ -22,7 +22,7 @@ En 1972 y 1973 la NASA lanzó las sondas espaciales [Pioneer 10](https://es.wiki
 
 Por si alguna civilización extraterrestre en algún momento llegara a encontrarse con las sondas se les agregó una placa con la siguiente inscripción:
 
-![Diagrama en la placa de las sondas Pioneer]({{"/assets/images/elements_in_posts/pioneer.jpeg"}})
+![Diagrama en la placa de las sondas Pioneer]({{"/assets/img/elements_in_posts/pioneer.jpeg"}})
 
  la cual usando como referencia los 14 pulsares (estrellas muy particulares) mas cercanos se indica el lugar del sistema solar y el momento del lanzamiento, entre otra información.
 

@@ -4,7 +4,7 @@ title:  "Haceme caso, comprate un kindle."
 date:   2018-12-25 00:00:01 -0300
 comments: true
 url: "/2018/12/25/haceme-caso-comprate-un-kindle.html"
-image: "/assets/images/posts/kindle.jpg"
+image: "/assets/img/posts/kindle.jpg"
 hide_title: true
 ---
 
@@ -46,7 +46,7 @@ Ahora te voy a explicar como descargar  por torrent un paquete genial con 30.000
 2.  En la pagina [https://thepiratebay3.org/](https://thepiratebay3.org/) buscamos
 **Biblioteca con 30.026 libros**, lo seleccionamos y luego seleccionamos: *get this torrent*.
 
-    ![biblioteca link]({{"/assets/images/elements_in_posts/torrent.png"}})
+    ![biblioteca link]({{"/assets/img/elements_in_posts/torrent.png"}})
 
     Pesa 30GB, así que va a demorar, pero vale la pena.
     Para descargarse utilizará el programa anterior instalado.
@@ -54,7 +54,7 @@ Ahora te voy a explicar como descargar  por torrent un paquete genial con 30.000
     Si dicha página esta caida pueden ingresar a alguna de las siguiente lista: [https://thepiratebay-proxylist.se/](https://thepiratebay-proxylist.se/) y continuar con la misma serie de pasos.
 3.  Una vez finalizada la descarga, ingresas al directorio, y al archivo *lista_genero.html* le das *click derecho*, abrir con el navegador que utilices.
 
-    ![lista de generos]({{"/assets/images/elements_in_posts/lista_generos.png"}})
+    ![lista de generos]({{"/assets/img/elements_in_posts/lista_generos.png"}})
 
     Acá ya podemos ver los autores y libros disponibles, esta muy bien organizado, revisalo un poco.
 
@@ -71,7 +71,7 @@ No podemos pasarselos directamente utilizando un cable usb por que los libro ele
 
     Luego seleccionamos los libros presionando la tecla *'CTRL'* y le damos a *convertir libros* y luego *aceptar*.
 
-    ![pasos en calibre]({{"/assets/images/elements_in_posts/calibre.png"}})
+    ![pasos en calibre]({{"/assets/img/elements_in_posts/calibre.png"}})
 
 3.  Conectamos el kindle mediante el cable USB a la computadora.
 4.  Una vez terminada la conversión hacemos *click derecho* a uno de los libros y seleccionamos *abrir carpeta contenedora*

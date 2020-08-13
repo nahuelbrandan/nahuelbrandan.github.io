@@ -4,7 +4,7 @@ title: "El problema de la distribución de claves criptográficas."
 date:   2019-01-30 22:00:01 -0300
 comments: true
 url: "/2019/01/30/el-problema-de-la-distribucion-de-claves-criptograficas.html"
-image: "/assets/images/posts/Argonath.jpg"
+image: "/assets/img/posts/Argonath.jpg"
 hide_title: true
 ---
 
@@ -40,7 +40,7 @@ Supongamos que Ana quiere enviarle un mensaje importante a Bob y quiere que nadi
 
 Lo que hace es encriptar el mensaje mediante algún método, obteniendo así 2 elementos: El mensaje encriptado y la llave para desencriptarlo.
 
-![mensaje encriptado y llave.]({{"/assets/images/elements_in_posts/encriptacion.jpg"}})
+![mensaje encriptado y llave.]({{"/assets/img/elements_in_posts/encriptacion.jpg"}})
 
 En el ejemplo visto en el articulo anterior, el mensaje encriptado es el que vemos escrito apenas al comienzo (ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλ...), y la llave para desencriptarlo sería una lista de símbolos con su traducción a la letra correspondiente (Ψ=' ', Δ='a', Σ='e'...).
 
