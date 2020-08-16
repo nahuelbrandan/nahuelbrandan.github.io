@@ -31,8 +31,6 @@
   <meta name="MobileOptimized" content="320"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="apple-touch-icon" sizes="120x113" href="{{'/assets/img/logo_120.jpg'}}"/>
-  <link rel="apple-touch-icon" sizes="152x143" href="{{'/assets/img/logo_152.jpg'}}"/>
   <meta property="og:site_name" content="{{ site.title }}"/>
   <meta name="author" content="{{ site.author }}">
   
@@ -44,25 +42,45 @@
   <meta name="twitter:title" content="Nahuel Brandán - Portfolio &amp; Blog - Desarrollo de Software.">
   <meta name="twitter:description"
         content="Sitio web personal, con muestra de portfolio &amp; artículos relacionados con el desarrollo de software.">
-  <meta name="twitter:image" content="assets/img/site_thumbnail.jpg?h=f00085ac8a9ed0c8b95cde3fdb311d8f">
+  <meta name="twitter:image" content="{{ /assets/img/site_thumbnail.jpg' | prepend: site.baseurl }}">
   
-  <link rel="stylesheet"
-        href="{{ '/assets/bootstrap/css/bootstrap.min.css?h=901fecf2137eadd431c922473ae63856' | prepend: site.baseurl  }}">
-  <link rel="icon" type="image/png" sizes="16x16"
-        href="{{ '/assets/img/icons/favicon-16x16.png?h=dc374e3d364ccb0f3790e88e18a92872' | prepend: site.baseurl  }}">
-  <link rel="icon" type="image/png" sizes="32x32"
-        href="{{ '/assets/img/icons/favicon-32x32.png?h=d258670f5aa95ca580c8792a60db0a8f' | prepend: site.baseurl  }}">
-  <link rel="icon" type="image/png" sizes="180x180"
-        href="{{ '/assets/img/icons/apple-icon-180x180.png?h=968c9820e9000ca43bf49d3e38b80d29' | prepend: site.baseurl  }}">
+  <!--  favicon   -->
+  <link rel="apple-touch-icon" sizes="57x57"
+        href="{{ /assets/img/favicon/apple-icon-57x57.png' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="60x60"
+        href="{{ /assets/img/favicon/apple-icon-60x60.png' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="72x72"
+        href="{{ /assets/img/favicon/apple-icon-72x72.png' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="76x76"
+        href="{{ /assets/img/favicon/apple-icon-76x76.png' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="114x114"
+        href="{{ /assets/img/favicon/apple-icon-114x114.png' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="120x120"
+        href="{{ /assets/img/favicon/apple-icon-120x120.png' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="144x144"
+        href="{{ /assets/img/favicon/apple-icon-144x144.png' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="152x152"
+        href="{{ /assets/img/favicon/apple-icon-152x152.png' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="180x180"
+        href="{{ /assets/img/favicon/apple-icon-180x180.png' | prepend: site.baseurl }}">
   <link rel="icon" type="image/png" sizes="192x192"
-        href="{{ '/assets/img/icons/android-icon-192x192.png?h=138be6a00aa06a28ffd37ba11376c0d7' | prepend: site.baseurl  }}">
-  <link rel="icon" type="image/png" sizes="500x500"
-        href="{{ '/assets/img/icons/NB.png?h=b61705915672891f15dcdba81dace542' | prepend: site.baseurl  }}">
+        href="{{ /assets/img/favicon/android-icon-192x192.png' | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="32x32"
+        href="{{ /assets/img/favicon/favicon-32x32.png' | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="96x96"
+        href="{{ /assets/img/favicon/favicon-96x96.png' | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16"
+        href="{{ /assets/img/favicon/favicon-16x16.png' | prepend: site.baseurl }}">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="{{ /assets/img/favicon/ms-icon-144x144.png' | prepend: site.baseurl }}">
+  <meta name="theme-color" content="#ffffff">
   
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
   <link rel="shortcut icon" href="{{ '/assets/img/logo.png' | prepend: site.baseurl }}"/>
   <script src="{{ '/assets/js/jquery-3.5.1.min.js' | prepend: site.baseurl  }}" type="text/javascript"></script>
   
+  <link rel="stylesheet"
+        href="{{ '/assets/bootstrap/css/bootstrap.min.css?h=901fecf2137eadd431c922473ae63856' | prepend: site.baseurl  }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
