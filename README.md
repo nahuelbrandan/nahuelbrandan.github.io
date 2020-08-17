@@ -53,6 +53,6 @@ performance al cargar paginas webs.
 
 Resultados obtenidos luego de un análisis con la herramienta _Lighthouse_.
 
-![Desempeño de la página]({{"/assets/img/site/desempeño.webp"}})
+![Desempeño de la página](assets/img/site/desempeño.png)
 
 Los cuales son valores excelentes!, mostrando el cariño que se le da al sitio.
