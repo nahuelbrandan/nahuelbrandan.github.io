@@ -36,3 +36,23 @@ Esta es mi página web, la pueden visualizar en: [nahuelbrandan.com](https://www
 * Port is in use or requires root privileges
 
   `fuser -n tcp -k 4000`
+
+### Recomendaciones.
+
+* Se recomienda que todas las imágenes que se utilicen tengan formato _.webp_ el cual esta optimizado y tiene una mejor 
+performance al cargar paginas webs.
+
+  En linux se puede hacer:
+  
+  * `sudo apt install webp` Instalar el programa.
+  * Parados en el directorio de las imágenes ejecutar:
+  
+    `for f in *.png; do cwebp "$f" "-o" "${f%.png}.webp"; done; for f in *.jpg; do cwebp "$f" "-o" "${f%.jpg}.webp"; done;`
+
+### Desempeño
+
+Resultados obtenidos luego de un análisis con la herramienta _Lighthouse_.
+
+![Desempeño de la página]({{"/assets/img/site/desempeño.webp"}})
+
+Los cuales son valores excelentes!, mostrando el cariño que se le da al sitio.
