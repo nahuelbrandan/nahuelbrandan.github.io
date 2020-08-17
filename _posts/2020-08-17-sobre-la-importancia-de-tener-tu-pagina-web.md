@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "sobre la importancia de tener un proyecto en Prod"
+title: "sobre la importancia de tener tu página web."
 comments: true
-date:   2020-08-17 12:00:00 -0300
+date:   2020-08-17 18:00:00 -0300
 url: "https://www.nahuelbrandan.com/2020/08/17/sobre-la-importancia-de-tener-tu-pagina-web.html"
 identifier: "/sobre-la-importancia-de-tener-tu-pagina-web.html"
 image: "/assets/img/posts/prod.webp"
