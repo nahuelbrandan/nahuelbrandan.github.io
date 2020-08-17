@@ -25,7 +25,7 @@ funcionalidad que queremos.
 
 En nuestro caso estamos trabajando específicamente con *Web APIs*.
 
-![API diseño.](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/104559387/original/88a2503b41467bbd07990f5d35115e84e38c3888/design-and-develop-rest-apis-using-mvc-web-api.png)
+![API diseño.](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/104559387/original/88a2503b41467bbd07990f5d35115e84e38c3888/design-and-develop-rest-apis-using-mvc-web-api.webp)
 
 Por ejemplo una aplicación que quiere mostrar el clima, en vez de desarrollar toda la parte de recolección y análisis 
 de datos climáticos (lo cual sería costoso) hacen llamadas a alguna API que ya lo implemente, 

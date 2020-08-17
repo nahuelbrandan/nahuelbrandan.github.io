@@ -24,7 +24,7 @@ En una guerra, si un bando logra obtener las comunicaciones tácticas y/o estrat
 
 La información es poder!, tener la información justa en el momento apropiado te puede hacer ganar grandes batallas. O visto desde el otro lado, si tu información secreta sale a la luz te pueden poner en serios aprietos, si no vean *Game of Thrones*.
 
-![](https://www.azquotes.com/picture-quotes/quote-information-is-power-but-like-all-power-there-are-those-who-want-to-keep-it-for-themselves-aaron-swartz-102-27-05.jpg)
+![](https://www.azquotes.com/picture-quotes/quote-information-is-power-but-like-all-power-there-are-those-who-want-to-keep-it-for-themselves-aaron-swartz-102-27-05.webp)
 
 **Nota:** La historia de Aaron Swartz, el autor de la cita, es muy interesante y triste a la vez, recomiendo que vean éste documental sobre su vida y las causas honorables por las que luchaba (en lo personal la más importante: la libertad).
 
@@ -40,7 +40,7 @@ Supongamos que Ana quiere enviarle un mensaje importante a Bob y quiere que nadi
 
 Lo que hace es encriptar el mensaje mediante algún método, obteniendo así 2 elementos: El mensaje encriptado y la llave para desencriptarlo.
 
-![mensaje encriptado y llave.]({{"/assets/img/elements_in_posts/encriptacion.jpg"}})
+![mensaje encriptado y llave.]({{"/assets/img/elements_in_posts/encriptacion.webp"}})
 
 En el ejemplo visto en el articulo anterior, el mensaje encriptado es el que vemos escrito apenas al comienzo (ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλ...), y la llave para desencriptarlo sería una lista de símbolos con su traducción a la letra correspondiente (Ψ=' ', Δ='a', Σ='e'...).
 

@@ -23,7 +23,7 @@ La [Comisión Nacional de Energia de Chile](https://es.wikipedia.org/wiki/Comisi
 por su parte también: 
 [https://desarrolladores.energiaabierta.cl/](https://desarrolladores.energiaabierta.cl/)
 
-![API's de CNE]({{"/assets/img/elements_in_posts/cne.png"}})
+![API's de CNE]({{"/assets/img/elements_in_posts/cne.webp"}})
 
 ---
 
@@ -36,6 +36,6 @@ _Redis_, _Elastic Search_, _Celery_, _Django Rest Framework_, etc. Organizándon
  
 Además realizando análisis de arquitectura de software, análisis de nuevos requerimientos, etc.
 
-![http://energiaabierta.cl/visualizaciones/mapa-precio-de-combustibles]({{"/assets/img/elements_in_posts/cne2.png"}})
+![http://energiaabierta.cl/visualizaciones/mapa-precio-de-combustibles]({{"/assets/img/elements_in_posts/cne2.webp"}})
 
 ---

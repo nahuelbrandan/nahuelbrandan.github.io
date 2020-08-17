@@ -34,7 +34,7 @@ Con el objetivo de solucionar éste problema surge otra criptomoneda, llamada **
 
 los fundadores de Zcash, mediante mucha Matemática, Criptografia, Informática y Ciencia lograron idear una solución, pero se necesita definir una **contraseña maestra** y además **generar confianza** en los futuros usuarios de la moneda, **convencerlos** de que dicha contraseña es muy segura, si alguien diera con ella podría "crearse" nuevo dinero para él.. desvalorizando el resto y rompiendo todo el sistema.
 
-![](https://cadenaser00.epimg.net/ser/imagenes/2015/02/10/ciencia/1423559364_488220_1423564899_noticia_normal.jpg)
+![](https://cadenaser00.epimg.net/ser/imagenes/2015/02/10/ciencia/1423559364_488220_1423564899_noticia_normal.webp)
 
 ## Reflexión.
 
@@ -50,7 +50,7 @@ Dado que dicha clave, luego de utilizarla se destruye, podríamos presionar much
 
 Nos ponemos cada vez más **paranoicos**, desconfiamos de todo y de todos.
 
-![Bart paranoico]({{"/assets/img/elements_in_posts/bart_paranoico.jpg"}})
+![Bart paranoico]({{"/assets/img/elements_in_posts/bart_paranoico.webp"}})
 
 ## La ceremonia.
 

@@ -38,23 +38,23 @@ Un *kindle* es un lector de libros electrónicos portátil, del tamaño de una t
 
 Ahora te voy a explicar como descargar  por torrent un paquete genial con 30.000 libros electrónicos en español, muy bien organizado.
 
-**Nota:** Si leyeramos un libro por día tardariamos 82 años en terminarlos a todos!
+**Nota:** Si leyéramos un libro por día tardaríamos 82 años en terminarlos a todos!
 
 0.  Descargamos e instalamos el programa  [Transmission](https://transmissionbt.com/download/). Es un cliente BitTorrent
- libre, rapido y multiplataforma.
+ libre, rápido y multi plataforma.
 1.  **Recomendación:** Instalar una extensión AdBlock al navegador: [https://www.ublock.org/](https://www.ublock.org/). Éste programita te elimina todas las publicidades de todas las páginas webs que visites!
 2.  En la pagina [https://thepiratebay3.org/](https://thepiratebay3.org/) buscamos
 **Biblioteca con 30.026 libros**, lo seleccionamos y luego seleccionamos: *get this torrent*.
 
-    ![biblioteca link]({{"/assets/img/elements_in_posts/torrent.png"}})
+    ![biblioteca link]({{"/assets/img/elements_in_posts/torrent.webp"}})
 
     Pesa 30GB, así que va a demorar, pero vale la pena.
     Para descargarse utilizará el programa anterior instalado.
 
-    Si dicha página esta caida pueden ingresar a alguna de las siguiente lista: [https://thepiratebay-proxylist.se/](https://thepiratebay-proxylist.se/) y continuar con la misma serie de pasos.
+    Si dicha página esta caída pueden ingresar a alguna de las siguiente lista: [https://thepiratebay-proxylist.se/](https://thepiratebay-proxylist.se/) y continuar con la misma serie de pasos.
 3.  Una vez finalizada la descarga, ingresas al directorio, y al archivo *lista_genero.html* le das *click derecho*, abrir con el navegador que utilices.
 
-    ![lista de generos]({{"/assets/img/elements_in_posts/lista_generos.png"}})
+    ![lista de generos]({{"/assets/img/elements_in_posts/lista_generos.webp"}})
 
     Acá ya podemos ver los autores y libros disponibles, esta muy bien organizado, revisalo un poco.
 
@@ -71,7 +71,7 @@ No podemos pasarselos directamente utilizando un cable usb por que los libro ele
 
     Luego seleccionamos los libros presionando la tecla *'CTRL'* y le damos a *convertir libros* y luego *aceptar*.
 
-    ![pasos en calibre]({{"/assets/img/elements_in_posts/calibre.png"}})
+    ![pasos en calibre]({{"/assets/img/elements_in_posts/calibre.webp"}})
 
 3.  Conectamos el kindle mediante el cable USB a la computadora.
 4.  Una vez terminada la conversión hacemos *click derecho* a uno de los libros y seleccionamos *abrir carpeta contenedora*

@@ -29,7 +29,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
     A continuación un ejemplo real:
 
-    [![https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656]({{"/assets/img/elements_in_posts/meli.png"}})](https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656)
+    [![https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656]({{"/assets/img/elements_in_posts/meli.webp"}})](https://www.linkedin.com/feed/update/urn:li:activity:6504695859966406656)
 
 ---
 
@@ -79,7 +79,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
 ## Durante la entrevista.
 
-![entrevista]({{"/assets/img/elements_in_posts/entrevista.jpg"}})
+![entrevista]({{"/assets/img/elements_in_posts/entrevista.webp"}})
 
 *   **Sé puntual**. Es preferible llegar a la entrevista entre 20 y 5 minutos antes de la hora pactada.
 
@@ -107,7 +107,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
 *   **Buena comunicación**. Recordemos que gran parte de la comunicación es no verbal, tener en cuenta todos los aspectos: postura, mirada a los ojos, gesticulación, etc.
 
-    ![Comunicación no verbal]({{"/assets/img/elements_in_posts/lenguaje_corporal.png"}})
+    ![Comunicación no verbal]({{"/assets/img/elements_in_posts/lenguaje_corporal.webp"}})
 
 ---
 

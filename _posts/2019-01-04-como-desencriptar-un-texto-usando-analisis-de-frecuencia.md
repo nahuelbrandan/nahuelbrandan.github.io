@@ -10,7 +10,7 @@ hide_title: true
 
 Recientemente encontré una oferta laboral en la que como proceso de preselección pedía desencriptar el siguiente texto y explicar el procedimiento realizado:
 
-<p style="background-color:#f5f5f0">
+<p style="background-color:#f5f5f0; text-align:center; margin-bottom:1em;">
 ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλΨΛΣΘϑΞϗΦϑλΨΣΞΨλϑΞΨζβΣφΔΨΣΦΨΣΞΨξΛϗ
 ΞΞϑΨϖΣΞΨΠΣϖΛΣφΔΞΨΩΨΠΛΣΦϖϗϖϑΨΔΨΞΔΨΘΔφϗΔΨϖΣΨΞϑλΨΓΔΘϗΦϑλΨΣΞΨ
 ΔΛΛϗΣΛϑΨαΔΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣλΨξΔΦϖΣΛΔΨϖΣΨΦϗΣξΞΔΨλβΨΠϑΦΓΡϑΨΔ
@@ -21,7 +21,7 @@ Recientemente encontré una oferta laboral en la que como proceso de preselecci�
 
 Hace poco también leí el libro 'Los códigos secretos' de Simon Singh, donde cuenta toda la historia de la criptografía y sus usos, muy bueno y lo súper recomiendo.
 
-![Portada del libro]({{"/assets/img/elements_in_posts/portada.jpg"}})
+![Portada del libro]({{"/assets/img/elements_in_posts/portada.webp"}})
 
 Así que pensé que sería algo interesante para hacer, me arremangue la camisa y comencé.
 
@@ -44,7 +44,7 @@ Para poder romper la encriptación vamos a utilizar el método de [*análisis de
 
 El análisis de frecuencias está basado en el hecho que, dado un texto, ciertas letras o combinaciones de letras aparecen más a menudo que otras, existiendo distintas frecuencias para ellas. Por ejemplo, en español la letra A y E son muy comunes, mientras que la K y W son muy raras.
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/98/Frecuencia_de_uso_de_letras_en_espa%C3%B1ol.PNG)
+![](https://upload.wikimedia.org/wikipedia/commons/9/98/Frecuencia_de_uso_de_letras_en_espa%C3%B1ol.webp)
 
 Mediante un pequeño programa escrito en **python** vemos los diferentes signos utilizados, y la cantidad de uso de cada uno de ellos:
 
@@ -60,7 +60,7 @@ print(letters)
 
 Obteniendo el resultado:
 
-![signos y sus cantidades.]({{"/assets/img/elements_in_posts/decrypt_program1.png"}})
+![signos y sus cantidades.]({{"/assets/img/elements_in_posts/decrypt_program1.webp"}})
 
 *   Dandonos cierta confirmación de que vamos bien ya que se utilizan 23 signos distintos, un valor cercano a la cantidad de letras en el alfabeto.
 
@@ -85,11 +85,11 @@ print(text)
 
 Obteniendo:
 
-![]({{"/assets/img/elements_in_posts/decrypt_program2.png"}})
+![]({{"/assets/img/elements_in_posts/decrypt_program2.webp"}})
 
 Analizando el resultado es muy posible que el signo 'Ξ' sea una 'l', por que en una palabra se repite 2 veces seguidas, y por que se usaría para las palabras 'las' 'los', 'el, 'la'.
 
-![]({{"/assets/img/elements_in_posts/decrypt_program3.png"}})
+![]({{"/assets/img/elements_in_posts/decrypt_program3.webp"}})
 
 Hacemos el reemplazo..
 
@@ -99,7 +99,7 @@ text = text.replace('Ξ', 'l')
 
 Obteniendo:
 
-![]({{"/assets/img/elements_in_posts/decrypt_program4.png"}})
+![]({{"/assets/img/elements_in_posts/decrypt_program4.webp"}})
 
 Continuando de la misma forma es muy posible que:
 
@@ -115,7 +115,7 @@ text = text.replace('λ', 's')
 
 Obteniendo:
 
-![]({{"/assets/img/elements_in_posts/decrypt_program5.png"}})
+![]({{"/assets/img/elements_in_posts/decrypt_program5.webp"}})
 
 Esto es un proceso iterativo, donde en cada iteración nos vamos acercando cada vez más al objetivo...
 

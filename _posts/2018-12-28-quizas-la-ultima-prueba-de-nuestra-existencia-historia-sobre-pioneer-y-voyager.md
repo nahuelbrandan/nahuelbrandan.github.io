@@ -22,7 +22,7 @@ En 1972 y 1973 la NASA lanzó las sondas espaciales [Pioneer 10](https://es.wiki
 
 Por si alguna civilización extraterrestre en algún momento llegara a encontrarse con las sondas se les agregó una placa con la siguiente inscripción:
 
-![Diagrama en la placa de las sondas Pioneer]({{"/assets/img/elements_in_posts/pioneer.jpeg"}})
+![Diagrama en la placa de las sondas Pioneer]({{"/assets/img/elements_in_posts/pioneer.webp"}})
 
  la cual usando como referencia los 14 pulsares (estrellas muy particulares) mas cercanos se indica el lugar del sistema solar y el momento del lanzamiento, entre otra información.
 

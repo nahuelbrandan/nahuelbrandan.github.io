@@ -23,9 +23,9 @@ Una vez en éste punto podrá crear listas de metas y submetas, a los cuales les
 
 **Algunas capturas de pantalla:**
 
-![]({{"/assets/img/elements_in_posts/HoustonWHAP.jpg"}})
+![]({{"/assets/img/elements_in_posts/HoustonWHAP.webp"}})
 
-![]({{"/assets/img/elements_in_posts/HoustonWHAP2.jpg"}})
+![]({{"/assets/img/elements_in_posts/HoustonWHAP2.webp"}})
 
 ---
 

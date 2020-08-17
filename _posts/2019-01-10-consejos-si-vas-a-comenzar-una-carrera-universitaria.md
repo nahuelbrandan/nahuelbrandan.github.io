@@ -20,7 +20,7 @@ Comencemos...
 
 ## Dedicale tiempo TODOS los dias.
 
-![Autor: https://www.facebook.com/72Kilos/]({{"/assets/img/elements_in_posts/constancia.png"}})
+![Autor: https://www.facebook.com/72Kilos/]({{"/assets/img/elements_in_posts/constancia.webp"}})
 
 **TODOS LOS DÍAS** tenés que avanzar al menos un poco.
 
@@ -28,7 +28,7 @@ Por ejemplo: Leer al menos un capítulo del libro, realizar unos ejercicios, ver
 
 Creo que **constancia mata talento**, es decir, alguien que labura todos los días por un proyecto a la larga termina superando al que nació ya con grandes capacidades en el tema pero se deja estar.
 
-![Homero al ver la montaña que tendrá que escalar]({{"/assets/img/elements_in_posts/King_of_the_Hill.jpg"}})
+![Homero al ver la montaña que tendrá que escalar]({{"/assets/img/elements_in_posts/King_of_the_Hill.webp"}})
 
 Muchas veces nos encontramos ante tamaña tarea. Relajate, respira y avanza de a poco, paso a paso, en un proceso iterativo y constante lograrás superarlo.
 
@@ -42,7 +42,7 @@ No salgas antes de clase, ni te vayas antes a tu casa ¿A qué te vas? ¿A vicia
 
 ## Sé ordenado y completa las carpetas.
 
-![](https://image.freepik.com/vector-gratis/lugar-trabajo-ordenado-ordenador-escritorio-madera_1302-4273.jpg)
+![](https://image.freepik.com/vector-gratis/lugar-trabajo-ordenado-ordenador-escritorio-madera_1302-4273.webp)
 
 La cantidad de tiempo que te ahorras por ser ordenado a la larga es tremenda, vale la pena.
 
@@ -60,7 +60,7 @@ Hace uso de Internet para investigar el tema: Wikipedia, artículos, videos tuto
 
 ## Relaciónate, haz amigos.
 
-![]({{"/assets/img/elements_in_posts/techniques-to-make-friends.png"}})
+![]({{"/assets/img/elements_in_posts/techniques-to-make-friends.webp"}})
 
 Entras en una retroalimentación muy buena de conocimientos, apoyo, energía e incluso distensión.
 
@@ -94,7 +94,7 @@ TO-DO list significa: lista de cosas por hacer.
 
 Siempre hay que tener alguna. En vez de tener todo dando vueltas en la cabeza, que de seguro algo se te va a olvidar, lo anotas en un papel y vas tachando lo que ya realizaste.
 
-![](https://i.kym-cdn.com/photos/images/original/000/580/455/009.png)
+![](https://i.kym-cdn.com/photos/images/original/000/580/455/009.webp)
 
 ## Roll the dice.
 
@@ -122,7 +122,7 @@ Hay un poema de *Charles Bukowski* que me encanta, es para hacerlo un cuadro, se
 
 ## Halt and catch fire.
 
-![](https://kottke.org/plus/misc/images/halt-and-catch-fire.jpg)
+![](https://kottke.org/plus/misc/images/halt-and-catch-fire.webp)
 
 ***Para y prendete fuego***<br/>
 *Un comando de los principios de la computación que ponía a la máquina en un estado de condición de carrera,
@@ -143,7 +143,7 @@ También aplicable a la inversa:
 
 ## Reduce las distracciones.
 
-![distracciones]({{"/assets/img/elements_in_posts/distractions.jpg"}})
+![distracciones]({{"/assets/img/elements_in_posts/distractions.webp"}})
 
 Todo atenta contra la creación y hoy en día más que nunca estamos rodeados de distracciones: Facebook, Whatsapp, Youtube, Instagram, Netflix, series interminables, memes, etc;
 
@@ -177,7 +177,7 @@ Básicamente: **Mantente en movimiento.**
 
 ## Persistencia.
 
-![](https://www.muyinteresante.com.mx/wp-content/uploads/2018/05/httpstved-prod.adobecqms.netcontentdameditorialTelevisamexicomuyinteresantemxnaturaleza1111fosil-ardilla-era-de-hielo-588x257.imgo_.jpg)
+![](https://www.muyinteresante.com.mx/wp-content/uploads/2018/05/httpstved-prod.adobecqms.netcontentdameditorialTelevisamexicomuyinteresantemxnaturaleza1111fosil-ardilla-era-de-hielo-588x257.imgo_.webp)
 
 Consejo aportado por ([Francisco Nievas](https://www.linkedin.com/in/francisco-nievas-842899167/)):
 
@@ -191,7 +191,7 @@ Consejo aportado por ([Francisco Nievas](https://www.linkedin.com/in/francisco-n
 
 La mayoría de las personas vienen de secundarios donde nunca se los exigió demasiado y al encontrarse con una universidad que en la segunda semana de clases ya tenés que tener 2 prácticos listos de cada materia y leer varios libros se estresa por no dar abasto a todo.
 
-![](https://marlongalan.files.wordpress.com/2017/09/625x470_516f19beb937955b26000001_19_9-1366247454.jpg)
+![](https://marlongalan.files.wordpress.com/2017/09/625x470_516f19beb937955b26000001_19_9-1366247454.webp)
 
 La posta? Hacerse el hábito de estudio a la fuerza. Leer en blogs *formas de estudio* e ir intentando hasta encontrar alguna que nos sirva.
 

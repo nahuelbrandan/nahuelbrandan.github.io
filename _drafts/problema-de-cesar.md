@@ -5,8 +5,8 @@ comments: true
 date:   2020-06-06 08:00:00 -0300
 url: "https://www.nahuelbrandan.com/2020/06/06/problema-de-Cesar.html"
 identifier: "/2020/06/06/problema-de-Cesar.html"
-image: "/assets/img/posts/TaMaBin.jpg"
-image_mini: "/assets/img/posts/TaMaBin_mini.jpg"
+image: "/assets/img/posts/TaMaBin.webp"
+image_mini: "/assets/img/posts/TaMaBin_mini.webp"
 ---
 
 ![]({{page.image}})<br>
