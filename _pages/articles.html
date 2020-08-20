@@ -11,16 +11,14 @@ title: Artículos - Nahuel Brandán
         <h2 class="text-capitalize" style="font-weight: 500;">Artículos</h2>
       </div>
       <div class="row">
-        
         {%for post in site.posts%}
         {%if post.categories[0] != "Portfolio"%}
-        
         <div class="col-md-6 col-lg-4">
           <div class="card border-0">
-            <a href="{{ post.url | prepend: site.baseurl }}"><img class="card-img-top scale-on-hover"
-                                                                  src={{post.image}} alt={{post.image}}
-                                                                  title="{{post.title}}"></a>
-            
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <img class="card-img-top scale-on-hover" src={{post.image}} alt={{post.image}} title="{{post.title}}">
+            </a>
+      
             {%if post.hide_title != true%}
             <div class="card-body">
               <h6><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h6>

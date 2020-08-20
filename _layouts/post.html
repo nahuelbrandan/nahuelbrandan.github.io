@@ -8,7 +8,11 @@
     <div class="content_header">
       <article class="post">
         <div class="post-meta">
-          <img class="post-img" src={{ page.image }} alt={{ page.title }}>
+          {% if page.image %}
+            <img class="post-img" src={{ page.image }} alt={{ page.title }}>
+          {% else %}
+            <p class="post-title">{{ page.title }}</p>
+          {% endif %}
           <div class="cf post-meta-text">
             <span class="post-date">{% include date_ge.html date = post.date %}</span>
           </div>
