@@ -12,7 +12,7 @@ hide_title: true
 Si te encuentras en el mundo de la informática, considero que es muy didáctico el tener alguna página web en 
 producción, es decir, accesible al público en general. 
 
-No importa tanto la temática, ya sea un sitio web sobre el tema que te interese, una página personal para muestra 
+No importa tanto la temática, ya sea un sitio web sobre el tema que te interese, una página personal como muestra 
 de portfolio, un juego, un blog, lo que sea.
 
 Una vez comenzado con el proyecto, empezás a notar diferentes temas necesarios a desarrollar.
@@ -74,12 +74,13 @@ Los cuales son valores excelentes!.
 
 #### Interactividad.
 _Github Pages_ sólo permite sitios estáticos. Como no hay un backend al cual puedas consultar no puede permitir 
-interactividad, es decir que el usuario no puede comunicarse de manera recíproca, por ejemplo dejando un comentario en 
-un artículo, o llenar un formulario.
+interactividad, es decir que el usuario no puede comunicarse de manera recíproca, por ejemplo hacer un comentario, 
+llenar un formulario, logearse, etc; todas actividades que implementariamos mediante un backend.
 
-Para resolver este problema existen herramientas externas, que te permiten añadirlas a tu sitio para agregar funcionalidades.
+Para resolver este problema existen herramientas externas, que te permiten añadirlas a tu sitio estático para 
+agregar funcionalidades.
 
-Por ejemplo yo utilizo [Disqus](https://disqus.com/) para agregar una caja de comentarios al final de los artículos.
+Por ejemplo yo utilizo [Disqus](https://disqus.com/) para incorporar una caja de comentarios al final de los artículos.
 
 Tambien uso [Formspree](https://formspree.io/) para formularios de contacto.
 
@@ -98,28 +99,28 @@ arriba? Tal como se hace en muchos sitios.
   ![favicon]({{"/assets/img/elements_in_posts/fav.webp"}})
 
 #### Escritura.
-¿Qué tienen los grandes escritores que no tiene uno? me supe preguntar. Si utilizan las mismas palabras que uno, el 
-mismo lenguaje, por que a ellos les sale tan bien?, ¿Cuál es el secreto?!
+¿Qué tienen los grandes escritores que no tiene uno? me supe preguntar. Si utilizan las mismas palabras, el 
+mismo lenguaje, ¿Por qué a ellos les sale tan bien?, ¿Cuál es el secreto?!
 
-Probablemente la misma duda te surja a vos al querer escribir posts.
+El consejo principal es que tenés que leer mucho y escribir mucho.
 
-El consejo principal es que tenes que leer mucho y escribir mucho.
-
-Stephen King tiene un excelente libro sobre la escritura. ver: [On Writing (Mientras escribo)](http://biblioteka.teatr-obraz.ru/files/file/English_cinema/Stephen_King_On_Writing.pdf)
+Stephen King tiene un excelente libro sobre el proceso de escritura. 
+ver: [On Writing (Mientras escribo)](http://biblioteka.teatr-obraz.ru/files/file/English_cinema/Stephen_King_On_Writing.pdf)
 
 #### Diseño.
-Una forma de aprender es viendo lo proyectos de otros, para usarlos como fuentes de inspiración a nivel de diseño. En 
-[awwwards](https://www.awwwards.com/) podes ver sitios de otros con gran diseño.
+Una forma de aprender es viendo lo proyectos de otros, para usarlos como fuentes de inspiración. En 
+[awwwards](https://www.awwwards.com/) podes encontrar grandes ejemplos.
 
-Por otro lado, ¿Como hago imágenes con diseño? yo utilizo [Canva](https://www.canva.com/), gran herramienta e intuitiva.
+Por otro lado, ¿Como hago imágenes con diseño y rápido? yo utilizo [Canva](https://www.canva.com/), 
+gran herramienta e intuitiva.
 
-#### Themes - Temas.
-A veces es útil en vez de arrancar de cero todo el sitio web, comenzar a partir de un template, un Theme-(Tema) 
-que alguien más haya creado, el cual vos lo adaptarías a tus gustos.
+#### Themes.
+A veces es útil en vez de arrancar de cero todo el sitio web, comenzar a partir de un template, un Theme(Tema) 
+que alguien más haya creado, al cual vos lo adaptarías a tus gustos.
 
 En [Bootstrapmade](https://bootstrapmade.com/) podes ver algunos.
 
-Otras herramienta que me sirvió es [bootstrap studio](https://bootstrapstudio.io/)
+Otras herramienta que me sirvió es [bootstrap studio](https://bootstrapstudio.io/).
 
 ### Conclusiones.
 Emprende el proyecto, y sobre las marcha vas a ir resolviendo éstos y muchos conflictos más; va a ser un camino duro 

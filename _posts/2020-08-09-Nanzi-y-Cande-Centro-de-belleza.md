@@ -9,7 +9,7 @@ url: "/portfolio/2020/08/09/Nanzi-y-Cande-Centro-de-belleza.html"
 image: "/assets/img/posts/nanzi-y-cande.webp"
 ---
 
-La presencia digital, más hoy en día, es una propiedad muy importante. Si no te pueden encontrar no pueden consumir tu 
+La presencia digital es una propiedad muy importante, más hoy en día. Si no te pueden encontrar no pueden consumir tu 
 producto o servicio.
 
 A partir de esta premisa, desarrollé la página web empresarial de la empresa familiar *Nanzi y Cande - Centro de Belleza.*
@@ -20,7 +20,7 @@ Se puede visualizar en [https://www.nanziycande.com/](https://www.nanziycande.co
 
 ### Herramientas
 
-Se requirieron conocimientos de _Bootstrap_, _CSS_, _HTML_, _Web Hosting_, _Web Domains_, Web Performance, SEO, etc.
+Se requirieron conocimientos de _Bootstrap_, _CSS_, _HTML_, _Web Hosting_, _Web Domains_, _Web Performance_, _SEO_, etc.
 
 ### Repositorio
 
