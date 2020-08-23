@@ -17,7 +17,9 @@ include: ['_pages']
 title: "Nahuel Brandán"
 meta_title: "Nahuel Brandán - Portfolio & Blog."
 description: > # this means to ignore newlines until "email:"
-    Personal website, Con muestra de portfolio & artículos.
+    Hola! Soy Nahuel Brandán. Desarrollador de Software backend, actualmente especializándome en Python.
+    Soy muy afortunado de poder trabajar en un área tan apasionante.
+    Este es mi sitio web, con muestra de portfolio y artículos relacionados con informática.
 
 email: nahuelbrandan123@gmail.com
 
