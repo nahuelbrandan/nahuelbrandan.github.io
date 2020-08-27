@@ -7,6 +7,7 @@ categories: [Portfolio]
 tags: [Auth0, APIs, Oauth 2.0, Python]
 url: "/portfolio/2019/09/02/autenticar-aplicaciones-clientes-de-APIs-con-Auth0.html"
 image: "/assets/img/posts/auth0.webp"
+thumbnail: "/assets/img/posts/auth0.jpg"
 ---
 
 En el ámbito laboral, te cuento uno de los mayores desafios que tuve que enfrentar.

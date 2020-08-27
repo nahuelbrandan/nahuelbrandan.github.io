@@ -11,8 +11,8 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.meta_title }}{% endif %}"/>
   
-  {% if page.image %}
-  <meta property="og:image" content="{{ page.image }}">
+  {% if page.thumbnail %}
+  <meta property="og:image" content="{{ page.thumbnail }}">
   {% else %}
   <meta property="og:image" content="{{ '/assets/img/site_thumbnail.png' | prepend: site.baseurl }}">
   {% endif %}

@@ -5,6 +5,7 @@ date:   2019-01-03 00:00:01 -0300
 comments: true
 url: "/2019/01/03/zcash-y-su-ceremonia-para-definir-una-contraseña.html"
 image: "/assets/img/posts/ojo.webp"
+thumbnail: "/assets/img/posts/ojo.jpg"
 hide_title: true
 ---
 

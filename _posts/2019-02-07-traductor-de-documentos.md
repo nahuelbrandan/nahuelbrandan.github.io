@@ -7,6 +7,7 @@ categories: [Portfolio]
 tags: [Java]
 url: "/portfolio/2019/02/07/traductor-de-documentos.html"
 image: "/assets/img/posts/traductor.webp"
+thumbnail: "/assets/img/posts/traductor.jpg"
 hide: true
 ---
 

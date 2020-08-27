@@ -5,6 +5,7 @@ date:   2019-01-10 00:00:01 -0300
 comments: true
 url: "/2019/01/10/consejos-si-vas-a-comenzar-una-carrera-universitaria.html"
 image: "/assets/img/posts/consejos.webp"
+thumbnail: "/assets/img/posts/consejos.jpg"
 hide_title: true
 ---
 

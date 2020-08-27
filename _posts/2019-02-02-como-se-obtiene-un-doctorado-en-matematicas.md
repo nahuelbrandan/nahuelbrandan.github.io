@@ -5,6 +5,7 @@ date:   2019-02-02 02:00:01 -0300
 comments: true
 url: "/2019/02/02/como-se-obtiene-un-doctorado-en-matematicas.html"
 image: "/assets/img/posts/paenza.webp"
+thumbnail: "/assets/img/posts/paenza.jpg"
 hide_title: true
 ---
 

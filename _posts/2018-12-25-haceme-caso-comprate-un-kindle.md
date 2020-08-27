@@ -5,6 +5,7 @@ date:   2018-12-25 00:00:01 -0300
 comments: true
 url: "/2018/12/25/haceme-caso-comprate-un-kindle.html"
 image: "/assets/img/posts/kindle.webp"
+thumbnail: "/assets/img/posts/kindle.jpg"
 hide_title: true
 ---
 

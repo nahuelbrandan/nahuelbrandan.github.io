@@ -6,6 +6,7 @@ date:   2020-08-17 18:00:00 -0300
 url: "https://www.nahuelbrandan.com/2020/08/17/sobre-la-importancia-de-tener-tu-pagina-web.html"
 identifier: "/sobre-la-importancia-de-tener-tu-pagina-web.html"
 image: "/assets/img/posts/prod.webp"
+thumbnail: "/assets/img/posts/prod.png"
 hide_title: true
 ---
 
