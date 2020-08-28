@@ -50,9 +50,26 @@
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
           Disqus.</a></noscript>
         {% endif %}
-      
+  
+        <section data-aos="fade-up" class="portfolio-block photography" style="padding: 0 0 1em;">
+          <h3 class="text-center" style="text-align: left; margin: 1em;">Otras entradas:</h3>
+          <div class="container">
+            <div class="row no-gutters">
+              {% assign posts_sin_portfolio = site.posts | where_exp:"post", "post.categories[0] != 'Portfolio'" %}
+              {% assign posts = posts_sin_portfolio | where_exp:"post", "post.url != page.url" | sample:3 %}
+              {% for post in posts %}
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" style="font-size: 3px;">
+                <a href={{ post.url }}><img
+                   class="img-thumbnail img-fluid shadow d-sm-inline image"
+                   src={{ post.image }}
+                   style="font-size: 16px;" alt={{ post.title }}></a></div>
+              {% endfor %}
+            </div>
+          </div>
+        </section>
+  
         {% include footer.html %}
-    
+
       </article>
     </div>
   </main>
