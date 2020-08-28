@@ -17,26 +17,24 @@ Junar es una plataforma para publicar [datos abiertos](https://en.wikipedia.org/
 de trabajo, portales online y [API's](https://en.wikipedia.org/wiki/Application_programming_interface) para acceder a 
 la información.
 
-Por ejemplo la página de Datos del [Arsat](https://en.wikipedia.org/wiki/ARSAT) usa sus servicios 
-[https://datos.arsat.com.ar/](https://datos.arsat.com.ar/)
-
-La [Comisión Nacional de Energia de Chile](https://es.wikipedia.org/wiki/Comisi%C3%B3n_Nacional_de_Energ%C3%ADa_de_Chile) 
-por su parte también: 
-[https://desarrolladores.energiaabierta.cl/](https://desarrolladores.energiaabierta.cl/)
+Ejemplos de clientes utilizando sus servicios son la 
+[[Comisión Nacional de Energia de Chile]](https://desarrolladores.energiaabierta.cl/), el [Arsat](https://datos.arsat.com.ar/), entre otros.
 
 ![API's de CNE]({{"/assets/img/elements_in_posts/cne.webp"}})
 
 ---
 
-Por temas de confidencialidad uno no puede comentar mucho detalle.
+Me desempeño como Desarrollador Backend, trabajando en un equipo de unas decenas de personas, utilizando 
+herramientas como: _Python_, _Django_, _Redis_, _Elastic Search_, _Celery_, _Django Rest Framework_, entre otras.
+
+Organizándonos aplicando la metodología _Scrum_.
+ 
+Además realizando análisis de arquitectura de software, análisis y refinamiento de nuevos requerimientos.
+
+![http://energiaabierta.cl/visualizaciones/mapa-precio-de-combustibles]({{"/assets/img/elements_in_posts/cne2.webp"}})
 
 ---
 
-Me desempeño como Desarrollador Backend, trabajando en un equipo, utilizando herramientas como: _Python_, _Django_, 
-_Redis_, _Elastic Search_, _Celery_, _Django Rest Framework_, etc. Organizándonos aplicando la metodología Scrum.
- 
-Además realizando análisis de arquitectura de software, análisis de nuevos requerimientos, etc.
-
-![http://energiaabierta.cl/visualizaciones/mapa-precio-de-combustibles]({{"/assets/img/elements_in_posts/cne2.webp"}})
+Una experiencia muy enriquecedora y didáctica, sirviendo para validar mis conocimientos y acrecentar mis experiencias.
 
 ---
