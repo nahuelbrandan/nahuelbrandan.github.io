@@ -4,5 +4,6 @@ _sass/
 .idea/
 rafts/
 node_modules/
+gists/
 
 main.css
