@@ -2,6 +2,9 @@
 
 Esta es mi página web, la pueden visualizar en: [nahuelbrandan.com](https://www.nahuelbrandan.com)
 
+Desarrollado utilizando como base [este proyecto](https://github.com/crscardellino/crscardellino.github.io) de Cristian
+ Cardellino.
+
 ### Instalación.
 
     sudo apt install ruby ruby-dev libffi-dev build-essential zlib1g-dev

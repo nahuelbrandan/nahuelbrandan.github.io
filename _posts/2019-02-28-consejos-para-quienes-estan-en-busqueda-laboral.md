@@ -60,8 +60,6 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
     **Debemos captar la atención** de a quien le toque analizar nuestra solicitud.
 
-    Para darles un ejemplo concreto, este es [mi CV]({{ site.cv }}).
-
     Utilicé la aplicación web [Canva](https://www.canva.com/), la cual recomiendo, esta muy buena y su version gratuita es muy completa.
 
     Mi plantilla del CV, dentro de Canva es [ésta](https://www.canva.com/design/DADRBUtQDN8/share?role=VIEWER&token=awHa-Wdly-uiRqTcGcjyqQ&utm_content=DADRBUtQDN8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton), ustedes podrían copiarla y modificarla con sus datos.

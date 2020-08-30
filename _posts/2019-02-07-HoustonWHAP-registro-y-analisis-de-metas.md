@@ -9,17 +9,16 @@ image: "/assets/img/posts/HoustonWHAP.webp"
 thumbnail: "/assets/img/posts/HoustonWHAP.jpg"
 ---
 
-Programa realizado en el ámbito académico, junto con otros 3 amigos y compañeros, para la materia: *Ingenieria de Software I*.
+Programa realizado en el ámbito académico junto a 3 compañeros más, para la materia: *Ingenieria de Software I*.
 
-## Información.
+## Descripción.
 
 **¿Qué es HoustonWHAP?**
 
 Es una aplicación web, desarrollada en ***Python*** utilizando el framework ***Django***.
 
-La persona que desee utilizar éste producto deberá *registrarse*, y luego *ingresar* con su usuario y contraseña.
-
-Una vez en éste punto podrá crear listas de metas y submetas, a los cuales les podrá ir haciendo un seguimiento, podrá también observar estadísticas generales de su progreso.
+El usuario luego de autenticarse podrá crear listas de metas y submetas, para poder realizar un seguimiento, 
+incluso observar estadísticas generales de su progreso.
 
 **Algunas capturas de pantalla:**
 
@@ -31,7 +30,12 @@ Una vez en éste punto podrá crear listas de metas y submetas, a los cuales les
 
 ## Desarrollo.
 
-Durante todo el proceso de desarrollo se trabajo **simulando un entorno de desarrollo real**. Creando *issues* y asignandolos entre los integrantes. Además para la implementación de cada *issue* se realizó un *brach* específico, y cuando éste este completo solicitar un *pull request* para integrar las nuevas modificaciones a la rama general.
+Durante todo el proceso de desarrollo se trabajo **simulando un entorno de desarrollo real**. Creando *tickets* y 
+asignandolos entre los integrantes. 
+
+Para la implementación de cada *ticket* se realizó un *brach* específico, enviando un 
+*pull request* que este completo, el cual es validado por otro de los integrantes, para asi integrar la nueva 
+funcionalidad a la rama general.
 
 ---
 

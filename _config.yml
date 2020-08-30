@@ -13,9 +13,8 @@ plugins:
 
 include: ['_pages']
 
-# Site settings
 title: "Nahuel Brandán"
-meta_title: "Nahuel Brandán - Portfolio."
+meta_title: "Nahuel Brandán | Software Developer | Portfolio."
 description: > # this means to ignore newlines until "email:"
     Hola! Soy Nahuel Brandán. Desarrollador de Software backend, actualmente especializándome en Python.
     Soy muy afortunado de poder trabajar en un área tan apasionante.
@@ -23,11 +22,9 @@ description: > # this means to ignore newlines until "email:"
 
 email: nahuelbrandan123@gmail.com
 
-# blog logo
 logo: "/assets/img/logo.webp"
 float_logo: true
 
-# blog cover
 cover: "/assets/img/cover.webp"
 
 name: 'Nahuel Brandán'
@@ -38,23 +35,6 @@ paginate: 5
 
 url: "https://www.nahuelbrandan.com"
 baseurl: ""
-
-cv: "https://drive.google.com/file/d/119s_l6mmdmdnJ6-qgtJW92hOrXcJ70QO/view?usp=sharing"
-
-social:
-  - icon: linkedin-square
-    url: https://www.linkedin.com/in/nahuelbrandan/
-    desc: Linkedin
-
-  - icon: github
-    url: https://github.com/nahuelbrandan
-    desc: Github
-
-  - icon: stack-overflow
-    url: https://stackoverflow.com/users/6125910/nahuel-brandan
-    desc: Stackoverflow
-
-excerpt_separator: <!-- more -->
 
 jekyll-archives:
   enabled:

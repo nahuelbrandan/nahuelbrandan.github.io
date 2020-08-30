@@ -203,7 +203,6 @@ Algunos prefieren estudiar solos, otros en grupo...
 
 ---
 ---
----
 
 ## Resumen nivel 5.
 
@@ -215,6 +214,6 @@ Y si sos tan vago para ir derecho al resumen nivel 5 entonces me caes bien, me g
 
 ---
 
-Espero que te haya servido éste humilde artículo, ¡Haceme saber que te pareció!, si te sirvió, que punto le agregarías o editarías, puedo mantener el artículo agregando sus sugerencias.
+Espero que te haya servido este humilde artículo, ¡Haceme saber que te pareció!, si te sirvió, que punto le agregarías o editarías, puedo mantener el artículo agregando sus sugerencias.
 
 Saludos!
