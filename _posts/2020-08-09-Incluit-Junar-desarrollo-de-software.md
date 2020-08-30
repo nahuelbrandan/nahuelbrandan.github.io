@@ -16,8 +16,9 @@ Junar es una plataforma para publicar [datos abiertos](https://en.wikipedia.org/
 de trabajo, portales online y [API's](https://en.wikipedia.org/wiki/Application_programming_interface) para acceder a 
 la información.
 
-Ejemplos de clientes utilizando sus servicios son la 
-[[Comisión Nacional de Energia de Chile]](https://desarrolladores.energiaabierta.cl/), el [Arsat](https://datos.arsat.com.ar/), entre otros.
+Ejemplos de clientes utilizando sus servicios son: 
+[[Comisión Nacional de Energia de Chile]](https://desarrolladores.energiaabierta.cl/), 
+[Arsat](https://datos.arsat.com.ar/), entre otros.
 
 ![API's de CNE]({{"/assets/img/elements_in_posts/cne.webp"}})
 
