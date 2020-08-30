@@ -60,12 +60,11 @@
             <div class="row">
         
               {% if page.categories contains 'Portfolio' %}
-                {% assign posts_misma_categoria = site.posts | where_exp:"post", "post.categories contains 'Portfolio'" %}
+                {% assign posts = site.posts | where:"categories", "Portfolio" | where_exp:"post", "post.url != page.url" | sample:3 %}
               {% else %}
-                {% assign posts_misma_categoria = site.posts | where_exp:"post", "post.categories contains 'Articulo'" %}
+                {% assign posts = site.posts | where:"categories", "Articulo" | where_exp:"post", "post.url != page.url" | sample:3 %}
               {% endif %}
         
-              {% assign posts = posts_misma_categoria | where_exp:"post", "post.url != page.url" | sample:3 %}
               {% for post in posts %}
         
               <div class="col-md-6 col-lg-4">
