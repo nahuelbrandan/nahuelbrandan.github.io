@@ -7,7 +7,7 @@ identifier: "/2018/12/23/hola-mundo.html"
 url: "/2018/12/23/hola-mundo.html"
 image: "/assets/img/posts/hello_world.webp"
 thumbnail: "/assets/img/posts/hello_world.jpg"
-hide_title: true
+categories: [Artículo]
 ---
 
 Siguiendo la clásica costumbre informática llamada 'Hola Mundo!', que se refiere a cuando alguien comienza a aprender un nuevo lenguaje o herramienta, realizar el programar más simple posible, generalmente imprimir por pantalla un texto, siendo éste el primer ejercicio típico y fundamental didácticamente.

@@ -7,7 +7,7 @@ url: "https://www.nahuelbrandan.com/2020/08/17/sobre-la-importancia-de-tener-tu-
 identifier: "/sobre-la-importancia-de-tener-tu-pagina-web.html"
 image: "/assets/img/posts/prod.webp"
 thumbnail: "/assets/img/posts/prod.png"
-hide_title: true
+categories: [Artículo]
 ---
 
 Si te encuentras en el mundo de la informática, considero que es muy didáctico el tener alguna página web en 

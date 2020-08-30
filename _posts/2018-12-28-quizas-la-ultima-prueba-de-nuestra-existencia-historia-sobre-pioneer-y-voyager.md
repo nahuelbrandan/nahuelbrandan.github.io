@@ -6,7 +6,7 @@ comments: true
 url: "/2018/12/28/quizas-la-ultima-prueba-de-nuestra-existencia-historia-sobre-pioneer-y-voyager.html"
 image: "/assets/img/posts/universo.webp"
 thumbnail: "/assets/img/posts/universo.jpg"
-hide_title: true
+categories: [Artículo]
 ---
 
 Sabemos de la existencia de los dinosaurios en el pasado por sus restos fósiles encontrados.

@@ -7,7 +7,7 @@ url: "https://www.nahuelbrandan.com/2019/09/01/gracias-TaMaBin.html"
 identifier: "/2019/09/01/gracias-TaMaBin.html"
 image: "/assets/img/posts/TaMaBin.webp"
 thumbnail: "/assets/img/posts/TaMaBin.jpg"
-show_title: true
+categories: [Artículo]
 ---
 
 Descargo las películas y series que veo por una cuestión de comodidad, calidad y un mayor catálogo de opciones, principalmente desde [yts](https://yts.am), [ettv](https://ettvtorrents.com/) y [piratebay](https://thepiratebay.rocks/).

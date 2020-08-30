@@ -7,7 +7,7 @@ url: "https://www.nahuelbrandan.com/2019/02/28/consejos-para-quienes-estan-en-bu
 identifier: "/2019/03/07/consejos-si-estas-en-busqueda-laboral.html"
 image: "/assets/img/posts/strategy.webp"
 thumbnail: "/assets/img/posts/strategy.jpg"
-hide_title: true
+categories: [Artículo]
 ---
 
 Desde el momento en que me recibí hasta conseguir mi primer trabajo pasaron **4 meses**, tiempo en el que estuve en búsqueda laboral activa (más del que esperaba).

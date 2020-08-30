@@ -13,7 +13,7 @@ title: Portfolio - Nahuel Brandán
       <div class="row">
         
         {% for category in site.categories %}
-        {% if category[0] == "Portfolio" %}
+        {% if category contains "Portfolio" %}
         {% for post in category[1] %}
         
         <div class="col-md-6 col-lg-4">

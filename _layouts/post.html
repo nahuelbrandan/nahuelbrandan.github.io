@@ -9,17 +9,15 @@
       <article class="post">
         <div class="post-meta">
           {% if page.image %}
-            <img class="post-img" src={{ page.image }} alt={{ page.title }}>
-          {% else %}
-            <p class="post-title">{{ page.title }}</p>
+          <img class="post-img" src={{ page.image }} alt={{ page.title }}>
           {% endif %}
+  
           <div class="cf post-meta-text">
             <span class="post-date">{% include date_ge.html date = post.date %}</span>
           </div>
-        
-          {% if page.show_title %}
-            <h1 class="text-center" style="text-align: left; margin: 1em;">{{page.title}}</h1>
-          {% endif %}
+  
+          <p class="post-title">{{ page.title }}</p>
+
         </div>
       </article>
     </div>
@@ -51,18 +49,41 @@
           Disqus.</a></noscript>
         {% endif %}
   
-        <section data-aos="fade-up" class="portfolio-block photography" style="padding: 0 0 1em;">
+        <section data-aos="fade-up" class="portfolio-block projects-cards related-items" style="padding: 0 0 1em;">
+          {% if page.categories %}
+          {% if page.categories contains 'Portfolio' %}
+          <h3 class="text-center" style="text-align: left; margin: 1em;">Otras experiencias:</h3>
+          {% else %}
           <h3 class="text-center" style="text-align: left; margin: 1em;">Otras entradas:</h3>
+          {% endif %}
+          {% endif %}
+    
           <div class="container">
-            <div class="row no-gutters">
-              {% assign posts_sin_portfolio = site.posts | where_exp:"post", "post.categories[0] != 'Portfolio'" %}
-              {% assign posts = posts_sin_portfolio | where_exp:"post", "post.url != page.url" | sample:3 %}
+            <div class="row">
+        
+              {% if page.categories contains 'Portfolio' %}
+              {% assign posts_misma_categoria = site.posts | where_exp:"post", "post.categories contains 'Portfolio'" %}
+              {% else %}
+              {% assign posts_misma_categoria = site.posts | where_exp:"post", "unless post.categories contains
+              'Portfolio'" %}
+              {% endif %}
+              {% endif %}
+        
+              {% assign posts = posts_misma_categoria | where_exp:"post", "post.url != page.url" | sample:3 %}
               {% for post in posts %}
-              <div class="col-md-6 col-lg-4 item zoom-on-hover" style="font-size: 3px;">
-                <a href={{ post.url }}><img
-                   class="img-thumbnail img-fluid shadow d-sm-inline image"
-                   src={{ post.image }}
-                   style="font-size: 16px;" alt={{ post.title }}></a></div>
+        
+              <div class="col-md-6 col-lg-4">
+                <div class="card border-0">
+                  <a href="{{ post.url | prepend: site.baseurl }}">
+                    <img class="card-img-top scale-on-hover" src={{post.image}} alt={{post.image}}
+                         title="{{post.title}}"></a>
+            
+                  <div class="card-body">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                  </div>
+                </div>
+              </div>
+        
               {% endfor %}
             </div>
           </div>
@@ -73,7 +94,6 @@
       </article>
     </div>
   </main>
-
     {% include lazyload.html %}
     {% include javascripts_post.html %}
     <script src="/assets/js/prism.js"></script>
