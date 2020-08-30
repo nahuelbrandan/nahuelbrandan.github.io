@@ -5,10 +5,8 @@ date:   2019-02-07 00:00:01 -0300
 comments: false
 categories: [Portfolio]
 tags: [Java]
-url: "/portfolio/2019/02/07/traductor-de-documentos.html"
 image: "/assets/img/posts/traductor.webp"
 thumbnail: "/assets/img/posts/traductor.jpg"
-hide: true
 ---
 
 Programa realizado en el ámbito académico.

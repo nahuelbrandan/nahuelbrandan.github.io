@@ -5,7 +5,6 @@ date:   2019-02-07 10:00:01 -0300
 comments: false
 categories: [Portfolio]
 tags: [C]
-url: "/portfolio/2019/02/07/coloreo-propio-de-grafos.html"
 image: "/assets/img/posts/grafos.webp"
 thumbnail: "/assets/img/posts/grafos.jpg"
 ---

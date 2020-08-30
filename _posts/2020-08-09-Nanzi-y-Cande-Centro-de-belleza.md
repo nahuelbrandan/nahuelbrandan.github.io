@@ -5,7 +5,6 @@ date:   2020-08-09 00:00:01 -0300
 comments: false
 categories: [Portfolio]
 tags: [Github Pages, Bootstrap, HTML, CSS]
-url: "/portfolio/2020/08/09/Nanzi-y-Cande-Centro-de-belleza.html"
 image: "/assets/img/posts/nanzi-y-cande.webp"
 thumbnail: "/assets/img/posts/nanzi-y-cande.jpg"
 ---

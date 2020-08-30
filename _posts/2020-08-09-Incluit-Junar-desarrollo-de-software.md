@@ -5,7 +5,6 @@ date:   2020-08-09 00:00:01 -0300
 comments: false
 categories: [Portfolio]
 tags: [Python, Django, APIs, Auth0, Redis, Elastic Search, Celery]
-url: "/portfolio/2020/08/08/Incluit-Junar-Desarrollo-de-Software-Backend.html"
 image: "/assets/img/posts/incluit-junar.webp"
 thumbnail: "/assets/img/posts/incluit-junar.jpg"
 ---

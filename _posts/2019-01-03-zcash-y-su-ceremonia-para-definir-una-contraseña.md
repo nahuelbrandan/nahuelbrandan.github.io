@@ -3,7 +3,6 @@ layout: post
 title: "Zcash y su tremenda ceremonia para definir 'simplemente' una contraseña."
 date:   2019-01-03 00:00:01 -0300
 comments: true
-url: "/2019/01/03/zcash-y-su-ceremonia-para-definir-una-contraseña.html"
 image: "/assets/img/posts/zcash.webp"
 thumbnail: "/assets/img/posts/zcash.jpg"
 categories: [Articulo]

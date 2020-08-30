@@ -15,12 +15,12 @@ title: Artículos - Nahuel Brandán
         {%if post.categories contains "Articulo"%}
         <div class="col-md-6 col-lg-4">
           <div class="card border-0">
-            <a href="{{ post.url | prepend: site.baseurl }}">
+            <a href="{{ post.id | prepend: site.baseurl }}">
               <img class="card-img-top scale-on-hover" src={{post.image}} alt={{post.image}} title="{{post.title}}">
             </a>
       
             <div class="card-body">
-              <h6><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h6>
+              <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a></h6>
             </div>
           </div>
         </div>

@@ -5,7 +5,6 @@ date:   2019-02-07 17:50:01 -0300
 comments: false
 categories: [Portfolio]
 tags: [Python, Django, HTML, CSS]
-url: "/portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html"
 image: "/assets/img/posts/HoustonWHAP.webp"
 thumbnail: "/assets/img/posts/HoustonWHAP.jpg"
 ---
