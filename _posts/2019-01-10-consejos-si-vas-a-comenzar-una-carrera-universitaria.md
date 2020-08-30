@@ -6,7 +6,7 @@ comments: true
 url: "/2019/01/10/consejos-si-vas-a-comenzar-una-carrera-universitaria.html"
 image: "/assets/img/posts/consejos.webp"
 thumbnail: "/assets/img/posts/consejos.jpg"
-categories: [Artículo]
+categories: [Articulo]
 ---
 
 Hace un par de meses me recibí de Analista en Computación y en este articulo quiero darles algunos consejos y enseñanzas que aprendí (a veces a la fuerza) durante el transcurso de la carrera. Mientras más pronto los sepas mejor.

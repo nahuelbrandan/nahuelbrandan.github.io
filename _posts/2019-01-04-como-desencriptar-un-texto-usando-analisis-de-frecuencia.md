@@ -6,7 +6,7 @@ comments: true
 url: "/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html"
 image: "/assets/img/posts/encriptar.webp"
 thumbnail: "/assets/img/posts/encriptar.jpg"
-categories: [Artículo]
+categories: [Articulo]
 ---
 
 Recientemente encontré una oferta laboral en la que como proceso de preselección pedía desencriptar el siguiente texto y explicar el procedimiento realizado:

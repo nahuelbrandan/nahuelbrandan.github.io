@@ -6,7 +6,7 @@ comments: true
 url: "/2019/01/30/el-problema-de-la-distribucion-de-claves-criptograficas.html"
 image: "/assets/img/posts/Argonath.webp"
 thumbnail: "/assets/img/posts/Argonath.jpg"
-categories: [Artículo]
+categories: [Articulo]
 ---
 
 Ya hablamos sobre criptografía en [éste artículo anterior](https://www.nahuelbrandan.com/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html).

@@ -12,7 +12,7 @@ title: Artículos - Nahuel Brandán
       </div>
       <div class="row">
         {%for post in site.posts%}
-        {%if post.categories contains "Portfolio"%}
+        {%if post.categories contains "Articulo"%}
         <div class="col-md-6 col-lg-4">
           <div class="card border-0">
             <a href="{{ post.url | prepend: site.baseurl }}">

@@ -50,12 +50,10 @@
         {% endif %}
   
         <section data-aos="fade-up" class="portfolio-block projects-cards" style="padding: 0 0 1em;">
-          {% if page.categories %}
           {% if page.categories contains 'Portfolio' %}
           <h3 class="text-center" style="text-align: left; margin: 1em;">Otras experiencias:</h3>
           {% else %}
           <h3 class="text-center" style="text-align: left; margin: 1em;">Otras entradas:</h3>
-          {% endif %}
           {% endif %}
     
           <div class="container">
@@ -64,8 +62,7 @@
               {% if page.categories contains 'Portfolio' %}
                 {% assign posts_misma_categoria = site.posts | where_exp:"post", "post.categories contains 'Portfolio'" %}
               {% else %}
-                {% assign posts_misma_categoria = site.posts | where_exp:"post", "unless post.categories contains
-              'Portfolio'" %}
+                {% assign posts_misma_categoria = site.posts | where_exp:"post", "post.categories contains 'Articulo'" %}
               {% endif %}
         
               {% assign posts = posts_misma_categoria | where_exp:"post", "post.url != page.url" | sample:3 %}
