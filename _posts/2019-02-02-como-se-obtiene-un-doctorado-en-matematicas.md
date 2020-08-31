@@ -3,18 +3,24 @@ layout: post
 title: "Cómo se obtiene un doctorado en matemáticas."
 date:   2019-02-02 02:00:01 -0300
 comments: true
-image: "/assets/img/posts/paenza.webp"
-thumbnail: "/assets/img/posts/paenza.jpg"
+image: "/assets/img/posts/maths.webp"
+thumbnail: "/assets/img/posts/maths.jpg"
 categories: [Articulo]
 ---
 
-En una entrevista radial, [Adrián Paenza](https://es.wikipedia.org/wiki/Adri%C3%A1n_Paenza), Doctor en matemáticas y gran divulgador científico, premiado internacionalmente, contó como fue su proceso de obtención del grado: Doctor. Historia que me gustó y voy a contar.
+En una entrevista radial, [Adrián Paenza](https://es.wikipedia.org/wiki/Adri%C3%A1n_Paenza), Doctor en matemáticas y 
+gran divulgador científico, premiado internacionalmente, contó como fue su proceso de obtención del grado _Doctor_. 
+Historia que me gustó y voy a contar.
+
+![Adrian Paenza]({{"/assets/img/elements_in_posts/paenza.webp"}})
+
 
 ---
 
 # El proceso.
 
-Tras varios años de intenso estudio se recibe de Licenciado en Matemáticas. Luego de éste punto se debe elegir que caminos seguir. Entre los posibles caminos se encuentra seguir perfeccionándose realizando un doctorado.
+Tras varios años de intenso estudio se recibe de Licenciado en Matemáticas. Luego de éste punto se debe elegir que 
+caminos seguir. Entre los posibles caminos se encuentra seguir perfeccionándose realizando un doctorado.
 
 Ahora, **¿Que se debe hacer para obtener un doctorado en matemáticas?**
 
@@ -22,21 +28,26 @@ Básicamente **resolver un ejercicio**. Pero no cualquiera, sino **uno que nunca
 
 y.. ¿De dónde se lo obtiene?
 
-Se te asigna un Director de tesis quien va a ser el encargado de guiarte, éste será el responsable además de asignarte el ejercicio, deberá tener el cuidado de no darte uno de extrema dificultad.
+Se te asigna un Director de tesis quien va a ser el encargado de guiarte, éste será el responsable además de asignarte 
+el ejercicio, deberá tener el cuidado de no darte uno de extrema dificultad.
 
 ---
 
-Adrián cuenta que estaba junto con otro aspirante, en la sala de espera de su Director, esperando por que les asignara su ejercicio de tesis a cada uno.
+Adrián cuenta que estaba junto con otro aspirante, en la sala de espera de su Director, esperando por que les asignara 
+su ejercicio de tesis a cada uno.
 
 Una vez finalizado el encuentro, sale conociendo el problema que tendrá que resolver, pero no lo entiende.
 
 **Tardó un año** en entender el problema. No en resolverlo, **sólo entenderlo**.
 
-Luego **tardo otro año** en resolverlo. Recuerda nítidamente el momento en que se le ocurrió la solución. Estaba realizando una actividad trivial, en su cabeza daba vueltas el problema todo el tiempo. Hasta que de repente, como un rayo se le cruzo la solución. En ése momento pensó: "Me acabo de doctorar".
+Luego **tardo otro año** en resolverlo. Recuerda nítidamente el momento en que se le ocurrió la solución. Estaba 
+realizando una actividad trivial, en su cabeza daba vueltas el problema todo el tiempo. Hasta que de repente, como un 
+rayo se le cruzo la solución. En ése momento pensó: "Me acabo de doctorar".
 
 Imagina que sensación tan gratificante luego de tanto esfuerzo y dedicación.
 
-Después tardo **medio año** en escribirlo! En poner en papel los conocimientos que están en su cabeza, para luego poder transmitirselos a otra persona, actividad más difícil que de lo que parece.
+Después tardo **medio año** en escribirlo! En poner en papel los conocimientos que están en su cabeza, para luego poder 
+transmitirselos a otra persona, actividad más difícil que de lo que parece.
 
 ---
 
