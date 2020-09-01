@@ -5,7 +5,7 @@ date:   2019-01-04 00:00:01 -0300
 comments: true
 image: "/assets/img/posts/encriptar.webp"
 thumbnail: "/assets/img/posts/encriptar.jpg"
-categories: [Articulo]
+categories: [Article]
 ---
 
 Recientemente encontré una oferta laboral en la que como proceso de preselección pedía desencriptar el siguiente texto y explicar el procedimiento realizado:

@@ -5,7 +5,7 @@ date:   2019-01-03 00:00:01 -0300
 comments: true
 image: "/assets/img/posts/zcash.webp"
 thumbnail: "/assets/img/posts/zcash.jpg"
-categories: [Articulo]
+categories: [Article]
 ---
 
 Por lo general, al vernos en la situación de tener que definir una contraseña (nos registramos en una nueva página por ejemplo), seleccionamos algún par de palabras (posiblemente inspirados en objetos a nuestro alrededor) seguido de algún número, ejemplo: *edificioperro123*

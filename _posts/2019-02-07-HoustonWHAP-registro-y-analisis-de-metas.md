@@ -17,7 +17,7 @@ Programa realizado en el ámbito académico junto a 3 compañeros más, para la 
 
 Es una aplicación web, desarrollada en ***Python*** utilizando el framework ***Django***.
 
-El usuario luego de autenticarse podrá crear listas de metas y submetas, para poder realizar un seguimiento, 
+El usuario luego de autenticarse podrá crear listas de metas y submetas, para poder realizar un seguimiento,
 incluso observar estadísticas generales de su progreso.
 
 **Algunas capturas de pantalla:**
@@ -30,12 +30,12 @@ incluso observar estadísticas generales de su progreso.
 
 ## Desarrollo.
 
-Durante todo el proceso de desarrollo se trabajo **simulando un entorno de desarrollo real**. Creando *tickets* y 
-asignandolos entre los integrantes. 
+Durante todo el proceso de desarrollo se trabajo **simulando un entorno de desarrollo real**. Creando *tickets* y
+asignandolos entre los integrantes.
 
-Para la implementación de cada *ticket* se realizó un *brach* específico, enviando un 
-*pull request* que este completo, el cual es validado por otro de los integrantes, para asi integrar la nueva 
-funcionalidad a la rama general.
+Para la implementación de cada *ticket* se realizó un *brach* específico, enviando un
+*pull request* cuando este completo, el cual es validado por el resto de los integrantes, para asi una vez aprobado
+integrarlo a la rama general.
 
 ---
 

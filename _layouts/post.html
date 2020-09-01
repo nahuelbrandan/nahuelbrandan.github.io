@@ -61,7 +61,7 @@
               {% if page.categories contains 'Portfolio' %}
                 {% assign posts = site.posts | where:"categories", "Portfolio" | where_exp:"post", "post.id != page.id" | sample:3 %}
               {% else %}
-                {% assign posts = site.posts | where:"categories", "Articulo" | where_exp:"post", "post.id != page.id" | where_exp:"post", "post.title != 'Hola Mundo!'" | sample:3 %}
+                {% assign posts = site.posts | where:"categories", "Article" | where_exp:"post", "post.id != page.id" | where_exp:"post", "post.title != 'Hola Mundo!'" | sample:3 %}
               {% endif %}
         
               {% for post in posts %}

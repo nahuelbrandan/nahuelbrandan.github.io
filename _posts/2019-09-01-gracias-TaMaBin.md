@@ -5,7 +5,7 @@ comments: true
 date:   2019-09-01 12:00:00 -0300
 image: "/assets/img/posts/TaMaBin.webp"
 thumbnail: "/assets/img/posts/TaMaBin.jpg"
-categories: [Articulo]
+categories: [Article]
 ---
 
 Descargo las películas y series que veo por una cuestión de comodidad, calidad y un mayor catálogo de opciones, principalmente desde [yts](https://yts.am), [ettv](https://ettvtorrents.com/) y [piratebay](https://thepiratebay.rocks/).

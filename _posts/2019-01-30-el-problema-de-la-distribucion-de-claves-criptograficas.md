@@ -5,7 +5,7 @@ date:   2019-01-30 22:00:01 -0300
 comments: true
 image: "/assets/img/posts/Argonath.webp"
 thumbnail: "/assets/img/posts/Argonath.jpg"
-categories: [Articulo]
+categories: [Article]
 ---
 
 Ya hablamos sobre criptografía en [éste artículo anterior](https://www.nahuelbrandan.com/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html).

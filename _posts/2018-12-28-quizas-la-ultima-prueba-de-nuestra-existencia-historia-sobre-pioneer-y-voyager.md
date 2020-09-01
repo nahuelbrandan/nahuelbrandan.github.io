@@ -5,7 +5,7 @@ date:   2018-12-28 00:00:01 -0300
 comments: true
 image: "/assets/img/posts/universo.webp"
 thumbnail: "/assets/img/posts/universo.jpg"
-categories: [Articulo]
+categories: [Article]
 ---
 
 Sabemos de la existencia de los dinosaurios en el pasado por sus restos fósiles encontrados.
