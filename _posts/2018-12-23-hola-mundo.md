@@ -3,7 +3,6 @@ layout: post
 title:  "Hola Mundo!"
 date:   2018-12-23 00:00:01 -0300
 comments: true
-identifier: "/2018/12/23/hola-mundo.html"
 image: "/assets/img/posts/hello_world.webp"
 thumbnail: "/assets/img/posts/hello_world.jpg"
 categories: [Article]

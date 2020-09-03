@@ -57,4 +57,4 @@ Si no se tiene mucho cuidado se podría desarrollar un programa que tarde días 
 
 Por información más específica y forma de uso, ver el repositorio Github donde se encuentra alojado.
 
-Código fuente = [https://github.com/nahuelbrandan/discreta2](https://github.com/nahuelbrandan/discreta2)
+Código fuente [aqui](https://github.com/nahuelbrandan/discreta2).
