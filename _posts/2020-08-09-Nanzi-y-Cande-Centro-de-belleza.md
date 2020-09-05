@@ -24,7 +24,7 @@ Se requirieron conocimientos de _Bootstrap_, _CSS_, _HTML_, _Web Hosting_, _Web 
 
 ### Repositorio
 
-Podrán acceder al código fuente [aqui](https://github.com/nahuelbrandan/centro_de_belleza). 
+Podrán acceder al código fuente [aquí](https://github.com/nahuelbrandan/centro_de_belleza). 
 
 ### Desempeño
 

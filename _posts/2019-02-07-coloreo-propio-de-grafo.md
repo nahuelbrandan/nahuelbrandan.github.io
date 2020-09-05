@@ -29,21 +29,24 @@ Un coloreo trivial para un grafo sería asignarle un color distinto a cada vért
 
 **¿Qué es un coloreo propio de grafo?**
 
-Un coloreo propio de un grafo, es un coloreo con la condición agregada que se estén utilizando la menor cantidad de colores posibles.
+Un coloreo propio de un grafo, es un coloreo con la condición agregada que se estén utilizando la menor cantidad de 
+colores posibles.
 
 Llamaremos **&chi;** (Chi) a la mínima cantidad de colores necesarios para generar un coloreo propio del grafo.
 
 ---
 
 Resulta que, salvo para casos particulares, no existe un algoritmo polinomial (rápido) para generar un coloreo propio
- de un Grafo, a causa de esto vamos a utilizar una heurística, es decir, una función que aproxime el valor de **&chi
- ;**. Dicha función va a ser utilizar múltiples veces **Greedy**, el cual depende del ordenamiento inicial de los vértices.
+de un Grafo, a causa de esto vamos a utilizar una heurística, es decir, una función que aproxime el valor de 
+**&chi;**. Dicha función va a ser utilizar múltiples veces 
+[**Greedy**](https://en.wikipedia.org/wiki/Greedy_algorithm), el cual depende del ordenamiento inicial 
+de los vértices.
 
 ---
 
 ## Diseño.
 
-Éste programa fue pensado desde un principio para manejar **grafos grandes**, del orden de millones de vértices y
+Este programa fue pensado desde un principio para manejar **grafos grandes**, del orden de millones de vértices y
  decenas de millones de aristas, y utilizar Greedy mil veces!. Por lo tanto para soportar tales magnitudes se tuvo que
   pensar en eficiencia de manera constante durante todo el proceso de desarrollo.
 
@@ -57,4 +60,4 @@ Si no se tiene mucho cuidado se podría desarrollar un programa que tarde días 
 
 Por información más específica y forma de uso, ver el repositorio Github donde se encuentra alojado.
 
-Código fuente [aqui](https://github.com/nahuelbrandan/discreta2).
+Código fuente [aquí](https://github.com/nahuelbrandan/discreta2).

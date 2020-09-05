@@ -17,4 +17,4 @@ Es un traductor de texto palabra por palabra. Consulta al usuario que hacer cuan
 
 Instalación y forma de uso se especifica en el repositorio Github donde encuentra alojado.
 
-Código fuente [aqui](https://github.com/nahuelbrandan/paradigmas_java).
+Código fuente [aquí](https://github.com/nahuelbrandan/paradigmas_java).
