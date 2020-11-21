@@ -16,7 +16,7 @@ A partir de esta premisa, desarrollé la página web empresarial de la empresa f
 
 Realizando las actividades: **desarrollo**, **diseño**, **despliegue** y **mantenimiento**.
 
-Se puede visualizar en [https://www.nanziycande.com/](https://www.nanziycande.com/).
+Se puede visualizar en [www.nanziycande.com/](https://www.nanziycande.com/).
 
 ### Herramientas
 
