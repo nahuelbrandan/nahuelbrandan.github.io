@@ -1,18 +1,18 @@
 ---
 layout: default
-permalink: /articles/
-title: Artículos - Nahuel Brandán
+permalink: /blog/
+title: Blog - Nahuel Brandán
 ---
 
 <main class="page projects-page">
   <section class="portfolio-block projects-cards" style="padding: 1em;">
     <div class="container">
       <div class="heading">
-        <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Artículos</h2>
+        <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Entradas</h2>
       </div>
       <div class="row">
         {%for post in site.posts%}
-        {%if post.categories contains "Article"%}
+        {%if post.categories contains "Blog"%}
         <div class="col-md-6 col-lg-4">
           <div class="card border-0">
             <a href="{{ post.id | prepend: site.baseurl }}">
