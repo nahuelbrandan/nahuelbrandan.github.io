@@ -1,35 +1,47 @@
-<!-- ======= Footer ======= -->
-<footer id="footer">
-  
-  <div class="footer-top">
+<!-- Start: Footer Clean -->
+<div class="footer-clean">
+  <footer>
     <div class="container">
-      <div class="row">
-        
-        <div class="col-lg-4 col-md-6 footer-contact">
-          <h3>Nahuel Brandán<span>.</span></h3>
-          <p>
-            Desarrollador de Software.
-          </p>
-        
-        </div>
-        
-        <div class="col-lg-3 col-md-3 footer-links">
-          <h4>Links</h4>
+      <hr>
+      <div class="row justify-content-center">
+        <!-- Start: Services -->
+        <div class="col-sm-4 col-md-3 item">
+          <h3>Categories</h3>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
-            
-            <li><i class="bx bx-chevron-right"></i> <a href="{{ '/contact' | prepend: site.baseurl }}">Contacto</a></li>
+            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/articles/">Articles</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li></li>
           </ul>
-        </div>
-        
-        <div class="col-lg-5 col-md-3 footer-links">
-          <h4>Descripción</h4>
-          <p>Amante de la informática. Curioso. Detallista. Dame un problema en el cual ocuparme, yo me encargo de
-            resolverlo.</p>
-        </div>
-      
-      
+        </div><!-- End: Services -->
+        <!-- Start: About -->
+        <div class="col-sm-4 col-md-3 item">
+          <h3>About</h3>
+          <ul>
+            <li></li>
+            <li><a href="/contact/">Contact</a></li>
+            {% if page.layout != 'post' %}
+            <li><a href="/gallery/">Gallery</a></li>
+            {% endif %}
+            <li><a href="https://drive.google.com/file/d/1yCm7Zh93oYErIYL5zqEfrgdA1Ev8Lzmm/view?usp=sharing">CV</a></li>
+          </ul>
+        </div><!-- End: About -->
+        <!-- Start: Careers -->
+        <div class="col-sm-4 col-md-3 item">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/file/">*</a></li>
+          </ul>
+        </div><!-- End: Careers -->
+        <!-- Start: Social Icons -->
+        <div class="col-lg-3 item social">
+          <a href="https://linkedin.com/in/nahuelbrandan/"><i class="icon ion-social-linkedin"></i></a>
+          <a href="https://github.com/nahuelbrandan"><i class="icon ion-social-github"></i></a>
+          <a href="https://stackoverflow.com/users/6125910/nahuel-brandan"><i class="fab fa-stack-overflow"></i></a>
+          <p class="copyright">Nahuel Brandán © 2021</p>
+        </div><!-- End: Social Icons -->
       </div>
     </div>
-  </div>
-</footer><!-- End Footer -->
+  </footer>
+</div><!-- End: Footer Clean -->
