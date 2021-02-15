@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cómo se obtiene un doctorado en matemáticas."
+title: "Cómo se obtiene un doctorado en matemáticas"
 date:   2019-02-02 02:00:01 -0300
 comments: true
 image: "/assets/img/posts/maths.webp"

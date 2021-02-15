@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Autenticar aplicaciones clientes de APIs con Auth0."
+title: "Autenticar aplicaciones clientes de APIs con Auth0"
 date:   2019-09-02 00:00:01 -0300
 comments: false
 categories: [Portfolio]

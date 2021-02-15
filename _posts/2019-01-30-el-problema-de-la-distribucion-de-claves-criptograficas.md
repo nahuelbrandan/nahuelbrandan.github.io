@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "El problema de la distribución de claves criptográficas."
+title: "El problema de la distribución de claves criptográficas"
 date:   2019-01-30 22:00:01 -0300
 comments: true
 image: "/assets/img/posts/Argonath.webp"

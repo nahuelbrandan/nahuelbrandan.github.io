@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Coloreo propio de grafos."
+title: "Coloreo propio de grafos"
 date:   2019-02-07 10:00:01 -0300
 comments: false
 categories: [Portfolio]
 tags: [C]
 image: "/assets/img/posts/grafos.webp"
-thumbnail: "/assets/img/posts/grafos.jpg"
+thumbnail: "/assets/img/posts/grafos.png"
 ---
 
 Programa realizado en el ámbito académico. Es uno de mis mejores trabajos y de los que estoy más orgulloso.
@@ -16,7 +16,8 @@ Programa realizado en el ámbito académico. Es uno de mis mejores trabajos y de
 **¿Qué es un grafo?**
 
 Un grafo es un conjunto de vértices intercomunicados por aristas (como en la imagen de portada). Son útiles para 
-plantear y resolver cierto tipo de ejercicios.
+plantear y resolver cierto tipo de problemas, ej: 
+[el problema del viajante](https://es.wikipedia.org/wiki/Problema_del_viajante).
 
 **¿Que es un coloreo de grafo?**
 
@@ -27,12 +28,19 @@ arista y que tengan el mismo color.
 
 Un coloreo trivial para un grafo sería asignarle un color distinto a cada vértice.
 
+![ejemplo gráfico de grafo con coloreo trivial](https://docs.google.
+com/drawings/d/e/2PACX-1vQL5S7da2w4spRjOvP2mGTVKQmMhBo_xVbdJOqT-J58kqvbUAmuLut7_JlIoBc6fcHNsRfWriC2eihQ/pub?w=842&h=537)
+
 **¿Qué es un coloreo propio de grafo?**
 
-Un coloreo propio de un grafo, es un coloreo con la condición agregada que se estén utilizando la menor cantidad de 
-colores posibles.
+Un coloreo **propio** de un grafo, es un coloreo de grafo, con la condición agregada que se estén utilizando la **menor 
+cantidad** de colores posibles.
 
 Llamaremos **&chi;** (Chi) a la mínima cantidad de colores necesarios para generar un coloreo propio del grafo.
+
+![el mismo ejemplo gráfico, con coloreo propio. &chi; = 3](https://docs.google.
+com/drawings/d/e/2PACX-1vR8f76UOlO4UjXFKGUVnauxr18yiAsPnn0nQTXijj3Ci8E
+-1Y_pACI2bRIq4LcpEgORyh7h15rUaNGt/pub?w=824&h=534)
 
 ---
 
@@ -50,7 +58,7 @@ Este programa fue pensado desde un principio para manejar **grafos grandes**, de
  decenas de millones de aristas, y utilizar Greedy mil veces!. Por lo tanto para soportar tales magnitudes se tuvo que
   pensar en eficiencia de manera constante durante todo el proceso de desarrollo.
 
-Si no se tiene mucho cuidado se podría desarrollar un programa que tarde días o incluso meses en terminar!.
+Si no se tiene mucho cuidado se podría desarrollar un programa que tarde días o incluso meses en terminar!
 
 ![Descripción gráfica](https://docs.google.com/drawings/d/e/2PACX-1vRtoy1g3svRkMHvuquHsUWwb5f3PU-p46w6sj01tso7xjRhvR3HLZtEwh8tph_Y7Fmx6klteQVu7dlJ/pub?w=944&h=563)
 
@@ -58,6 +66,5 @@ Si no se tiene mucho cuidado se podría desarrollar un programa que tarde días 
 
 ## Profundidad.
 
-Por información más específica y forma de uso, ver el repositorio Github donde se encuentra alojado.
-
-Código fuente [aquí](https://github.com/nahuelbrandan/discreta2).
+Por información más específica y forma de uso, ver el 
+[repositorio con código fuente](https://github.com/nahuelbrandan/discreta2).

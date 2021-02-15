@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "sobre la importancia de tener tu página web."
+title: "sobre la importancia de tener tu página web"
 comments: true
 date:   2020-08-17 18:00:00 -0300
 image: "/assets/img/posts/prod.webp"

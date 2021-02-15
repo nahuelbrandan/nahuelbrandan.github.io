@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gracias TaMaBin."
+title: "Gracias TaMaBin"
 comments: true
 date:   2019-09-01 12:00:00 -0300
 image: "/assets/img/posts/TaMaBin.webp"

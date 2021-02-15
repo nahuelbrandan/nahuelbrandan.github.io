@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Consejos si vas a comenzar una carrera universitaria."
+title: "Consejos si vas a comenzar una carrera universitaria"
 date:   2019-01-10 00:00:01 -0300
 comments: true
 image: "/assets/img/posts/consejos.webp"

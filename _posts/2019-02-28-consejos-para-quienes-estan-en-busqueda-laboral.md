@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Consejos para quienes estan en búsqueda laboral."
+title: "Consejos para quienes estan en búsqueda laboral"
 comments: true
 date:   2019-02-28 12:00:00 -0300
 image: "/assets/img/posts/strategy.webp"

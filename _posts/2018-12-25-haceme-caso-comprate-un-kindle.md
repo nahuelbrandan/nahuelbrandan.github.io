@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Haceme caso, comprate un kindle."
+title:  "Haceme caso, comprate un kindle"
 date:   2018-12-25 00:00:01 -0300
 comments: true
 image: "/assets/img/posts/kindle.webp"
