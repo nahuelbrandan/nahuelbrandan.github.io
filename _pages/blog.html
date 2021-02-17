@@ -5,28 +5,23 @@ title: Blog - Nahuel Brandán
 ---
 
 <main class="page projects-page">
-  <section class="portfolio-block projects-cards" style="padding: 1em;">
+  <section class="portfolio-block" style="padding: 1em;">
     <div class="container">
       <div class="heading">
         <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Entradas</h2>
       </div>
-      <div class="row">
-        {%for post in site.posts%}
-        {%if post.categories contains "Blog"%}
-        <div class="col-md-6 col-lg-4">
-          <div class="card border-0">
-            <a href="{{ post.id | prepend: site.baseurl }}">
-              <img class="card-img-top scale-on-hover" src={{post.image}} alt={{post.image}} title="{{post.title}}">
-            </a>
       
-            <div class="card-body">
-              <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a></h6>
-            </div>
-          </div>
-        </div>
-        {% endif%}
-        {% endfor %}
-      </div>
+        <ul>
+          {%for post in site.posts%}
+          {%if post.categories contains "Blog"%}
+          <li>
+            <h4 class="item">
+              <a class="text-dark" href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a>
+            </h4>
+          </li>
+          {% endif%}
+          {% endfor %}
+        </ul>
     </div>
   </section>
 </main>
