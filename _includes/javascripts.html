@@ -6,3 +6,15 @@
 <script src="{{ '/assets/js/script.min.js?h=bb06afa9bb23a2276724b934c9ee05ba' | prepend: site.baseurl  }}"></script>
 <script src="{{ 'assets/js/bs-init.js' | prepend: site.baseurl  }}"></script>
 <!--<script src="assets/js/bs-init.js"></script>-->
+
+<script>
+    $(".img-fluid").addClass("wow fadeIn z-depth-1-half");
+
+    new WOW().init();
+</script>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
