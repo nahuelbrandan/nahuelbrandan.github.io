@@ -11,7 +11,7 @@ thumbnail: "/assets/img/posts/grafos.png"
 
 Programa realizado en el ámbito académico. Es uno de mis mejores trabajos y de los que estoy más orgulloso.
 
-## Introducción.
+## Introducción
 
 **¿Qué es un grafo?**
 

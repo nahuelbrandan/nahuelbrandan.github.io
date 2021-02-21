@@ -9,6 +9,8 @@ image: "/assets/img/posts/nanzi-y-cande.webp"
 thumbnail: "/assets/img/posts/nanzi-y-cande.jpg"
 ---
 
+## Descripción
+
 La presencia digital es una propiedad muy importante, más hoy en día. Si no te pueden encontrar no pueden consumir tu 
 producto o servicio.
 
@@ -18,15 +20,15 @@ Realizando las actividades: **desarrollo**, **diseño**, **despliegue** y **mant
 
 Se puede visualizar en [www.nanziycande.com/](https://www.nanziycande.com/).
 
-### Herramientas
+## Herramientas
 
 Se requirieron conocimientos de _Bootstrap_, _CSS_, _HTML_, _Web Hosting_, _Web Domains_, _Web Performance_, _SEO_, etc.
 
-### Repositorio
+## Repositorio
 
 Acceso al [código fuente](https://github.com/nahuelbrandan/centro_de_belleza). 
 
-### Desempeño
+## Desempeño
 
 Utilizando la herramienta _Lighthouse_ para ver la calidad de una página web se obtienen los siguientes resultados, los
 cuales son valores muy buenos.

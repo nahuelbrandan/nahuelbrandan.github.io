@@ -11,7 +11,7 @@ thumbnail: "/assets/img/posts/auth0.jpg"
 
 En el ámbito laboral, te cuento uno de los mayores desafios que tuve que enfrentar.
 
-## Introducción.
+## Introducción
 
 Primero veamos algunas definiciones.
 
