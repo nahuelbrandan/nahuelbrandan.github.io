@@ -17,4 +17,4 @@ siendo fundamental didácticamente.
 En este caso en particular estoy comenzando con este blog profesional, donde la idea es comentar temas en esta
 hermosa área y dar soluciones a problemas, además de contar historias interesantes.
  
-A ver que sale!.
+A ver que sale!
