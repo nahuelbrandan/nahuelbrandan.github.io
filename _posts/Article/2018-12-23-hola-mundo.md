@@ -10,7 +10,7 @@ categories: [Article]
 
 Siguiendo la clásica costumbre informática llamada 'Hola Mundo!'.
  
-Cuando un desarrollador comienza a aprender un nuevo lenguaje de programación o herramienta, suele hacer un 
+Cuando un desarrollador comienza a aprender un nuevo lenguaje de programación, suele hacer un 
 _Hello World!_ esto es realizar el programa más simple posible, generalmente imprimir por pantalla un texto, 
 siendo fundamental didácticamente.
 
