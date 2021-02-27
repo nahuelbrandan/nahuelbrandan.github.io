@@ -77,6 +77,11 @@ Lo que provee FastAPI es:
   [ref2](https://netflixtechblog.com/introducing-dispatch-da4b8a2a8072), 
   [ref3](https://github.com/tiangolo/fastapi/pull/26).
 
+## Enlaces
+
+* [Documentación del proyecto](https://fastapi.tiangolo.com/).
+* [Código Fuente](https://github.com/tiangolo/fastapi).
+
 ## Conclusión
 
 Una herramienta interesante, digna de aprender para añadirla a nuestro repertorio y tenerla bajo el radar.
