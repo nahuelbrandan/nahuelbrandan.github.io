@@ -70,6 +70,9 @@ Lo que provee FastAPI es:
 
 ![Ejemplo de documentacion interactiva autogenerada]({{"/assets/img/elements_in_posts/fastAPI-swagger-ui-simple.webp"}})
 
+O sea, te arman una estructura donde te hacen todo el trabajo sucio, las partes más tediosas, y de esta forma te 
+concentras en la parte funcional.
+
 ## Datos
 
 * La documentacion es excelente! intuitiva y detallada
