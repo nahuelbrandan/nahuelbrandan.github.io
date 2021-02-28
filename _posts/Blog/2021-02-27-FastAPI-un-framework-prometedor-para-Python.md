@@ -60,6 +60,7 @@ Lo que provee FastAPI es:
 
 * Simplicidad
 * Validacion de parámetros y chequeo de tipos
+* Conversion de datos  
 * Tiene la inteligencia para identificar y determinar por donde se enviaron los parametros
 * Respuestas detalladas automáticas en caso de error en la solicitud
 * Un endpoint */docs*, con toda una documentacion detallada **autogenerada** e **interactiva** de los endpoints, 
