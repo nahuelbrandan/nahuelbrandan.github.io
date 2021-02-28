@@ -66,7 +66,7 @@ Lo que provee FastAPI es:
 * Un endpoint */docs*, con toda una documentacion detallada **autogenerada** e **interactiva** de los endpoints, 
   gracias a integración con [Swagger](https://swagger.io/)
 * Muy alta performance, a la par de **NodeJS** y **Go**
-
+* Soporte de los editores de texto
 
 ![Ejemplo de documentacion interactiva autogenerada]({{"/assets/img/elements_in_posts/fastAPI-swagger-ui-simple.webp"}})
 
