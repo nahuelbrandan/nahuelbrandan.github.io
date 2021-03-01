@@ -4,6 +4,7 @@ title: "FastAPI, un framework prometedor para Python"
 comments: true
 date:   2021-02-27 12:00:00 -0300
 categories: [Blog]
+tags: [FastAPI, Python, Framework]
 ---
 
 *FastAPI* es un "nuevo" framework de Python, para desarrollo de APIs web, con alta performance, fácil de aprender, 
