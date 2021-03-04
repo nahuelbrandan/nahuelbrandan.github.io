@@ -3,7 +3,9 @@ layout: post
 title: "FastAPI, un framework prometedor para Python"
 comments: true
 date:   2021-02-27 12:00:00 -0300
-categories: [Blog]
+image: "/assets/img/posts/FastAPI.webp"
+thumbnail: "/assets/img/posts/FastAPI.png"
+categories: [Article]
 tags: [FastAPI, Python, Framework]
 ---
 
