@@ -6,6 +6,8 @@ comments: true
 image: "/assets/img/posts/zcash.webp"
 thumbnail: "/assets/img/posts/zcash.jpg"
 categories: [Article]
+lang: es
+ref:  Zcash-ceremony
 ---
 
 Por lo general, al vernos en la situación de tener que definir una contraseña (nos registramos en una nueva página por ejemplo), seleccionamos algún par de palabras (posiblemente inspirados en objetos a nuestro alrededor) seguido de algún número, ejemplo: *edificioperro123*

@@ -1,0 +1,37 @@
+---
+layout: default
+permalink: /en/articles/
+title: Articles
+lang: en
+pageid: articles
+---
+
+<main class="page projects-page">
+  <section class="portfolio-block projects-cards" style="padding: 1em;">
+    <div class="container">
+      <div class="heading">
+        <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Articles</h2>
+      </div>
+      <div class="row">
+        {% assign posts=site.posts | where:"ref", page.ref %}
+        {% for post in posts %}
+        {% if post.categories contains "Article" %}
+        {% if post.lang == page.lang %}
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0">
+            <a href="{{ post.id | prepend: site.baseurl }}">
+              <img class="card-img-top scale-on-hover" src={{post.image}} alt={{post.image}} title="{{post.title}}">
+            </a>
+      
+            <div class="card-body">
+              <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a></h6>
+            </div>
+          </div>
+        </div>
+        {% endif%}
+        {% endif%}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

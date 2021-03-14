@@ -7,6 +7,9 @@ categories: [Portfolio]
 tags: [Python, Django, APIs, Auth0, Redis, Elastic Search, Celery]
 image: "/assets/img/posts/incluit-junar.webp"
 thumbnail: "/assets/img/posts/incluit-junar.jpg"
+ref: incluit-junar
+lang: es
+showInIndex: true
 ---
 
 ## Descripción

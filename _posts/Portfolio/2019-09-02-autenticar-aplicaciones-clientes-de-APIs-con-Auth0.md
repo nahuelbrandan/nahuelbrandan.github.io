@@ -7,6 +7,8 @@ categories: [Portfolio]
 tags: [Auth0, APIs, Oauth 2.0, Python]
 image: "/assets/img/posts/auth0.webp"
 thumbnail: "/assets/img/posts/auth0.jpg"
+ref: auth0
+lang: es
 ---
 
 En el ámbito laboral, te cuento uno de los mayores desafios que tuve que enfrentar.

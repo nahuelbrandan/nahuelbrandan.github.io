@@ -1,20 +1,63 @@
 <!--suppress HtmlUnknownTarget -->
 <nav class="navbar smart-scroll navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-  <div class="container"><a class="navbar-brand logo" href="/">Nahuel Brandán</a>
+  <div class="container"><a class="navbar-brand logo" href="{% if page.lang == 'en'%}/en{% else %}/{% endif %}">Nahuel Brandán</a>
     <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span
        class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse"
          id="navbarNav">
       <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item" role="presentation"><a class="nav-link active" href="/">Home</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link" href="/portfolio/">Portfolio</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link" href="/articles/">Artículos</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link" href="/blog/">Blog</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link"
-                                                    href="https://drive.google.com/file/d/1yCm7Zh93oYErIYL5zqEfrgdA1Ev8Lzmm/view?usp=sharing">CV</a>
+
+        {% assign p=site.pages | where:"pageid", 'index' | where:"lang", page.lang | first %}
+        <li class="nav-item lang" role="presentation">
+          <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">Home</a>
         </li>
-        <li class="nav-item"
-            role="presentation"><a class="nav-link" href="/contact/">Contacto</a></li>
+        
+        {% assign p=site.pages | where:"pageid", 'portfolio' | where:"lang", page.lang | first %}
+        <li class="nav-item lang" role="presentation">
+          <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ p.title }}</a>
+        </li>
+
+        {% assign p=site.pages | where:"pageid", 'articles' | where:"lang", page.lang | first %}
+        <li class="nav-item lang" role="presentation">
+          <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ p.title }}</a>
+        </li>
+
+        {% assign p=site.pages | where:"pageid", 'blog' | where:"lang", page.lang | first %}
+        <li class="nav-item lang" role="presentation">
+          <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ p.title }}</a>
+        </li>
+        
+        {% if page.lang == 'es' %}
+          <li class="nav-item" role="presentation"><a class="nav-link"
+                                                    href="https://drive.google.com/file/d/1yCm7Zh93oYErIYL5zqEfrgdA1Ev8Lzmm/view?usp=sharing">CV</a>
+        {% else %}
+<!--          TODO HACER CV EN INGLES-->
+          <li class="nav-item" role="presentation"><a class="nav-link"
+                                        href="https://drive.google.com/file/d/1CCUEWaxH9RPs0mqfeY0tMs8lnSf5yG_D/view?usp=sharing">CV</a>
+        {% endif %}
+
+        {% assign p=site.pages | where:"pageid", 'contact' | where:"lang", page.lang | first %}
+        <li class="nav-item lang" role="presentation">
+          <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ p.title }}</a>
+        </li>
+        
+        {% if page.id %}
+          <!-- POSTS MULTILANGUAGE -->
+          {% assign posts=site.posts | where:"ref", page.ref | sort: 'path' %}
+            {% for post in posts %}
+            <li class="nav-item lang" role="presentation">
+              <a href="{{ post.url }}" class="nav-link {{ post.lang }} {% if post.lang == page.lang %}text-uppercase{% endif %}">{{ post.lang }}</a>
+            </li>
+            {% endfor %}
+        {% else %}
+            {% for lang in site.languages %}
+            {% assign p=site.pages | where:"pageid", page.pageid | where:"lang", lang | sort: 'path' | first %}
+            <li class="nav-item lang" role="presentation">
+              <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ lang }}</a>
+            </li>
+            {% endfor %}
+        {% endif %}
+      
       </ul>
     </div>
   </div>

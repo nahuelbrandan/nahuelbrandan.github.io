@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /
+pageid: index
+lang: es
 ---
 
 <main class="page landing-page">
@@ -18,60 +20,89 @@ permalink: /
       </div>
     </div>
   </section>
+  
+  
   <section data-aos="fade-up" class="portfolio-block photography" style="padding: 0 0 1em;">
-    <h3 class="text-center" style="text-align: left; margin: 1em;">Proyectos</h3>
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
-           href="portfolio/2020/08/09/Incluit-Junar-desarrollo-de-software.html"><img
-           class="img-thumbnail img-fluid shadow image"
-           src="assets/img/posts/incluit-junar.webp"
-           alt="Porfolio Incluit Junar desarrollo de software"></a>
+    <main class="page projects-page">
+      <section class="portfolio-block projects-cards" style="padding: 1em;">
+        <div class="container">
+          <div class="heading">
+            <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Proyectos</h2>
+          </div>
+          <div class="row">
+            
+            {% for category in site.categories %}
+            {% if category contains "Portfolio" %}
+            {% for post in category[1] %}
+            {% if post.lang == page.lang and post.showInIndex %}
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0">
+                <a href="{{ post.id | prepend: site.baseurl }}"><img class="card-img-top scale-on-hover"
+                                                                     src={{post.image}} alt={{post.image}}
+                                                                     title="{{post.title}}"></a>
+                <div class="card-body">
+                  <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a></h6>
+                  {% if post.tags %}
+                  <small>
+                    {% for tag in post.tags %}
+                    {{tag}}
+                    {% if tag != post.tags.last %}, {%else%}.{%endif%}
+                    {%endfor%}
+                  </small>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+            
+            {% endif%}
+            {% endfor %}
+          </div>
+          
+          <div class="d-flex justify-content-center align-items-center content" style="margin: 1em; ">
+            <h3 style="text-align: left;"></h3><a
+             class="btn btn-lg btn-primary border border-secondary border"
+             role="button" href="/portafolio" style="color: #ffffff !important; font-size: 1.5rem;">Ver más</a>
+          </div>
         </div>
-        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
-           href="portfolio/2019/02/07/HoustonWHAP-registro-y-analisis-de-metas.html"><img
-           class="img-thumbnail img-fluid shadow image"
-           src="assets/img/posts/HoustonWHAP.webp"
-           alt="Porfolio HoustonWHAP registro y analisis de metas"></a>
-        </div>
-        <div class="col-md-6 col-lg-4 item zoom-on-hover" style="font-size: 5px;"><a
-           href="portfolio/2019/02/07/coloreo-propio-de-grafo.html"><img
-           class="img-thumbnail img-fluid shadow d-sm-inline image"
-           src="assets/img/posts/grafos.webp"
-           style="font-size: 16px;" alt="Coloreo propio de grafos">
-        </a>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center align-items-center content" style="margin: 2em;">
-        <h3 style="text-align: left;"></h3><a class="btn btn-lg btn-primary border border-secondary border" role="button"
-                                              href="/portfolio/">Ver más</a></div>
-    </div>
+      </section>
+    </main>
   </section>
+  
+  
   <section data-aos="fade-up" class="portfolio-block photography" style="padding: 0 0 1em; box-shadow: 0 0;">
-    <h3 class="text-center" style="text-align: left; margin: 1em;">Artículos</h3>
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
-           href="article/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html"><img
-           class="img-thumbnail img-fluid image"
-           src="assets/img/posts/encriptar.webp"
-           alt="Como desencriptar un texto usando analisis de frecuencia"></a></div>
-        
-        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
-           href="article/2019/01/10/consejos-si-vas-a-comenzar-una-carrera-universitaria.html"><img
-           class="img-thumbnail img-fluid image"
-           src="assets/img/posts/consejos.webp" alt="consejos si vas a comenzar una carrera universitaria"></a></div>
-        
-        <div class="col-md-6 col-lg-4 item zoom-on-hover"><a
-           href="article/2019/02/28/consejos-para-quienes-estan-en-busqueda-laboral.html"><img
-           class="img-thumbnail img-fluid image"
-           src="assets/img/posts/strategy.webp"
-           style="box-shadow: 0 4px;" alt="consejos para quienes estan en busqueda laboral"></a></div>
-      </div>
-      <div class="d-flex justify-content-center align-items-center content" style="margin: 2em;">
-        <h3 style="text-align: left;"></h3>
-        <a class="btn btn-primary btn-lg border border-secondary" role="button" href="/articles/">Ver más</a></div>
-    </div>
+    <main class="page projects-page">
+      <section class="portfolio-block projects-cards" style="padding: 1em;">
+        <div class="container">
+          <hr>
+          <div class="heading">
+            <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Artículos</h2>
+          </div>
+          <div class="row">
+            {%for post in site.posts%}
+            {%if post.categories contains "Article" and post.lang == page.lang and post.showInIndex %}
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0">
+                <a href="{{ post.id | prepend: site.baseurl }}">
+                  <img class="card-img-top scale-on-hover" src={{post.image}} alt={{post.image}} title="{{post.title}}">
+                </a>
+                
+                <div class="card-body">
+                  <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a></h6>
+                </div>
+              </div>
+            </div>
+            {% endif%}
+            {% endfor %}
+          </div>
+          <div class="d-flex justify-content-center align-items-center content" style="margin: 2em;">
+            <h3 style="text-align: left;"></h3>
+            <a class="btn btn-primary btn-lg border border-secondary" role="button" href="/articulos/"
+               style="color: #ffffff !important; font-size: 1.5rem;">Ver más</a></div>
+        </div>
+      </section>
+    </main>
   </section>
   
   <section data-aos="fade-up" class="portfolio-block website gradient" style="font-size: 1.5em;">
@@ -107,7 +138,7 @@ permalink: /
         ver mi perfil con avances e intereses <a href="https://platzi.com/p/neobraf/"><span
          style="text-decoration: underline;">aquí</span></a>.
         <br><br>
-        
+      
       </p>
       <div class="row" data-aos="fade-up">
         <div class="col-md-4">
@@ -263,7 +294,7 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-
+          
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://en.wikipedia.org/wiki/CSS">
@@ -272,7 +303,7 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-
+          
           <div class="col-lg-2 col-md-4 col-sm-4 col-4 " style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">
@@ -308,7 +339,7 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-
+          
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://flask.palletsprojects.com/en/1.1.x/">
@@ -320,13 +351,11 @@ background-position:center; background-size:cover;">
           
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
-              <a href="https://fastapi.tiangolo.com/">
-                <img src="assets/img/home/new/FastAPI4.png" alt="FastAPI" title="FastAPI" data-toggle="tooltip"
-                     data-placement="top" style="width:50%;">
-              </a>
+              <img src="assets/img/home/new/lonsoo.png" alt="Easter Egg" title="Easter Egg" data-toggle="tooltip"
+                   data-placement="top" style="width:50%;">
             </div>
           </div>
-          
+        
         </div>
       </div>
     </div>
@@ -335,6 +364,7 @@ background-position:center; background-size:cover;">
   <!-- Perfiles de contacto -->
   <div data-aos="fade-up">
     <div class="container">
+      <hr>
       <div class="social-icons" style="padding: 0 0 3em 0;">
         
         <div class="row">
@@ -394,7 +424,8 @@ background-position:center; background-size:cover;">
     <div class="container">
       <div class="about-me">
         <p>¿Te interesa mi perfil y crees que podríamos realizar un proyecto juntos? ¡Hablemos!</p>
-        <a class="btn btn-lg btn-primary border bold" role="button" href="/contact/">Contacto</a>
+        <a class="btn btn-lg btn-primary border bold" role="button" style="font-size: 1.5rem;"
+           href="/contacto/">Contacto</a>
       </div>
     </div>
   </section>

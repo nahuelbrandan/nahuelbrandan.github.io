@@ -13,6 +13,8 @@ plugins:
 
 include: ['_pages']
 
+languages: ["es", "en"]
+
 title: "Nahuel Brandán"
 meta_title: "Nahuel Brandán | Software Developer"
 description: > # this means to ignore newlines until "email:"

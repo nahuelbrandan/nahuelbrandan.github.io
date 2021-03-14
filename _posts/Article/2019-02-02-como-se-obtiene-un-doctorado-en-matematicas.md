@@ -6,6 +6,8 @@ comments: true
 image: "/assets/img/posts/maths.webp"
 thumbnail: "/assets/img/posts/maths.jpg"
 categories: [Article]
+lang: es
+ref: doctorate-in-mathematics
 ---
 
 En una entrevista radial, [Adrián Paenza](https://es.wikipedia.org/wiki/Adri%C3%A1n_Paenza), Doctor en matemáticas y 

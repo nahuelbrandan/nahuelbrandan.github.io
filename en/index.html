@@ -1,0 +1,439 @@
+---
+layout: default
+pageid: index
+lang: en
+---
+
+<main class="page landing-page">
+  
+  <section class="portfolio-block block-intro" style="padding: 50px;">
+    <div class="container">
+      <div class="border rounded-circle border-primary shadow-sm avatar" data-bs-hover-animate="pulse"
+           style="background: url(../assets/img/personal/me.webp); background-size: cover; width: 15em; height: 15em;">
+      </div>
+      <div class="about-me">
+        <p>Hi! I'm&nbsp;<strong>Nahuel Brandán</strong>.<br> Backend Software Developer, specialized in
+          <strong>Python</strong>.
+          <br><br>I am very fortunate to be able to work in such an exciting area as the software industry.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <section data-aos="fade-up" class="portfolio-block photography" style="padding: 0 0 1em;">
+    <main class="page projects-page">
+      <section class="portfolio-block projects-cards" style="padding: 1em;">
+        <div class="container">
+          <div class="heading">
+            <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Projects</h2>
+          </div>
+          <div class="row">
+            
+            {% for category in site.categories %}
+            {% if category contains "Portfolio" %}
+            {% for post in category[1] %}
+            {% if post.lang == page.lang and post.showInIndex %}
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0">
+                <a href="{{ post.id | prepend: site.baseurl }}"><img class="card-img-top scale-on-hover"
+                                                                     src={{post.image}} alt={{post.image}}
+                                                                     title="{{post.title}}"></a>
+                <div class="card-body">
+                  <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a></h6>
+                  {% if post.tags %}
+                  <small>
+                    {% for tag in post.tags %}
+                    {{tag}}
+                    {% if tag != post.tags.last %}, {%else%}.{%endif%}
+                    {%endfor%}
+                  </small>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+            
+            {% endif%}
+            {% endfor %}
+          </div>
+          
+          <div class="d-flex justify-content-center align-items-center content" style="margin: 1em; ">
+            <h3 style="text-align: left;"></h3><a
+             class="btn btn-lg btn-primary border border-secondary border"
+             role="button" href="/en/portfolio" style="color: #ffffff !important; font-size: 1.5rem;">See more</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </section>
+  
+  
+  <section data-aos="fade-up" class="portfolio-block photography" style="padding: 0 0 1em; box-shadow: 0 0;">
+    <main class="page projects-page">
+      <section class="portfolio-block projects-cards" style="padding: 1em;">
+        <div class="container">
+          <hr>
+          <div class="heading">
+            <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Articles</h2>
+          </div>
+          <div class="row">
+            {%for post in site.posts%}
+            {%if post.categories contains "Article" and post.lang == page.lang and post.showInIndex %}
+            <div class="col-md-6 col-lg-4">
+              <div class="card border-0">
+                <a href="{{ post.id | prepend: site.baseurl }}">
+                  <img class="card-img-top scale-on-hover" src={{post.image}} alt={{post.image}} title="{{post.title}}">
+                </a>
+                
+                <div class="card-body">
+                  <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a></h6>
+                </div>
+              </div>
+            </div>
+            {% endif%}
+            {% endfor %}
+          </div>
+          <div class="d-flex justify-content-center align-items-center content" style="margin: 2em;">
+            <h3 style="text-align: left;"></h3>
+            <a class="btn btn-primary btn-lg border border-secondary" role="button" href="/en/articles/"
+               style="color: #ffffff !important; font-size: 1.5rem;">See more</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </section>
+  
+  <section data-aos="fade-up" class="portfolio-block website gradient" style="font-size: 1.5em;">
+    <blockquote class="blockquote" style="text-align: center;">
+      <p class="lead mb-0" style="text-shadow: 0 0; font-size: 2em;"><em>“Any fool can write code that a
+        computer can understand. </em><br><em>Good programmers write code that humans can understand.”</em></p>
+      <footer class="blockquote-footer" style="color: #41474d;"><strong>MARTIN FOWLER</strong></footer>
+    </blockquote>
+  </section>
+  
+  <section class="portfolio-block skills" style="padding: 3em;">
+    <div data-aos="fade-up" class="container">
+      <!-- Start: portfolio heading -->
+      <div class="heading">
+        <h2 class="text-capitalize">About me</h2>
+      </div>
+      <!-- End: portfolio heading -->
+      <p style="font-size: 24px; line-height: 36px; text-align: left; opacity: 0.96; font-family: Lato, sans-serif; font-weight: 300;">
+        I received my Bachelor's degree as a Computer Analyst at the&nbsp;<a href="http://www.famaf.unc.edu.ar/"><span
+         style="text-decoration: underline;">Faculty of Mathematics, Astronomy, Physics and Computing (FaMAF)</span></a>&nbsp;of
+        the National University of Córdoba (UNC).
+        <br><br>
+        
+        I entered the software industry in the company <a href="https://incluit.com/"><span
+         style="text-decoration: underline;">IncluIT</span></a>&nbsp, for the <a
+         href="https://junar.com/"><span
+         style="text-decoration: underline;">Junar</span></a> project, at the beginning of 2019.
+        <br><br>
+        
+        Lover of computers, cinema, literature, mathematics, philosophy, chess, among others areas.
+        <br><br>
+        
+        Platzi online academy, you can see my profile with progress and interests here.
+        
+        Starting in 2021 as an active student at the <a href="https://platzi.com/"><span
+         style="text-decoration: underline;">Platzi</span></a> online academy, you can see my profile with progress
+        and interests <a href="https://platzi.com/p/neobraf/"><span style="text-decoration: underline;">here</span></a>.
+        <br><br>
+      
+      </p>
+      <div class="row" data-aos="fade-up">
+        <div class="col-md-4">
+          <div class="card special-skill-item border-0">
+            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Software Development</h3>
+              <p class="card-text">
+                Perfecting myself in backend and Python in particular. Increasing my knowledge in Django, MySQL, Redis,
+                Elastic Search, Celery, among others.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card special-skill-item border-0">
+            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Problem resolution</h3>
+              <p class="card-text">After 4 years in college, plus another 2 in industry, the common denominator in these
+                areas and in life is: face, analyze and solve problems.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card special-skill-item border-0">
+            <div class="card-header bg-transparent border-0"><i class="icon ion-happy-outline"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Curious</h3>
+              <p class="card-text">M
+                I consider myself a very curious person, interested in learning from multiple areas. Although I want to
+                specialize in backend, I gradually dabble in front, design, architecture, business, etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- parallax image -->
+  <div data-bs-parallax-bg="true" style="height:400px; background-image:url('../assets/img/home/option55.webp');
+background-position:center; background-size:cover;">
+  </div>
+  
+  <!-- Tecnologías -->
+  <div data-aos="fade-up">
+    <div class="container">
+      <div class="social-icons">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="text-center" style="text-align: left; margin: 1em;"><strong>Technologies</strong></h3>
+          </div>
+        </div>
+        
+        <div class="row align-items-center justify-content-center">
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://www.python.org/">
+                <img src="../assets/img/home/python.svg" alt="Python" title="Python" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://www.djangoproject.com/">
+                <img src="../assets/img/home/django.svg" alt="Django" title="Django" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://www.mysql.com/">
+                <img src="../assets/img/home/mysql.svg" alt="MySQL" title="MySQL" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://git-scm.com/">
+                <img src="../assets/img/home/git.svg" alt="git" title="git" data-toggle="tooltip" data-placement="top"
+                     style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://en.wikipedia.org/wiki/Linux">
+                <img src="../assets/img/home/linux.svg" alt="Linux" title="Linux" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
+                <img src="../assets/img/home/c_language.svg" alt="C" title="C" data-toggle="tooltip"
+                     data-placement="top"
+                     style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://www.elastic.co/">
+                <img src="../assets/img/home/elastic-elasticsearch.svg" alt="Elasticsearch" title="Elasticsearch"
+                     data-toggle="tooltip" data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://redis.io/">
+                <img src="../assets/img/home/redis.svg" alt="Redis" title="Redis" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://auth0.com/">
+                <img src="../assets/img/home/auth0.svg" alt="Auth0" title="Auth0" data-toggle="tooltip"
+                     data-placement="top"
+                     style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://www.mongodb.com/">
+                <img src="../assets/img/home/cib-mongodb.svg" alt="MongoDB" title="MongoDB" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://en.wikipedia.org/wiki/HTML5">
+                <img src="../assets/img/home/html-5.svg" alt="HTML" title="HTML" data-toggle="tooltip"
+                     data-placement="top"
+                     style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://en.wikipedia.org/wiki/CSS">
+                <img src="../assets/img/home/new/css.svg" alt="CSS" title="CSS" data-toggle="tooltip"
+                     data-placement="top"
+                     style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4 " style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">
+                <img src="../assets/img/home/new/bash.svg" alt="BASH" title="BASH" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://jekyllrb.com/">
+                <img src="../assets/img/home/new/jekyll.svg" alt="Jekyll" title="Jekyll" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://www.jetbrains.com/pycharm/">
+                <img src="../assets/img/home/new/pycharm.svg" alt="Pycharm" title="Pycharm" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://getbootstrap.com/">
+                <img src="../assets/img/home/new/bootstrap.svg" alt="Bootstrap" title="Bootstrap" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <a href="https://flask.palletsprojects.com/en/1.1.x/">
+                <img src="../assets/img/home/new/flask.svg" alt="Flask" title="Flask" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
+            <div class="thumbnail text-center">
+              <img src="../assets/img/home/new/lonsoo.png" alt="Easter Egg" title="Easter Egg" data-toggle="tooltip"
+                   data-placement="top" style="width:50%;">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Perfiles de contacto -->
+  <div data-aos="fade-up">
+    <div class="container">
+      <hr>
+      <div class="social-icons" style="padding: 0 0 3em 0;">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="text-center" style="text-align: left; margin: 1em;"><strong>Profiles</strong></h3>
+          </div>
+        </div>
+        
+        <div class="row">
+          
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6" style="margin-bottom: 3em;">
+            <a href="https://www.linkedin.com/in/nahuelbrandan/">
+              <div class="thumbnail text-center">
+                <img src="../assets/img/home/linkedin.svg" alt="LinkedIn" data-toggle="tooltip" data-placement="top"
+                     title="LinkedIn" style="width:50%;">
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6" style="margin-bottom: 3em;">
+            <a href="https://stackoverflow.com/users/6125910/nahuel-brandan">
+              <div class="thumbnail text-center">
+                <img src="../assets/img/home/stackoverflow.svg" alt="Stackoverflow" title="Stackoverflow"
+                     data-toggle="tooltip" data-placement="top"
+                     style="width:50%;">
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6" style="margin-bottom: 3em;">
+            <a href="https://github.com/nahuelbrandan">
+              <div class="thumbnail text-center">
+                <img src="../assets/img/home/github.svg" alt="Github" title="Github" data-toggle="tooltip"
+                     data-placement="top" style="width:50%;">
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6" style="margin-bottom: 3em;">
+            <a href="https://platzi.com/p/neobraf/">
+              <div class="thumbnail text-center">
+                <img src="../assets/img/home/platzi.svg" alt="Platzi - Educación online"
+                     title="Platzi - Educación online"
+                     data-toggle="tooltip" data-placement="top"
+                     style="width:50%;">
+              </div>
+            </a>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contacto -->
+  <section data-aos="fade-up" class="portfolio-block block-intro website gradient"
+           style="font-size: 1.3em; padding: 50px;">
+    <div class="container">
+      <div class="about-me">
+        <p>Are you interested in my profile and do you think we could carry out a project together? Let's talk!</p>
+        <a class="btn btn-lg btn-primary border bold" role="button" style="font-size: 1.5rem;" href="/en/contact/">Contact</a>
+      </div>
+    </div>
+  </section>
+
+</main>

@@ -1,0 +1,45 @@
+---
+layout: default
+permalink: /en/blog/
+title: Blog
+lang: en
+pageid: blog
+---
+
+<main class="page projects-page">
+  <section class="portfolio-block" style="padding: 1em 0;">
+    <div class="container" style="padding: 0;">
+      <div class="heading">
+        <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Entries</h2>
+      </div>
+      
+      <ul>
+        {%for post in site.posts%}
+        {%if post.categories contains "Blog"%}
+        {% if post.lang == page.lang %}
+        <li>
+          <h4 class="item">
+            <a class="text-dark" href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a>
+          </h4>
+          <small>
+            {% include date_ge.html date = post.date %}
+          </small>
+          <br>
+          
+          {% if post.tags %}
+          <small>
+            {% for tag in post.tags %}
+            {{tag}}
+            {% if tag != post.tags.last %}, {%else%}.{%endif%}
+            {%endfor%}
+          </small>
+          {% endif %}
+        
+        </li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+</main>

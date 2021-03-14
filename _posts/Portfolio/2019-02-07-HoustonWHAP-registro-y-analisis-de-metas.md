@@ -7,6 +7,9 @@ categories: [Portfolio]
 tags: [Python, Django, HTML, CSS]
 image: "/assets/img/posts/HoustonWHAP.webp"
 thumbnail: "/assets/img/posts/HoustonWHAP.jpg"
+ref: houstonWHAP
+lang: es
+showInIndex: true
 ---
 
 Programa realizado en el ámbito académico junto a 3 compañeros más, para la materia *Ingenieria de Software I*.

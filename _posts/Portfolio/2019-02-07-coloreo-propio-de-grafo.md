@@ -7,6 +7,9 @@ categories: [Portfolio]
 tags: [C]
 image: "/assets/img/posts/grafos.webp"
 thumbnail: "/assets/img/posts/grafos.png"
+ref: graph-colored
+lang: es
+showInIndex: true
 ---
 
 Programa realizado en el ámbito académico. Es uno de mis mejores trabajos y de los que estoy más orgulloso.

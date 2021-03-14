@@ -6,6 +6,8 @@ comments: true
 image: "/assets/img/posts/hello_world.webp"
 thumbnail: "/assets/img/posts/hello_world.jpg"
 categories: [Article]
+ref: hello-world
+lang: es
 ---
 
 Siguiendo la clásica costumbre informática llamada 'Hola Mundo!'.

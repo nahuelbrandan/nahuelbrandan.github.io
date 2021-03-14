@@ -7,6 +7,8 @@ categories: [Portfolio]
 tags: [Github Pages, Bootstrap, HTML, CSS]
 image: "/assets/img/posts/nanzi-y-cande.webp"
 thumbnail: "/assets/img/posts/nanzi-y-cande.jpg"
+ref: nanzi-y-cande
+lang: es
 ---
 
 ## Descripción

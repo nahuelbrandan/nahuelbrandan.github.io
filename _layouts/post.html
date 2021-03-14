@@ -4,6 +4,8 @@
 <body itemscope itemtype="http://schema.org/Article">
 {% include navbar.html %}
 
+<div class="body_post">
+
 <main>
   <div class="content_header">
     <article class="post">
@@ -35,14 +37,14 @@
         {{content}}
       </section>
       
-      {% if page.tags %}
-      Tags:
-      <small>
-        {% for tag in page.tags %}
-        {{tag}}
-        {% if tag != page.tags.last %}, {% else %}.{% endif %}
-        {% endfor %}
-      </small>
+      {% if page.tags != nil %}
+        Tags:
+        <small>
+          {% for tag in page.tags %}
+          {{tag}}
+          {% if tag != page.tags.last %}, {% else %}.{% endif %}
+          {% endfor %}
+        </small>
       {% endif %}
       
       {% if page.comments %}
@@ -67,24 +69,24 @@
       
       <section data-aos="fade-up" class="portfolio-block projects-cards" style="padding: 0 0 1em;">
         {% if page.categories contains 'Portfolio' %}
-        <h3 class="text-center" style="text-align: left; margin: 2em 1em;">Otras experiencias</h3>
+        <h3 class="text-center" style="text-align: left; margin: 2em 1em;">{% if page.lang == 'es'%}Otras Experiencias{%else%}Another Experiences{%endif%}</h3>
         {% elsif page.categories contains 'Article' %}
-        <h3 class="text-center" style="text-align: left; margin: 2em 1em;">Otros artículos</h3>
+        <h3 class="text-center" style="text-align: left; margin: 2em 1em;">{% if page.lang == 'es'%}Otros Artículos{%else%}Another Articles{%endif%}</h3>
         {% else %}
-        <h3 class="text-center" style="text-align: left; margin: 2em 1em;">Otras entradas</h3>
+        <h3 class="text-center" style="text-align: left; margin: 2em 1em;">{% if page.lang == 'es'%}Otras Entradas{%else%}Another Entries{%endif%}</h3>
         {% endif %}
         
         <div class="container">
           <div class="row">
             {% if page.categories contains 'Portfolio' %}
-            {% assign posts = site.posts | where:"categories", "Portfolio" | where_exp:"post", "post.id != page.id" |
-            sample:3 %}
+            {% assign posts = site.posts | where:"categories", "Portfolio" | where_exp:"post", "post.id != page.id"
+            | where:"lang", page.lang | sample:3 %}
             {% elsif page.categories contains 'Article' %}
             {% assign posts = site.posts | where:"categories", "Article" | where_exp:"post", "post.id != page.id" |
-            where_exp:"post", "post.title != 'Hola Mundo!'" | sample:3 %}
+            where_exp:"post", "post.title != 'Hola Mundo!'" | where:"lang", page.lang | sample:3 %}
             {% else %}
-            {% assign posts = site.posts | where:"categories", "Blog" | where_exp:"post", "post.id != page.id" |
-            sample:3 %}
+            {% assign posts = site.posts | where:"categories", "Blog" | where_exp:"post", "post.id != page.id"
+            | where:"lang", page.lang | sample:3 %}
             {% endif %}
             
             {% for post in posts %}
@@ -116,5 +118,7 @@
 {% include javascripts_post.html %}
 <script src="/assets/js/prism.js"></script>
 <script id="dsq-count-scr" src="//www-nahuelbrandan-com.disqus.com/count.js" async></script>
+
+</div>
 </body>
 </html>

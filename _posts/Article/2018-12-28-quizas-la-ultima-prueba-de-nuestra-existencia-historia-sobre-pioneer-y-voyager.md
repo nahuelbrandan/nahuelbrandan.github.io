@@ -6,6 +6,8 @@ comments: true
 image: "/assets/img/posts/universo.webp"
 thumbnail: "/assets/img/posts/universo.jpg"
 categories: [Article]
+lang: es
+ref: Pioneer-and-Voyager
 ---
 
 Sabemos de la existencia de los dinosaurios en el pasado por sus restos fósiles encontrados.

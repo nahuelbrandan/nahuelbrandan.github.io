@@ -7,6 +7,8 @@ image: "/assets/img/posts/FastAPI.webp"
 thumbnail: "/assets/img/posts/FastAPI.png"
 categories: [Article]
 tags: [FastAPI, Python, Framework]
+lang: es
+ref: FastAPI
 ---
 
 *FastAPI* es un "nuevo" framework de Python, para desarrollo de APIs web, con alta performance, fácil de aprender, 
@@ -94,3 +96,6 @@ concentras en la parte funcional.
 Una herramienta interesante, digna de aprender para añadirla a nuestro repertorio y tenerla bajo el radar.
 
 Comentame qué te parece!
+
+---
+---

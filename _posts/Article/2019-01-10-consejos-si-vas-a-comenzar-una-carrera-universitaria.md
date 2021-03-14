@@ -6,6 +6,9 @@ comments: true
 image: "/assets/img/posts/consejos.webp"
 thumbnail: "/assets/img/posts/consejos.jpg"
 categories: [Article]
+lang: es
+ref: advises-university
+showInIndex: true
 ---
 
 Hace un par de meses me recibí de Analista en Computación y en este articulo quiero darles algunos consejos y enseñanzas que aprendí (a veces a la fuerza) durante el transcurso de la carrera. Mientras más pronto los sepas mejor.

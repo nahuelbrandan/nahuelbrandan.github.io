@@ -6,6 +6,9 @@ comments: true
 image: "/assets/img/posts/encriptar.webp"
 thumbnail: "/assets/img/posts/encriptar.jpg"
 categories: [Article]
+lang: es
+ref: decrypt-text-with-frequency-analisis
+showInIndex: true
 ---
 
 Recientemente encontré una oferta laboral en la que como proceso de preselección pedía desencriptar el siguiente texto y explicar el procedimiento realizado:

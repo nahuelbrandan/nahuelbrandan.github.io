@@ -1,7 +1,9 @@
 ---
 layout: default
-permalink: /articles/
-title: Artículos - Nahuel Brandán
+permalink: /articulos/
+title: Artículos
+pageid: articles
+lang: es
 ---
 
 <main class="page projects-page">
@@ -12,7 +14,7 @@ title: Artículos - Nahuel Brandán
       </div>
       <div class="row">
         {%for post in site.posts%}
-        {%if post.categories contains "Article"%}
+        {%if post.categories contains "Article" and post.lang == page.lang %}
         <div class="col-md-6 col-lg-4">
           <div class="card border-0">
             <a href="{{ post.id | prepend: site.baseurl }}">

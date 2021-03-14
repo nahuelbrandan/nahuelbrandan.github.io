@@ -6,6 +6,8 @@ date:   2020-08-17 18:00:00 -0300
 image: "/assets/img/posts/prod.webp"
 thumbnail: "/assets/img/posts/prod.png"
 categories: [Article]
+lang: es
+ref: having-your-website
 ---
 
 Si te encuentras en el mundo de la informática, considero que es muy didáctico el tener alguna página web en 

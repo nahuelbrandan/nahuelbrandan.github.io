@@ -6,6 +6,8 @@ date:   2019-02-28 12:00:00 -0300
 image: "/assets/img/posts/strategy.webp"
 thumbnail: "/assets/img/posts/strategy.jpg"
 categories: [Article]
+lang: es
+ref: advise-looking-for-a-job
 ---
 
 Desde el momento en que me recibí hasta conseguir mi primer trabajo pasaron **4 meses**, tiempo en el que estuve en búsqueda laboral activa (más del que esperaba).

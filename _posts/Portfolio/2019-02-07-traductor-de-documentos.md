@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Traductor de documentos."
+title: "Traductor de documentos"
 date:   2019-02-07 00:00:01 -0300
 comments: false
 categories: [Portfolio]
 tags: [Java]
 image: "/assets/img/posts/traductor.webp"
 thumbnail: "/assets/img/posts/traductor.jpg"
+ref: translate-documents
+lang: es
 ---
 
 Programa realizado en el ámbito académico.
