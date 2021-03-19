@@ -80,7 +80,8 @@ lang: es
             <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Artículos</h2>
           </div>
           <div class="row">
-            {%for post in site.posts%}
+            {% assign posts_filtered = site.posts | sort: "date" %}
+            {% for post in posts_filtered %}
             {%if post.categories contains "Article" and post.lang == page.lang and post.showInIndex %}
             <div class="col-md-6 col-lg-4">
               <div class="card border-0">

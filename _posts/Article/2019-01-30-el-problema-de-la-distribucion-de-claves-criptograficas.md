@@ -8,7 +8,6 @@ thumbnail: "/assets/img/posts/Argonath.jpg"
 categories: [Article]
 lang: es
 ref: criptographic-keys-distribution-problem
-showInIndex: true
 ---
 
 Ya hablamos sobre criptografía en [éste artículo anterior](https://www.nahuelbrandan.com/2019/01/04/como-desencriptar-un-texto-usando-analisis-de-frecuencia.html).

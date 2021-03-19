@@ -30,7 +30,7 @@ Así que pensé que sería algo interesante para hacer, me arremangue la camisa 
 
 ---
 
-## Análisis de la situación y suposiciones.
+## Analysis of the situation and assumptions
 
 En éste punto sabemos muy poco así que vamos a suponer lo siguiente y ver hacia donde nos lleva.
 
@@ -41,7 +41,7 @@ En éste punto sabemos muy poco así que vamos a suponer lo siguiente y ver haci
 
 ![Ejemplo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ROT13.png/600px-ROT13.png)
 
-## Análisis de frecuencia.
+## Frequency analysis
 
 Para poder romper la encriptación vamos a utilizar el método de [*análisis de frecuencia*](https://es.wikipedia.org/wiki/An%C3%A1lisis_de_frecuencias).
 
