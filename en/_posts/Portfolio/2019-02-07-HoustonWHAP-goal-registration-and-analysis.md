@@ -33,7 +33,7 @@ even look at general statistics of your progress.
 
 ## Development
 
-Throughout the development process we work **simulating a real development environment**, Creating *tickets* and 
+Throughout the development process we work **simulating a real development environment**, creating *tickets* and 
 assigning them among the members.
 
 For the implementation of each *ticket* a specific *git brach* was made, sending a

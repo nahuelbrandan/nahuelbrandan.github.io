@@ -6,14 +6,16 @@ comments: true
 image: "/assets/img/posts/encriptar.webp"
 thumbnail: "/assets/img/posts/encriptar.jpg"
 categories: [Article]
+tags: [Decrypt, frequency analysis]
 lang: en
 ref: decrypt-text-with-frequency-analisis
 showInIndex: true
 ---
 
-Recientemente encontré una oferta laboral en la que como proceso de preselección pedía desencriptar el siguiente texto y explicar el procedimiento realizado:
+I recently found a job offer in which, as a pre-selection process, wants to decrypt the following text and explain 
+the procedure performed.
 
-<p style="background-color:#f5f5f0; text-align:center; margin-bottom:1em;">
+<p style="background-color:#f5f5f0; text-align:center; margin-bottom:1em; padding-top: 1em;">
 ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλΨΛΣΘϑΞϗΦϑλΨΣΞΨλϑΞΨζβΣφΔΨΣΦΨΣΞΨξΛϗ
 ΞΞϑΨϖΣΞΨΠΣϖΛΣφΔΞΨΩΨΠΛΣΦϖϗϖϑΨΔΨΞΔΨΘΔφϗΔΨϖΣΨΞϑλΨΓΔΘϗΦϑλΨΣΞΨ
 ΔΛΛϗΣΛϑΨαΔΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣλΨξΔΦϖΣΛΔΨϖΣΨΦϗΣξΞΔΨλβΨΠϑΦΓΡϑΨΔ
@@ -22,34 +24,48 @@ Recientemente encontré una oferta laboral en la que como proceso de preselecci�
 ΦΔλΨΩΨΞΔλΨαΔηβϗμΔλΨλΣΨαΔΦΨΠΔΛΨΞΔΨΘϗλΘΔΨλΣΦϖΔΨΞΔλΨΠΣΦΔλΨλϑ
 ΦΨϖΣΨΦϑλϑμΛϑλΨΞΔλΨαΔηβϗμΔλΨλϑΦΨΔζΣΦΔλ</p>
 
-Hace poco también leí el libro 'Los códigos secretos' de Simon Singh, donde cuenta toda la historia de la criptografía y sus usos, muy bueno y lo súper recomiendo.
 
-![Portada del libro]({{"/assets/img/elements_in_posts/portada.webp"}})
+I recently also read the book 'The Code Book' by Simon Singh, where he tells the whole history of cryptography and its 
+uses, very good, and I highly recommend it.
 
-Así que pensé que sería algo interesante para hacer, me arremangue la camisa y comencé.
+![Book cover]({{"/assets/img/elements_in_posts/code_book.webp"}})
+
+So I thought it would be an interesting thing to do, I rolled up my sleeves and started.
 
 ---
 
 ## Analysis of the situation and assumptions
 
-En éste punto sabemos muy poco así que vamos a suponer lo siguiente y ver hacia donde nos lleva.
+At this point we know very little so let's assume the following and see where it takes us
 
-*   Que el lenguaje original del mensaje es en español, dado que la oferta laboral estaba en este idioma.
-*   Suponemos que se utilizo una de las encriptaciones más simple e históricas, llamada [*cifrado clásico*](https://es.wikipedia.org/wiki/Cifrado_cl%C3%A1sico) más específicamente un subconjunto de éste llamado [*cifrado por sustitución*](https://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n).
+*   That the original language of the message is in Spanish, since the job offer was in this language.
+*   That one of the simplest and most historical encryptions was used, called 
+    [*classical cipher*](https://en.wikipedia.org/wiki/Classical_cipher), more specifically a 
+    subset of it, called [*substitution cipher*](https://en.wikipedia.org/wiki/Substitution_cipher).
+    
+    In a substitution cipher, letters (or groups of letters) are systematically replaced in the message by 
+    other letters (or groups of letters).
 
-    En un cifrado por sustitución, las letras (o grupos de letras) son sistemáticamente reemplazadas en el mensaje por otras letras (o grupos de letras).
-
-![Ejemplo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ROT13.png/600px-ROT13.png)
+![Example](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ROT13.png/600px-ROT13.png)
 
 ## Frequency analysis
 
-Para poder romper la encriptación vamos a utilizar el método de [*análisis de frecuencia*](https://es.wikipedia.org/wiki/An%C3%A1lisis_de_frecuencias).
+In order to break the encryption we are going to use the
+[*frequency analysis*](https://en.wikipedia.org/wiki/Frequency_analysis) method.
 
-El análisis de frecuencias está basado en el hecho que, dado un texto, ciertas letras o combinaciones de letras aparecen más a menudo que otras, existiendo distintas frecuencias para ellas. Por ejemplo, en español la letra A y E son muy comunes, mientras que la K y W son muy raras.
+Frequency analysis is based on the fact that, given a text, certain letters or combinations of letters
+appear more often than others, there are different frequencies for them.
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/98/Frecuencia_de_uso_de_letras_en_espa%C3%B1ol.webp)
+For example:
 
-Mediante un pequeño programa escrito en **python** vemos los diferentes signos utilizados, y la cantidad de uso de cada uno de ellos:
+* in Spanish the letter *A* and *E* are very common, while *K* and *W* are very rare
+* in English the letter *E*, *T* and *A* are very common, while *J*, *X* and *Z* are very rare
+
+![graph frequency of use of letters in Spanish]({{"/assets/img/elements_in_posts/Frecuencia_de_uso_de_letras_en_español.webp"}})
+
+![graph frequency of use of letters in English](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/English_letter_frequency_%28alphabetic%29.svg/340px-English_letter_frequency_%28alphabetic%29.svg.png)
+
+Through a small program written in python we see the different signs used, and the amount of use of each one of them
 
 <pre><code class="language-python">
 from collections import Counter
@@ -61,23 +77,29 @@ print(letters)
 </code></pre>
 
 
-Obteniendo el resultado:
+Obtaining the result:
 
-![signos y sus cantidades.]({{"/assets/img/elements_in_posts/decrypt_program1.webp"}})
+![signs and their quantities.]({{"/assets/img/elements_in_posts/decrypt_program1.webp"}})
 
-*   Dandonos cierta confirmación de que vamos bien ya que se utilizan 23 signos distintos, un valor cercano a la cantidad de letras en el alfabeto.
+Giving us some confirmation that we are doing well since 23 different signs are used, a value close to the amount
+of letters in the alphabet.
 
-*   Además vemos que de mayor a menor en cantidad de usos de un signo es: 74 - 53 - 34 - 31 - 31...
+We also see that from highest to lowest in quantity of uses of a sign is: 74 - 53 - 34 - 31 - 31...
 
 ---
 
-Según el siguiente artículo ([frecuencia de aparición de letras](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras)) en el idioma español la letra 'a' es la más frecuente, seguida de cerca por la letra 'e', pero superandolas esta el 'espacio' casi duplicando a la letra más frecuente.
+According to the following article 
+([frequency of appearance of letters](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras))
+in the Spanish language the letter ‘a’ is the most frequent, closely followed by the letter ‘e’, but exceeding 
+them is the ‘space’ almost doubling the most frequent letter.
 
-Luego reemplazamos el signo Ψ por un espacio, Δ por una 'a' y Σ por una 'e'.
+Then we replace the sign Ψ by a space, Δ by a 'a' and Σ by a 'e'.
 
-**Nota:** Tener en cuenta por supuesto que esto no es una ciencia exacta, estamos haciendo uso de la probabilidad, "puede fallar" dijo Tusam, si éste fuera el caso se puede volver atrás e intercambiar la 'a' por la 'e' y continuar el proceso.
+**Note:** Bear in mind of course that this is not an exact science, we are making use of probability. 
+"It may fail" said Tusam. If this were the case you can go back and exchange the 'a' for the 'e' and continue the 
+process.
 
-Agregamos las siguientes líneas de código a nuestro programa:
+We add the following lines of code to our program:
 
 <pre><code class="language-python">
 text = text.replace('Ψ', ' ')
@@ -86,29 +108,30 @@ text = text.replace('Σ', 'e')
 print(text)
 </code></pre>
 
-Obteniendo:
+Obtaining:
 
 ![]({{"/assets/img/elements_in_posts/decrypt_program2.webp"}})
 
-Analizando el resultado es muy posible que el signo 'Ξ' sea una 'l', por que en una palabra se repite 2 veces seguidas, y por que se usaría para las palabras 'las' 'los', 'el, 'la'.
+Analyzing the result it is very possible that the sign 'Ξ' is an 'l', because in a word it is repeated 2 times in a row,
+and why would it be used for the words' las' 'los',' el, 'la'.
 
 ![]({{"/assets/img/elements_in_posts/decrypt_program3.webp"}})
 
-Hacemos el reemplazo..
+We make the replacement...
 
 <pre><code class="language-python">
 text = text.replace('Ξ', 'l')
 </code></pre>
 
-Obteniendo:
+Obtaining:
 
 ![]({{"/assets/img/elements_in_posts/decrypt_program4.webp"}})
 
-Continuando de la misma forma es muy posible que:
+Continuing in the same way it is very possible that:
 
-*   Ω sea una 'y'
-*   ϑ sea una 'o'
-*   λ sea una 's'
+*   Ω be a 'y'
+*   ϑ be a 'o'
+*   λ be a 's'
 
 <pre><code class="language-python">
 text = text.replace('Ω', 'y')
@@ -116,10 +139,15 @@ text = text.replace('ϑ', 'o')
 text = text.replace('λ', 's')
 </code></pre>
 
-Obteniendo:
+Obtaining:
 
 ![]({{"/assets/img/elements_in_posts/decrypt_program5.webp"}})
 
-Esto es un proceso iterativo, donde en cada iteración nos vamos acercando cada vez más al objetivo...
+This is an iterative process, where in each iteration we get closer and closer to the goal.
 
-A partir de acá ya es mucho más fácil deducir el resto, ¿Te animás a completarlo?. Buena suerte y nos vemos!.
+From here it is much easier to deduce the rest, do you dare to complete it?
+
+Good luck and see you!
+
+---
+---

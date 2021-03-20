@@ -56,7 +56,7 @@ El análisis de frecuencias está basado en el hecho que, dado un texto, ciertas
 aparecen más a menudo que otras, existiendo distintas frecuencias para ellas. 
 Por ejemplo, en español la letra A y E son muy comunes, mientras que la K y W son muy raras.
 
-![gráfico frecuencia de uso de letras es español]({{"/assets/img/elements_in_posts/Frecuencia_de_uso_de_letras_en_español.webp"}})
+![gráfico frecuencia de uso de letras en español]({{"/assets/img/elements_in_posts/Frecuencia_de_uso_de_letras_en_español.webp"}})
 
 Mediante un pequeño programa escrito en **python** vemos los diferentes signos utilizados, y la cantidad de uso de 
 cada uno de ellos
