@@ -7,6 +7,8 @@ categories: [Blog]
 tags: [Salud]
 lang: es
 ref: blog-pasos-diarios
+
+hide: true
 ---
 
 En el mundo del desarrollo del software, noto que la salud es una de las propiedades importantes que más se deja de 

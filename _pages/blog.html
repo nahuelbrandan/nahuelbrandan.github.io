@@ -15,7 +15,7 @@ lang: es
       
       <ul>
         {%for post in site.posts%}
-        {%if post.categories contains "Blog"%}
+        {%if post.categories contains "Blog" and post.hide != true %}
         <li>
           <h4 class="item">
             <a class="text-dark" href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a>
