@@ -26,15 +26,11 @@
         <li class="nav-item lang" role="presentation">
           <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ p.title }}</a>
         </li>
-        
-        {% if page.lang == 'es' %}
-          <li class="nav-item" role="presentation"><a class="nav-link"
-                                                    href="https://drive.google.com/file/d/1yCm7Zh93oYErIYL5zqEfrgdA1Ev8Lzmm/view?usp=sharing">CV</a>
-        {% else %}
-<!--          TODO HACER CV EN INGLES-->
-          <li class="nav-item" role="presentation"><a class="nav-link"
-                                        href="https://drive.google.com/file/d/1CCUEWaxH9RPs0mqfeY0tMs8lnSf5yG_D/view?usp=sharing">CV</a>
-        {% endif %}
+
+        {% assign p=site.pages | where:"pageid", 'CV' | where:"lang", page.lang | first %}
+        <li class="nav-item lang" role="presentation">
+          <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ p.title }}</a>
+        </li>
 
         {% assign p=site.pages | where:"pageid", 'contact' | where:"lang", page.lang | first %}
         <li class="nav-item lang" role="presentation">

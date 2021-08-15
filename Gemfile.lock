@@ -281,6 +281,7 @@ DEPENDENCIES
   bourbon
   github-pages
   jekyll-include-cache
+  jekyll-redirect-from
   jekyll-sitemap
   jemoji
   rouge
