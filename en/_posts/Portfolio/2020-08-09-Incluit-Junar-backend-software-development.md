@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Incluit - Junar - Backend Software Development"
+short_title: "Incluit - Junar"
+subtitle: "Backend Software Development"
 date:   2020-08-09 00:00:01 -0300
 comments: false
 categories: [Portfolio]

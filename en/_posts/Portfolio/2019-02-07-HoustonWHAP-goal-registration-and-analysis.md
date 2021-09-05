@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "HoustonWHAP, goal registration and analysis"
+title: "HoustonWHAP - goal registration and analysis"
+short_title: "HoustonWHAP"
+subtitle: "goal registration and analysis"
 date:   2019-02-07 17:50:01 -0300
 comments: false
 categories: [Portfolio]

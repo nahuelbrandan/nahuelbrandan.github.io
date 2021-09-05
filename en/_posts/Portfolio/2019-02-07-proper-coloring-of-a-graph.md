@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Proper Coloring of a Graph"
+short_title: "Graph"
+subtitle: "Proper Coloring of a Graph"
 date:   2019-02-07 10:00:01 -0300
 comments: false
 categories: [Portfolio]

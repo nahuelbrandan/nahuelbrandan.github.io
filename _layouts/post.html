@@ -99,7 +99,10 @@
                 {% endif %}
                 
                 <div class="card-body">
-                  <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                  <p class="card-title bold text-bold font-weight-bold">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                  </p>
+
                 </div>
               </div>
             </div>

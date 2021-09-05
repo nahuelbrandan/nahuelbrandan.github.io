@@ -7,7 +7,11 @@
 {% comment %}-------- Test if we have a date to process --------{% endcomment %}
 {% if processed_date %}
 
+    {% if page.lang == 'es' %}
     {% assign month = "Enero,Febrero,Marzo,Abril,Mayo,junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre" | split: "," %}
+    {% else %}
+    {% assign month = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+    {% endif %}
 
     {% assign month_index = processed_date | date: "%m" | minus: 1 %}
 

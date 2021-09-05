@@ -1,61 +1,68 @@
-### Descripción.
+# <center> Nahuel Brandán
 
-Esta es mi página web, la pueden visualizar en: [nahuelbrandan.com](https://www.nahuelbrandan.com)
+This is my personal website, you can see in: [nahuelbrandan.com](https://www.nahuelbrandan.com)
 
-Desarrollado utilizando como base [este proyecto](https://github.com/crscardellino/crscardellino.github.io) de Cristian
- Cardellino.
+Developed using [this](https://github.com/crscardellino/crscardellino.github.io) project of Cristian
+ Cardellino as a basis.
 
-### Instalación.
+## Installation
+
+### Docker
+
+    docker-compose up
+
+based in [this](https://github.com/BretFisher/jekyll-serve) project.
+
+### Manual
 
     sudo apt install ruby ruby-dev libffi-dev build-essential zlib1g-dev
     sudo gem install bundle jekyll
-    sudo gem install bundler -v 1.17.2
+    sudo gem install bundler -v 2.1.4
     sudo gem update
 
     bundle install
 
-### Ejecución, diferentes formas.
+## Execution
 
-    bundle exec jekyll serve    
+### Manual
 
-    bundle exec jekyll serve --livereload
+`bundle exec jekyll serve`
 
-    bundle exec jekyll serve --drafts --livereload
+`bundle exec jekyll serve --livereload` auto refresh activated
 
-* La segunda forma no necesita hacer un refresh de la página ante cada cambio que hagamos.
-* La tercera forma se le agrega la visualización de los drafts (publicaciones en proceso de construcción.)
+`bundle exec jekyll serve --drafts --livereload` can see the drafts posts
 
-### Actualización.
+## Update
 
     bundle update
 
-### Errores.
+## Problems
 
-* Por problemas con la instalación de Jekyll ver: [Jekyll installation problems.](https://jekyllrb.com/docs/troubleshooting/#installation-problems)
-* Al ejecutar, si figura un error del tipo: *FATAL: Listen error: unable to monitor directories for changes.* ejecutar el siguiente comando
+* When executing, if an error of this type appears: *FATAL: Listen error: unable to monitor directories for changes.* 
+  execute the next command:
 
   `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`
 
-* Port is in use or requires root privileges
+* Port is in use or requires root privileges: `fuser -n tcp -k 4000`
+* Problem installing bundler: see 
+  [this](https://stackoverflow.com/a/52842826/6125910).
 
-  `fuser -n tcp -k 4000`
+## Recommendations
 
-### Recomendaciones.
+* It is recommended that all the images used have _.webp_ format which is optimized and has a better
+performance when loading web pages.
 
-* Se recomienda que todas las imágenes que se utilicen tengan formato _.webp_ el cual esta optimizado y tiene una mejor 
-performance al cargar paginas webs.
-
-  En linux se puede hacer:
+  In Linux, you can do:
   
-  * `sudo apt install webp` Instalar el programa.
-  * Parados en el directorio de las imágenes ejecutar:
+  * `sudo apt install webp`
+  * In the directory of the images execute:
   
     `for f in *.png; do cwebp "$f" "-o" "${f%.png}.webp"; done; for f in *.jpg; do cwebp "$f" "-o" "${f%.jpg}.webp"; done;`
 
-### Desempeño
+### Performance
 
-Resultados obtenidos luego de un análisis con la herramienta _Lighthouse_.
+Results obtained after an analysis with the _Lighthouse_ tool.
 
-![Desempeño de la página](assets/img/site/desempeño.png)
+![Performance](assets/img/site/desempeño.png)
 
-Los cuales son valores excelentes!, mostrando el cariño que se le da al sitio.
+Which are excellent values!, showing the love that is given to the site.

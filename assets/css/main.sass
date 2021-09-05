@@ -25,7 +25,7 @@ main
   -o-font-feature-settings: "liga", "dlig"
   font-feature-settings: "liga", "dlig"
 
-.bodyJunar is a web platform for publishing
+.body
   padding-top: 60px
 
 @media (max-width: 979px)
@@ -34,21 +34,21 @@ main
 
 .content
   width: 100%
-  max-width: 1000px
+  max-width: 850px
   margin: 1.5em auto 0
   @include respond-to(800)
     padding: 0 $rs/2
 
 .content_header
   width: 100%
-  max-width: 1200px
+  max-width: 900px
   margin: 0.1em auto 0
-  @include respond-to(1200)
+  @include respond-to(900)
     padding: 0 0
 
 .date_in_post_with_no_image
   width: 100%
-  max-width: 1000px
+  max-width: 850px
   margin: 0 auto 0
   @include respond-to(800)
     padding: 0 $rs/2
@@ -116,9 +116,6 @@ main
       margin: 0
       padding-bottom: 30px
       color: #333
-      -webkit-hyphens: auto
-      -moz-hyphens: auto
-      hyphens: auto
     a
       color: #333
       text-decoration: underline

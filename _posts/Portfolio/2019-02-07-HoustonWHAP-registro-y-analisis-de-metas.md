@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "HoustonWHAP, registro y análisis de metas"
+title: "HoustonWHAP - registro y análisis de metas"
+short_title: "HoustonWHAP"
+subtitle: "registro y análisis de metas"
 date:   2019-02-07 17:50:01 -0300
 comments: false
 categories: [Portfolio]

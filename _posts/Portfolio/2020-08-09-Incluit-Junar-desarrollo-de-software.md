@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Incluit - Junar - Desarrollo de Software Backend"
+short_title: "Incluit - Junar"
+subtitle: "Desarrollo de Software Backend"
 date:   2020-08-09 00:00:01 -0300
 comments: false
 categories: [Portfolio]
-tags: [Python, Django, APIs, Auth0, Redis, Elastic Search, Celery]
+tags: [Python, Django, APIs, Auth0, Keycloak, Redis, Elastic Search, Celery]
 image: "/assets/img/posts/incluit-junar.webp"
 thumbnail: "/assets/img/posts/incluit-junar.jpg"
 ref: incluit-junar
