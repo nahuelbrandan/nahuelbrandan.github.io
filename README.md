@@ -59,7 +59,7 @@ performance when loading web pages.
   
     `for f in *.png; do cwebp "$f" "-o" "${f%.png}.webp"; done; for f in *.jpg; do cwebp "$f" "-o" "${f%.jpg}.webp"; done;`
 
-### Performance
+## Performance
 
 Results obtained after an analysis with the _Lighthouse_ tool.
 
