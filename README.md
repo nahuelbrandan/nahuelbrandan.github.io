@@ -2,9 +2,6 @@
 
 This is my personal website, you can see in: [nahuelbrandan.com](https://www.nahuelbrandan.com)
 
-Developed using [this](https://github.com/crscardellino/crscardellino.github.io) project of Cristian
- Cardellino as a basis.
-
 ## Installation
 
 ### Docker
