@@ -11,12 +11,12 @@ image: "/assets/img/posts/HoustonWHAP.webp"
 thumbnail: "/assets/img/posts/HoustonWHAP.jpg"
 ref: houstonWHAP
 lang: es
-showInIndex: true
+showInIndex: false
 ---
 
 Programa realizado en el ámbito académico junto a 3 compañeros más, para la materia *Ingenieria de Software I*.
 
-## Descripción.
+## Descripción
 
 **¿Qué es HoustonWHAP?**
 
@@ -33,7 +33,7 @@ incluso observar estadísticas generales de su progreso.
 
 ---
 
-## Desarrollo.
+## Desarrollo
 
 Durante todo el proceso de desarrollo se trabajo **simulando un entorno de desarrollo real**. Creando *tickets* y
 asignandolos entre los integrantes.
@@ -44,7 +44,7 @@ integrarlo a la rama general.
 
 ---
 
-## Profundidad.
+## Profundidad
 Por información más específica y forma de uso, ver el repositorio Github donde se encuentra alojado.
 
 Código fuente [aquí](https://github.com/nahuelbrandan/HoustonWHAP).

@@ -77,7 +77,7 @@ Buscar trabajo también es un trabajo y en este artículo les quiero comentar la
 
 ---
 
-## Durante la entrevista.
+## Durante la entrevista
 
 ![entrevista]({{"/assets/img/elements_in_posts/entrevista.webp"}})
 

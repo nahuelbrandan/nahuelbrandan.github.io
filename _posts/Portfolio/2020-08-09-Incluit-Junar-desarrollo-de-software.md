@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Incluit - Junar - Desarrollo de Software Backend"
+title: "Incluit - Junar - Desarrollo de Software"
 short_title: "Incluit - Junar"
 subtitle: "Desarrollo de Software Backend"
 date:   2020-08-09 00:00:01 -0300
@@ -14,9 +14,7 @@ lang: es
 showInIndex: true
 ---
 
-## Descripción
-
-Desde Marzo del 2019 hasta la actualidad me encuentro trabajando en [IncluIT](https://incluit.com/) como _Desarrollador 
+Desde marzo/2019 hasta julio/2021 me encontré trabajando en [IncluIT](https://incluit.com/) como _Desarrollador 
 de Software Backend_ para el proyecto [Junar](https://junar.com/).
 
 Junar es una plataforma web para publicar [datos abiertos](https://en.wikipedia.org/wiki/Open_data), proveyendo un 
@@ -33,7 +31,7 @@ Algunos de sus clientes son:
 
 ## Actividades
 
-Me desempeño como Desarrollador Backend, trabajando en un equipo de unas decenas de personas, utilizando
+Me desempeñé como Desarrollador Backend, trabajando en un equipo de unas decenas de personas, utilizando
 tecnologías como: _Python_, _Django_, _Redis_, _Elastic Search_, _Celery_, _Django Rest Framework_, entre otras.
 
 Organizándonos aplicando la metodología _Scrum_.

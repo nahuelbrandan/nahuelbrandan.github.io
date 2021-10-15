@@ -88,7 +88,7 @@ tiempo, para que a ustedes el lapso se les reduzca.
 
 * **Revisa tu email constantemente**.
 
-## Durante la entrevista.
+## Durante la entrevista
 
 ![entrevista]({{"/assets/img/elements_in_posts/entrevista.webp"}})
 

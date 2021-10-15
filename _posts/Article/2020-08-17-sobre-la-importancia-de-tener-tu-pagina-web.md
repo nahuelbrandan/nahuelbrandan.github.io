@@ -108,7 +108,7 @@ El consejo principal es que tenés que leer mucho y escribir mucho.
 Stephen King tiene un excelente libro sobre el proceso de escritura. 
 ver: [On Writing (Mientras escribo)](http://biblioteka.teatr-obraz.ru/files/file/English_cinema/Stephen_King_On_Writing.pdf)
 
-#### Diseño.
+#### Diseño
 Una forma de aprender es viendo lo proyectos de otros, para usarlos como fuentes de inspiración. En 
 [awwwards](https://www.awwwards.com/) podes encontrar grandes ejemplos.
 

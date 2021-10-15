@@ -57,7 +57,7 @@ aplicación, sin darle a este último las credenciales de tu usuario de facebook
 
 ---
 
-## Desarrollo.
+## Desarrollo
 
 En el proyecto de desarrollo en el que trabajo, una de las funcionalidades que provee el sistema es un 
 ***Administrador de APIs***, el cual permite *crear*, *editar*, *publicar/despublicar* y *eliminar* ***APIs***.

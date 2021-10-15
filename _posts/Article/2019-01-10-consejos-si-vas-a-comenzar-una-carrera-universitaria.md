@@ -24,7 +24,7 @@ Comencemos...
 
 ---
 
-## Dedicale tiempo TODOS los dias.
+## Dedicale tiempo TODOS los dias
 
 ![Autor: https://www.facebook.com/72Kilos/]({{"/assets/img/elements_in_posts/constancia.webp"}})
 

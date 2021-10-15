@@ -6,20 +6,37 @@ This is my personal website, you can see in: [nahuelbrandan.com](https://www.nah
 
 ### Docker
 
-    docker-compose up
+```bash
+docker-compose up
+```
+
+or 
+
+```bash
+docker build - < Dockerfile
+```
+
 
 based in [this](https://github.com/BretFisher/jekyll-serve) project.
 
 ### Manual
 
-    sudo apt install ruby ruby-dev libffi-dev build-essential zlib1g-dev
-    sudo gem install bundle jekyll
-    sudo gem install bundler -v 2.1.4
-    sudo gem update
+```bash
+sudo apt install ruby ruby-dev libffi-dev build-essential zlib1g-dev
+sudo gem install bundle jekyll
+sudo gem install bundler -v 2.1.4
+sudo gem update
 
-    bundle install
+bundle install
+```
 
 ## Execution
+
+### Docker
+
+```bash
+docker-compose up
+```
 
 ### Manual
 
@@ -31,7 +48,7 @@ based in [this](https://github.com/BretFisher/jekyll-serve) project.
 
 ## Update
 
-    bundle update
+`bundle update`
 
 ## Problems
 

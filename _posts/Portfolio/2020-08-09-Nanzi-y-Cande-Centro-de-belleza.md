@@ -11,10 +11,7 @@ ref: nanzi-y-cande
 lang: es
 ---
 
-## Descripción
-
-La presencia digital es una propiedad muy importante, más hoy en día. Si no te pueden encontrar no pueden consumir tu 
-producto o servicio.
+La presencia digital es una propiedad muy importante, más hoy en día. Si no te pueden encontrar no te pueden consumir.
 
 A partir de esta premisa, desarrollé la página web empresarial de la empresa familiar *Nanzi y Cande - Centro de Belleza.*
 

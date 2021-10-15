@@ -57,7 +57,7 @@ de los vértices.
 
 ---
 
-## Diseño.
+## Diseño
 
 Este programa fue pensado desde un principio para manejar **grafos grandes**, del orden de millones de vértices y
  decenas de millones de aristas, y utilizar Greedy mil veces!. Por lo tanto para soportar tales magnitudes se tuvo que
@@ -69,7 +69,7 @@ Si no se tiene mucho cuidado se podría desarrollar un programa que tarde días 
 
 ---
 
-## Profundidad.
+## Profundidad
 
 Por información más específica y forma de uso, ver el 
 [repositorio con código fuente](https://github.com/nahuelbrandan/discreta2).
