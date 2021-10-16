@@ -6,30 +6,35 @@ lang: es
 ---
 
 <main class="page landing-page">
-  <section class="portfolio-block block-intro" style="padding: 50px;">
+  <section class="portfolio-block block-intro" style="padding-top: 50px; padding-bottom: 0;">
     <div class="container">
-      <div class="border rounded-circle border-primary shadow-sm avatar" data-bs-hover-animate="pulse"
-           style="background: url(assets/img/personal/me.webp); background-size: cover; width: 15em; height: 15em;">
-      </div>
-      <div class="about-me">
-        <p>Hola! Soy&nbsp;<strong>Nahuel Brandán</strong>.<br>
-          Soy Desarrollador de Software Backend.<br> Especializado en el ecosistema <strong>Python</strong>.<br>
-          Resolutivo. Afortunado. Nunca parando de aprender.
-        </p>
+      <div class="row justify-content-center">
+
+        <div class="border rounded-circle border-primary shadow-sm avatar" data-bs-hover-animate="pulse"
+             style="background: url(assets/img/personal/me.webp); background-size: cover; width: 20em; height: 20em;">
+        </div>
+
+        <div class="about-me d-flex align-items-center">
+          <p>Hola! Soy&nbsp;<strong>Nahuel Brandán</strong>.<br>
+            Soy Desarrollador de Software Backend.<br> Especializado en el ecosistema
+            <strong>Python</strong>.<br>
+            Resolutivo. Afortunado. Nunca parando de aprender.
+          </p>
+        </div>
+
       </div>
     </div>
   </section>
-  
-  
-  <section data-aos="fade-up" class="portfolio-block photography" style="padding: 0 0 1em;">
+
+  <section data-aos="fade-up" class="portfolio-block photography" style="padding: 0 0">
     <main class="page projects-page">
-      <section class="portfolio-block projects-cards" style="padding: 1em;">
+      <section class="portfolio-block projects-cards" style="padding-top: 0; padding-bottom: 1em;">
         <div class="container">
-          <div class="heading">
-            <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Proyectos</h2>
+          <div class="heading" style="margin-bottom:30px; !important;">
+            <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px">Experiencias</h2>
           </div>
           <div class="row">
-            
+
             {% for category in site.categories %}
             {% if category contains "Portfolio" %}
             {% for post in category[1] %}
@@ -37,7 +42,8 @@ lang: es
             <div class="col-md-6 col-lg-4">
               <div class="card border-1">
                 <a href="{{ post.id | prepend: site.baseurl }}"><img class="card-img-top scale-on-hover"
-                                                                     src={{post.image}} alt={{post.image}}
+                                                                     src={{post.image}}
+                                                                     alt={{post.image}}
                                                                      title="{{post.title}}"></a>
                 <div class="card-body">
                   <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.short_title}}</a></h6>
@@ -56,28 +62,29 @@ lang: es
             </div>
             {% endif %}
             {% endfor %}
-            
+
             {% endif%}
             {% endfor %}
           </div>
-          
+
           <div class="d-flex justify-content-center align-items-center content" style="margin: 1em; ">
             <h3 style="text-align: left;"></h3><a
-             class="btn btn-lg btn-primary border border-secondary border"
-             role="button" href="/portafolio" style="color: #ffffff !important; font-size: 1.5rem;">Ver más</a>
+              class="btn btn-lg btn-primary border border-secondary border"
+              role="button" href="/portafolio" style="color: #ffffff !important; font-size: 1.5rem;">Ver
+            más</a>
           </div>
         </div>
       </section>
     </main>
   </section>
-  
-  
+
+
   <section data-aos="fade-up" class="portfolio-block photography" style="padding: 0 0 1em; box-shadow: 0 0;">
     <main class="page projects-page">
       <section class="portfolio-block projects-cards" style="padding: 1em;">
         <div class="container">
           <hr>
-          <div class="heading">
+          <div class="heading" style="margin-bottom:30px; !important;">
             <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Artículos</h2>
           </div>
           <div class="row">
@@ -87,9 +94,10 @@ lang: es
             <div class="col-md-6 col-lg-4">
               <div class="card border-1">
                 <a href="{{ post.id | prepend: site.baseurl }}">
-                  <img class="card-img-top scale-on-hover" src={{post.image}} alt={{post.image}} title="{{post.title}}">
+                  <img class="card-img-top scale-on-hover" src={{post.image}} alt={{post.image}}
+                       title="{{post.title}}">
                 </a>
-                
+
                 <div class="card-body">
                   <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a></h6>
                 </div>
@@ -106,7 +114,7 @@ lang: es
       </section>
     </main>
   </section>
-  
+
   <section data-aos="fade-up" class="portfolio-block website gradient" style="font-size: 1.5em;">
     <blockquote class="blockquote" style="text-align: center;">
       <p class="lead mb-0" style="text-shadow: 0 0; font-size: 2em;"><em>“Any fool can write code that a
@@ -114,28 +122,26 @@ lang: es
       <footer class="blockquote-footer" style="color: #41474d;"><strong>MARTIN FOWLER</strong></footer>
     </blockquote>
   </section>
-  
-  <section class="portfolio-block skills" style="padding: 3em;">
+
+  <section class="portfolio-block skills" style="padding-top: 2em !important; padding-bottom: 0.5em !important;">
     <div data-aos="fade-up" class="container">
-      <!-- Start: portfolio heading -->
-      <div class="heading">
+      <div class="heading" style="margin-bottom:30px; !important;">
         <h2 class="text-capitalize">Sobre mi</h2>
       </div>
-      <!-- End: portfolio heading -->
       <p style="font-size: 24px; line-height: 36px; text-align: left; opacity: 0.96; font-family: Lato, sans-serif; font-weight: 300;">
-        Me recibí de analista en computación en la&nbsp;<a href="http://www.famaf.unc.edu.ar/"><span
-         style="text-decoration: underline;">Facultad de Matemática, Astronomía, Física y Computación (FaMAF)</span></a>&nbsp;de
+        Me recibí de analista en computación en la&nbsp;<a href="https://www.famaf.unc.edu.ar/"><span
+          style="text-decoration: underline;">Facultad de Matemática, Astronomía, Física y Computación (FaMAF)</span></a>&nbsp;de
         la Universidad Nacional de Córdoba (UNC).
         <br><br>
 
         Ingrese en la industria del software en la empresa&nbsp;<a href="https://incluit.com/"><span
-         style="text-decoration: underline;">IncluIT</span></a>&nbsp, para el proyecto <a
-         href="https://junar.com/"><span
-         style="text-decoration: underline;">Junar</span></a>, a comienzos del 2019.
+          style="text-decoration: underline;">IncluIT</span></a>&nbsp, para el proyecto <a
+          href="https://junar.com/"><span
+          style="text-decoration: underline;">Junar</span></a>, a comienzos del 2019.
         <br><br>
 
         Actualmente me encuentro trabajando en la empresa&nbsp;<a href="https://www.ascentio.com.ar/"><span
-              style="text-decoration: underline;">Ascentio Technologies S.A</span></a>&nbsp.
+          style="text-decoration: underline;">Ascentio Technologies S.A</span></a>&nbsp.
         <br><br>
 
         Amante de la informática, el cine, la literatura, la matemática, la filosofía, el ajedrez, entre otras
@@ -143,11 +149,11 @@ lang: es
         <br><br>
 
         Comenzando el 2021 como estudiante activo en la academia online <a href="https://platzi.com/"><span
-         style="text-decoration: underline;">Platzi</span></a>, podrán
+          style="text-decoration: underline;">Platzi</span></a>, podrán
         ver mi perfil con avances e intereses <a href="https://platzi.com/p/neobraf/"><span
-         style="text-decoration: underline;">aquí</span></a>.
+          style="text-decoration: underline;">aquí</span></a>.
         <br><br>
-      
+
       </p>
       <div class="row" data-aos="fade-up">
         <div class="col-md-4">
@@ -167,7 +173,8 @@ lang: es
             <div class="card-body">
               <h3 class="card-title">Resolución de problemas</h3>
               <p class="card-text">Luego de 4 años en la facultad, más otros 2 en la industria, el
-                denominador común en estas áreas y en la vida es: enfrentar, analizar y solucionar problemas.</p>
+                denominador común en estas áreas y en la vida es: enfrentar, analizar y solucionar
+                problemas.</p>
             </div>
           </div>
         </div>
@@ -185,25 +192,25 @@ lang: es
       </div>
     </div>
   </section>
-  
+
   <!-- parallax image -->
   <div data-bs-parallax-bg="true" style="height:400px; background-image:url('assets/img/home/option55.webp');
 background-position:center; background-size:cover;">
   </div>
-  
+
   <!-- Tecnologías -->
   <div data-aos="fade-up">
     <div class="container">
       <div class="social-icons">
-        
+
         <div class="row">
           <div class="col-md-12">
             <h3 class="text-center" style="text-align: left; margin: 1em;"><strong>Tecnologías</strong></h3>
           </div>
         </div>
-        
+
         <div class="row align-items-center justify-content-center">
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://www.python.org/">
@@ -212,7 +219,7 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://www.djangoproject.com/">
@@ -221,7 +228,7 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://www.mysql.com/">
@@ -230,16 +237,17 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://git-scm.com/">
-                <img src="assets/img/home/git.svg" alt="git" title="git" data-toggle="tooltip" data-placement="top"
+                <img src="assets/img/home/git.svg" alt="git" title="git" data-toggle="tooltip"
+                     data-placement="top"
                      style="width:50%;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://en.wikipedia.org/wiki/Linux">
@@ -248,25 +256,27 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
-                <img src="assets/img/home/c_language.svg" alt="C" title="C" data-toggle="tooltip" data-placement="top"
+                <img src="assets/img/home/c_language.svg" alt="C" title="C" data-toggle="tooltip"
+                     data-placement="top"
                      style="width:50%;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://www.elastic.co/">
-                <img src="assets/img/home/elastic-elasticsearch.svg" alt="Elasticsearch" title="Elasticsearch"
+                <img src="assets/img/home/elastic-elasticsearch.svg" alt="Elasticsearch"
+                     title="Elasticsearch"
                      data-toggle="tooltip" data-placement="top" style="width:50%;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://redis.io/">
@@ -275,7 +285,7 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://auth0.com/">
@@ -285,34 +295,37 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://www.mongodb.com/">
-                <img src="assets/img/home/cib-mongodb.svg" alt="MongoDB" title="MongoDB" data-toggle="tooltip"
+                <img src="assets/img/home/cib-mongodb.svg" alt="MongoDB" title="MongoDB"
+                     data-toggle="tooltip"
                      data-placement="top" style="width:50%;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://en.wikipedia.org/wiki/HTML5">
-                <img src="assets/img/home/html-5.svg" alt="HTML" title="HTML" data-toggle="tooltip" data-placement="top"
+                <img src="assets/img/home/html-5.svg" alt="HTML" title="HTML" data-toggle="tooltip"
+                     data-placement="top"
                      style="width:50%;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://en.wikipedia.org/wiki/CSS">
-                <img src="assets/img/home/new/css.svg" alt="CSS" title="CSS" data-toggle="tooltip" data-placement="top"
+                <img src="assets/img/home/new/css.svg" alt="CSS" title="CSS" data-toggle="tooltip"
+                     data-placement="top"
                      style="width:50%;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4 " style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">
@@ -321,34 +334,37 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://jekyllrb.com/">
-                <img src="assets/img/home/new/jekyll.svg" alt="Jekyll" title="Jekyll" data-toggle="tooltip"
+                <img src="assets/img/home/new/jekyll.svg" alt="Jekyll" title="Jekyll"
+                     data-toggle="tooltip"
                      data-placement="top" style="width:50%;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://www.jetbrains.com/pycharm/">
-                <img src="assets/img/home/new/pycharm.svg" alt="Pycharm" title="Pycharm" data-toggle="tooltip"
+                <img src="assets/img/home/new/pycharm.svg" alt="Pycharm" title="Pycharm"
+                     data-toggle="tooltip"
                      data-placement="top" style="width:50%;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://getbootstrap.com/">
-                <img src="assets/img/home/new/bootstrap.svg" alt="Bootstrap" title="Bootstrap" data-toggle="tooltip"
+                <img src="assets/img/home/new/bootstrap.svg" alt="Bootstrap" title="Bootstrap"
+                     data-toggle="tooltip"
                      data-placement="top" style="width:50%;">
               </a>
             </div>
           </div>
-          
+
           <div class="col-lg-2 col-md-4 col-sm-4 col-4" style="margin-bottom: 3em;">
             <div class="thumbnail text-center">
               <a href="https://flask.palletsprojects.com/en/1.1.x/">
@@ -366,35 +382,36 @@ background-position:center; background-size:cover;">
               </a>
             </div>
           </div>
-        
+
         </div>
       </div>
     </div>
   </div>
-  
+
   <!-- Perfiles de contacto -->
   <div data-aos="fade-up">
     <div class="container">
       <hr>
-      <div class="social-icons justify-content-center" style="padding: 0 0 3em 0;">
-        
+      <div class="social-icons justify-content-center" style="padding: 0 0 1em 0;">
+
         <div class="row">
           <div class="col-md-12">
             <h3 class="text-center" style="text-align: left; margin: 1em;"><strong>Perfiles</strong></h3>
           </div>
         </div>
-        
+
         <div class="row">
 
           <div class="col-lg-3 col-md-6 col-sm-6 col-6" style="margin-bottom: 3em;">
             <a href="https://www.linkedin.com/in/nahuelbrandan/">
               <div class="thumbnail text-center">
-                <img src="assets/img/home/linkedin.svg" alt="LinkedIn" data-toggle="tooltip" data-placement="top"
+                <img src="assets/img/home/linkedin.svg" alt="LinkedIn" data-toggle="tooltip"
+                     data-placement="top"
                      title="LinkedIn" style="width:50%;">
               </div>
             </a>
           </div>
-          
+
           <div class="col-lg-3 col-md-6 col-sm-6 col-6" style="margin-bottom: 3em;">
             <a href="https://stackoverflow.com/users/6125910/nahuel-brandan">
               <div class="thumbnail text-center">
@@ -404,7 +421,7 @@ background-position:center; background-size:cover;">
               </div>
             </a>
           </div>
-          
+
           <div class="col-lg-3 col-md-6 col-sm-6 col-6" style="margin-bottom: 3em;">
             <a href="https://github.com/nahuelbrandan">
               <div class="thumbnail text-center">
@@ -413,11 +430,12 @@ background-position:center; background-size:cover;">
               </div>
             </a>
           </div>
-          
+
           <div class="col-lg-3 col-md-6 col-sm-6 col-6" style="margin-bottom: 3em;">
             <a href="https://platzi.com/p/neobraf/">
               <div class="thumbnail text-center">
-                <img src="assets/img/home/platzi.svg" alt="Platzi - Educación online" title="Platzi - Educación online"
+                <img src="assets/img/home/platzi.svg" alt="Platzi - Educación online"
+                     title="Platzi - Educación online"
                      data-toggle="tooltip" data-placement="top"
                      style="width:50%;">
               </div>
@@ -448,7 +466,7 @@ background-position:center; background-size:cover;">
       </div>
     </div>
   </div>
-  
+
   <!-- Contacto -->
   <section data-aos="fade-up" class="portfolio-block block-intro website gradient"
            style="font-size: 1.3em; padding: 50px;">

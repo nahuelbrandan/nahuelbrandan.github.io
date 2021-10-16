@@ -59,7 +59,8 @@
 }
 
 .footer-clean {
-    padding: 50px 0;
+    padding-top: 2em;
+    padding-bottom: 3em;
     background-color: #fff;
     color: #4b4c4d;
 }
@@ -177,7 +178,8 @@
     color: #313437;
     background-color: #fff;
     text-align: center;
-    padding: 70px 0
+    padding-top: 30px;
+    padding-bottom: 0;
 }
 
 @media (max-width: 767px) {
