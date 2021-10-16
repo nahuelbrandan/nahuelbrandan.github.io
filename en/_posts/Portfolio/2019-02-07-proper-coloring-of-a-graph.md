@@ -11,7 +11,7 @@ image: "/assets/img/posts/grafos.webp"
 thumbnail: "/assets/img/posts/grafos.png"
 lang: en
 ref: graph-colored
-showInIndex: false
+showInIndex: true
 ---
 
 Program carried out in the academic field. It is one of my best works and of which I'm most proud.

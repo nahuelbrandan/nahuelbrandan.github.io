@@ -11,7 +11,7 @@ image: "/assets/img/posts/HoustonWHAP.webp"
 thumbnail: "/assets/img/posts/HoustonWHAP.jpg"
 lang: en
 ref: houstonWHAP
-showInIndex: true
+showInIndex: false
 ---
 
 Program carried out in the academic field with 3 more colleagues, for the course *Software Engineering I*.
