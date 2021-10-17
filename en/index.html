@@ -10,8 +10,8 @@ lang: en
     <div class="container">
       <div class="row justify-content-center">
 
-        <div class="border rounded-circle border-primary shadow-sm avatar" data-bs-hover-animate="pulse"
-             style="background: url(../assets/img/personal/me.webp); background-size: cover; width: 20em; height: 20em;">
+        <div class="border rounded-circle border-dark shadow-sm avatar" data-bs-hover-animate="pulse"
+             style="background: url(../assets/img/personal/me.webp); background-size: cover; width: 20em; height: 20em; border-width:3px !important;">
         </div>
 
         <div class="about-me d-flex align-items-center">
@@ -29,7 +29,7 @@ lang: en
     <main class="page projects-page">
       <section class="portfolio-block projects-cards" style="padding-top: 0; padding-bottom: 1em;">
         <div class="container" style="padding: 0 !important;">
-          <div class="heading"  style="margin-bottom:30px; !important;">
+          <div class="heading" style="margin-bottom:30px; !important;">
             <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Experiences</h2>
           </div>
           <div class="row">
@@ -119,40 +119,57 @@ lang: en
     </blockquote>
   </section>
 
-  <section class="portfolio-block skills" style="padding-top: 2em !important; padding-bottom: 0.5em !important;">
-    <div data-aos="fade-up" class="container">
+  <section class="portfolio-block" style="padding-top: 2em !important; padding-bottom: 0.5em !important;">
+    <div data-aos="fade-up" class="container" style="max-width:1540px !important;">
 
       <div class="heading" style="margin-bottom:30px; !important;">
         <h2 class="text-capitalize">About me</h2>
       </div>
 
-      <p style="font-size: 24px; line-height: 36px; text-align: left; opacity: 0.96; font-family: Lato, sans-serif; font-weight: 300;">
-        I received my Bachelor's degree as a Computer Analyst at the&nbsp;<a href="https://www.famaf.unc.edu.ar/"><span
-          style="text-decoration: underline;">Faculty of Mathematics, Astronomy, Physics and Computing (FaMAF)</span></a>&nbsp;of
-        the National University of Córdoba (UNC).
-        <br><br>
+      <div class="row">
 
-        I entered the software industry in the company <a href="https://incluit.com/"><span
-          style="text-decoration: underline;">IncluIT</span></a>&nbsp, for the <a
-          href="https://junar.com/"><span
-          style="text-decoration: underline;">Junar</span></a> project, at the beginning of 2019.
-        <br><br>
+        <div class="col-xs-6 col-md-6 col-xl-4 text-align-center d-flex align-items-center" style="padding: 1em"
+             data-bs-hover-animate="pulse">
+          <img src="../assets/img/personal/me2.webp" class="img-fluid border border-dark shadow-sm avatar" alt="Yo"
+               style="width: 25em; border-width:3px !important;">
+        </div>
 
-        I am currently working in the &nbsp;<a href="https://www.ascentio.com.ar/"><span
-          style="text-decoration: underline;">Ascentio Technologies S.A</span></a>&nbsp company.
-        <br><br>
+        <div class="col-md-6 col-xs-6 col-xl-8 d-flex align-items-center">
 
-        Lover of computers, cinema, literature, mathematics, philosophy, chess, among others areas.
-        <br><br>
+          <p style="margin-bottom: 0; font-size: 24px; line-height: 36px; text-align: left; opacity: 0.96; font-family: Lato, sans-serif; font-weight: 300;">
+            I received my Bachelor's degree as a Computer Analyst at the&nbsp;<a
+              href="https://www.famaf.unc.edu.ar/"><span
+              style="text-decoration: underline;">Faculty of Mathematics, Astronomy, Physics and Computing (FaMAF)</span></a>&nbsp;of
+            the National University of Córdoba (UNC).
+            <br><br>
 
-        Platzi online academy, you can see my profile with progress and interests here.
+            I entered the software industry in the company <a href="https://incluit.com/"><span
+              style="text-decoration: underline;">IncluIT</span></a>&nbsp, for the <a
+              href="https://junar.com/"><span
+              style="text-decoration: underline;">Junar</span></a> project, at the beginning of 2019.
+            <br><br>
 
-        Starting in 2021 as an active student at the <a href="https://platzi.com/"><span
-          style="text-decoration: underline;">Platzi</span></a> online academy, you can see my profile with progress
-        and interests <a href="https://platzi.com/p/neobraf/"><span style="text-decoration: underline;">here</span></a>.
-        <br><br>
+            I am currently working in the &nbsp;<a href="https://www.ascentio.com.ar/"><span
+              style="text-decoration: underline;">Ascentio Technologies S.A</span></a>&nbsp company.
+            <br><br>
 
-      </p>
+            Lover of computers, cinema, literature, mathematics, philosophy, chess, among others areas.
+            <br><br>
+
+            Platzi online academy, you can see my profile with progress and interests here.
+
+            Starting in 2021 as an active student at the <a href="https://platzi.com/"><span
+              style="text-decoration: underline;">Platzi</span></a> online academy, you can see my profile with progress
+            and interests <a href="https://platzi.com/p/neobraf/"><span style="text-decoration: underline;">here</span></a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="portfolio-block skills" style="padding-top: 2em !important; padding-bottom: 0.5em !important;">
+    <div data-aos="fade-up" class="container">
       <div class="row" data-aos="fade-up">
         <div class="col-md-4">
           <div class="card special-skill-item border-0">
@@ -161,7 +178,7 @@ lang: en
               <h3 class="card-title">Software Development</h3>
               <p class="card-text">
                 Perfecting myself in backend and Python in particular. Increasing my knowledge in Django, MySQL, Redis,
-                Elastic Search, Celery, among others.</p>
+                Elasticsearch, Celery, among others.</p>
             </div>
           </div>
         </div>

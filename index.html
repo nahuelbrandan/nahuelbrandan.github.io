@@ -10,8 +10,8 @@ lang: es
     <div class="container">
       <div class="row justify-content-center">
 
-        <div class="border rounded-circle border-primary shadow-sm avatar" data-bs-hover-animate="pulse"
-             style="background: url(assets/img/personal/me.webp); background-size: cover; width: 20em; height: 20em;">
+        <div class="border rounded-circle border-dark shadow-sm avatar" data-bs-hover-animate="pulse"
+             style="background: url(assets/img/personal/me.webp); background-size: cover; width: 20em; height: 20em; border-width:3px !important;">
         </div>
 
         <div class="about-me d-flex align-items-center">
@@ -125,39 +125,55 @@ lang: es
   </section>
 
 
-  <section class="portfolio-block skills" style="padding-top: 2em !important; padding-bottom: 0.5em !important;">
-    <div data-aos="fade-up" class="container">
+  <section class="portfolio-block" style="padding-top: 2em !important; padding-bottom: 0.5em !important;">
+    <div data-aos="fade-up" class="container" style="max-width:1540px !important;">
 
       <div class="heading" style="margin-bottom:30px; !important;">
         <h2 class="text-capitalize">Sobre mi</h2>
       </div>
 
-      <p style="font-size: 24px; line-height: 36px; text-align: left; opacity: 0.96; font-family: Lato, sans-serif; font-weight: 300;">
-        Me recibí de analista en computación en la&nbsp;<a href="https://www.famaf.unc.edu.ar/"><span
-          style="text-decoration: underline;">Facultad de Matemática, Astronomía, Física y Computación (FaMAF)</span></a>&nbsp;de
-        la Universidad Nacional de Córdoba (UNC).
-        <br><br>
+      <div class="row">
 
-        Ingrese en la industria del software en la empresa&nbsp;<a href="https://incluit.com/"><span
-          style="text-decoration: underline;">IncluIT</span></a>&nbsp, para el proyecto <a
-          href="https://junar.com/"><span
-          style="text-decoration: underline;">Junar</span></a>, a comienzos del 2019.
-        <br><br>
+        <div class="col-xs-6 col-md-6 col-xl-4 text-align-center d-flex align-items-center" style="padding: 1em"
+             data-bs-hover-animate="pulse">
+          <img src="assets/img/personal/me2.webp" class="img-fluid border border-dark shadow-sm avatar" alt="Yo"
+               style="width: 25em; border-width:3px !important;">
+        </div>
 
-        Actualmente me encuentro trabajando en la empresa&nbsp;<a href="https://www.ascentio.com.ar/"><span
-          style="text-decoration: underline;">Ascentio Technologies S.A</span></a>&nbsp.
-        <br><br>
+        <div class="col-md-6 col-xs-6 col-xl-8 d-flex align-items-center">
+          <p style="margin-bottom: 0; font-size: 24px; line-height: 36px; text-align: left; opacity: 0.96; font-family: Lato, sans-serif; font-weight: 300;">
+            Me recibí de analista en computación en la&nbsp;<a href="https://www.famaf.unc.edu.ar/"><span
+              style="text-decoration: underline;">Facultad de Matemática, Astronomía, Física y Computación (FaMAF)</span></a>&nbsp;de
+            la Universidad Nacional de Córdoba (UNC).
+            <br><br>
 
-        Amante de la informática, el cine, la literatura, la matemática, la filosofía, el ajedrez, entre otras
-        áreas.
-        <br><br>
+            Ingrese en la industria del software en la empresa&nbsp;<a href="https://incluit.com/"><span
+              style="text-decoration: underline;">IncluIT</span></a>&nbsp, para el proyecto <a
+              href="https://junar.com/"><span
+              style="text-decoration: underline;">Junar</span></a>, a comienzos del 2019.
+            <br><br>
 
-        Comenzando el 2021 como estudiante activo en la academia online <a href="https://platzi.com/"><span
-          style="text-decoration: underline;">Platzi</span></a>, podrán
-        ver mi perfil con avances e intereses <a href="https://platzi.com/p/neobraf/"><span
-          style="text-decoration: underline;">aquí</span></a>.
-        <br><br>
-      </p>
+            Actualmente me encuentro trabajando en la empresa&nbsp;<a href="https://www.ascentio.com.ar/"><span
+              style="text-decoration: underline;">Ascentio Technologies S.A</span></a>&nbsp.
+            <br><br>
+
+            Amante de la informática, el cine, la literatura, la matemática, la filosofía, el ajedrez, entre otras
+            áreas.
+            <br><br>
+
+            Comenzando el 2021 como estudiante activo en la academia online <a href="https://platzi.com/"><span
+              style="text-decoration: underline;">Platzi</span></a>, podrán
+            ver mi perfil con avances e intereses <a href="https://platzi.com/p/neobraf/"><span
+              style="text-decoration: underline;">aquí</span></a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="portfolio-block skills" style="padding-top: 2em !important; padding-bottom: 0.5em !important;">
+    <div data-aos="fade-up" class="container">
 
       <div class="row" data-aos="fade-up">
         <div class="col-md-4">
@@ -166,7 +182,7 @@ lang: es
             <div class="card-body">
               <h3 class="card-title">Desarrollo de software</h3>
               <p class="card-text">Perfeccionándome en backend y Python en particular. Incrementando mis
-                conocimientos en Django, MySQL, Redis, Elastic Search, Celery, entre otros..</p>
+                conocimientos en Django, MySQL, Redis, Elasticsearch, Celery, entre otros..</p>
             </div>
           </div>
         </div>

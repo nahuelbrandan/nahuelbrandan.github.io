@@ -6,7 +6,7 @@ subtitle: "Desarrollo de Software Backend"
 date:   2020-08-09 00:00:01 -0300
 comments: false
 categories: [Portfolio]
-tags: [Python, Django, APIs, Auth0, Keycloak, Redis, Elastic Search, Celery]
+tags: [Python, Django, APIs, Auth0, Keycloak, Redis, Elasticsearch, Celery]
 image: "/assets/img/posts/incluit-junar.webp"
 thumbnail: "/assets/img/posts/incluit-junar.jpg"
 ref: incluit-junar
@@ -32,7 +32,7 @@ Algunos de sus clientes son:
 ## Actividades
 
 Me desempeñé como Desarrollador Backend, trabajando en un equipo de unas decenas de personas, utilizando
-tecnologías como: _Python_, _Django_, _Redis_, _Elastic Search_, _Celery_, _Django Rest Framework_, entre otras.
+tecnologías como: _Python_, _Django_, _Redis_, _Elasticsearch_, _Celery_, _Django Rest Framework_, entre otras.
 
 Organizándonos aplicando la metodología _Scrum_.
 

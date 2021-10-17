@@ -6,7 +6,7 @@ subtitle: "Backend Software Development"
 date:   2020-08-09 00:00:01 -0300
 comments: false
 categories: [Portfolio]
-tags: [Python, Django, APIs, Auth0, Redis, Elastic Search, Celery]
+tags: [Python, Django, APIs, Auth0, Redis, Elasticsearch, Celery]
 image: "/assets/img/posts/incluit-junar.webp"
 thumbnail: "/assets/img/posts/incluit-junar.jpg"
 lang: en
@@ -35,7 +35,7 @@ Some of his clients are:
 
 
 I work as a Backend Developer, working in a team of a few dozen people, using technologies such as: 
-_Python_, _Django_, _Redis_, _Elastic Search_, _Celery_, _Django Rest Framework_, among others.
+_Python_, _Django_, _Redis_, _Elasticsearch_, _Celery_, _Django Rest Framework_, among others.
 
 Organizing ourselves by applying the _Scrum methodology_.
 
