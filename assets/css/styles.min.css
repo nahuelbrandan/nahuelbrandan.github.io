@@ -64,11 +64,6 @@
     text-align: center;
 }
 
-@media (max-width: 767px) {
-    .social-icons {
-    }
-}
-
 .social-icons i {
     font-size: 32px;
     display: inline-block;
@@ -80,4 +75,8 @@
     text-align: center;
     border-radius: 50%;
     line-height: 60px
+}
+
+.blockquote-footer {
+    color: #41474d
 }
