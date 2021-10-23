@@ -77,6 +77,12 @@
     line-height: 60px
 }
 
+.text-about {
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
 .blockquote-footer {
     color: #41474d
 }
