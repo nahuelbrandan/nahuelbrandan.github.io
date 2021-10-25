@@ -77,12 +77,26 @@
     line-height: 60px
 }
 
+.size-1em {
+    font-size: 1.5em
+}
+
+.size-2em {
+    font-size: 2em
+}
+
 .text-about {
     margin-bottom: 0;
     font-size: 24px;
     font-weight: 300;
+    text-align: justify;
 }
 
 .blockquote-footer {
     color: #41474d
+}
+
+.image-secundary {
+    width: 25em;
+    border: 3px solid;
 }
