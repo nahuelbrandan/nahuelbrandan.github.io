@@ -100,3 +100,10 @@
     width: 25em;
     border: 3px solid;
 }
+
+.image-parallax {
+    height: 400px;
+    background-image: url(../img/home/option55.webp);
+    position: center;
+    background-size: cover;
+}
