@@ -38,6 +38,8 @@ bundle install
 docker-compose up
 ```
 
+And access to [http://localhost:8080/](http://localhost:8080/)
+
 ### Manual
 
 `bundle exec jekyll serve`
