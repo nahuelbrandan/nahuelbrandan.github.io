@@ -35,7 +35,7 @@ Además organizándonos con metodologías Scrum, en un equipo de una decena de p
 
 ---
 
-### Reflexión
+### Conclusión
 
 Considero que los proyectos que existen son muy desafiantes a nivel técnico, y al trabajarse con satélites, 
 que son sistemas muy críticos, obliga a tener unos estándares de calidad más elevados. 
