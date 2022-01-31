@@ -11,7 +11,9 @@ ref: advises-university
 showInIndex: true
 ---
 
-Hace un par de meses me recibí de Analista en Computación y en este articulo quiero darles algunos consejos y enseñanzas que aprendí (a veces a la fuerza) durante el transcurso de la carrera. Mientras más pronto los sepas mejor.
+Hace un par de meses me recibí de Analista en Computación y en este articulo quiero darles algunos consejos 
+y enseñanzas que aprendí (a veces a la fuerza) durante el transcurso de la carrera.
+Mientras más pronto los sepas mejor.
 
 Esto es como [*el arte de la guerra*](https://es.wikipedia.org/wiki/El_arte_de_la_guerra), varias de estas enseñanzas son aplicables en otros ámbitos, he incluso en la vida misma!.
 
@@ -20,7 +22,7 @@ Al final esta el resumen nivel 5, para ir directamente a él [[*presiona aquí*]
 Comencemos...
 
 
-<p class="markdown-toc-title">Tabla de contenidos</p>
+<p class="markdown-toc-title">Table of contents</p>
 1. toc
 {:toc}
 

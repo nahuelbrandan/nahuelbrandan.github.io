@@ -10,6 +10,7 @@ tags: [Decrypt, frequency analysis]
 lang: en
 ref: decrypt-text-with-frequency-analisis
 showInIndex: true
+toc: true
 ---
 
 I recently found a job offer in which, as a pre-selection process, wants to decrypt the following text and explain 
@@ -31,6 +32,10 @@ uses, very good, and I highly recommend it.
 ![Book cover]({{"/assets/img/elements_in_posts/code_book.webp"}})
 
 So I thought it would be an interesting thing to do, I rolled up my sleeves and started.
+
+<p class="markdown-toc-title">Table of contents</p>
+1. toc
+{:toc}
 
 ---
 

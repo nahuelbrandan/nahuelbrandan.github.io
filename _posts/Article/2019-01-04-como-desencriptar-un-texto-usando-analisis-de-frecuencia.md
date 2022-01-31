@@ -10,6 +10,7 @@ tag: [Desencriptar, análisis de frecuenta]
 lang: es
 ref: decrypt-text-with-frequency-analisis
 showInIndex: true
+toc: true
 ---
 
 Recientemente encontre una oferta laboral en la que como proceso de preselección pedía desencriptar el siguiente 
@@ -30,6 +31,10 @@ y sus usos, muy bueno y lo súper recomiendo.
 ![Portada del libro]({{"/assets/img/elements_in_posts/portada.webp"}})
 
 Así que pensé que sería algo interesante para hacer, me arremangue la camisa y comencé.
+
+<p class="markdown-toc-title">Tabla de contenidos</p>
+1. toc
+{:toc}
 
 ---
 
