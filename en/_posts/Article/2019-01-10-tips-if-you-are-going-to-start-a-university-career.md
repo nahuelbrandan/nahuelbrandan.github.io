@@ -19,6 +19,11 @@ Al final esta el resumen nivel 5, para ir directamente a él [[*presiona aquí*]
 
 Comencemos...
 
+
+<p class="markdown-toc-title">Tabla de contenidos</p>
+1. toc
+{:toc}
+
 ---
 
 ## Dedicale tiempo TODOS los dias
@@ -27,9 +32,11 @@ Comencemos...
 
 **TODOS LOS DÍAS** tenés que avanzar al menos un poco.
 
-Por ejemplo: Leer al menos un capítulo del libro, realizar unos ejercicios, ver las consultas que te quedan pendiente, etc; por lo menos obtener y ordenar los materiales necesarios para próximamente comenzar.
+Por ejemplo: Leer al menos un capítulo del libro, realizar unos ejercicios, ver las consultas que te quedan pendiente, 
+por lo menos obtener y ordenar los materiales necesarios para próximamente comenzar.
 
-Creo que **constancia mata talento**, es decir, alguien que labura todos los días por un proyecto a la larga termina superando al que nació ya con grandes capacidades en el tema pero se deja estar.
+Creo que **constancia mata talento**, es decir, alguien que labura todos los días por un proyecto,
+a la larga termina superando al que nació ya con grandes capacidades en el tema pero se deja estar.
 
 ![Homero al ver la montaña que tendrá que escalar]({{"/assets/img/elements_in_posts/King_of_the_Hill.webp"}})
 

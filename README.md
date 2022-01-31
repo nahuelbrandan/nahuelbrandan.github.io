@@ -10,14 +10,7 @@ This is my personal website, you can see in: [nahuelbrandan.com](https://www.nah
 docker-compose up
 ```
 
-or 
-
-```bash
-docker build - < Dockerfile
-```
-
-
-based in [this](https://github.com/BretFisher/jekyll-serve) project.
+Docker development is based in [this](https://github.com/BretFisher/jekyll-serve) project.
 
 ### Manual
 
