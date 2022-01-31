@@ -6,7 +6,7 @@ subtitle: "Proper Coloring of a Graph"
 date:   2019-02-07 10:00:01 -0300
 comments: false
 categories: [Portfolio]
-tags: [C]
+tags: [C, graphs]
 image: "/assets/img/posts/grafos.webp"
 thumbnail: "/assets/img/posts/grafos.png"
 lang: en

@@ -8,23 +8,24 @@ pageid: portfolio
 
 <main class="page projects-page">
   <section class="portfolio-block projects-cards" style="padding: 1em;">
-    <div class="container">
-      <div class="heading">
-        <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Portfolio</h2>
-      </div>
-      <div class="row">
-        
-        {% for category in site.categories %}
-        {% if category contains "Portfolio" %}
+    <div data-aos="fade-up">
+      <div class="container">
+        <div class="heading">
+          <h2 class="text-capitalize" style="font-weight: 500; padding-top: 30px;">Portfolio</h2>
+        </div>
+        <div class="row">
 
-        {% for post in category[1] %}
+          {% for category in site.categories %}
+          {% if category contains "Portfolio" %}
+
+          {% for post in category[1] %}
           {% if post.lang == page.lang %}
-        
+
           <div class="col-md-6 col-lg-4">
             <div class="card border-0">
               <a href="{{ post.id | prepend: site.baseurl }}"><img class="card-img-top scale-on-hover"
-                                                                    src={{post.image}} alt={{post.image}}
-                                                                    title="{{post.title}}"></a>
+                                                                   src={{post.image}} alt={{post.image}}
+                                                                   title="{{post.title}}"></a>
               <div class="card-body">
                 <h6><a href="{{ post.id | prepend: site.baseurl }}">{{post.title}}</a></h6>
                 {% if post.tags %}
@@ -38,10 +39,11 @@ pageid: portfolio
               </div>
             </div>
           </div>
-        {% endif %}
-        {% endfor %}
-        {% endif%}
-        {% endfor %}
+          {% endif %}
+          {% endfor %}
+          {% endif%}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </section>

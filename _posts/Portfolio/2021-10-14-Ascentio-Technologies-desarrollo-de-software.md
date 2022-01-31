@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Ascentio Technologies - Desarrollo de Software"
+title: "Ascentio Technologies - Desarrollo de Software Backend"
 short_title: "Ascentio Technologies"
-subtitle: "Desarrollo de Software"
+subtitle: "Desarrollo de Software Backend"
 date:   2021-10-14 00:00:01 -0300
 comments: false
 categories: [Portfolio]
-tags: [Python, Django, APIs]
+tags: [Python, Django, APIs, FastAPI]
 image: "/assets/img/posts/ascentio.webp"
 thumbnail: "/assets/img/posts/ascentio.png"
 ref: ascentio-technologies
