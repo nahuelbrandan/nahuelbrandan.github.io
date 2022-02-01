@@ -42,8 +42,8 @@ Así que pensé que sería algo interesante para hacer, me arremangue la camisa 
 
 En este punto sabemos muy poco asi que vamos a suponer lo siguiente y ver hacia donde nos lleva
 
-* Que el lenguaje original del mensaje es en español, dado que la oferta laboral estaba en este idioma.
-* Que se utilizo una de las encriptaciones más simple e históricas, llamada 
+* Que el lenguaje original del mensaje es en español, dado que la oferta laboral estaba en este idioma
+* Que se utilizó una de las encriptaciones más simple e históricas, llamada 
   [*cifrado clásico*](https://es.wikipedia.org/wiki/Cifrado_cl%C3%A1sico) más específicamente un subconjunto de 
   éste, llamado [*cifrado por sustitución*](https://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n).
   
