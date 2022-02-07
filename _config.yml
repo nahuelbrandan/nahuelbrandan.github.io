@@ -22,8 +22,9 @@ meta_title: "Nahuel Brandán | Software Developer"
 description: > # this means to ignore newlines until "email:"
     Hola! Soy Nahuel Brandán.
     Soy Desarrollador de Software Backend.
-    Especializado en el ecosistema Python.
-    Resolutivo. Afortunado.
+    Especializado en el ecosistema Python,
+    con más de 3 años de experiencia.
+    Resolutivo. Afortunado. En aprendizaje constante.
 
 email: nahuelbrandan123@gmail.com
 
@@ -34,7 +35,7 @@ cover: "/assets/img/cover.webp"
 
 name: 'Nahuel Brandán'
 author: 'Nahuel Brandán'
-author_image: "/assets/img/me.webp"
+author_image: "/assets/img/personal/me.webp"
 
 paginate: 5
 

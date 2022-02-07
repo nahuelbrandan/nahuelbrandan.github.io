@@ -10,6 +10,7 @@ tags: [Consejos, Tips, Búsqueda laboral]
 lang: es
 ref: advise-looking-for-a-job
 showInIndex: true
+toc: true
 ---
 
 Desde el momento en que me recibí hasta conseguir mi primer trabajo pasaron **4 meses**, tiempo en el que estuve en 
@@ -18,7 +19,9 @@ búsqueda laboral activa (más del que esperaba).
 Buscar trabajo también es un trabajo y en este artículo les quiero comentar las enseñanzas que fui obteniendo en éste 
 tiempo, para que a ustedes el lapso se les reduzca.
 
----
+<p class="markdown-toc-title">Tabla de contenidos</p>
+1. toc
+{:toc}
 
 ## Durante todo el proceso
 
