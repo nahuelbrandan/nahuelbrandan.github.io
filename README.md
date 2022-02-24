@@ -1,10 +1,18 @@
-# <center> Nahuel Brandán
+<p style="text-align: center; padding-top: 10px;">
+  <a href="https://nahuelbrandan.com/">
+    <img src="./assets/img/logo2.webp" alt="Website logo" width="150" height="150">
+  </a>
+</p>
 
-This is my personal website, you can see in: [nahuelbrandan.com](https://www.nahuelbrandan.com)
+# <center> Nahuel Brandán - Personal website
+
+This is my personal website, you can see in: [nahuelbrandan.com](https://www.nahuelbrandan.com).
+
+Made with [Jekyll](https://jekyllrb.com/).
 
 ## Installation
 
-### Docker
+### Docker mode
 
 ```bash
 docker-compose up
@@ -12,7 +20,7 @@ docker-compose up
 
 Docker development is based in [this](https://github.com/BretFisher/jekyll-serve) project.
 
-### Manual
+### Manual mode
 
 ```bash
 sudo apt install ruby ruby-dev libffi-dev build-essential zlib1g-dev
@@ -25,7 +33,7 @@ bundle install
 
 ## Execution
 
-### Docker
+### Docker mode
 
 ```bash
 docker-compose up
@@ -33,7 +41,7 @@ docker-compose up
 
 And access to [http://localhost:8080/](http://localhost:8080/)
 
-### Manual
+### Manual mode
 
 `bundle exec jekyll serve`
 
@@ -45,33 +53,25 @@ And access to [http://localhost:8080/](http://localhost:8080/)
 
 `bundle update`
 
-## Problems
+## Troubleshooting
 
-* When executing, if an error of this type appears: *FATAL: Listen error: unable to monitor directories for changes.* 
+* When executing, if an error of this type appears: *FATAL: Listen error: unable to monitor directories for changes.*
   execute the next command:
 
   `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`
 
 * Port is in use or requires root privileges: `fuser -n tcp -k 4000`
-* Problem installing bundler: see 
+* Problem installing bundler: see
   [this](https://stackoverflow.com/a/52842826/6125910).
 
 ## Recommendations
 
-* It is recommended that all the images used have _.webp_ format which is optimized and has a better
-performance when loading web pages.
+* It is recommended that all the images used have _.webp_ format which is optimized and has a better performance when
+  loading web pages.
 
   In Linux, you can do:
-  
-  * `sudo apt install webp`
-  * In the directory of the images execute:
-  
-    `for f in *.png; do cwebp "$f" "-o" "${f%.png}.webp"; done; for f in *.jpg; do cwebp "$f" "-o" "${f%.jpg}.webp"; done;`
 
-## Performance
+    * `sudo apt install webp`
+    * In the directory of the images execute:
 
-Results obtained after an analysis with the _Lighthouse_ tool.
-
-![Performance](assets/img/site/desempeño.png)
-
-Which are excellent values!, showing the love that is given to the site.
+      `for f in *.png; do cwebp "$f" "-o" "${f%.png}.webp"; done; for f in *.jpg; do cwebp "$f" "-o" "${f%.jpg}.webp"; done;`
