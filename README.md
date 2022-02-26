@@ -1,4 +1,4 @@
-<p style="text-align: center; padding-top: 10px;">
+<p style="padding-top: 10px;" align=center>
   <a href="https://nahuelbrandan.com/">
     <img src="./assets/img/logo2.webp" alt="Website logo" width="150" height="150">
   </a>
