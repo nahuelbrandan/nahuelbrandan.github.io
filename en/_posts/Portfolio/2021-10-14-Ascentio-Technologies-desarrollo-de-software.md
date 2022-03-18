@@ -6,7 +6,7 @@ subtitle: "Software Development Backend"
 date:   2021-10-14 00:00:01 -0300
 comments: false
 categories: [Portfolio]
-tags: [Python, Django, APIs, FastAPI]
+tags: [Python, Django, APIs, FastAPI, Robot Framework]
 image: "/assets/img/posts/ascentio.webp"
 thumbnail: "/assets/img/posts/ascentio.png"
 ref: ascentio-technologies
