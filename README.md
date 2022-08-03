@@ -9,7 +9,7 @@
 
 This is my personal website, you can see in: [nahuelbrandan.com](https://www.nahuelbrandan.com).
 
-Made with [Jekyll](https://jekyllrb.com/).
+Made with :heart:, based in [Jekyll](https://jekyllrb.com/).
 
 ## Installation
 
