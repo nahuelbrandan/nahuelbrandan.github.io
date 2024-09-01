@@ -6,7 +6,7 @@
 
 <h1 align=center>Nahuel Brandán - Personal website</h1>
 
-This is my personal website, you can see in: [nahuelbrandan.com](https://www.nahuelbrandan.com).
+This is my personal website, you can see it in: [nahuelbrandan.com](https://www.nahuelbrandan.com).
 
 Made with :heart:, based in [Jekyll](https://jekyllrb.com/).
 
@@ -18,7 +18,7 @@ Made with :heart:, based in [Jekyll](https://jekyllrb.com/).
 docker-compose up
 ```
 
-Docker development is based in [this](https://github.com/BretFisher/jekyll-serve) project.
+Docker development is based on [this](https://github.com/BretFisher/jekyll-serve) project.
 
 ### Manual mode
 
@@ -39,15 +39,15 @@ bundle install
 docker-compose up
 ```
 
-And access to [http://localhost:8080/](http://localhost:8080/)
+And access to the web page: [localhost:8080](http://localhost:8080/)
 
 ### Manual mode
 
-`bundle exec jekyll serve`
+Different options of manual execution:
 
-`bundle exec jekyll serve --livereload` auto refresh activated
-
-`bundle exec jekyll serve --drafts --livereload` can see the drafts posts
+1. `bundle exec jekyll serve`
+2. `bundle exec jekyll serve --livereload` auto refresh activated
+3. `bundle exec jekyll serve --drafts --livereload` can see the draft posts
 
 ## Update
 
@@ -69,7 +69,7 @@ And access to [http://localhost:8080/](http://localhost:8080/)
 * It is recommended that all the images used have _.webp_ format which is optimized and has a better performance when
   loading web pages.
 
-  In Linux, you can do:
+  On Linux, you can do:
 
     * `sudo apt install webp`
     * In the directory of the images execute:
