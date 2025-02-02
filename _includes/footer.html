@@ -1,70 +1,81 @@
-  <div class="footer-clean">
-    <footer>
-      <div class="container">
-        <hr>
-        <div class="row justify-content-center">
-          
-          {% if page.lang == 'es'%}
-          <!-- Start: Services -->
-          <div class="col-sm-3 col-md-3 col-6 item">
-            <h3>Categorías</h3>
-            <ul>
-              <li><a href="/portafolio/">Portafolio</a></li>
-              <li><a href="/articulos/">Artículos</a></li>
-              <li><a href="/blog/">Blog</a></li>
-              <li></li>
-            </ul>
-          </div>
-          <!-- End: Services -->
+<div class="footer-clean">
+  <footer>
+    <div class="container">
+      <hr>
+      <div class="row justify-content-center">
 
-          <!-- Start: About -->
-          <div class="col-sm-3 col-md-3 col-6 item">
-            <h3>Sobre mi</h3>
-            <ul>
-              <li></li>
-              <li><a href="/contacto/">Contacto</a></li>
-              {% if page.layout != 'post' %}
-              <li><a href="/gallery/">Galería</a></li>
-              {% endif %}
-              <li><a href="/CV/">CV</a></li>
-            </ul>
-          </div>
-          <!-- End: About -->
-          {% else %}
-          <!-- Start: Services -->
-          <div class="col-sm-3 col-md-3 col-6 item">
-            <h3>Categories</h3>
-            <ul>
-              <li><a href="/en/portfolio/">Portfolio</a></li>
-              <li><a href="/en/articles/">Articles</a></li>
-              <li><a href="/en/blog/">Blog</a></li>
-              <li></li>
-            </ul>
-          </div>
-          <!-- End: Services -->
-
-          <!-- Start: About -->
-          <div class="col-sm-3 col-md-3 col-6 item">
-            <h3>About me</h3>
-            <ul>
-              <li></li>
-              <li><a href="/en/contact/">Contact</a></li>
-              {% if page.layout != 'post' %}
-              <li><a href="/gallery/">Gallery</a></li>
-              {% endif %}
-              <li><a href="/en/CV/">CV</a></li>
-            </ul>
-          </div>
-          <!-- End: About -->
-          {% endif %}
-          
-          <!-- Start: Social Icons -->
-          <div class="col-sm-6 col-md-6 col-lg-6 col-12 item social">
-            <a href="https://linkedin.com/in/nahuelbrandan/"><i class="icon ion-social-linkedin"></i></a>
-            <a href="https://github.com/nahuelbrandan"><i class="icon ion-social-github"></i></a>
-            <p class="copyright">Nahuel Brandán ©</p>
-          </div><!-- End: Social Icons -->
+        {% if page.lang == 'es'%}
+        <!-- Start: Services -->
+        <div class="col-sm-3 col-md-3 col-6 item">
+          <h3>Categorías</h3>
+          <ul>
+            <li><a href="/portafolio/">Portafolio</a></li>
+            <li><a href="/articulos/">Artículos</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li></li>
+          </ul>
         </div>
+        <!-- End: Services -->
+
+        <!-- Start: About -->
+        <div class="col-sm-3 col-md-3 col-6 item">
+          <h3>Sobre mi</h3>
+          <ul>
+            <li></li>
+            <li><a href="/contacto/">Contacto</a></li>
+            {% if page.layout != 'post' %}
+            <li><a href="/gallery/">Galería</a></li>
+            {% endif %}
+            <li><a href="/CV/">CV</a></li>
+          </ul>
+        </div>
+        <!-- End: About -->
+
+        <!-- Start: Social Icons -->
+        <div class="col-sm-6 col-md-6 col-lg-6 col-12 item social">
+          <a href="https://linkedin.com/in/nahuelbrandan/"><i class="icon ion-social-linkedin"></i></a>
+          <a href="https://github.com/nahuelbrandan"><i class="icon ion-social-github"></i></a>
+          <p class="copyright">Nahuel Brandán ©</p>
+        </div><!-- End: Social Icons -->
+
+        {% else %}
+
+        <!-- Start: Services -->
+        <div class="col-sm-3 col-md-3 col-6 item">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="/en/portfolio/">Portfolio</a></li>
+            <li><a href="/en/articles/">Articles</a></li>
+            <li><a href="/en/blog/">Blog</a></li>
+            <li></li>
+          </ul>
+        </div>
+        <!-- End: Services -->
+
+        <!-- Start: About -->
+        <div class="col-sm-3 col-md-3 col-6 item">
+          <h3>About me</h3>
+          <ul>
+            <li></li>
+            <li><a href="/en/contact/">Contact</a></li>
+            {% if page.layout != 'post' %}
+            <li><a href="/gallery/">Gallery</a></li>
+            {% endif %}
+            <li><a href="/en/CV/">CV</a></li>
+          </ul>
+        </div>
+        <!-- End: About -->
+
+        <!-- Start: Social Icons -->
+        <div class="col-sm-6 col-md-6 col-lg-6 col-12 item social">
+          <a href="https://linkedin.com/in/nahuelbrandan/?locale=en_US"><i class="icon ion-social-linkedin"></i></a>
+          <a href="https://github.com/nahuelbrandan"><i class="icon ion-social-github"></i></a>
+          <p class="copyright">Nahuel Brandán ©</p>
+        </div><!-- End: Social Icons -->
+
+        {% endif %}
+
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
+</div>
