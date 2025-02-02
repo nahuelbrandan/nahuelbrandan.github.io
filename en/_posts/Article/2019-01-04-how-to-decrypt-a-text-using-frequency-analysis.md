@@ -8,7 +8,7 @@ thumbnail: "/assets/img/posts/encriptar.jpg"
 categories: [Article]
 tags: [Decrypt, frequency analysis]
 lang: en
-ref: decrypt-text-with-frequency-analisis
+ref: decrypt-text-with-frequency-analysis
 showInIndex: true
 toc: true
 ---
@@ -41,7 +41,7 @@ So I thought it would be an interesting thing to do, I rolled up my sleeves and 
 
 ## Analysis of the situation and assumptions
 
-At this point we know very little so let's assume the following and see where it takes us
+At this point we know very little so let's assume the following and see where it takes us:
 
 *   That the original language of the message is in Spanish, since the job offer was in this language.
 *   That one of the simplest and most historical encryptions was used, called 
@@ -51,7 +51,7 @@ At this point we know very little so let's assume the following and see where it
     In a substitution cipher, letters (or groups of letters) are systematically replaced in the message by 
     other letters (or groups of letters).
 
-![Example](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ROT13.png/600px-ROT13.png)
+![Example of substitution cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ROT13.png/600px-ROT13.png)
 
 ## Frequency analysis
 
@@ -63,8 +63,8 @@ appear more often than others, there are different frequencies for them.
 
 For example:
 
-* in Spanish the letter *A* and *E* are very common, while *K* and *W* are very rare
-* in English the letter *E*, *T* and *A* are very common, while *J*, *X* and *Z* are very rare
+* in Spanish the letters *A* and *E* are very common, while *K* and *W* are very rare
+* in English the letters *E*, *T* and *A* are very common, while *J*, *X* and *Z* are very rare
 
 ![graph frequency of use of letters in Spanish]({{"/assets/img/elements_in_posts/Frecuencia_de_uso_de_letras_en_español.webp"}})
 
@@ -72,15 +72,13 @@ For example:
 
 Through a small program written in python we see the different signs used, and the amount of use of each one of them
 
-<pre><code class="language-python">
-from collections import Counter
+<pre><code class="language-python">from collections import Counter
 
 text = "ΣΦΨΞΔλΨΔΛΣΦΔλΨξΔϗΞΔΦΨΞϑλΨΛΣΘϑΞϗΦϑλΨΣΞΨλϑΞΨζβΣφΔΨΣΦΨΣΞΨξΛϗΞΞϑΨϖΣΞΨΠΣϖΛΣφΔΞΨΩΨΠΛΣΦϖϗϖϑΨΔΨΞΔΨΘΔφϗΔΨϖΣΨΞϑλΨΓΔΘϗΦϑλΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣλΨξΔΦϖΣΛΔΨϖΣΨΦϗΣξΞΔΨλβΨΠϑΦΓΡϑΨΔΞΨαϗΣΦμϑΨΞϑΨλΔΞβϖΔΦΨΞΔλΨεΞΔβμΔλΨϖΣΞΨΠΔζϑΦΔΞΨΩΨΔΦϗΘΔΦϖϑΨΞΔΨμΛϑΠΔΨΠΔΛΨΣλϑλΨΓΣΛΛϑλΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΣΞΨΔΛΛϗΣΛϑΨαΔΨΞΔλΨΠΣΦΔλΨΩΨΞΔλΨαΔηβϗμΔλΨλΣΨαΔΦΨΠΔΛΨΞΔΨΘϗλΘΔΨλΣΦϖΔΨΞΔλΨΠΣΦΔλΨλϑΦΨϖΣΨΦϑλϑμΛϑλΨΞΔλΨαΔηβϗμΔλΨλϑΦΨΔζΣΦΔλ"
 letters = Counter(text)
-print("cantidad de letras = ", len(letters))
+print("number of letters = ", len(letters))
 print(letters)
 </code></pre>
-
 
 Obtaining the result:
 
@@ -89,7 +87,7 @@ Obtaining the result:
 Giving us some confirmation that we are doing well since 23 different signs are used, a value close to the amount
 of letters in the alphabet.
 
-We also see that from highest to lowest in quantity of uses of a sign is: 74 - 53 - 34 - 31 - 31...
+We also see that from highest to lowest in quantity of uses of a sign is: 74 - 53 - 34 - 31 - 31 ...
 
 ---
 
@@ -106,8 +104,7 @@ process.
 
 We add the following lines of code to our program:
 
-<pre><code class="language-python">
-text = text.replace('Ψ', ' ')
+<pre><code class="language-python">text = text.replace('Ψ', ' ')
 text = text.replace('Δ', 'a')
 text = text.replace('Σ', 'e')
 print(text)
@@ -118,14 +115,13 @@ Obtaining:
 ![]({{"/assets/img/elements_in_posts/decrypt_program2.webp"}})
 
 Analyzing the result it is very possible that the sign 'Ξ' is an 'l', because in a word it is repeated 2 times in a row,
-and why would it be used for the words' las' 'los',' el, 'la'.
+and why would it be used for the words: 'las', 'los', 'el', 'la' (very common articles in Spanish).
 
 ![]({{"/assets/img/elements_in_posts/decrypt_program3.webp"}})
 
 We make the replacement...
 
-<pre><code class="language-python">
-text = text.replace('Ξ', 'l')
+<pre><code class="language-python">text = text.replace('Ξ', 'l')
 </code></pre>
 
 Obtaining:
@@ -138,8 +134,7 @@ Continuing in the same way it is very possible that:
 *   ϑ be a 'o'
 *   λ be a 's'
 
-<pre><code class="language-python">
-text = text.replace('Ω', 'y')
+<pre><code class="language-python">text = text.replace('Ω', 'y')
 text = text.replace('ϑ', 'o')
 text = text.replace('λ', 's')
 </code></pre>

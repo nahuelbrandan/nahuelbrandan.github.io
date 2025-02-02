@@ -34,8 +34,7 @@ Resulta inspirador.
 
 Te doy un ejemplo simple para que veas su magia
 
-<pre><code class="language-python">
-from typing import Optional
+<pre><code class="language-python">from typing import Optional
 
 from fastapi import FastAPI
 from pydantic import BaseModel

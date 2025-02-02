@@ -45,7 +45,8 @@ Different options of manual execution:
 
 ## Update
 
-* `bundle update` -> Run this to update the dependencies gems
+1. `docker compose run jekyll bash` -> To run and access to the container
+2. `bundle update` -> Run this to update the dependencies gems
 
 ## Troubleshooting
 

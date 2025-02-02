@@ -11,7 +11,7 @@ lang: en
 ref: FastAPI
 ---
 
-*FastAPI* es un "nuevo" framework de Python, para desarrollo de APIs web, con alta performance, fácil de aprender, 
+*FastAPI* es un "nuevo" framework de Python, para desarrollo de API web, con alta performance, fácil de aprender, 
 rápido de implementar y listo para producción. 
 
 Luego de probarlo quede fascinado y con ganas de comenzar a utilizarlo en proyectos.
@@ -34,8 +34,7 @@ Resulta inspirador.
 
 Te doy un ejemplo simple para que veas su magia
 
-<pre><code class="language-python">
-from typing import Optional
+<pre><code class="language-python">from typing import Optional
 
 from fastapi import FastAPI
 from pydantic import BaseModel
@@ -64,23 +63,23 @@ Este es un endpoint para una consulta PUT, donde recibe un parametro en path, ot
 Lo que provee FastAPI es:
 
 * Simplicidad
-* Validacion de parámetros y chequeo de tipos
+* Validación de parámetros y chequeo de tipos
 * Conversion de datos  
-* Tiene la inteligencia para identificar y determinar por donde se enviaron los parametros
+* Tiene la inteligencia para identificar y determinar por donde se enviaron los parámetros
 * Respuestas detalladas automáticas en caso de error en la solicitud
-* Un endpoint */docs*, con toda una documentacion detallada **autogenerada** e **interactiva** de los endpoints, 
+* Un endpoint */docs*, con toda una documentación detallada **autogenerada** e **interactiva** de los endpoints, 
   gracias a integración con [Swagger](https://swagger.io/)
 * Muy alta performance, a la par de **NodeJS** y **Go**
 * Soporte de los editores de texto
 
-![Ejemplo de documentacion interactiva autogenerada]({{"/assets/img/elements_in_posts/fastAPI-swagger-ui-simple.webp"}})
+![Ejemplo de documentación interactiva autogenerada]({{"/assets/img/elements_in_posts/fastAPI-swagger-ui-simple.webp"}})
 
 O sea, te arman una estructura donde te hacen todo el trabajo sucio, las partes más tediosas, y de esta forma te 
 concentras en la parte funcional.
 
 ## Datos
 
-* La documentacion es excelente! intuitiva y detallada
+* ¡La documentación es excelente! Intuitiva y detallada
 * Una comunidad creciente, con más de 200 colaboradores
 * Utilizada por *Uber*, *Netflix* y *Microsoft*. [ref1](https://eng.uber.com/ludwig-v0-2/), 
   [ref2](https://netflixtechblog.com/introducing-dispatch-da4b8a2a8072), 
