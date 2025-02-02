@@ -22,10 +22,10 @@
           <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ p.title }}</a>
         </li>
 
-        {% assign p=site.pages | where:"pageid", 'blog' | where:"lang", page.lang | first %}
-        <li class="nav-item lang" role="presentation">
-          <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ p.title }}</a>
-        </li>
+<!--        {% assign p=site.pages | where:"pageid", 'blog' | where:"lang", page.lang | first %}-->
+<!--        <li class="nav-item lang" role="presentation">-->
+<!--          <a href="{{ p.url }}" class="nav-link {{ p.lang }} {% if page.lang == lang %}text-uppercase{% endif %}">{{ p.title }}</a>-->
+<!--        </li>-->
 
         {% assign p=site.pages | where:"pageid", 'CV' | where:"lang", page.lang | first %}
         <li class="nav-item lang" role="presentation">
