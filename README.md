@@ -9,7 +9,7 @@ Made with :heart:, based on [Jekyll](https://jekyllrb.com/).
 ### Docker mode (Recommended)
 
 ```bash
-docker compose up
+docker compose up -d
 ```
 
 Docker development is based on [this](https://github.com/BretFisher/jekyll-serve) project.

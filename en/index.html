@@ -43,16 +43,6 @@ lang: en
                       </div>
 
                       <div class="col-lg-2 col-md-2 col-sm-3 col-3 mb-5">
-                        <a href="https://stackoverflow.com/users/6125910/nahuel-brandan">
-                          <div class="thumbnail text-center">
-                            <img src="../assets/img/home/stackoverflow.svg" alt="Stackoverflow" title="Stackoverflow"
-                                 data-toggle="tooltip" data-placement="top"
-                                 style="width:50%;">
-                          </div>
-                        </a>
-                      </div>
-
-                      <div class="col-lg-2 col-md-2 col-sm-3 col-3 mb-5">
                         <a href="https://github.com/nahuelbrandan">
                           <div class="thumbnail text-center">
                             <img src="../assets/img/home/github.svg" alt="Github" title="Github" data-toggle="tooltip"
@@ -61,16 +51,6 @@ lang: en
                         </a>
                       </div>
 
-                      <div class="col-lg-2 col-md-2 col-sm-3 col-3 mb-5">
-                        <a href="https://platzi.com/p/neobraf/">
-                          <div class="thumbnail text-center">
-                            <img src="../assets/img/home/platzi.svg" alt="Platzi - Educación online"
-                                 title="Platzi - Educación online"
-                                 data-toggle="tooltip" data-placement="top"
-                                 style="width:50%;">
-                          </div>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -110,8 +90,7 @@ lang: en
                   {% if post.tags %}
                   <small>
                     {% for tag in post.tags %}
-                    {{tag}}
-                    {% if tag != post.tags.last %}, {%else%}.{%endif%}
+                    {{tag}}{% if tag != post.tags.last %},{%else%}.{%endif%}
                     {%endfor%}
                   </small>
                   {% endif %}
@@ -214,9 +193,6 @@ lang: en
 
             Lover of computers, cinema, literature, mathematics, philosophy, chess, among others areas.
             <br><br>
-
-            Active student in the online academy <a href="https://platzi.com/"><span
-              style="text-decoration: underline;">Platzi</span></a>, never stopping learning.
           </p>
         </div>
       </div>
@@ -289,6 +265,24 @@ lang: en
               <div class="thumbnail text-center">
                 <a href="https://www.djangoproject.com/">
                   <img src="../assets/img/home/django.svg" alt="Django" title="Django" data-toggle="tooltip"
+                       data-placement="top" style="width:50%;">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4 col-4 mb-5">
+              <div class="thumbnail text-center">
+                <a href="https://fastapi.tiangolo.com/">
+                  <img src="../assets/img/home/new/FastAPI.png" alt="FastAPI" title="FastAPI" data-toggle="tooltip"
+                       data-placement="top" style="width:50%;">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4 col-4 mb-5">
+              <div class="thumbnail text-center">
+                <a href="https://www.docker.com/">
+                  <img src="../assets/img/home/docker.svg" alt="Docker" title="Docker" data-toggle="tooltip"
                        data-placement="top" style="width:50%;">
                 </a>
               </div>
@@ -425,89 +419,11 @@ lang: en
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-4 col-sm-4 col-4 mb-5">
-              <div class="thumbnail text-center">
-                <a href="https://flask.palletsprojects.com/en/1.1.x/">
-                  <img src="../assets/img/home/new/flask.svg" alt="Flask" title="Flask" data-toggle="tooltip"
-                       data-placement="top" style="width:50%;">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-sm-4 col-4 mb-5">
-              <div class="thumbnail text-center">
-                <a href="https://www.docker.com/">
-                  <img src="../assets/img/home/docker.svg" alt="Docker" title="Docker" data-toggle="tooltip"
-                       data-placement="top" style="width:50%;">
-                </a>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Profiles -->
-  <section class="portfolio-block py-0">
-
-    <div data-aos="fade-up">
-      <div class="container">
-        <hr>
-        <div class="social-icons justify-content-center pb-3">
-          <div class="heading mb-0">
-            <h2 class="text-capitalize font-weight-normal">Profiles</h2>
-          </div>
-
-          <div class="row">
-
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6 mb-5">
-              <a href="https://www.linkedin.com/in/nahuelbrandan/?locale=en_US">
-                <div class="thumbnail text-center">
-                  <img src="../assets/img/home/linkedin.svg" alt="LinkedIn" data-toggle="tooltip"
-                       data-placement="top"
-                       title="LinkedIn" style="width:50%;">
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6 mb-5">
-              <a href="https://stackoverflow.com/users/6125910/nahuel-brandan">
-                <div class="thumbnail text-center">
-                  <img src="../assets/img/home/stackoverflow.svg" alt="Stackoverflow" title="Stackoverflow"
-                       data-toggle="tooltip" data-placement="top"
-                       style="width:50%;">
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6 mb-5">
-              <a href="https://github.com/nahuelbrandan">
-                <div class="thumbnail text-center">
-                  <img src="../assets/img/home/github.svg" alt="Github" title="Github" data-toggle="tooltip"
-                       data-placement="top" style="width:50%;">
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6 mb-5">
-              <a href="https://platzi.com/p/neobraf/">
-                <div class="thumbnail text-center">
-                  <img src="../assets/img/home/platzi.svg" alt="Platzi - Educación online"
-                       title="Platzi - Educación online"
-                       data-toggle="tooltip" data-placement="top"
-                       style="width:50%;">
-                </div>
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
   <!-- Contacto -->
   <section class="portfolio-block block-intro website gradient p-5" data-aos="fade-up" style="font-size: 1.3em">

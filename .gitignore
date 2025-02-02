@@ -1,9 +1,12 @@
 .sass-cache/
 _site/
 _sass/
-.idea/
 rafts/
 node_modules/
 gists/
 
 main.css
+
+# IDE
+.idea/
+.run/
