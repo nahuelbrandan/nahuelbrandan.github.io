@@ -1,6 +1,14 @@
 <!--suppress HtmlUnknownTarget -->
 <nav class="navbar smart-scroll navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-  <div class="container"><a class="navbar-brand logo" href="{% if page.lang == 'en'%}/en{% else %}/{% endif %}">Nahuel Brandán</a>
+  <div class="container">
+    <a class="navbar-brand logo" href="{% if page.lang == 'en'%}/en{% else %}/{% endif %}">
+      <picture>
+        <source srcset="{{ site.logo | prepend: site.baseurl }}" type="image/webp">
+        <source srcset="{{ site.logo_png | prepend: site.baseurl }}" type="image/png">
+        <img src="{{ site.logo_png | prepend: site.baseurl }}" alt="Nahuel Brandán" width="40" height="40" loading="lazy">
+      </picture>
+      Nahuel Brandán
+    </a>
     <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span
        class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse"
