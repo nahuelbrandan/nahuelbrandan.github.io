@@ -29,13 +29,14 @@ description: > # this means to ignore newlines until "email:"
 email: nahuelbrandan123@gmail.com
 
 logo: "/assets/img/logo2.webp"
+logo_png: "/assets/img/logo2.png"
 float_logo: true
 
 cover: "/assets/img/cover.webp"
 
 name: 'Nahuel Brandán'
 author: 'Nahuel Brandán'
-author_image: "/assets/img/personal/me.webp"
+author_image: "/assets/img/personal/me_new.webp"
 
 paginate: 5
 
