@@ -6,7 +6,7 @@ comments: true
 image: "/assets/img/posts/encriptar.webp"
 thumbnail: "/assets/img/posts/encriptar.jpg"
 categories: [Article]
-tags: [Decrypt, frequency analysis]
+tags: [Decrypt, frequency analysis, Python]
 lang: en
 ref: decrypt-text-with-frequency-analysis
 showInIndex: true
@@ -25,8 +25,7 @@ the procedure performed.
 ΦΔλΨΩΨΞΔλΨαΔηβϗμΔλΨλΣΨαΔΦΨΠΔΛΨΞΔΨΘϗλΘΔΨλΣΦϖΔΨΞΔλΨΠΣΦΔλΨλϑ
 ΦΨϖΣΨΦϑλϑμΛϑλΨΞΔλΨαΔηβϗμΔλΨλϑΦΨΔζΣΦΔλ</p>
 
-
-I recently also read the book 'The Code Book' by Simon Singh, where he tells the whole history of cryptography and its 
+I recently also read the book "The Code Book" by Simon Singh, where he tells the whole history of cryptography and its 
 uses, very good, and I highly recommend it.
 
 ![Book cover]({{"/assets/img/elements_in_posts/code_book.webp"}})
@@ -82,7 +81,11 @@ print(letters)
 
 Obtaining the result:
 
-![signs and their quantities.]({{"/assets/img/elements_in_posts/decrypt_program1.webp"}})
+```
+number of letters =  23
+
+Counter({'Ψ': 74, 'Δ': 53, 'Σ': 34, 'Ξ': 31, 'λ': 31, 'ϑ': 26, 'Λ': 24, 'Φ': 23, 'ϗ': 16, 'ϖ': 12, 'Π': 9, 'α': 8, 'Θ': 6, 'β': 6, 'μ': 6, 'ξ': 4, 'ζ': 3, 'φ': 3, 'Ω': 3, 'Γ': 3, 'η': 2, 'Ρ': 1, 'ε': 1})
+```
 
 Giving us some confirmation that we are doing well since 23 different signs are used, a value close to the amount
 of letters in the alphabet.
@@ -93,10 +96,14 @@ We also see that from highest to lowest in quantity of uses of a sign is: 74 - 5
 
 According to the following article 
 ([frequency of appearance of letters](https://es.wikipedia.org/wiki/Frecuencia_de_aparici%C3%B3n_de_letras))
-in the Spanish language the letter ‘a’ is the most frequent, closely followed by the letter ‘e’, but exceeding 
-them is the ‘space’ almost doubling the most frequent letter.
+in the Spanish language the letter 'a' is the most frequent, closely followed by the letter 'e', but exceeding 
+them is the 'space' almost doubling the most frequent letter.
 
-Then we replace the sign Ψ by a space, Δ by a 'a' and Σ by a 'e'.
+Then we do the next replacements:
+ 
+1. The sign Ψ by a space
+2. The sign Δ by a 'a'
+3. The sign Σ by a 'e'
 
 **Note:** Bear in mind of course that this is not an exact science, we are making use of probability. 
 "It may fail" said Tusam. If this were the case you can go back and exchange the 'a' for the 'e' and continue the 
