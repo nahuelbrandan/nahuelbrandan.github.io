@@ -6,7 +6,7 @@ comments: true
 image: "/assets/img/posts/encriptar.webp"
 thumbnail: "/assets/img/posts/encriptar.jpg"
 categories: [Article]
-tag: [Desencriptar, análisis de frecuenta]
+tag: [Desencriptar, análisis de frecuenta, Python]
 lang: es
 ref: decrypt-text-with-frequency-analysis
 showInIndex: true
@@ -25,7 +25,7 @@ texto y explicar el procedimiento realizado.
 ΦΔλΨΩΨΞΔλΨαΔηβϗμΔλΨλΣΨαΔΦΨΠΔΛΨΞΔΨΘϗλΘΔΨλΣΦϖΔΨΞΔλΨΠΣΦΔλΨλϑ
 ΦΨϖΣΨΦϑλϑμΛϑλΨΞΔλΨαΔηβϗμΔλΨλϑΦΨΔζΣΦΔλ</p>
 
-Hace poco también leí el libro 'Los códigos secretos' de Simon Singh, donde cuenta toda la historia de la criptografía 
+Hace poco también leí el libro "Los códigos secretos" de Simon Singh, donde cuenta toda la historia de la criptografía 
 y sus usos, muy bueno y lo súper recomiendo.
 
 ![Portada del libro]({{"/assets/img/elements_in_posts/portada.webp"}})
@@ -78,7 +78,12 @@ print(letters)
 
 Obteniendo el resultado:
 
-![signos y sus cantidades de ocurrencias]({{"/assets/img/elements_in_posts/decrypt_program1.webp"}})
+
+```
+cantidad de letras =  23
+
+Counter({'Ψ': 74, 'Δ': 53, 'Σ': 34, 'Ξ': 31, 'λ': 31, 'ϑ': 26, 'Λ': 24, 'Φ': 23, 'ϗ': 16, 'ϖ': 12, 'Π': 9, 'α': 8, 'Θ': 6, 'β': 6, 'μ': 6, 'ξ': 4, 'ζ': 3, 'φ': 3, 'Ω': 3, 'Γ': 3, 'η': 2, 'Ρ': 1, 'ε': 1})
+```
 
 Dándonos cierta confirmación de que vamos bien, ya que se utilizan 23 signos distintos, un valor cercano a la cantidad 
 de letras en el alfabeto.
@@ -91,7 +96,11 @@ Según el siguiente artículo ([frecuencia de aparición de letras](https://es.w
 frecuente, seguida de cerca por la letra 'e', pero superándolas esta el 'espacio' 
 casi duplicando a la letra más frecuente.
 
-Por lo tanto, reemplazamos el signo Ψ por un espacio, Δ por una 'a' y Σ por una 'e'.
+Por lo tanto, hacemos los siguientes reemplazos:
+ 
+1. El signo Ψ por un espacio
+2. El signo Δ por una a
+3. El signo Σ por una e
 
 **Nota:** Tener en cuenta por supuesto que esto no es una ciencia exacta, estamos haciendo uso de la probabilidad. 
 "Puede fallar" dijo Tusam. Si este fuera el caso se puede volver atrás e intercambiar la 'a' por la 'e' y continuar 
