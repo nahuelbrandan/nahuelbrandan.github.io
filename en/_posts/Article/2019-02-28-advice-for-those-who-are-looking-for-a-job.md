@@ -130,4 +130,4 @@ Si crees que debería agregar o editar algún punto hacemelo saber, puedo manten
 
 Saludos y fuerza.
 
-![Energía para tu Genkidama.](https://media1.tenor.com/images/8890a2304921e24bba25bd85f760190e/tenor.gif?itemid=10221675)
+![Energy for your Genkidama.]({{"/assets/gifs/genki-dama-spirit-bomb.gif"}})
